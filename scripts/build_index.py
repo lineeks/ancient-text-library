@@ -144,17 +144,42 @@ def build_zpqz_index(items):
     return "\n".join(lines)
 
 
-def build_root_index(qtbj, zpqz):
+def build_dts_index(items):
+    lines = ["# 《滴天髓阐微》篇章索引", "",
+             "> 原文传宋·京图，明·刘伯温原注，清·任铁樵阐微（含若思校勘按语）。",
+             "> 文件名规则：`dtcs_<ts|lq><两位篇号>_<主题拼音>.md`（ts=通神论，lq=六亲论）。",
+             "> 每篇按「经文口诀 → 刘伯温原注 → 任铁樵阐微 → 附命例」就地分层；属命理哲学/气象理气，",
+             "> 排盘判定旺衰、顺逆、从格化格、寒暖燥湿、六亲时按 `pattern` / `ten_god` / `keywords` 召回。", ""]
+    def num_key(x):
+        try:
+            return int(x.get("chapter_num", "999"))
+        except ValueError:
+            return 999
+    for part, part_zh in [("通神论", "一、通神论（34 篇）：理气·干支·格局·衰旺调候"),
+                          ("六亲论", "二、六亲论（29 篇）：六亲·从化·象法·性情岁运")]:
+        sub = sorted([x for x in items if x.get("part") == part], key=num_key)
+        lines += [f"## {part_zh}", "",
+                  "| 篇 | 标题 | 格局 pattern | 十神 ten_god | 关键词 | 文件 |",
+                  "|---|---|---|---|---|---|"]
+        for it in sub:
+            lines.append(f"| {it.get('chapter_num','')} | {it.get('section_title','')} | {', '.join(it.get('pattern',[])) or '—'} | {', '.join(it.get('ten_god',[])) or '—'} | {', '.join(it.get('keywords',[])[:3])} | [{it['_file']}](./{it['_file']}) |")
+        lines.append("")
+    lines.append(f"**统计：共 {len(items)} 篇（通神论 34 + 六亲论 29），经文口诀 135 句，附四柱/大运命例 514 处，现代校勘按语 3 处单独分层。**")
+    lines.append("")
+    return "\n".join(lines)
+
+
+def build_root_index(qtbj, zpqz, dts):
     lines = ["# Aether-Cycle 子平命理古籍知识库 · 总索引", "",
              "本知识库面向八字排盘引擎的**即时检索、引经据典、原汁原味**需求构建。",
              "每条古籍条文以 Markdown + YAML Frontmatter 标引，排盘内核输出 `日干 / 月令 / 格局 / 十神 / 神煞` 后，",
-             "对 `conditions` 字段做数组交集匹配，毫秒级返回【原文】【注解】【白话提要】三层内容。", "",
+             "对 `conditions` 字段做数组交集匹配，毫秒级返回分层内容（原文/经文、古注、阐微、命例、白话提要）。", "",
              "## 典籍收录进度", "",
              "| 梯队 | 典籍 | 版本 | 文件数 | 索引 | 状态 |",
              "|---|---|---|---|---|---|",
              f"| 第一梯队 | 穷通宝鉴 | 余春台辑本 | {len(qtbj)} | [索引](./core/qiongtongbj/INDEX.md) | ✅ 已入库 |",
              f"| 第一梯队 | 子平真诠评注 | 沈孝瞻原著·徐乐吾评注节本 | {len(zpqz)} | [索引](./core/zipingzhenquan/INDEX.md) | ✅ 已入库 |",
-             "| 第一梯队 | 滴天髓阐微 | 任铁樵注 | 0 | — | ⏳ 待入库（Phase-2） |",
+             f"| 第一梯队 | 滴天髓阐微 | 京图(传)·刘伯温原注·任铁樵阐微 | {len(dts)} | [索引](./core/ditianchui/INDEX.md) | ✅ 已入库 |",
              "| 第二梯队 | 三命通会 | 万民英·四库本 | 0 | — | ⏳ 待入库（Phase-3） |",
              "| 第二梯队 | 渊海子平 | 徐大升编 | 0 | — | ⏳ 待入库（Phase-3） |",
              "| 第三梯队 | 神峰通考 / 玉照定真经 / 千里命稿 | — | 0 | — | ⏳ 待入库（Phase-4） |", "",
@@ -168,13 +193,14 @@ def build_root_index(qtbj, zpqz):
              "└── core/                     # 第一梯队核心典籍",
              "    ├── qiongtongbj/         # 穷通宝鉴（122 文件 + INDEX）",
              "    ├── zipingzhenquan/      # 子平真诠评注（48 章 + INDEX）",
-             "    └── ditianchui/          # 滴天髓阐微（待入库）",
+             "    └── ditianchui/          # 滴天髓阐微（63 篇 + INDEX）",
              "```", "",
              "## 检索字段速查", "",
              "| 场景 | 匹配字段 | 示例 |",
              "|---|---|---|",
              "| 日干×月令调候（穷通宝鉴） | `day_master` + `month_branch` | 甲日寅月 → `qtbj_jia_yin.md` |",
              "| 格局判定（子平真诠） | `pattern` | 正官格 → 第31/32章 |",
+             "| 旺衰顺逆/从化/气象（滴天髓） | `pattern`/`ten_god`/`keywords` | 从格 → 从象/化象；调候 → 寒暖/燥湿 |",
              "| 十神专题 | `ten_god` | 正官/七杀/正财/偏财/正印/偏印/伤官/食神/比肩/劫财 |",
              "| 日柱×时柱断语（三命通会，待入库） | `day_pillar` + `hour_pillar` | 甲子日丙寅时 |",
              "| 神煞出处（待入库） | `shensha` | 天乙贵人/文昌/驿马… |", "",
@@ -185,16 +211,20 @@ def build_root_index(qtbj, zpqz):
 def main():
     q_folder = os.path.join(CORE, "qiongtongbj")
     z_folder = os.path.join(CORE, "zipingzhenquan")
+    d_folder = os.path.join(CORE, "ditianchui")
     qtbj = scan(q_folder)
     zpqz = scan(z_folder)
+    dts = scan(d_folder)
 
     with open(os.path.join(q_folder, "INDEX.md"), "w", encoding="utf-8") as f:
         f.write(build_qtbj_index(qtbj))
     with open(os.path.join(z_folder, "INDEX.md"), "w", encoding="utf-8") as f:
         f.write(build_zpqz_index(zpqz))
+    with open(os.path.join(d_folder, "INDEX.md"), "w", encoding="utf-8") as f:
+        f.write(build_dts_index(dts))
     with open(os.path.join(BASE, "INDEX.md"), "w", encoding="utf-8") as f:
-        f.write(build_root_index(qtbj, zpqz))
-    print(f"索引生成完成：穷通宝鉴 {len(qtbj)} 条，子平真诠 {len(zpqz)} 章")
+        f.write(build_root_index(qtbj, zpqz, dts))
+    print(f"索引生成完成：穷通宝鉴 {len(qtbj)} 条，子平真诠 {len(zpqz)} 章，滴天髓阐微 {len(dts)} 篇")
 
 
 if __name__ == "__main__":

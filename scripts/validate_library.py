@@ -93,9 +93,13 @@ for book, name, path in walk():
         if isinstance(n, int):
             ch_nums.append(n)
 
-    # 正文结构
-    if "**【原文】**" not in text:
-        errors.append(f"[缺【原文】层] {book}/{name}")
+    # 正文结构：穷通宝鉴/子平真诠用【原文】，滴天髓用【经文】
+    if book == "ditianchui":
+        if "**【经文】**" not in text and "**【刘伯温原注】**" not in text:
+            errors.append(f"[缺【经文】/原注层] {book}/{name}")
+    else:
+        if "**【原文】**" not in text:
+            errors.append(f"[缺【原文】层] {book}/{name}")
     if "**【白话提要】**" not in text:
         errors.append(f"[缺【白话提要】层] {book}/{name}")
 
