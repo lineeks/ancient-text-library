@@ -1,0 +1,44 @@
+---
+id: "qtbj_geng_chou"
+book: "穷通宝鉴"
+chapter: "庚金·丑月"
+section_title: "十二月庚金"
+source_version: "余春台辑本"
+author: "余春台"
+dynasty: "清"
+type: "monthly"
+conditions:
+  day_master: ["Geng"]
+  month_branch: ["Chou"]
+  day_pillar: []
+  hour_pillar: []
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["调候用神", "丑月"]
+weight: 10
+tags: ["庚金", "丑月", "调候"]
+---
+
+### 十二月庚金
+
+**【原文】**
+
+十二月庚金，寒气太重，且多湿泥，愈寒愈冻，先取丙火解冻，次取丁火炼金，甲亦不可少。
+
+丙丁甲透者，即不科甲，亦有恩荣，有丙无丁甲者，富中取贵，有丁甲无丙者，特达才人，有丙丁无甲者，白手成家，刀笔亨通，乏金更美，或支成金局无水，僧道之流。
+
+**【附：命例】**
+
+```text
+时日月年
+癸庚己庚
+未戌丑辰
+女命  时日月年
+甲庚丁己
+申子丑巳
+```
+
+**【白话提要】**
+
+（待补）

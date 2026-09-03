@@ -1,0 +1,35 @@
+---
+id: "qtbj_yi_yin"
+book: "穷通宝鉴"
+chapter: "乙木·寅月"
+section_title: "正月乙木"
+source_version: "余春台辑本"
+author: "余春台"
+dynasty: "清"
+type: "monthly"
+conditions:
+  day_master: ["Yi"]
+  month_branch: ["Yin"]
+  day_pillar: []
+  hour_pillar: []
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["调候用神", "寅月"]
+weight: 10
+tags: ["乙木", "寅月", "调候"]
+---
+
+### 正月乙木
+
+**【原文】**
+
+正月乙木，必须用丙，因天气尤有余寒，非丙不暖，虽有癸水，恐凝寒气，故以丙火为先，癸水次之。
+
+丙癸两透，科甲定然，或有丙无癸门户阐扬。或丙多乏癸，名曰春旱。独阳不长，浊富之人。或丙少癸多，又为困丙，终为寒士。或癸己多见，为湿土之木皆下格。
+
+用丙者，木妻火子。用癸水见火多者，金妻水子。
+
+**【白话提要】**
+
+（待补）

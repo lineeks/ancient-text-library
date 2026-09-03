@@ -1,0 +1,33 @@
+---
+id: "qtbj_gui_si"
+book: "穷通宝鉴"
+chapter: "癸水·巳月"
+section_title: "四月癸水"
+source_version: "余春台辑本"
+author: "余春台"
+dynasty: "清"
+type: "monthly"
+conditions:
+  day_master: ["Gui"]
+  month_branch: ["Si"]
+  day_pillar: []
+  hour_pillar: []
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["调候用神", "巳月"]
+weight: 10
+tags: ["癸水", "巳月", "调候"]
+---
+
+### 四月癸水
+
+**【原文】**
+
+四月癸水，喜辛金为用，无辛用庚，若辛高透，不见丁火，加以壬透，主科名荣贵，声播四夷，若有丁破格，贫无立锥，有壬可免，辛藏无丁，贡监衣衿。
+
+或一派火土乏辛，即有巳庚，亦不能生水，又无比肩羊刃，必至熬乾癸水，损日无疑，艾壬两透，泄制火土，名劫印化晋，极贵之造，有丁见干者，则否，如有庚无壬，亦无丁破金者，堪入儒林，有庚无辛者，异路功名，总之四月癸水，专用辛金方妙。
+
+**【白话提要】**
+
+（待补）

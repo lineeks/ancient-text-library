@@ -1,0 +1,45 @@
+---
+id: "qtbj_ren_wu"
+book: "穷通宝鉴"
+chapter: "壬水·午月"
+section_title: "五月壬水"
+source_version: "余春台辑本"
+author: "余春台"
+dynasty: "清"
+type: "monthly"
+conditions:
+  day_master: ["Ren"]
+  month_branch: ["Wu"]
+  day_pillar: []
+  hour_pillar: []
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["调候用神", "午月"]
+weight: 10
+tags: ["壬水", "午月", "调候"]
+---
+
+### 五月壬水
+
+**【原文】**
+
+五月壬水，丁旺壬弱，取癸为用，取庚为佐，无庚不能发水，无癸不能伤丁，五月壬水，辛癸亦可参用，其理与四月皆同。
+
+庚癸两透，科甲必然，庚壬两透，官居极品，有庚无壬癸者，常人。
+
+或支成火局，全无金水，名才多身弱，富屋贫人，若又甲乙多者，僧道之命。
+
+**【附：命例】**
+
+```text
+时日月年
+辛壬壬庚
+亥寅午午  时日月年
+甲壬丙丁
+辰寅午酉
+```
+
+**【白话提要】**
+
+（待补）

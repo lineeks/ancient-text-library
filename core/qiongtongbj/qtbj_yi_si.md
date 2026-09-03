@@ -1,0 +1,35 @@
+---
+id: "qtbj_yi_si"
+book: "穷通宝鉴"
+chapter: "乙木·巳月"
+section_title: "四月乙木"
+source_version: "余春台辑本"
+author: "余春台"
+dynasty: "清"
+type: "monthly"
+conditions:
+  day_master: ["Yi"]
+  month_branch: ["Si"]
+  day_pillar: []
+  hour_pillar: []
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["调候用神", "巳月"]
+weight: 10
+tags: ["乙木", "巳月", "调候"]
+---
+
+### 四月乙木
+
+**【原文】**
+
+四月乙木，自有丙火，端取癸水为尊。四月乙木专用癸水，丙火酌用，虽以庚辛佐癸，须辛透为清。癸透、庚辛又透，科甲定然，独一点癸水、无金，是水无根，虽出天干，不过秀才小富，须要大运相扶。或土多困癸，贫贱之人。丙戊太多，支成火局，瞽目之流。
+
+用癸者，金妻水子。
+
+乙逢双女木伤残，若见辛金寿必难，不得丙丁来制伏，岂知安乐不久长。
+
+**【白话提要】**
+
+（待补）

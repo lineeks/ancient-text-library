@@ -1,0 +1,51 @@
+---
+id: "qtbj_bing_hai"
+book: "穷通宝鉴"
+chapter: "丙火·亥月"
+section_title: "十月丙火"
+source_version: "余春台辑本"
+author: "余春台"
+dynasty: "清"
+type: "monthly"
+conditions:
+  day_master: ["Bing"]
+  month_branch: ["Hai"]
+  day_pillar: []
+  hour_pillar: []
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["调候用神", "亥月"]
+weight: 10
+tags: ["丙火", "亥月", "调候"]
+---
+
+### 十月丙火
+
+**【原文】**
+
+十月丙火，太阳失令，得见甲戊庚出干，可云科甲，主为人性好清高，斯文领袖。
+
+如辛透见辰，名化合逢时，主大贵。
+
+或壬多无甲，乃作弃命从杀，即不科甲，亦是宦僚。
+
+或壬多有甲无戊，郤非从杀，宜用己土混壬。
+
+总之十月丙火，木旺宜庚，水旺宜戊，火旺用壬，随宜酌用可也。
+
+**【附：命例】**
+
+```text
+时日月年
+庚丙乙甲
+寅戌亥申  时日月年
+戊丙辛壬
+子戌亥辰  时日月年
+壬丙己辛
+辰子亥巳
+```
+
+**【白话提要】**
+
+（待补）

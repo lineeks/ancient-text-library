@@ -1,0 +1,47 @@
+---
+id: "qtbj_geng_hai"
+book: "穷通宝鉴"
+chapter: "庚金·亥月"
+section_title: "十月庚金"
+source_version: "余春台辑本"
+author: "余春台"
+dynasty: "清"
+type: "monthly"
+conditions:
+  day_master: ["Geng"]
+  month_branch: ["Hai"]
+  day_pillar: []
+  hour_pillar: []
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["调候用神", "亥月"]
+weight: 10
+tags: ["庚金", "亥月", "调候"]
+---
+
+### 十月庚金
+
+**【原文】**
+
+十月庚金，水冷性寒，非丁莫造，非丙不暖。
+
+丁甲两透，支无水局，一榜有之，支藏丙火，桃浪之仙，支见亥子，得己出制，亦有功名。
+
+若见丙透无丁者，无显达，丁藏甲透，武职之人，以上不合者，庸俗。
+
+如金水混杂，全无丙丁者，鄙夫，支成金局，无火者，僧道之命也，书曰，水冷金寒爱丙丁。
+
+**【附：命例】**
+
+```text
+时日月年
+壬庚辛丁
+午子亥亥  时日月年
+丙庚辛壬
+子辰亥辰
+```
+
+**【白话提要】**
+
+（待补）

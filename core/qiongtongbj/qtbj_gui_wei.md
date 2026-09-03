@@ -1,0 +1,41 @@
+---
+id: "qtbj_gui_wei"
+book: "穷通宝鉴"
+chapter: "癸水·未月"
+section_title: "六月癸水"
+source_version: "余春台辑本"
+author: "余春台"
+dynasty: "清"
+type: "monthly"
+conditions:
+  day_master: ["Gui"]
+  month_branch: ["Wei"]
+  day_pillar: []
+  hour_pillar: []
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["调候用神", "未月"]
+weight: 10
+tags: ["癸水", "未月", "调候"]
+---
+
+### 六月癸水
+
+**【原文】**
+
+六月癸水，有上下月之分，下半月庚辛有气，上半月庚辛休囚，凡六癸日，多不验者，何也，俗士不知此理，因未中有乙巳同宫，破而不破，故癸水不能从杀，所以专用庚辛，如上半月金神衰弱，火气炎烈，宜比劫助身，可云富贵，与五月一理，下半月庚辛有气，即无比劫亦可，又忌丁透，即丁在支亦不吉，其生克制化，与五月略同。
+
+**【附：命例】**
+
+```text
+时日月年
+庚癸癸乙
+申未未酉  时日月年
+丙癸辛己
+辰未未未
+```
+
+**【白话提要】**
+
+（待补）

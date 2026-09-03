@@ -1,0 +1,13 @@
+# 原始字节中间备份（UTF-16 已无损转为同名 .txt，无需入库）
+raw/*.bin
+raw/*.raw.bin
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 系统/编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

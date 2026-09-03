@@ -1,0 +1,47 @@
+---
+id: "qtbj_ding_youxu"
+book: "穷通宝鉴"
+chapter: "丁火·酉戌月"
+section_title: "八九月丁火"
+source_version: "余春台辑本"
+author: "余春台"
+dynasty: "清"
+type: "monthly"
+conditions:
+  day_master: ["Ding"]
+  month_branch: ["You", "Xu"]
+  day_pillar: []
+  hour_pillar: []
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["调候用神", "酉戌月"]
+weight: 10
+tags: ["丁火", "酉戌月", "调候"]
+---
+
+### 八九月丁火
+
+**【原文】**
+
+或八月一派辛金，不见庚金，又无比劫，比弃命从才，富而且贵，虽不科甲，亦有异途，从才者水为妻，不克，有正偏，木为子，不刑。
+
+或九月一派戊土，泄丁火之气，不见甲木，为伤官伤尽，非寻常可比，或甲木透出，为文书清贵，秋闱可夺，用甲者，庚不可少，水妻木子。
+
+**【附：命例】**
+
+```text
+时日月年
+庚丁己壬
+戌亥酉午  时日月年
+辛丁己丁
+亥丑酉未  时日月年
+壬丁丙庚
+寅未戌午  时日月年
+丙丁甲己
+午卯戌亥
+```
+
+**【白话提要】**
+
+（待补）
