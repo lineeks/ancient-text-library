@@ -1,0 +1,36 @@
+---
+id: "smth_rs_dingwei_renyin"
+book: "三命通会"
+chapter: "卷八至卷九·六十甲子日时断"
+section_title: "丁未日壬寅时断"
+source_version: "文渊阁四库全书本（无标点白文）"
+author: "万民英"
+dynasty: "明"
+type: "rishi"
+conditions:
+  day_master: []
+  month_branch: []
+  day_pillar: ["丁未"]
+  hour_pillar: ["壬寅"]
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["日时断", "丁未日", "壬寅时"]
+weight: 6
+tags: ["三命通会", "日时断", "丁未日", "壬寅时"]
+---
+
+### 丁未日壬寅时断
+
+**【原文】**
+
+丁未日壬寅时恶死春生印吉夏木火运发福秋富冬贵酉戌年月官至三品亥卯寅戌文贵纯卯行金水运金紫【神白经云】化木主贵
+
+**【附：历代命例引证】**
+```text
+【己卯彭泽都宪　　　　丙午元戎　癸己元戎壬申　　　　　　　　庚子　　　己未丙午进士　癸卯进士　壬寅佥宪　己卯佥宪戊戌　　　甲寅　　　士子　　　甲戌乙亥丞相　戊辰何状　乙卯进士戊子　　　癸亥　元　庚辰】
+```
+
+**【白话提要】**
+
+（待补）

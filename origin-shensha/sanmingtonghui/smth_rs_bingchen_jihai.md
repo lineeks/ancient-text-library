@@ -1,0 +1,36 @@
+---
+id: "smth_rs_bingchen_jihai"
+book: "三命通会"
+chapter: "卷八至卷九·六十甲子日时断"
+section_title: "丙辰日己亥时断"
+source_version: "文渊阁四库全书本（无标点白文）"
+author: "万民英"
+dynasty: "明"
+type: "rishi"
+conditions:
+  day_master: []
+  month_branch: []
+  day_pillar: ["丙辰"]
+  hour_pillar: ["己亥"]
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["日时断", "丙辰日", "己亥时"]
+weight: 6
+tags: ["三命通会", "日时断", "丙辰日", "己亥时"]
+---
+
+### 丙辰日己亥时断
+
+**【原文】**
+
+丙辰日己亥时日徳格寅月生吉辰月为僧道主富平人孤尅戌月冲辰巳月冲亥丙旺库俱吉卯未防行金水运申子防行木火运俱贵【神白经云】火土化须有福只寿夭
+
+**【附：历代命例引证】**
+```text
+【己巳太守　壬午州牧　己巳举人　甲午经厯丙寅　　　庚戌　　　壬申　　　丁丑丁酉丞相戊申】
+```
+
+**【白话提要】**
+
+（待补）

@@ -1,0 +1,37 @@
+---
+id: "smth_rs_gengshen_dingchou"
+book: "三命通会"
+chapter: "卷八至卷九·六十甲子日时断"
+section_title: "庚申日丁丑时断"
+source_version: "文渊阁四库全书本（无标点白文）"
+author: "万民英"
+dynasty: "明"
+type: "rishi"
+conditions:
+  day_master: []
+  month_branch: []
+  day_pillar: ["庚申"]
+  hour_pillar: ["丁丑"]
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["日时断", "庚申日", "丁丑时"]
+weight: 6
+tags: ["三命通会", "日时断", "庚申日", "丁丑时"]
+---
+
+### 庚申日丁丑时断
+
+**【原文】**
+
+庚申日丁丑时丑月金火运极品辰巳午未戌月官印两旺贵申酉身太旺须行木火寅夘财太旺须行金水亥子金寒水冷须行火土运贵
+
+**【附：历代命例引证】**
+```text
+【乙巳尚书　壬申陈虚窓都宪　　　己巳副使庚辰　　　己酉　　　　　　　　己巳己夘御史　壬午通判　丙午进士　己巳解元丙寅　　　丙午　　　庚子　　　庚午庚子林春泽进士太守夀一百丁亥　四岁候官人】
+【戊申御史无子辛酉】
+```
+
+**【白话提要】**
+
+（待补）

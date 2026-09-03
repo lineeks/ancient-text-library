@@ -157,4 +157,4 @@
 | `qtbj_ref_yi_spring` | 三春乙木总论 | [qtbj_ref_yi_spring.md](./qtbj_ref_yi_spring.md) |
 | `qtbj_ref_yi_summer` | 三夏乙木总论 | [qtbj_ref_yi_summer.md](./qtbj_ref_yi_summer.md) |
 
-**统计：月度条目 106 条，季度条目 3 条，参考条目 13 条，合计 122 个文件。**
+**统计：月度 106、季度 3、参考 13，合计 122 个文件。**

@@ -1,0 +1,37 @@
+---
+id: "smth_rs_xinwei_wuzi"
+book: "三命通会"
+chapter: "卷八至卷九·六十甲子日时断"
+section_title: "辛未日戊子时断"
+source_version: "文渊阁四库全书本（无标点白文）"
+author: "万民英"
+dynasty: "明"
+type: "rishi"
+conditions:
+  day_master: []
+  month_branch: []
+  day_pillar: ["辛未"]
+  hour_pillar: ["戊子"]
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["日时断", "辛未日", "戊子时"]
+weight: 6
+tags: ["三命通会", "日时断", "辛未日", "戊子时"]
+---
+
+### 辛未日戊子时断
+
+**【原文】**
+
+辛未日戊子时贵寅己午酉年月火木运贵亥子翰苑辰戌丑未杂气财官印俱吉忌庚申月尸不全死壬子月孤防癸丑月防刑死
+
+**【附：历代命例引证】**
+```text
+【己未彭凤翰林　　　　壬申王国光尚书戊辰　　　　　　　　壬子】
+【甲子罗洪先状元江右人一松江生员一山东宗室乙亥　　　　　　　　　　　　　　命俱同丙申郎中　乙夘御史　甲戌府尹　癸巳御史戊戌　　　癸未　　　庚午　　　丙辰
+```
+
+**【白话提要】**
+
+（待补）

@@ -1,0 +1,36 @@
+---
+id: "sftk_26_tianyuan_yizi_ge"
+book: "神峰通考"
+chapter: "第26节"
+chapter_num: 26
+section_title: "天元一字歌"
+source_version: "明·张楠（神峰）著·带标点电子本"
+author: "张楠（张神峰）"
+dynasty: "明"
+type: "chapter"
+conditions:
+  day_master: []
+  month_branch: []
+  day_pillar: []
+  hour_pillar: []
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["天元一字"]
+weight: 3
+tags: ["神峰通考", "张楠", "病药实战", "天元一字歌", "天元一字"]
+---
+
+### 天元一字歌
+
+**【原文】**
+
+天元一字水为源，生在秋冬妙莫言。大小吉神逢一位，少年云路必高迁。
+天元一字土为基，四季生时便是奇。辛酉二丈为格局，聪明俊秀异常儿。
+天元一字木为根，传送登明显福元。四柱官星如得地，功名利禄好争先。
+天元一字若逢金，时日魁罡福气深。库位逢冲并带贵，平生德行贵人钦。
+天元一字火融融，大吉功曹时日冲。冲起财官为发用，生平富贵福兴隆。
+
+**【白话提要】**
+
+（待补）

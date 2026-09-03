@@ -1,0 +1,37 @@
+---
+id: "smth_rs_wuxu_jiwei"
+book: "三命通会"
+chapter: "卷八至卷九·六十甲子日时断"
+section_title: "戊戌日己未时断"
+source_version: "文渊阁四库全书本（无标点白文）"
+author: "万民英"
+dynasty: "明"
+type: "rishi"
+conditions:
+  day_master: []
+  month_branch: []
+  day_pillar: ["戊戌"]
+  hour_pillar: ["己未"]
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["日时断", "戊戌日", "己未时"]
+weight: 6
+tags: ["三命通会", "日时断", "戊戌日", "己未时"]
+---
+
+### 戊戌日己未时断
+
+**【原文】**
+
+戊戌日己未时春官旺贵夏印安稳秋平冬孤苦戌月魁罡格五六品贵须年月申子辰防财寅午印绶己酉伤官亥卯官煞各成局面方吉
+
+**【附：历代命例引证】**
+```text
+【壬子王守都宪　　　　丙寅宪副　己酉进士甲辰　　　　　　　　庚子　　　己巳壬寅郎中　壬申主政丁未　　　戊戌】
+【古镜重磨局　　　昏中又见光若行官印处　　　显逹不寻常】
+```
+
+**【白话提要】**
+
+（待补）

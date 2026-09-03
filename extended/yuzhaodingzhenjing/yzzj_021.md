@@ -1,0 +1,36 @@
+---
+id: "yzzj_021"
+book: "玉照定真经"
+chapter: "正文·第21条"
+chapter_num: 21
+section_title: "丙丁亥子投于江水沟河"
+source_version: "文渊阁四库全书本（旧题郭璞撰·张颙注）"
+author: "旧题郭璞·张颙注"
+dynasty: "旧题晋（后世依托）"
+type: "koujue"
+conditions:
+  day_master: []
+  month_branch: []
+  day_pillar: []
+  hour_pillar: []
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["古法禄命", "张颙注"]
+weight: 2
+tags: ["玉照定真经", "古法", "丙丁亥子投于江水沟河"]
+---
+
+### 丙丁亥子投于江水沟河
+
+**【原文·口诀】**
+
+丙丁亥子投于江水沟河
+
+**【张颙注】**
+
+丙到亥丁到子日时见之主投江河因水而凶灾也又须视无合而言之若丙见辛亥丙辛化真水而旺耳丁人见壬子丁壬化木而在丁相生不为前说若非二干上文应耳假令丙子人四月丁亥日时丁丑人二月丙子日时皆应上文耳
+
+**【白话提要】**
+
+（待补）

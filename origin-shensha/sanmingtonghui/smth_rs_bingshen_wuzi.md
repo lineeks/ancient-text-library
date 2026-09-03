@@ -1,0 +1,37 @@
+---
+id: "smth_rs_bingshen_wuzi"
+book: "三命通会"
+chapter: "卷八至卷九·六十甲子日时断"
+section_title: "丙申日戊子时断"
+source_version: "文渊阁四库全书本（无标点白文）"
+author: "万民英"
+dynasty: "明"
+type: "rishi"
+conditions:
+  day_master: []
+  month_branch: []
+  day_pillar: ["丙申"]
+  hour_pillar: ["戊子"]
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["日时断", "丙申日", "戊子时"]
+weight: 6
+tags: ["三命通会", "日时断", "丙申日", "戊子时"]
+---
+
+### 丙申日戊子时断
+
+**【原文】**
+
+丙申日戊子时巳午年月行东北运风宪子月行木火运三品丑七品酉亥虽遇贵反贱忌癸巳月中年刑乙酉月破败
+
+**【附：历代命例引证】**
+```text
+【戊午郑岳侍郎　　　　戊辰解元　辛巳举人甲子　　　　　　　　辛酉　　　己亥辛巳举人　戊子举人　丁未御史丙申　　　癸亥　　　庚戌】
+【丁酉一中州人方九功甲子乙丑科侍郎戊子卒壬子　一浙人钟化民己卯庚辰科宪副甲午卒】
+```
+
+**【白话提要】**
+
+（待补）

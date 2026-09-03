@@ -1,0 +1,36 @@
+---
+id: "yzzj_050"
+book: "玉照定真经"
+chapter: "正文·第50条"
+chapter_num: 50
+section_title: "见阳而贵士多升遇阴干隂人财力"
+source_version: "文渊阁四库全书本（旧题郭璞撰·张颙注）"
+author: "旧题郭璞·张颙注"
+dynasty: "旧题晋（后世依托）"
+type: "koujue"
+conditions:
+  day_master: []
+  month_branch: []
+  day_pillar: []
+  hour_pillar: []
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["古法禄命", "张颙注"]
+weight: 2
+tags: ["玉照定真经", "古法", "见阳而贵士多升遇阴干隂人财力"]
+---
+
+### 见阳而贵士多升遇阴干隂人财力
+
+**【原文·口诀】**
+
+见阳而贵士多升遇阴干隂人财力
+
+**【张颙注】**
+
+凡见月德阳干者主贵人扶助接引也见月合者主阴人用力也假令甲子人二月甲辰日时二月月德在甲甲为阳干也假令甲子人二月己夘日时二月月合在巳者应上文若全合尤佳耳
+
+**【白话提要】**
+
+（待补）

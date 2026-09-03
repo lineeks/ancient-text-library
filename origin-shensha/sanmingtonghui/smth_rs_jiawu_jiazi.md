@@ -1,0 +1,37 @@
+---
+id: "smth_rs_jiawu_jiazi"
+book: "三命通会"
+chapter: "卷八至卷九·六十甲子日时断"
+section_title: "甲午日甲子时断"
+source_version: "文渊阁四库全书本（无标点白文）"
+author: "万民英"
+dynasty: "明"
+type: "rishi"
+conditions:
+  day_master: []
+  month_branch: []
+  day_pillar: ["甲午"]
+  hour_pillar: ["甲子"]
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["日时断", "甲午日", "甲子时"]
+weight: 6
+tags: ["三命通会", "日时断", "甲午日", "甲子时"]
+---
+
+### 甲午日甲子时断
+
+**【原文】**
+
+甲午日甲子时时日并冲忧伤妻子月通木气者显贵纯子午年月或亥未酉月俱贵【一云】髙【一云】身孤有财清贵有名乙巳月破祖夭乙亥月自刑刃死癸亥月旺中恶死
+
+**【附：历代命例引证】**
+```text
+【己未李弥纶学士　　　丙戌张四维阁老庚午　　　　　　　　甲午】
+【癸巳许赞尚书入阁　　戊戌陈蕖尚书楚人庚申　中州人　　　　壬戌
+```
+
+**【白话提要】**
+
+（待补）

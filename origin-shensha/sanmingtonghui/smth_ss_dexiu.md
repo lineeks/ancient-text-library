@@ -1,0 +1,31 @@
+---
+id: "smth_ss_dexiu"
+book: "三命通会"
+chapter: "卷三·神煞干支"
+section_title: "论德秀"
+source_version: "文渊阁四库全书本（无标点白文）"
+author: "万民英"
+dynasty: "明"
+type: "shensha"
+conditions:
+  day_master: []
+  month_branch: []
+  day_pillar: []
+  hour_pillar: []
+  ten_god: []
+  pattern: []
+  shensha: ["德秀贵人"]
+  keywords: ["德神", "秀气"]
+weight: 6
+tags: ["三命通会", "神煞", "论德秀", "德秀贵人", "德神", "秀气"]
+---
+
+### 论德秀
+
+**【原文】**
+
+夫徳者本月生旺之徳秀者合天地中和之气五行变化而成者也又曰徳者阴阳解防之神秀者天地清秀之气四时当旺之神故寅午戌月丙丁为徳戊癸为秀申子辰月壬癸戊己为徳丙辛甲己为秀己酉丑月庚辛为徳乙庚为秀亥卯未月甲乙为徳丁壬为秀凡人命中得此徳秀无破冲尅压者赋性聪明温厚和气若遇学堂更带财官主贵冲尅减力
+
+**【白话提要】**
+
+（待补）

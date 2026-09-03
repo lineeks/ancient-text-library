@@ -1,0 +1,36 @@
+---
+id: "sftk_32_daiji_ge"
+book: "神峰通考"
+chapter: "第32节"
+chapter_num: 32
+section_title: "带疾歌"
+source_version: "明·张楠（神峰）著·带标点电子本"
+author: "张楠（张神峰）"
+dynasty: "明"
+type: "chapter"
+conditions:
+  day_master: []
+  month_branch: []
+  day_pillar: []
+  hour_pillar: []
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["带疾"]
+weight: 3
+tags: ["神峰通考", "张楠", "病药实战", "带疾歌", "带疾"]
+---
+
+### 带疾歌
+
+**【原文】**
+
+戊己生时气不全，月时两处见伤官。必当头面有亏损，脓血之疮苦少年。
+日主加临戊己生，支神火局气薰蒸。冲刑克破当残疾，发秃那堪眼不明。
+丙丁日主五行衰，七杀加临三合来。升合日求衣食缺，耳聋残疾面尘埃。
+壬癸重重叠叠排，时辰设若见天财。纵然头面无斑癞，定是其人眼目灾。
+丙丁火旺疾难防，四柱休囚辰巳方。木火相生来此地，哑中风疾暗中亡。
+
+**【白话提要】**
+
+（待补）

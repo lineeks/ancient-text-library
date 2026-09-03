@@ -1,0 +1,36 @@
+---
+id: "yzzj_095"
+book: "玉照定真经"
+chapter: "正文·第95条"
+chapter_num: 95
+section_title: "后五逢之犯刑空盗贼非刼"
+source_version: "文渊阁四库全书本（旧题郭璞撰·张颙注）"
+author: "旧题郭璞·张颙注"
+dynasty: "旧题晋（后世依托）"
+type: "koujue"
+conditions:
+  day_master: []
+  month_branch: []
+  day_pillar: []
+  hour_pillar: []
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["古法禄命", "张颙注"]
+weight: 2
+tags: ["玉照定真经", "古法", "后五逢之犯刑空盗贼非刼"]
+---
+
+### 后五逢之犯刑空盗贼非刼
+
+**【原文·口诀】**
+
+后五逢之犯刑空盗贼非刼
+
+**【张颙注】**
+
+己庚辛壬癸也如犯刑害空杀者主非盗横事之灾假令庚午人辛巳月己亥日癸酉时壬申胎己亥空亡自刑刼杀癸酉自刑时金破日日破年月刑胎己庚辛壬癸见全也
+
+**【白话提要】**
+
+（待补）

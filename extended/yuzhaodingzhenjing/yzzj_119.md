@@ -1,0 +1,36 @@
+---
+id: "yzzj_119"
+book: "玉照定真经"
+chapter: "正文·第119条"
+chapter_num: 119
+section_title: "父子夫妻亲外皆同前法"
+source_version: "文渊阁四库全书本（旧题郭璞撰·张颙注）"
+author: "旧题郭璞·张颙注"
+dynasty: "旧题晋（后世依托）"
+type: "koujue"
+conditions:
+  day_master: []
+  month_branch: []
+  day_pillar: []
+  hour_pillar: []
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["古法禄命", "张颙注"]
+weight: 2
+tags: ["玉照定真经", "古法", "父子夫妻亲外皆同前法"]
+---
+
+### 父子夫妻亲外皆同前法
+
+**【原文·口诀】**
+
+父子夫妻亲外皆同前法
+
+**【张颙注】**
+
+此法定尊卑父母兄弟夫妻儿女其法一揆而推之假令甲寅人乙弟庚儿辛女丙壻戊父癸母巳妻凡逆者须与尊卑逆也顺者孝顺也假令甲寅人得己巳日者妻逆也巳建者妻顺也父子兄弟上下亲类皆仿前法
+
+**【白话提要】**
+
+（待补）

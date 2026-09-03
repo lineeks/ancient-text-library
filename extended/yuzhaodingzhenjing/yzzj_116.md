@@ -1,0 +1,36 @@
+---
+id: "yzzj_116"
+book: "玉照定真经"
+chapter: "正文·第116条"
+chapter_num: 116
+section_title: "四柱五行定于内外"
+source_version: "文渊阁四库全书本（旧题郭璞撰·张颙注）"
+author: "旧题郭璞·张颙注"
+dynasty: "旧题晋（后世依托）"
+type: "koujue"
+conditions:
+  day_master: []
+  month_branch: []
+  day_pillar: []
+  hour_pillar: []
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["古法禄命", "张颙注"]
+weight: 2
+tags: ["玉照定真经", "古法", "四柱五行定于内外"]
+---
+
+### 四柱五行定于内外
+
+**【原文·口诀】**
+
+四柱五行定于内外
+
+**【张颙注】**
+
+四分柱也将子午夘酉定四方也在丑寅夘辰巳生人以东为内西为外未申酉戌亥生人西为内东为外午人南为内北为外子人北为内南为外此法定内外立身也假令丁夘生人四柱在丑寅夘辰巳者为内在未申酉戌亥为外立也仿此
+
+**【白话提要】**
+
+（待补）

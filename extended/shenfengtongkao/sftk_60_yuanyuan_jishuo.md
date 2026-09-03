@@ -1,0 +1,36 @@
+---
+id: "sftk_60_yuanyuan_jishuo"
+book: "神峰通考"
+chapter: "第60节"
+chapter_num: 60
+section_title: "渊源集说"
+source_version: "明·张楠（神峰）著·带标点电子本"
+author: "张楠（张神峰）"
+dynasty: "明"
+type: "chapter"
+conditions:
+  day_master: []
+  month_branch: []
+  day_pillar: []
+  hour_pillar: []
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["渊源集"]
+weight: 3
+tags: ["神峰通考", "张楠", "病药实战", "渊源集说", "渊源集"]
+---
+
+### 渊源集说
+
+**【原文】**
+
+最贵者官星为命，时得偏正财为福。最凶者七煞临身，逢天月二德呈祥。
+    官星如遇劫财，虽官不贵。七煞如逢资助，其杀必威。
+    羊刃若逢印绶，纵贵有残疾在身。七煞无制逢官，为祸而寿元不长。
+    三偏三正，位居一品之尊。四柱四合，福坐众人之上。
+    羊刃更兼会杀，千里徒流。用财若遇劫压，一生贫困。荣辱两端，妍媸一判。自古相传，非贤匆授。
+
+**【白话提要】**
+
+（待补）

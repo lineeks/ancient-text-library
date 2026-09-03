@@ -1,0 +1,37 @@
+---
+id: "smth_rs_xinsi_renchen"
+book: "三命通会"
+chapter: "卷八至卷九·六十甲子日时断"
+section_title: "辛巳日壬辰时断"
+source_version: "文渊阁四库全书本（无标点白文）"
+author: "万民英"
+dynasty: "明"
+type: "rishi"
+conditions:
+  day_master: []
+  month_branch: []
+  day_pillar: ["辛巳"]
+  hour_pillar: ["壬辰"]
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["日时断", "辛巳日", "壬辰时"]
+weight: 6
+tags: ["三命通会", "日时断", "辛巳日", "壬辰时"]
+---
+
+### 辛巳日壬辰时断
+
+**【原文】**
+
+辛巳日壬辰时春伤官生财夏行藏反复或防暴午未亦奇秋申酉身旺得火则吉冬亥子伤官伤尽有木土为妙贵重轻髙未免刑尅辰戌丑未主武贵
+
+**【附：历代命例引证】**
+```text
+【乙酉罗钦顺状元　　　丙午孙应奎尚书戊子　名臣　　　　　辛丑　刚直】
+【庚午进士　　　　　　丁丑进士　癸丑锦衣己夘　　　　　　　　丙丁　　　丙辰戊辰参戎　丁巳府尹辛酉　　　丁未】
+```
+
+**【白话提要】**
+
+（待补）

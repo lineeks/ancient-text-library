@@ -1,0 +1,38 @@
+---
+id: "smth_rs_bingshen_renchen"
+book: "三命通会"
+chapter: "卷八至卷九·六十甲子日时断"
+section_title: "丙申日壬辰时断"
+source_version: "文渊阁四库全书本（无标点白文）"
+author: "万民英"
+dynasty: "明"
+type: "rishi"
+conditions:
+  day_master: []
+  month_branch: []
+  day_pillar: ["丙申"]
+  hour_pillar: ["壬辰"]
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["日时断", "丙申日", "壬辰时"]
+weight: 6
+tags: ["三命通会", "日时断", "丙申日", "壬辰时"]
+---
+
+### 丙申日壬辰时断
+
+**【原文】**
+
+丙申日壬辰时旺中灾春平夏福秋富冬寿促若申子辰木局干透印比助大贵食制煞亦贵嫌煞透无制财党煞强夭死非命
+
+**【附：历代命例引证】**
+```text
+【己卯石崇虽富敌国　　乙酉钱钟知县壬申　死于非命　　　甲申　死倭难】
+【癸巳倪元璐翰林尚书死　　　　　戊寅少卿己丑　崇祯之难　　　　　　　　甲寅戊子主事　丙子御史　癸亥河南周王贤丙辰　　　丙申　　　甲子】
+【丁未漂流外死壬子】
+```
+
+**【白话提要】**
+
+（待补）

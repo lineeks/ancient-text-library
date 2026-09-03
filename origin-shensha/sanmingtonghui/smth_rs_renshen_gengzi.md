@@ -1,0 +1,36 @@
+---
+id: "smth_rs_renshen_gengzi"
+book: "三命通会"
+chapter: "卷八至卷九·六十甲子日时断"
+section_title: "壬申日庚子时断"
+source_version: "文渊阁四库全书本（无标点白文）"
+author: "万民英"
+dynasty: "明"
+type: "rishi"
+conditions:
+  day_master: []
+  month_branch: []
+  day_pillar: ["壬申"]
+  hour_pillar: ["庚子"]
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["日时断", "壬申日", "庚子时"]
+weight: 6
+tags: ["三命通会", "日时断", "壬申日", "庚子时"]
+---
+
+### 壬申日庚子时断
+
+**【原文】**
+
+壬申日庚子时贫刑未月杂气财官行财旺运贵显先难后易辰会水太旺须行火土运吉丑戌财官印绶俱吉春冬平常秋夏吉庆忌乙巳月受刑夭丁酉夭乙亥月孤自刑
+
+**【附：历代命例引证】**
+```text
+【甲辰夏邦谟尚书　　　壬午侍郎　己亥进士丁丑　　　　　　　　丁未　　　戊辰己夘进士　癸未陈万言翰林乙亥　　　戊午】
+```
+
+**【白话提要】**
+
+（待补）

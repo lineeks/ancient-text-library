@@ -1,0 +1,36 @@
+---
+id: "smth_rs_dingchou_gengzi"
+book: "三命通会"
+chapter: "卷八至卷九·六十甲子日时断"
+section_title: "丁丑日庚子时断"
+source_version: "文渊阁四库全书本（无标点白文）"
+author: "万民英"
+dynasty: "明"
+type: "rishi"
+conditions:
+  day_master: []
+  month_branch: []
+  day_pillar: ["丁丑"]
+  hour_pillar: ["庚子"]
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["日时断", "丁丑日", "庚子时"]
+weight: 6
+tags: ["三命通会", "日时断", "丁丑日", "庚子时"]
+---
+
+### 丁丑日庚子时断
+
+**【原文】**
+
+丁丑日庚子时平通木火气或行身旺运贵亦有亥子年月贵者以丁火隂柔不怕水乡故也【一云】先贫后吉戊寅月夭辛丑月破祖中年蹇
+
+**【附：历代命例引证】**
+```text
+【己酉大叅　一进士　　辛亥进士　壬子佥宪丙寅　　　命同　　　庚子　　　癸卯庚辰进士　癸未举人　戊戌女命子韩敬防状癸未　　　甲子　　　乙丑癸巳女命夫王锡爵阁　庚申中丞　丁巳进士庚申　老子王衡榜眼　戊子　　　戊申】
+```
+
+**【白话提要】**
+
+（待补）

@@ -1,0 +1,39 @@
+---
+id: "smth_rs_gengxu_yiyou"
+book: "三命通会"
+chapter: "卷八至卷九·六十甲子日时断"
+section_title: "庚戌日乙酉时断"
+source_version: "文渊阁四库全书本（无标点白文）"
+author: "万民英"
+dynasty: "明"
+type: "rishi"
+conditions:
+  day_master: []
+  month_branch: []
+  day_pillar: ["庚戌"]
+  hour_pillar: ["乙酉"]
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["日时断", "庚戌日", "乙酉时"]
+weight: 6
+tags: ["三命通会", "日时断", "庚戌日", "乙酉时"]
+---
+
+### 庚戌日乙酉时断
+
+**【原文】**
+
+庚戌日乙酉时刑后发寅午戌官星明朗贵亥夘未富或五六品贵巳酉丑刃旺持权主发迹于疆塲武臣最宜文臣亦主掌兵权究竟受羊刃之祸
+
+**【附：历代命例引证】**
+```text
+【乙酉吴兑尚书　　　　一生员命同辛巳　　　　　　　　俱浙人】
+【戊申李汝华尚书　　　乙丑沈防阁老乙丑　　　　　　　　庚辰】
+【庚午进士庚辰】
+【入海求珠局　　　天性富文章君子陞官禄　　　士庶有财稂】
+```
+
+**【白话提要】**
+
+（待补）

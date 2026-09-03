@@ -1,0 +1,36 @@
+---
+id: "smth_rs_bingyin_wuxu"
+book: "三命通会"
+chapter: "卷八至卷九·六十甲子日时断"
+section_title: "丙寅日戊戌时断"
+source_version: "文渊阁四库全书本（无标点白文）"
+author: "万民英"
+dynasty: "明"
+type: "rishi"
+conditions:
+  day_master: []
+  month_branch: []
+  day_pillar: ["丙寅"]
+  hour_pillar: ["戊戌"]
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["日时断", "丙寅日", "戊戌时"]
+weight: 6
+tags: ["三命通会", "日时断", "丙寅日", "戊戌时"]
+---
+
+### 丙寅日戊戌时断
+
+**【原文】**
+
+丙寅日戊戌时夏月福寿双全春木尅土食神被枭寅月丙戊俱长生最吉有申庚制甲大贵秋冬火衰贫下巳申亥年月风宪极品
+
+**【附：历代命例引证】**
+```text
+【戊申张贤尚书　　　　己巳尚书　癸酉太守壬戌　　　　　　　　壬申　　　甲寅壬申朱衡尚书李庭龙命同官止大　庚午御史壬寅　丙子年卒荆呉分野不同　甲申丁巳御史　己巳佥宪庚戌　　　戊辰】
+```
+
+**【白话提要】**
+
+（待补）

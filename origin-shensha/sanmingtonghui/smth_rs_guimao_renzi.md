@@ -1,0 +1,36 @@
+---
+id: "smth_rs_guimao_renzi"
+book: "三命通会"
+chapter: "卷八至卷九·六十甲子日时断"
+section_title: "癸卯日壬子时断"
+source_version: "文渊阁四库全书本（无标点白文）"
+author: "万民英"
+dynasty: "明"
+type: "rishi"
+conditions:
+  day_master: []
+  month_branch: []
+  day_pillar: ["癸卯"]
+  hour_pillar: ["壬子"]
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["日时断", "癸卯日", "壬子时"]
+weight: 6
+tags: ["三命通会", "日时断", "癸卯日", "壬子时"]
+---
+
+### 癸卯日壬子时断
+
+**【原文】**
+
+癸夘日壬子时时日相刑伤妻尅子近贵无己土威权若亥己俱全进士乌府年月纯寅伤官生财非大贵即大富忌甲辰月防刑孤丙申月防恶死己丑月刑【壬寅极品　一富　　　壬寅戴燿尚书壬寅　　　命同　　　庚戊】
+
+**【附：历代命例引证】**
+```text
+【壬午举人　乙酉南科　癸亥贫　　戊午防癸丑　　　戊寅　　　癸亥　　　辛酉】
+```
+
+**【白话提要】**
+
+（待补）

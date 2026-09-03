@@ -1,0 +1,36 @@
+---
+id: "yzzj_157"
+book: "玉照定真经"
+chapter: "正文·第157条"
+chapter_num: 157
+section_title: "胎月朝时建旺则祖先富贵"
+source_version: "文渊阁四库全书本（旧题郭璞撰·张颙注）"
+author: "旧题郭璞·张颙注"
+dynasty: "旧题晋（后世依托）"
+type: "koujue"
+conditions:
+  day_master: []
+  month_branch: []
+  day_pillar: []
+  hour_pillar: []
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["古法禄命", "张颙注"]
+weight: 2
+tags: ["玉照定真经", "古法", "胎月朝时建旺则祖先富贵"]
+---
+
+### 胎月朝时建旺则祖先富贵
+
+**【原文·口诀】**
+
+胎月朝时建旺则祖先富贵
+
+**【张颙注】**
+
+乃胎月祖门也时日引之建旺建禄建贵者有祖道富贵耳假令己丑火胎得壬午日时己禄在下故禄发祖也假令庚午月土得甲申日时庚禄在申者门旺有父母力外日有则巳身妻财时子孙也
+
+**【白话提要】**
+
+（待补）

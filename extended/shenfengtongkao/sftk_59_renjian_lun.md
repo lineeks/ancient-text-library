@@ -1,0 +1,37 @@
+---
+id: "sftk_59_renjian_lun"
+book: "神峰通考"
+chapter: "第59节"
+chapter_num: 59
+section_title: "人鉴论"
+source_version: "明·张楠（神峰）著·带标点电子本"
+author: "张楠（张神峰）"
+dynasty: "明"
+type: "chapter"
+conditions:
+  day_master: []
+  month_branch: []
+  day_pillar: []
+  hour_pillar: []
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["人鉴"]
+weight: 3
+tags: ["神峰通考", "张楠", "病药实战", "人鉴论", "人鉴"]
+---
+
+### 人鉴论
+
+**【原文】**
+
+天道尚有亏盈，人事岂无反覆。或始贫而终富，或先败而后成。
+当舍短而从长，毋取彼而舍此。
+居官居贵，五行醇而不疵。 多滞多忧，八字难而又战。
+兄弟多逢，宜嗟原宪之贫穷。印绶叠逢，可比老彭之高寿。
+九宫旺相，难逃邀我于桑中。四柱合和，未免题诗于叶上。
+是以妻宫有克，少年早娶之人。儿位逢伤，未岁损成家之子。
+
+**【白话提要】**
+
+（待补）
