@@ -59,19 +59,25 @@ ancient-text-library/
 │   ├── export_compact.py         #   白话管线：精简导出（仅 id/标题/原文层，剔除注解与命例代码块）
 │   ├── fill_baihua.py            #   白话管线：按 id 幂等回填【白话提要】（--check 只统计）
 │   └── baihua_data/              #   白话译文源数据：*.json（{id: 译文}，可分批、可合并）
-├── core/                         # 第一梯队核心典籍（weight 8-10）
-│   ├── qiongtongbj/              #   穷通宝鉴 122 + INDEX
-│   ├── zipingzhenquan/           #   子平真诠评注 48 + INDEX
-│   └── ditianchui/               #   滴天髓阐微 63 + INDEX
-├── origin-shensha/               # 第二梯队 渊源与神煞（weight 6）
-│   ├── sanmingtonghui/           #   三命通会 748（31 神煞 + 717 日时断）+ INDEX
-│   └── yuanhaiziping/            #   渊海子平赋论 30 + INDEX
-└── extended/                     # 第三梯队 实战辨惑与补遗（weight 2-3）
-    ├── shenfengtongkao/          #   神峰通考 65 + INDEX
-    ├── yuzhaodingzhenjing/       #   玉照定真经 256 + INDEX
-    ├── qianliminggao/            #   千里命稿 22 + INDEX
-    ├── wuxingjingji/             #   五行精纪 74 + INDEX（补遗·渊源）
-    └── mingliyaoyan/             #   命理约言 119 + INDEX（补遗·子平法汇）
+├── library/                      # 五术典籍内容（山/医/命/相/卜）
+│   └── ming/                     # 命·命理
+│       └── bazi/                 # 子平八字（现有 11 部 1672 条）
+│           ├── core/             #   第一梯队核心典籍（weight 8-10）
+│           │   ├── qiongtongbj/  #   穷通宝鉴 122 + INDEX
+│           │   ├── zipingzhenquan/ #  子平真诠评注 48 + INDEX
+│           │   └── ditianchui/   #   滴天髓阐微 63 + INDEX
+│           ├── origin-shensha/    #   第二梯队 渊源与神煞（weight 6）
+│           │   ├── sanmingtonghui/ #  三命通会 748 + INDEX
+│           │   └── yuanhaiziping/ #   渊海子平赋论 30 + INDEX
+│           └── extended/          #   第三梯队 实战辨惑与补遗（weight 2-4）
+│               ├── shenfengtongkao/ # 神峰通考 65
+│               ├── yuzhaodingzhenjing/ # 玉照定真经 256
+│               ├── qianliminggao/ #  千里命稿 22
+│               ├── wuxingjingji/  #   五行精纪 74
+│               ├── mingliyaoyan/  #   命理约言 119
+│               ├── chenggu/       #   袁天罡称骨歌 57
+│               └── lxzmingshu/    #   李虚中命书 68
+├── yi/ xiang/ bu/ shan/          # 其余四术（待建，见 library/ 下对应目录）
 ```
 
 ---

@@ -136,7 +136,7 @@
 | `bu` | 卜·卜筮 | `yijing`（易经）、`liuyao`（六爻）、`meihua`（梅花）、`qimen`（奇门）、`liuren`（六壬）、`taiyi`（太乙） |
 | `shan` | 山·仙学养生 | `dandao`（丹道）、`yangsheng`（养生）、`wushu`（武术）、`fuzhou`（符咒） |
 
-> 现有八字库（core/ origin-shensha/ extended）统一推断为 `category=ming, subcategory=bazi`。
+> 现有八字库（`library/ming/bazi/{core,origin-shensha,extended}`）统一推断为 `category=ming, subcategory=bazi`。
 > 未来新增书放到对应 `category/subcategory/` 目录下，自动推断。
 
 ---
