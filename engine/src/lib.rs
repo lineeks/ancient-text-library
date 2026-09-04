@@ -416,7 +416,7 @@ mod tests {
     #[test]
     fn load_body_splits_three_layers() {
         let path = concat!(env!("CARGO_MANIFEST_DIR"),
-            "/../core/qiongtongbj/qtbj_jia_yin.md");
+            "/../library/ming/bazi/core/qiongtongbj/qtbj_jia_yin.md");
         let b = load_body(path).expect("qtbj_jia_yin.md 应存在");
         assert!(!b.original.is_empty(), "原文层不应为空");
         assert!(!b.vernacular.is_empty(), "白话层不应为空");
