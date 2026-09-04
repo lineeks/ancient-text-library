@@ -350,7 +350,8 @@ def build_root_index(counts):
              f"| 补遗·渊源 | 五行精纪 | 廖中（宋）·34卷 | {wxjj} | [索引](./extended/wuxingjingji/INDEX.md) | ✅ |",
              f"| 补遗·子平法汇 | 命理约言 | 陈素庵（清）·韦千里选辑 | {mlyy} | [索引](./extended/mingliyaoyan/INDEX.md) | ✅ |",
              f"| 民俗·称骨 | 袁天罡称骨歌 | 袁天罡（托名·唐）·通行本 | {counts['chenggu']} | [索引](./extended/chenggu/INDEX.md) | ✅ |",
-             f"| **合计** | **10 部** | — | **{total}** | — | — |", "",
+             f"| 补遗·古法禄命 | 李虚中命书 | 旧题鬼谷子撰·唐李虚中注·四库本 | {counts['lxzmingshu']} | [索引](./extended/lxzmingshu/INDEX.md) | ✅ |",
+             f"| **合计** | **11 部** | — | **{total}** | — | — |", "",
              "## 目录结构", "",
              "```text",
              "ancient-text-library/",
@@ -371,7 +372,8 @@ def build_root_index(counts):
              "    ├── qianliminggao/        # 千里命稿 22",
              "    ├── wuxingjingji/         # 五行精纪 74（宋·禄命纳音神煞类书）",
              "    ├── mingliyaoyan/         # 命理约言 119（清·子平旺衰法汇）",
-             "    └── chenggu/              # 袁天罡称骨歌 57（民俗·四量表+52档歌诀）",
+             "    ├── chenggu/              # 袁天罡称骨歌 57（民俗·四量表+52档歌诀）",
+             "    └── lxzmingshu/          # 李虚中命书 68（唐·三柱古法纳音论命）",
              "```", "",
              "## 检索字段速查", "",
              "| 场景 | 匹配字段 | 示例 |",
@@ -421,6 +423,9 @@ def main():
         ("extended", "chenggu", build_generic_index(
             "袁天罡称骨歌",
             "称骨算命法：出生年/月/日/时四重量表 + 男命五十二档歌诀（二两一至七两二）。民俗简法，仅供传统文化研究参考。")),
+        ("extended", "lxzmingshu", build_generic_index(
+            "李虚中命书",
+            "旧题鬼谷子撰，唐李虚中注。三柱古法（年月日）纳音论命代表作，四库全书本。含六十甲子纳音论命六十条 + 卷上贵神总论 + 卷中通理物化/真假邪正/升降清浊 + 卷下衰旺取时/三元九限/天承地禄/水土名用。")),
     ]
     counts = {}
     for root, book, builder in plan:

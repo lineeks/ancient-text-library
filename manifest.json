@@ -79,6 +79,14 @@
       "count": 57
     },
     {
+      "dir": "lxzmingshu",
+      "tier": "extended",
+      "tier_name": "第三梯队·实战与补遗",
+      "category": "ming",
+      "subcategory": "bazi",
+      "count": 68
+    },
+    {
       "dir": "mingliyaoyan",
       "tier": "extended",
       "tier_name": "第三梯队·实战与补遗",
@@ -119,7 +127,7 @@
       "count": 256
     }
   ],
-  "total": 1604,
+  "total": 1672,
   "entries": [
     {
       "id": "dtcs_lq01_fuqi",
@@ -8247,6 +8255,1996 @@
           "六十甲子",
           "骨重",
           "年重表"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_丁丑",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_丁丑.md",
+      "weight": 4,
+      "title": "丁丑纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "丁丑"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "丁丑"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_丁亥",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_丁亥.md",
+      "weight": 4,
+      "title": "丁亥纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "丁亥"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "丁亥"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_丁卯",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_丁卯.md",
+      "weight": 4,
+      "title": "丁卯纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "丁卯"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "丁卯"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_丁巳",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_丁巳.md",
+      "weight": 4,
+      "title": "丁巳纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "丁巳"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "丁巳"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_丁未",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_丁未.md",
+      "weight": 4,
+      "title": "丁未纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "丁未"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "丁未"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_丁酉",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_丁酉.md",
+      "weight": 4,
+      "title": "丁酉纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "丁酉"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "丁酉"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_丙午",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_丙午.md",
+      "weight": 4,
+      "title": "丙午纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "丙午"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "丙午"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_丙子",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_丙子.md",
+      "weight": 4,
+      "title": "丙子纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "丙子"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "丙子"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_丙寅",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_丙寅.md",
+      "weight": 4,
+      "title": "丙寅纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "丙寅"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "丙寅"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_丙戌",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_丙戌.md",
+      "weight": 4,
+      "title": "丙戌纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "丙戌"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "丙戌"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_丙申",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_丙申.md",
+      "weight": 4,
+      "title": "丙申纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "丙申"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "丙申"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_丙辰",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_丙辰.md",
+      "weight": 4,
+      "title": "丙辰纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "丙辰"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "丙辰"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_乙丑",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_乙丑.md",
+      "weight": 4,
+      "title": "乙丑纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "乙丑"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "乙丑"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_乙亥",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_乙亥.md",
+      "weight": 4,
+      "title": "乙亥纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "乙亥"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "乙亥"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_乙卯",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_乙卯.md",
+      "weight": 4,
+      "title": "乙卯纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "乙卯"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "乙卯"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_乙巳",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_乙巳.md",
+      "weight": 4,
+      "title": "乙巳纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "乙巳"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "乙巳"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_乙未",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_乙未.md",
+      "weight": 4,
+      "title": "乙未纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "乙未"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "乙未"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_乙酉",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_乙酉.md",
+      "weight": 4,
+      "title": "乙酉纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "乙酉"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "乙酉"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_壬午",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_壬午.md",
+      "weight": 4,
+      "title": "壬午纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "壬午"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "壬午"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_壬子",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_壬子.md",
+      "weight": 4,
+      "title": "壬子纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "壬子"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "壬子"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_壬寅",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_壬寅.md",
+      "weight": 4,
+      "title": "壬寅纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "壬寅"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "壬寅"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_壬戌",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_壬戌.md",
+      "weight": 4,
+      "title": "壬戌纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "壬戌"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "壬戌"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_壬申",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_壬申.md",
+      "weight": 4,
+      "title": "壬申纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "壬申"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "壬申"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_壬辰",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_壬辰.md",
+      "weight": 4,
+      "title": "壬辰纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "壬辰"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "壬辰"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_己丑",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_己丑.md",
+      "weight": 4,
+      "title": "己丑纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "己丑"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "己丑"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_己亥",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_己亥.md",
+      "weight": 4,
+      "title": "己亥纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "己亥"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "己亥"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_己卯",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_己卯.md",
+      "weight": 4,
+      "title": "己卯纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "己卯"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "己卯"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_己巳",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_己巳.md",
+      "weight": 4,
+      "title": "己巳纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "己巳"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "己巳"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_己未",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_己未.md",
+      "weight": 4,
+      "title": "己未纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "己未"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "己未"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_己酉",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_己酉.md",
+      "weight": 4,
+      "title": "己酉纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "己酉"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "己酉"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_庚午",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_庚午.md",
+      "weight": 4,
+      "title": "庚午纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "庚午"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "庚午"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_庚子",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_庚子.md",
+      "weight": 4,
+      "title": "庚子纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "庚子"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "庚子"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_庚寅",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_庚寅.md",
+      "weight": 4,
+      "title": "庚寅纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "庚寅"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "庚寅"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_庚戌",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_庚戌.md",
+      "weight": 4,
+      "title": "庚戌纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "庚戌"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "庚戌"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_庚申",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_庚申.md",
+      "weight": 4,
+      "title": "庚申纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "庚申"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "庚申"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_庚辰",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_庚辰.md",
+      "weight": 4,
+      "title": "庚辰纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "庚辰"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "庚辰"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_戊午",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_戊午.md",
+      "weight": 4,
+      "title": "戊午纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "戊午"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "戊午"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_戊子",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_戊子.md",
+      "weight": 4,
+      "title": "戊子纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "戊子"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "戊子"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_戊寅",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_戊寅.md",
+      "weight": 4,
+      "title": "戊寅纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "戊寅"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "戊寅"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_戊戌",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_戊戌.md",
+      "weight": 4,
+      "title": "戊戌纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "戊戌"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "戊戌"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_戊申",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_戊申.md",
+      "weight": 4,
+      "title": "戊申纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "戊申"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "戊申"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_戊辰",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_戊辰.md",
+      "weight": 4,
+      "title": "戊辰纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "戊辰"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "戊辰"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_甲午",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_甲午.md",
+      "weight": 4,
+      "title": "甲午纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "甲午"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "甲午"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_甲子",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_甲子.md",
+      "weight": 4,
+      "title": "甲子纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "甲子"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "甲子"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_甲寅",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_甲寅.md",
+      "weight": 4,
+      "title": "甲寅纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "甲寅"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "甲寅"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_甲戌",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_甲戌.md",
+      "weight": 4,
+      "title": "甲戌纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "甲戌"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "甲戌"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_甲申",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_甲申.md",
+      "weight": 4,
+      "title": "甲申纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "甲申"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "甲申"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_甲辰",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_甲辰.md",
+      "weight": 4,
+      "title": "甲辰纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "甲辰"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "甲辰"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_癸丑",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_癸丑.md",
+      "weight": 4,
+      "title": "癸丑纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "癸丑"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "癸丑"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_癸亥",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_癸亥.md",
+      "weight": 4,
+      "title": "癸亥纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "癸亥"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "癸亥"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_癸卯",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_癸卯.md",
+      "weight": 4,
+      "title": "癸卯纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "癸卯"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "癸卯"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_癸巳",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_癸巳.md",
+      "weight": 4,
+      "title": "癸巳纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "癸巳"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "癸巳"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_癸未",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_癸未.md",
+      "weight": 4,
+      "title": "癸未纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "癸未"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "癸未"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_癸酉",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_癸酉.md",
+      "weight": 4,
+      "title": "癸酉纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "癸酉"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "癸酉"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_辛丑",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_辛丑.md",
+      "weight": 4,
+      "title": "辛丑纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "辛丑"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "辛丑"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_辛亥",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_辛亥.md",
+      "weight": 4,
+      "title": "辛亥纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "辛亥"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "辛亥"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_辛卯",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_辛卯.md",
+      "weight": 4,
+      "title": "辛卯纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "辛卯"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "辛卯"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_辛巳",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_辛巳.md",
+      "weight": 4,
+      "title": "辛巳纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "辛巳"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "辛巳"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_辛未",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_辛未.md",
+      "weight": 4,
+      "title": "辛未纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "辛未"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "辛未"
+        ]
+      }
+    },
+    {
+      "id": "lxz_nayin_辛酉",
+      "book": "李虚中命书",
+      "type": "nayin",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_nayin_辛酉.md",
+      "weight": 4,
+      "title": "辛酉纳音论命",
+      "chapter": "卷上·六十甲子纳音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [
+          "辛酉"
+        ],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "纳音",
+          "六十甲子",
+          "辛酉"
+        ]
+      }
+    },
+    {
+      "id": "lxz_shang_000",
+      "book": "李虚中命书",
+      "type": "chapter",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_shang_000.md",
+      "weight": 3,
+      "title": "此六十位五行支干相乘，要分轻",
+      "chapter": "卷上·贵神总论",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [
+          "天乙贵人",
+          "羊刃",
+          "华盖",
+          "驿马",
+          "空亡",
+          "天月二德",
+          "魁罡"
+        ],
+        "keywords": [
+          "纳音",
+          "大运小运",
+          "五行轻重",
+          "德合",
+          "贵合",
+          "贵食",
+          "贵神",
+          "天乙贵人",
+          "三柱古法"
+        ]
+      }
+    },
+    {
+      "id": "lxz_xia_000",
+      "book": "李虚中命书",
+      "type": "chapter",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_xia_000.md",
+      "weight": 3,
+      "title": "论一方之气，不可过角。进角为",
+      "chapter": "卷下·衰旺取时",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [
+          "天乙贵人",
+          "驿马",
+          "空亡",
+          "三奇贵人",
+          "魁罡"
+        ],
+        "keywords": [
+          "纳音",
+          "三元",
+          "四柱",
+          "衰旺",
+          "富贵",
+          "贫贱",
+          "神煞",
+          "三合",
+          "刑冲",
+          "德合",
+          "贵合",
+          "胎元",
+          "运限",
+          "三柱古法"
+        ]
+      }
+    },
+    {
+      "id": "lxz_xia_001",
+      "book": "李虚中命书",
+      "type": "chapter",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_xia_001.md",
+      "weight": 3,
+      "title": "三元者，大小气运也。九限者，",
+      "chapter": "卷下·三元九限",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [
+          "驿马",
+          "魁罡"
+        ],
+        "keywords": [
+          "纳音",
+          "三元",
+          "四柱",
+          "大运小运",
+          "运限",
+          "衰旺",
+          "三柱古法"
+        ]
+      }
+    },
+    {
+      "id": "lxz_xia_002",
+      "book": "李虚中命书",
+      "type": "chapter",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_xia_002.md",
+      "weight": 3,
+      "title": "日之火也阳之晶，月之水也阴之",
+      "chapter": "卷下·天承地禄",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [
+          "天乙贵人",
+          "空亡",
+          "天月二德",
+          "魁罡"
+        ],
+        "keywords": [
+          "三元",
+          "五行轻重",
+          "干禄",
+          "六合",
+          "德合",
+          "神头禄",
+          "衰旺",
+          "运限",
+          "三柱古法"
+        ]
+      }
+    },
+    {
+      "id": "lxz_xia_003",
+      "book": "李虚中命书",
+      "type": "chapter",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_xia_003.md",
+      "weight": 3,
+      "title": "土本无一方之气，从水妻之义也",
+      "chapter": "卷下·水土名用",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "衰旺",
+          "运限",
+          "三柱古法"
+        ]
+      }
+    },
+    {
+      "id": "lxz_zhong_000",
+      "book": "李虚中命书",
+      "type": "chapter",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_zhong_000.md",
+      "weight": 3,
+      "title": "清气阳为天，杳杳而上冲乎阳；",
+      "chapter": "卷中·通理物化",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [
+          "羊刃",
+          "驿马",
+          "空亡",
+          "三奇贵人",
+          "天月二德",
+          "孤辰",
+          "元辰",
+          "六厄"
+        ],
+        "keywords": [
+          "纳音",
+          "三元",
+          "四柱",
+          "衰旺",
+          "五行轻重",
+          "性情",
+          "富贵",
+          "贫贱",
+          "神煞",
+          "干禄",
+          "支命",
+          "六合",
+          "刑冲",
+          "德合",
+          "胎元",
+          "五行理论",
+          "干支纳音",
+          "三柱古法"
+        ]
+      }
+    },
+    {
+      "id": "lxz_zhong_001",
+      "book": "李虚中命书",
+      "type": "chapter",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_zhong_001.md",
+      "weight": 3,
+      "title": "变通拙而蔽于神，执一明而瞽于",
+      "chapter": "卷中·真假邪正",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [
+          "天乙贵人",
+          "华盖",
+          "天月二德",
+          "魁罡"
+        ],
+        "keywords": [
+          "纳音",
+          "三元",
+          "四柱",
+          "五行轻重",
+          "富贵",
+          "六合",
+          "三合",
+          "德合",
+          "贵合",
+          "五行理论",
+          "干支纳音",
+          "三柱古法"
+        ]
+      }
+    },
+    {
+      "id": "lxz_zhong_002",
+      "book": "李虚中命书",
+      "type": "chapter",
+      "tier": "extended",
+      "category": "ming",
+      "subcategory": "bazi",
+      "path": "extended/lxzmingshu/lxz_zhong_002.md",
+      "weight": 3,
+      "title": "父子之行年同体，子享父利；夫",
+      "chapter": "卷中·升降清浊",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [
+          "华盖",
+          "驿马",
+          "天月二德",
+          "孤辰"
+        ],
+        "keywords": [
+          "纳音",
+          "三元",
+          "四柱",
+          "大运小运",
+          "衰旺",
+          "五行轻重",
+          "富贵",
+          "干禄",
+          "六合",
+          "德合",
+          "五行理论",
+          "干支纳音",
+          "三柱古法"
         ]
       }
     },
