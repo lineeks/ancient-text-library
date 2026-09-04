@@ -20,7 +20,8 @@
 | 补遗·子平法汇 | 命理约言 | 陈素庵（清）·韦千里选辑 | 119 | [索引](./library/ming/bazi/extended/mingliyaoyan/INDEX.md) | ✅ |
 | 民俗·称骨 | 袁天罡称骨歌 | 袁天罡（托名·唐）·通行本 | 57 | [索引](./library/ming/bazi/extended/chenggu/INDEX.md) | ✅ |
 | 补遗·古法禄命 | 李虚中命书 | 旧题鬼谷子撰·唐李虚中注·四库本 | 68 | [索引](./library/ming/bazi/extended/lxzmingshu/INDEX.md) | ✅ |
-| **合计** | **11 部** | — | **1672** | — | — |
+| 补遗·禄命鼻祖 | 珞琭子赋注 | 宋释昙莹撰·四库本 | 62 | [索引](./library/ming/bazi/extended/luoluozi/INDEX.md) | ✅ |
+| **合计** | **12 部** | — | **1734** | — | — |
 
 ## 目录结构
 
@@ -47,7 +48,8 @@ ancient-text-library/
 │               ├── wuxingjingji/ # 五行精纪 74
 │               ├── mingliyaoyan/ # 命理约言 119
 │               ├── chenggu/   # 袁天罡称骨歌 57
-│               └── lxzmingshu/ # 李虚中命书 68
+│               ├── lxzmingshu/ # 李虚中命书 68
+│               └── luoluozi/  # 珞琭子赋注 62
 ├── yi/                        # 医·中医（待建，library/yi/）
 ├── xiang/                     # 相·相术（待建，library/xiang/）
 ├── bu/                        # 卜·卜筮（待建，library/bu/）

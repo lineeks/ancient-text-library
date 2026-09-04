@@ -351,7 +351,8 @@ def build_root_index(counts):
              f"| 补遗·子平法汇 | 命理约言 | 陈素庵（清）·韦千里选辑 | {mlyy} | [索引](./library/ming/bazi/extended/mingliyaoyan/INDEX.md) | ✅ |",
              f"| 民俗·称骨 | 袁天罡称骨歌 | 袁天罡（托名·唐）·通行本 | {counts['chenggu']} | [索引](./library/ming/bazi/extended/chenggu/INDEX.md) | ✅ |",
              f"| 补遗·古法禄命 | 李虚中命书 | 旧题鬼谷子撰·唐李虚中注·四库本 | {counts['lxzmingshu']} | [索引](./library/ming/bazi/extended/lxzmingshu/INDEX.md) | ✅ |",
-             f"| **合计** | **11 部** | — | **{total}** | — | — |", "",
+             f"| 补遗·禄命鼻祖 | 珞琭子赋注 | 宋释昙莹撰·四库本 | {counts['luoluozi']} | [索引](./library/ming/bazi/extended/luoluozi/INDEX.md) | ✅ |",
+             f"| **合计** | **12 部** | — | **{total}** | — | — |", "",
              "## 目录结构", "",
              "```text",
              "ancient-text-library/",
@@ -376,7 +377,8 @@ def build_root_index(counts):
              "│               ├── wuxingjingji/ # 五行精纪 74",
              "│               ├── mingliyaoyan/ # 命理约言 119",
              "│               ├── chenggu/   # 袁天罡称骨歌 57",
-             "│               └── lxzmingshu/ # 李虚中命书 68",
+             "│               ├── lxzmingshu/ # 李虚中命书 68",
+             "│               └── luoluozi/  # 珞琭子赋注 62",
              "├── yi/                        # 医·中医（待建，library/yi/）",
              "├── xiang/                     # 相·相术（待建，library/xiang/）",
              "├── bu/                        # 卜·卜筮（待建，library/bu/）",
@@ -433,6 +435,9 @@ def main():
         ("library/ming/bazi/extended", "lxzmingshu", build_generic_index(
             "李虚中命书",
             "旧题鬼谷子撰，唐李虚中注。三柱古法（年月日）纳音论命代表作，四库全书本。含六十甲子纳音论命六十条 + 卷上贵神总论 + 卷中通理物化/真假邪正/升降清浊 + 卷下衰旺取时/三元九限/天承地禄/水土名用。")),
+        ("library/ming/bazi/extended", "luoluozi", build_generic_index(
+            "珞琭子赋注",
+            "宋释昙莹撰，兼收王廷光、李仝注。珞琭子三命消息赋为禄命鼻祖，以赋文体论述五行、干禄、支命、大运、神煞等命理原理，四库全书本。")),
     ]
     counts = {}
     for root, book, builder in plan:
