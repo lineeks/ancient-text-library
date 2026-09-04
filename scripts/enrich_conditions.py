@@ -22,8 +22,8 @@ import re
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BOOK_DIR = {
-    "wuxingjingji": os.path.join("extended", "wuxingjingji"),
-    "mingliyaoyan": os.path.join("extended", "mingliyaoyan"),
+    "wuxingjingji": os.path.join("library", "ming", "bazi", "extended", "wuxingjingji"),
+    "mingliyaoyan": os.path.join("library", "ming", "bazi", "extended", "mingliyaoyan"),
 }
 FIELDS = ("day_master", "month_branch", "day_pillar", "hour_pillar",
           "ten_god", "pattern", "shensha", "keywords")

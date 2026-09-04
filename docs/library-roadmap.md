@@ -46,17 +46,18 @@
 ### 2.1 顶层目录结构
 ```
 ancient-text-library/
-├── ming/          # 命：八字 / 紫微斗数 / 七政四余 / 称骨 / 铁板神数
-│   ├── bazi/      # 现有 10 部 + 称骨（渐进迁入，保留 tier 子目录）
-│   ├── ziwei/
-│   └── qizheng/
-├── yi/            # 医：经典 / 方书 / 本草 / 针灸 / 温病 / 养生
-├── xiang/         # 相：人相 / 地相(风水) / 星相
-│   ├── renxiang/
-│   ├── dixiang/
-│   └── xingxiang/
-├── bu/            # 卜：易经 / 六爻 / 梅花易数 / 奇门遁甲 / 大六壬 / 太乙
-└── shan/          # 山：丹道 / 养生导引 / 武术 / 符咒 / 存思
+├── library/       # 五术典籍内容根目录
+│   ├── ming/      # 命：八字 / 紫微斗数 / 七政四余 / 称骨 / 铁板神数
+│   │   ├── bazi/  # 现有 11 部 1672 条（core/origin-shensha/extended 三梯队）
+│   │   ├── ziwei/
+│   │   └── qizheng/
+│   ├── yi/        # 医：经典 / 方书 / 本草 / 针灸 / 温病 / 养生
+│   ├── xiang/     # 相：人相 / 地相(风水) / 星相
+│   │   ├── renxiang/
+│   │   ├── dixiang/
+│   │   └── xingxiang/
+│   ├── bu/        # 卜：易经 / 六爻 / 梅花易数 / 奇门遁甲 / 大六壬 / 太乙
+│   └── shan/      # 山：丹道 / 养生导引 / 武术 / 符咒 / 存思
 ```
 
 ### 2.2 元数据策略
@@ -94,7 +95,7 @@ ancient-text-library/
 - **DoD**：称骨 57 条入库、CI 全绿、release 已发、validate 全过、golden 对拍通过
 
 #### Batch 0.2 — 五术目录骨架与 manifest 扩展
-- 新建 `ming/ yi/ xiang/ bu/ shan/` 顶层目录（含 README 占位）
+- 新建 `library/ming/ library/yi/ library/xiang/ library/bu/ library/shan/` 五术目录（含 README 占位）
 - `build_manifest.py` / `build_index.py` 扩展扫描五根目录
 - manifest 新增 `category` / `subcategory` 字段（八字条目标 `category=ming, subcategory=bazi`）
 - `validate_library.py` 扩展 category 枚举校验

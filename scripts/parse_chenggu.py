@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 袁天罡称骨算命法 · 结构化入库脚本
 
@@ -17,7 +17,7 @@
 import os
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT_DIR = os.path.join(BASE, "extended", "chenggu")
+OUT_DIR = os.path.join(BASE, "library", "ming", "bazi", "extended", "chenggu")
 
 BOOK = "袁天罡称骨歌"
 CHAPTER = "称骨算命法"

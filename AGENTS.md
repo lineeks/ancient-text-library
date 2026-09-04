@@ -174,10 +174,11 @@ python -X utf8 scripts/fill_baihua.py                     # apply
 
 ## 6. Repository layout & weights
 
-- `core/` tier-1 (weight 8–10): qiongtongbj, zipingzhenquan, ditianchui.
-- `origin-shensha/` tier-2 (weight 6): sanmingtonghui, yuanhaiziping.
-- `extended/` tier-3 + supplements (weight 2–3): shenfengtongkao, yuzhaodingzhenjing,
-  qianliminggao, wuxingjingji, mingliyaoyan.
+- `library/ming/bazi/core/` tier-1 (weight 8–10): qiongtongbj, zipingzhenquan, ditianchui.
+- `library/ming/bazi/origin-shensha/` tier-2 (weight 6): sanmingtonghui, yuanhaiziping.
+- `library/ming/bazi/extended/` tier-3 + supplements (weight 2–4): shenfengtongkao,
+  yuzhaodingzhenjing, qianliminggao, wuxingjingji, mingliyaoyan, chenggu, lxzmingshu.
+- `library/{yi,xiang,bu,shan}/` other five-arts divisions (placeholders, future content).
 - `raw/` unchanged UTF-8 sources; `scripts/` reproducible build pipeline; `manifest.json` the
   machine index; `engine/` the framework-agnostic Rust retrieval crate; `tests/` recall
   regression; `docs/` cross-collation notes.

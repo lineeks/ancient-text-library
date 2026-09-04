@@ -67,6 +67,7 @@
 | `chapter` | 按章切分的论述条目 | 子平真诠、滴天髓、神峰通考 |
 | `shensha` | 神煞专论条目 | 三命通会神煞卷 |
 | `rishi` | 日柱+时柱精确配断条目 | 三命通会日时断 |
+| `nayin` | 六十甲子纳音论命条目（日柱精确锚定） | 李虚中命书六十甲子 |
 | `fuwen` | 歌赋/韵文条目 | 渊海子平赋文 |
 | `koujue` | 口诀/短偈条目 | 玉照定真经口诀 |
 | `chenggu` | 称骨歌诀档 | 袁天罡称骨歌 |
@@ -135,7 +136,7 @@
 | `bu` | 卜·卜筮 | `yijing`（易经）、`liuyao`（六爻）、`meihua`（梅花）、`qimen`（奇门）、`liuren`（六壬）、`taiyi`（太乙） |
 | `shan` | 山·仙学养生 | `dandao`（丹道）、`yangsheng`（养生）、`wushu`（武术）、`fuzhou`（符咒） |
 
-> 现有八字库（core/ origin-shensha/ extended）统一推断为 `category=ming, subcategory=bazi`。
+> 现有八字库（`library/ming/bazi/{core,origin-shensha,extended}`）统一推断为 `category=ming, subcategory=bazi`。
 > 未来新增书放到对应 `category/subcategory/` 目录下，自动推断。
 
 ---

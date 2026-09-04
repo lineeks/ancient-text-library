@@ -400,8 +400,8 @@ mod tests {
         let path = concat!(env!("CARGO_MANIFEST_DIR"), "/../manifest.json");
         let text = std::fs::read_to_string(path).expect("manifest.json 应存在于库根");
         let l = Library::from_json(&text).unwrap();
-        assert_eq!(l.total(), 1604);
-        assert_eq!(l.entries().len(), 1604);
+        assert_eq!(l.total(), 1672);
+        assert_eq!(l.entries().len(), 1672);
         // 甲日寅月首条即穷通精确锚定
         let r = l.query(&Chart::new().day_master(&["Jia"]).month_branch(&["Yin"]));
         assert_eq!(r[0].id, "qtbj_jia_yin");
@@ -416,7 +416,7 @@ mod tests {
     #[test]
     fn load_body_splits_three_layers() {
         let path = concat!(env!("CARGO_MANIFEST_DIR"),
-            "/../core/qiongtongbj/qtbj_jia_yin.md");
+            "/../library/ming/bazi/core/qiongtongbj/qtbj_jia_yin.md");
         let b = load_body(path).expect("qtbj_jia_yin.md 应存在");
         assert!(!b.original.is_empty(), "原文层不应为空");
         assert!(!b.vernacular.is_empty(), "白话层不应为空");

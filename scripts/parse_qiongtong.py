@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 Aether-Cycle 古籍知识库 · 《穷通宝鉴》结构化解析脚本（v4）
 将 raw/qiongtongbaojian.txt 切分为「日干×月令」条目 + 季节/总论参考条目。
@@ -19,7 +19,7 @@ import re
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(BASE, "raw", "qiongtongbaojian.txt")
-OUT_DIR = os.path.join(BASE, "core", "qiongtongbj")
+OUT_DIR = os.path.join(BASE, "library", "ming", "bazi", "core", "qiongtongbj")
 os.makedirs(OUT_DIR, exist_ok=True)
 
 STEM_EN = {"甲": "Jia", "乙": "Yi", "丙": "Bing", "丁": "Ding", "戊": "Wu",

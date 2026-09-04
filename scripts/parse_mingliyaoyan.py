@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 《命理约言》（清·陈之遴(素庵)撰，民国韦千里选辑《精选命理约言》）解析为结构化 Markdown。
 源：raw/mingliyaoyan.txt（fetch_mingliyaoyan.py 抓中华典藏标点本、清洗合并，@@PAGE 分卷）。
@@ -8,7 +8,7 @@
 import os, re, sys
 BASE=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW=os.path.join(BASE,"raw","mingliyaoyan.txt")
-OUT=os.path.join(BASE,"extended","mingliyaoyan")
+OUT=os.path.join(BASE,"library", "ming", "bazi", "extended", "mingliyaoyan")
 DRY="--write" not in sys.argv
 
 raw=open(RAW,encoding="utf-8").read().splitlines()
