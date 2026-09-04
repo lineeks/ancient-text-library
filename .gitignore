@@ -14,3 +14,7 @@ Thumbs.db
 
 # 白话管线的中间导出文本（可由 export_for_baihua.py / export_compact.py 重新生成，无需入库）
 scripts/baihua_data/_*.txt
+
+# Rust 构建产物（engine/Cargo.lock 保留入库以保证可复现）
+engine/target/
+**/*.rs.bk
