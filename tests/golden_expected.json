@@ -13,6 +13,11 @@
     "zpzq_ch19_xiongshenchengge",
     "smth_ss_luma",
     "smth_ss_yima",
+    "lxz_shang_000",
+    "lxz_xia_000",
+    "lxz_xia_001",
+    "lxz_zhong_000",
+    "lxz_zhong_002",
     "mlyy_lun22",
     "qlmg_06_liushen",
     "qlmg_08_geju",
@@ -49,6 +54,10 @@
     "mlyy_fu05",
     "dtcs_ts12_bage",
     "smth_ss_tianyiguiren",
+    "lxz_shang_000",
+    "lxz_xia_000",
+    "lxz_xia_002",
+    "lxz_zhong_001",
     "mlyy_lun20",
     "qlmg_08_geju",
     "wxjj_v13_01",
@@ -90,19 +99,31 @@
     "qlmg_08_geju"
   ],
   "rishi_gengzi_jimao": [
-    "smth_rs_gengzi_jimao"
+    "smth_rs_gengzi_jimao",
+    "lxz_nayin_庚子"
   ],
   "rishi_jiazi_bingyin": [
-    "smth_rs_jiazi_bingyin"
+    "smth_rs_jiazi_bingyin",
+    "lxz_nayin_甲子"
   ],
-  "rishi_wrong_hour": [],
+  "rishi_wrong_hour": [
+    "lxz_nayin_庚子"
+  ],
   "shensha_kongwang": [
+    "lxz_shang_000",
+    "lxz_xia_000",
+    "lxz_xia_002",
+    "lxz_zhong_000",
     "mlyy_lun23",
     "wxjj_v23_01",
     "wxjj_v25_03"
   ],
   "shensha_tianyi": [
     "smth_ss_tianyiguiren",
+    "lxz_shang_000",
+    "lxz_xia_000",
+    "lxz_xia_002",
+    "lxz_zhong_001",
     "mlyy_lun20",
     "wxjj_v13_01",
     "wxjj_v14_01"
@@ -110,6 +131,11 @@
   "shensha_yima": [
     "smth_ss_luma",
     "smth_ss_yima",
+    "lxz_shang_000",
+    "lxz_xia_000",
+    "lxz_xia_001",
+    "lxz_zhong_000",
+    "lxz_zhong_002",
     "mlyy_lun22",
     "wxjj_v16_01",
     "wxjj_v17_01"
