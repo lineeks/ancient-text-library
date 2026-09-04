@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/lineeks/ancient-text-library/schema/frontmatter.schema.json",
+  "title": "Aether-Cycle entry Markdown frontmatter",
+  "description": "YAML frontmatter that begins every entry .md. Controlled values for ten_god/pattern/shensha are enumerated in controlled_vocabulary.json (validated by scripts/validate_library.py).",
+  "type": "object",
+  "required": ["id", "book", "chapter", "section_title", "source_version",
+               "author", "dynasty", "type", "conditions", "weight", "tags"],
+  "additionalProperties": true,
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9_]+$", "description": "Equals filename stem, globally unique." },
+    "book": { "type": "string" },
+    "chapter": { "type": "string" },
+    "chapter_num": { "type": "integer", "minimum": 0 },
+    "section_title": { "type": "string" },
+    "source_version": { "type": "string" },
+    "author": { "type": "string" },
+    "dynasty": { "type": "string" },
+    "type": {
+      "type": "string",
+      "enum": ["monthly", "seasonal", "reference", "chapter", "shensha", "rishi",
+               "fuwen", "koujue", "chenggu", "chenggu-table"]
+    },
+    "conditions": { "$ref": "#/$defs/conditions" },
+    "weight": { "type": "integer", "minimum": 0, "maximum": 10 },
+    "tags": { "type": "array", "items": { "type": "string" } }
+  },
+  "$defs": {
+    "conditions": {
+      "type": "object",
+      "required": ["day_master", "month_branch", "day_pillar", "hour_pillar",
+                   "ten_god", "pattern", "shensha", "keywords"],
+      "additionalProperties": false,
+      "properties": {
+        "day_master": { "type": "array", "items": { "enum": ["Jia", "Yi", "Bing", "Ding", "Wu", "Ji", "Geng", "Xin", "Ren", "Gui"] } },
+        "month_branch": { "type": "array", "items": { "enum": ["Yin", "Mao", "Chen", "Si", "Wu", "Wei", "Shen", "You", "Xu", "Hai", "Zi", "Chou"] } },
+        "day_pillar": { "type": "array", "items": { "type": "string" }, "description": "Chinese sexagenary cycle, e.g. 甲子." },
+        "hour_pillar": { "type": "array", "items": { "type": "string" } },
+        "ten_god": { "type": "array", "items": { "type": "string" }, "description": "Controlled; see controlled_vocabulary.json." },
+        "pattern": { "type": "array", "items": { "type": "string" }, "description": "Controlled; see controlled_vocabulary.json." },
+        "shensha": { "type": "array", "items": { "type": "string" }, "description": "Controlled; see controlled_vocabulary.json." },
+        "keywords": { "type": "array", "items": { "type": "string" }, "description": "Open topic words for containment recall." }
+      }
+    }
+  }
+}

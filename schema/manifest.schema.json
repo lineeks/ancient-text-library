@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/lineeks/ancient-text-library/schema/manifest.schema.json",
+  "title": "Aether-Cycle ancient-text manifest",
+  "description": "Machine retrieval index generated deterministically by scripts/build_manifest.py. The engine loads this once at startup; the Markdown body of an entry is read on demand via its path.",
+  "type": "object",
+  "required": ["schema_version", "name", "match_fields", "roots", "books", "total", "entries"],
+  "additionalProperties": true,
+  "properties": {
+    "schema_version": { "type": "integer", "minimum": 1 },
+    "name": { "type": "string" },
+    "match_rule": { "type": "string" },
+    "match_fields": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 8,
+      "uniqueItems": true
+    },
+    "roots": {
+      "type": "object",
+      "required": ["core", "origin-shensha", "extended"],
+      "additionalProperties": { "type": "string" }
+    },
+    "books": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["dir", "tier", "count"],
+        "properties": {
+          "dir": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "tier": { "enum": ["core", "origin-shensha", "extended"] },
+          "tier_name": { "type": "string" },
+          "count": { "type": "integer", "minimum": 0 }
+        }
+      }
+    },
+    "total": { "type": "integer", "minimum": 0 },
+    "entries": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/entry" }
+    }
+  },
+  "$defs": {
+    "conditions": {
+      "type": "object",
+      "description": "All eight fields are always present (empty array when unused). Controlled vocabularies for ten_god/pattern/shensha live in controlled_vocabulary.json; keywords are open.",
+      "required": ["day_master", "month_branch", "day_pillar", "hour_pillar",
+                   "ten_god", "pattern", "shensha", "keywords"],
+      "properties": {
+        "day_master": { "type": "array", "items": { "type": "string" } },
+        "month_branch": { "type": "array", "items": { "type": "string" } },
+        "day_pillar": { "type": "array", "items": { "type": "string" } },
+        "hour_pillar": { "type": "array", "items": { "type": "string" } },
+        "ten_god": { "type": "array", "items": { "type": "string" } },
+        "pattern": { "type": "array", "items": { "type": "string" } },
+        "shensha": { "type": "array", "items": { "type": "string" } },
+        "keywords": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": false
+    },
+    "entry": {
+      "type": "object",
+      "required": ["id", "book", "type", "tier", "path", "weight", "title", "chapter", "conditions"],
+      "additionalProperties": true,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9_]+$", "description": "Globally unique; equals Markdown filename stem." },
+        "book": { "type": "string" },
+        "type": { "type": "string" },
+        "tier": { "enum": ["core", "origin-shensha", "extended"] },
+        "path": { "type": "string", "pattern": "^(core|origin-shensha|extended)/[a-z0-9-]+/[a-z0-9_]+\\.md$" },
+        "weight": { "type": "integer", "minimum": 0, "maximum": 10 },
+        "title": { "type": "string" },
+        "chapter": { "type": "string" },
+        "conditions": { "$ref": "#/$defs/conditions" }
+      }
+    }
+  }
+}
