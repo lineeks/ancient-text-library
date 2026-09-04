@@ -14,7 +14,7 @@ conditions:
   hour_pillar: []
   ten_god: []
   pattern: []
-  shensha: []
+  shensha: ["科名星", "魁星"]
   keywords: ["科名"]
 weight: 2
 tags: ["五行精纪", "第20卷", "科名"]

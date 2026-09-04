@@ -12,7 +12,7 @@ conditions:
   month_branch: []
   day_pillar: []
   hour_pillar: []
-  ten_god: ["食神"]
+  ten_god: ["食神", "偏印"]
   pattern: []
   shensha: []
   keywords: ["食神"]

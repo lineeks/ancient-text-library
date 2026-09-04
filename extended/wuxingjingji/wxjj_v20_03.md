@@ -14,7 +14,7 @@ conditions:
   hour_pillar: []
   ten_god: []
   pattern: []
-  shensha: ["学堂"]
+  shensha: ["学堂", "词馆"]
   keywords: ["学堂文章"]
 weight: 2
 tags: ["五行精纪", "第20卷", "学堂文章"]

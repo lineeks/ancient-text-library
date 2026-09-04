@@ -14,7 +14,7 @@ conditions:
   hour_pillar: []
   ten_god: []
   pattern: []
-  shensha: ["天乙贵人"]
+  shensha: ["天乙贵人", "太极贵人"]
   keywords: ["释吉贵神例"]
 weight: 2
 tags: ["五行精纪", "第13卷", "释吉贵神例"]

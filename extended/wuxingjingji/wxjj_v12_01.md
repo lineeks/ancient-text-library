@@ -14,7 +14,7 @@ conditions:
   hour_pillar: []
   ten_god: []
   pattern: []
-  shensha: []
+  shensha: ["天月二德", "天德贵人", "月德贵人"]
   keywords: ["十二月节气"]
 weight: 2
 tags: ["五行精纪", "第12卷", "十二月节气"]

@@ -14,7 +14,7 @@ conditions:
   hour_pillar: []
   ten_god: []
   pattern: []
-  shensha: []
+  shensha: ["刑冲"]
   keywords: ["冲破"]
 weight: 2
 tags: ["五行精纪", "第26卷", "冲破"]

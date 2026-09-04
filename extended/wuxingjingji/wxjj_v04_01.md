@@ -13,8 +13,8 @@ conditions:
   day_pillar: []
   hour_pillar: []
   ten_god: []
-  pattern: []
-  shensha: []
+  pattern: ["化格"]
+  shensha: ["十干合", "化气"]
   keywords: ["干神二"]
 weight: 2
 tags: ["五行精纪", "第4卷", "干神二"]

@@ -14,7 +14,7 @@ conditions:
   hour_pillar: []
   ten_god: []
   pattern: []
-  shensha: ["凶煞"]
+  shensha: ["凶煞", "空亡"]
   keywords: ["凶神例"]
 weight: 2
 tags: ["五行精纪", "第23卷", "凶神例"]

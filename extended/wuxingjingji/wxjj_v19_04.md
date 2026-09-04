@@ -12,7 +12,7 @@ conditions:
   month_branch: []
   day_pillar: []
   hour_pillar: []
-  ten_god: ["正财"]
+  ten_god: ["正财", "偏财"]
   pattern: []
   shensha: []
   keywords: ["财"]

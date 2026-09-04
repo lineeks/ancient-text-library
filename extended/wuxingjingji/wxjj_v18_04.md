@@ -14,7 +14,7 @@ conditions:
   hour_pillar: []
   ten_god: []
   pattern: []
-  shensha: ["吉神"]
+  shensha: ["吉神", "六合", "三合"]
   keywords: ["吉神"]
 weight: 2
 tags: ["五行精纪", "第18卷", "吉神"]

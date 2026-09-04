@@ -12,7 +12,7 @@ conditions:
   month_branch: []
   day_pillar: []
   hour_pillar: []
-  ten_god: ["正官"]
+  ten_god: ["正官", "七杀"]
   pattern: []
   shensha: []
   keywords: ["官神"]

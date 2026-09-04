@@ -14,7 +14,7 @@ conditions:
   hour_pillar: []
   ten_god: []
   pattern: []
-  shensha: ["凶煞"]
+  shensha: ["凶煞", "天罗地网"]
   keywords: ["凶杀"]
 weight: 2
 tags: ["五行精纪", "第27卷", "凶杀"]
