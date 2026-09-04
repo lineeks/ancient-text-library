@@ -25,17 +25,17 @@
 | `mlyy_fa14` | 看流年法 | — | — | — | [mlyy_fa14.md](./mlyy_fa14.md) |
 | `mlyy_fa15` | 看正官法 | 正官格 | 正官 | — | [mlyy_fa15.md](./mlyy_fa15.md) |
 | `mlyy_fa16` | 看偏官法 | 七杀格 | 七杀 | — | [mlyy_fa16.md](./mlyy_fa16.md) |
-| `mlyy_fa17` | 看官煞去留法一 | 七杀格 | 七杀 | — | [mlyy_fa17.md](./mlyy_fa17.md) |
-| `mlyy_fa18` | 看官煞去留法二 | 七杀格 | 七杀 | — | [mlyy_fa18.md](./mlyy_fa18.md) |
-| `mlyy_fa19` | 看官煞去留法三 | 七杀格 | 七杀 | — | [mlyy_fa19.md](./mlyy_fa19.md) |
-| `mlyy_fa20` | 看正偏印法 | — | 正印, 偏印 | — | [mlyy_fa20.md](./mlyy_fa20.md) |
-| `mlyy_fa21` | 看偏正财法 | — | 正财, 偏财 | — | [mlyy_fa21.md](./mlyy_fa21.md) |
-| `mlyy_fa22` | 看食神法 | — | 食神 | — | [mlyy_fa22.md](./mlyy_fa22.md) |
-| `mlyy_fa23` | 看伤官法 | — | 伤官 | — | [mlyy_fa23.md](./mlyy_fa23.md) |
-| `mlyy_fa24` | 看食神法 | — | 食神 | — | [mlyy_fa24.md](./mlyy_fa24.md) |
-| `mlyy_fa25` | 看比劫禄刃法 | — | 比肩, 劫财 | — | [mlyy_fa25.md](./mlyy_fa25.md) |
+| `mlyy_fa17` | 看官煞去留法一 | 七杀格, 正官格 | 七杀, 正官 | — | [mlyy_fa17.md](./mlyy_fa17.md) |
+| `mlyy_fa18` | 看官煞去留法二 | 七杀格, 正官格 | 七杀, 正官 | — | [mlyy_fa18.md](./mlyy_fa18.md) |
+| `mlyy_fa19` | 看官煞去留法三 | 七杀格, 正官格 | 七杀, 正官 | — | [mlyy_fa19.md](./mlyy_fa19.md) |
+| `mlyy_fa20` | 看正偏印法 | 印绶格 | 正印, 偏印 | — | [mlyy_fa20.md](./mlyy_fa20.md) |
+| `mlyy_fa21` | 看偏正财法 | 财格 | 正财, 偏财 | — | [mlyy_fa21.md](./mlyy_fa21.md) |
+| `mlyy_fa22` | 看食神法 | 食神格 | 食神 | — | [mlyy_fa22.md](./mlyy_fa22.md) |
+| `mlyy_fa23` | 看伤官法 | 伤官格 | 伤官 | — | [mlyy_fa23.md](./mlyy_fa23.md) |
+| `mlyy_fa24` | 看食神法 | 食神格 | 食神 | — | [mlyy_fa24.md](./mlyy_fa24.md) |
+| `mlyy_fa25` | 看比劫禄刃法 | 建禄格, 阳刃格, 月劫格 | 比肩, 劫财 | — | [mlyy_fa25.md](./mlyy_fa25.md) |
 | `mlyy_fa26` | 看拱夹法 | 拱夹格 | — | — | [mlyy_fa26.md](./mlyy_fa26.md) |
-| `mlyy_fa27` | 看杂气墓库法 | — | — | — | [mlyy_fa27.md](./mlyy_fa27.md) |
+| `mlyy_fa27` | 看杂气墓库法 | 杂气格 | — | — | [mlyy_fa27.md](./mlyy_fa27.md) |
 | `mlyy_fa28` | 看从局法 | 从格 | — | — | [mlyy_fa28.md](./mlyy_fa28.md) |
 | `mlyy_fa29` | 看化局法 | 化格 | — | — | [mlyy_fa29.md](./mlyy_fa29.md) |
 | `mlyy_fa30` | 看一行得气法 | 一行得气格 | — | — | [mlyy_fa30.md](./mlyy_fa30.md) |
@@ -64,14 +64,14 @@
 | `mlyy_fu04` | 流年赋 | — | — | — | [mlyy_fu04.md](./mlyy_fu04.md) |
 | `mlyy_fu05` | 正官赋 | 正官格 | 正官 | — | [mlyy_fu05.md](./mlyy_fu05.md) |
 | `mlyy_fu06` | 偏官赋 | 七杀格 | 七杀 | — | [mlyy_fu06.md](./mlyy_fu06.md) |
-| `mlyy_fu07` | 正印赋 | — | 正印, 偏印 | — | [mlyy_fu07.md](./mlyy_fu07.md) |
-| `mlyy_fu08` | 偏印赋 | — | 正印, 偏印 | — | [mlyy_fu08.md](./mlyy_fu08.md) |
-| `mlyy_fu09` | 正财赋 | — | 正财, 偏财 | — | [mlyy_fu09.md](./mlyy_fu09.md) |
-| `mlyy_fu10` | 偏财赋 | — | 正财, 偏财 | — | [mlyy_fu10.md](./mlyy_fu10.md) |
-| `mlyy_fu11` | 食神赋 | — | 食神 | — | [mlyy_fu11.md](./mlyy_fu11.md) |
-| `mlyy_fu12` | 伤官赋 | — | 伤官 | — | [mlyy_fu12.md](./mlyy_fu12.md) |
-| `mlyy_fu13` | 比劫赋 | — | 比肩, 劫财 | — | [mlyy_fu13.md](./mlyy_fu13.md) |
-| `mlyy_fu14` | 禄刃赋 | — | 比肩, 劫财 | — | [mlyy_fu14.md](./mlyy_fu14.md) |
+| `mlyy_fu07` | 正印赋 | 印绶格 | 正印, 偏印 | — | [mlyy_fu07.md](./mlyy_fu07.md) |
+| `mlyy_fu08` | 偏印赋 | 印绶格 | 正印, 偏印 | — | [mlyy_fu08.md](./mlyy_fu08.md) |
+| `mlyy_fu09` | 正财赋 | 财格 | 正财, 偏财 | — | [mlyy_fu09.md](./mlyy_fu09.md) |
+| `mlyy_fu10` | 偏财赋 | 财格 | 正财, 偏财 | — | [mlyy_fu10.md](./mlyy_fu10.md) |
+| `mlyy_fu11` | 食神赋 | 食神格 | 食神 | — | [mlyy_fu11.md](./mlyy_fu11.md) |
+| `mlyy_fu12` | 伤官赋 | 伤官格 | 伤官 | — | [mlyy_fu12.md](./mlyy_fu12.md) |
+| `mlyy_fu13` | 比劫赋 | 建禄格, 月劫格 | 比肩, 劫财 | — | [mlyy_fu13.md](./mlyy_fu13.md) |
+| `mlyy_fu14` | 禄刃赋 | 建禄格, 阳刃格, 月劫格 | 比肩, 劫财 | — | [mlyy_fu14.md](./mlyy_fu14.md) |
 | `mlyy_fu15` | 从局赋 | 从格 | — | — | [mlyy_fu15.md](./mlyy_fu15.md) |
 | `mlyy_fu16` | 化局赋 | 化格 | — | — | [mlyy_fu16.md](./mlyy_fu16.md) |
 | `mlyy_fu17` | 一行得气赋 | 一行得气格 | — | — | [mlyy_fu17.md](./mlyy_fu17.md) |
@@ -93,16 +93,16 @@
 | `mlyy_lun12` | 十干生旺墓等位论 | — | — | — | [mlyy_lun12.md](./mlyy_lun12.md) |
 | `mlyy_lun13` | 十二支作用论 | — | — | — | [mlyy_lun13.md](./mlyy_lun13.md) |
 | `mlyy_lun14` | 支干覆载论 | — | — | — | [mlyy_lun14.md](./mlyy_lun14.md) |
-| `mlyy_lun15` | 诸神煞论一 | 七杀格 | 七杀 | 神煞 | [mlyy_lun15.md](./mlyy_lun15.md) |
-| `mlyy_lun16` | 诸神煞二 | 七杀格 | 七杀 | 神煞 | [mlyy_lun16.md](./mlyy_lun16.md) |
+| `mlyy_lun15` | 诸神煞论一 | — | — | 神煞 | [mlyy_lun15.md](./mlyy_lun15.md) |
+| `mlyy_lun16` | 诸神煞二 | — | — | 神煞 | [mlyy_lun16.md](./mlyy_lun16.md) |
 | `mlyy_lun17` | 太岁论 | — | — | — | [mlyy_lun17.md](./mlyy_lun17.md) |
-| `mlyy_lun18` | 月煞论 | 七杀格 | 七杀 | 月煞 | [mlyy_lun18.md](./mlyy_lun18.md) |
+| `mlyy_lun18` | 月煞论 | — | — | 月煞 | [mlyy_lun18.md](./mlyy_lun18.md) |
 | `mlyy_lun19` | 天月二德论 | — | — | 天月二德 | [mlyy_lun19.md](./mlyy_lun19.md) |
 | `mlyy_lun20` | 贵人论 | — | — | 天乙贵人 | [mlyy_lun20.md](./mlyy_lun20.md) |
 | `mlyy_lun21` | 月将论 | — | — | — | [mlyy_lun21.md](./mlyy_lun21.md) |
 | `mlyy_lun22` | 驿马论 | — | — | 驿马 | [mlyy_lun22.md](./mlyy_lun22.md) |
 | `mlyy_lun23` | 空亡论 | — | — | 空亡 | [mlyy_lun23.md](./mlyy_lun23.md) |
-| `mlyy_lun24` | 劫煞论 | 七杀格 | 七杀 | 劫煞 | [mlyy_lun24.md](./mlyy_lun24.md) |
+| `mlyy_lun24` | 劫煞论 | — | — | 劫煞 | [mlyy_lun24.md](./mlyy_lun24.md) |
 | `mlyy_lun25` | 纳音论 | — | — | — | [mlyy_lun25.md](./mlyy_lun25.md) |
 | `mlyy_lun26` | 八法论 | — | — | — | [mlyy_lun26.md](./mlyy_lun26.md) |
 | `mlyy_lun27` | 小运论 | — | — | — | [mlyy_lun27.md](./mlyy_lun27.md) |
