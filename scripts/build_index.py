@@ -352,7 +352,10 @@ def build_root_index(counts):
              f"| 民俗·称骨 | 袁天罡称骨歌 | 袁天罡（托名·唐）·通行本 | {counts['chenggu']} | [索引](./library/ming/bazi/extended/chenggu/INDEX.md) | ✅ |",
              f"| 补遗·古法禄命 | 李虚中命书 | 旧题鬼谷子撰·唐李虚中注·四库本 | {counts['lxzmingshu']} | [索引](./library/ming/bazi/extended/lxzmingshu/INDEX.md) | ✅ |",
              f"| 补遗·禄命鼻祖 | 珞琭子赋注 | 宋释昙莹撰·四库本 | {counts['luoluozi']} | [索引](./library/ming/bazi/extended/luoluozi/INDEX.md) | ✅ |",
-             f"| **合计** | **12 部** | — | **{total}** | — | — |", "",
+             f"| 命·紫微 | 紫微斗数全书 | 明罗洪先编·精选 | {counts['quanshu']} | [索引](./library/ming/ziwei/quanshu/INDEX.md) | ✅ |",
+             f"| 命·紫微 | 紫微斗数全集 | 清代古本·精选 | {counts['quanji']} | [索引](./library/ming/ziwei/quanji/INDEX.md) | ✅ |",
+             f"| 命·紫微 | 斗数骨髓赋 | 紫微核心歌诀 | {counts['gusuifu']} | [索引](./library/ming/ziwei/gusuifu/INDEX.md) | ✅ |",
+             f"| **合计** | **15 部** | — | **{total}** | — | — |", "",
              "## 目录结构", "",
              "```text",
              "ancient-text-library/",
@@ -379,6 +382,10 @@ def build_root_index(counts):
              "│               ├── chenggu/   # 袁天罡称骨歌 57",
              "│               ├── lxzmingshu/ # 李虚中命书 68",
              "│               └── luoluozi/  # 珞琭子赋注 62",
+             "│           └── ziwei/         # 紫微斗数（subcategory=ziwei）",
+             "│               ├── quanshu/   # 紫微斗数全书 17",
+             "│               ├── quanji/    # 紫微斗数全集 29",
+             "│               └── gusuifu/   # 斗数骨髓赋 29",
              "├── yi/                        # 医·中医（待建，library/yi/）",
              "├── xiang/                     # 相·相术（待建，library/xiang/）",
              "├── bu/                        # 卜·卜筮（待建，library/bu/）",
@@ -438,6 +445,15 @@ def main():
         ("library/ming/bazi/extended", "luoluozi", build_generic_index(
             "珞琭子赋注",
             "宋释昙莹撰，兼收王廷光、李仝注。珞琭子三命消息赋为禄命鼻祖，以赋文体论述五行、干禄、支命、大运、神煞等命理原理，四库全书本。")),
+        ("library/ming/ziwei", "quanshu", build_generic_index(
+            "紫微斗数全书",
+            "明罗洪先编，紫微斗数最系统古籍，强调十二宫与四化关系。核心精选本。")),
+        ("library/ming/ziwei", "quanji", build_generic_index(
+            "紫微斗数全集",
+            "清代古本，紫微斗数重要典籍。核心精选本。")),
+        ("library/ming/ziwei", "gusuifu", build_generic_index(
+            "斗数骨髓赋",
+            "紫微斗数核心歌诀，以赋文体概括星曜性情与宫位断验。")),
     ]
     counts = {}
     for root, book, builder in plan:

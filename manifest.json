@@ -17,6 +17,7 @@
     "library/ming/bazi/origin-shensha": "第二梯队·渊源神煞",
     "library/ming/bazi/extended": "第三梯队·实战与补遗",
     "library/ming": "命·命理",
+    "library/ming/ziwei": "紫微斗数",
     "library/yi": "医·中医",
     "library/xiang": "相·相术",
     "library/bu": "卜·卜筮",
@@ -141,9 +142,41 @@
       "category": "ming",
       "subcategory": "bazi",
       "count": 0
+    },
+    {
+      "dir": "ziwei",
+      "tier": "library/ming",
+      "tier_name": "命·命理",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "count": 0
+    },
+    {
+      "dir": "gusuifu",
+      "tier": "library/ming/ziwei",
+      "tier_name": "紫微斗数",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "count": 29
+    },
+    {
+      "dir": "quanji",
+      "tier": "library/ming/ziwei",
+      "tier_name": "紫微斗数",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "count": 29
+    },
+    {
+      "dir": "quanshu",
+      "tier": "library/ming/ziwei",
+      "tier_name": "紫微斗数",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "count": 17
     }
   ],
-  "total": 1734,
+  "total": 1809,
   "entries": [
     {
       "id": "dtcs_lq01_fuqi",
@@ -48775,6 +48808,2110 @@
           "会要",
           "命书",
           "总结"
+        ]
+      }
+    },
+    {
+      "id": "zw_gusuifu_000",
+      "book": "斗数骨髓赋",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/gusuifu/zw_gusuifu_000.md",
+      "weight": 3,
+      "title": "太极星曜，乃群星之主。紫微帝",
+      "chapter": "紫微斗数的基本立论",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "四化",
+          "紫微星",
+          "天府星",
+          "辅弼"
+        ]
+      }
+    },
+    {
+      "id": "zw_gusuifu_001",
+      "book": "斗数骨髓赋",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/gusuifu/zw_gusuifu_001.md",
+      "weight": 3,
+      "title": "紫微为君，以左辅右弼为相。天",
+      "chapter": "紫微斗数的基本立论",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "紫微星",
+          "天机星",
+          "廉贞星",
+          "天府星",
+          "天梁星",
+          "破军星",
+          "辅弼",
+          "禄存"
+        ]
+      }
+    },
+    {
+      "id": "zw_gusuifu_002",
+      "book": "斗数骨髓赋",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/gusuifu/zw_gusuifu_002.md",
+      "weight": 3,
+      "title": "看命之要，先看命宫。命宫主星",
+      "chapter": "紫微斗数的基本立论",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "命宫",
+          "紫微星",
+          "三方四正",
+          "大限流年",
+          "格局",
+          "主星"
+        ]
+      }
+    },
+    {
+      "id": "zw_gusuifu_003",
+      "book": "斗数骨髓赋",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/gusuifu/zw_gusuifu_003.md",
+      "weight": 3,
+      "title": "紫微为帝座之星，得辅弼则贵，",
+      "chapter": "帝座之尊，得辅则贵",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "紫微星",
+          "三方四正"
+        ]
+      }
+    },
+    {
+      "id": "zw_gusuifu_004",
+      "book": "斗数骨髓赋",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/gusuifu/zw_gusuifu_004.md",
+      "weight": 3,
+      "title": "紫微在子午为「面南背北」之贵",
+      "chapter": "帝座之尊，得辅则贵",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "紫微星",
+          "天府星",
+          "破军星"
+        ]
+      }
+    },
+    {
+      "id": "zw_gusuifu_005",
+      "book": "斗数骨髓赋",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/gusuifu/zw_gusuifu_005.md",
+      "weight": 3,
+      "title": "紫微居官禄，无煞冲破，必为高",
+      "chapter": "帝座之尊，得辅则贵",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "夫妻宫",
+          "官禄宫",
+          "紫微星"
+        ]
+      }
+    },
+    {
+      "id": "zw_gusuifu_006",
+      "book": "斗数骨髓赋",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/gusuifu/zw_gusuifu_006.md",
+      "weight": 3,
+      "title": "紫微忌空劫，主有位无禄。紫微",
+      "chapter": "帝座之尊，得辅则贵",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "四化",
+          "紫微星"
+        ]
+      }
+    },
+    {
+      "id": "zw_gusuifu_007",
+      "book": "斗数骨髓赋",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/gusuifu/zw_gusuifu_007.md",
+      "weight": 3,
+      "title": "七杀为将星，性刚毅果决。七杀",
+      "chapter": "将星孤独，宜武职",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "官禄宫",
+          "七杀星"
+        ]
+      }
+    },
+    {
+      "id": "zw_gusuifu_008",
+      "book": "斗数骨髓赋",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/gusuifu/zw_gusuifu_008.md",
+      "weight": 3,
+      "title": "七杀朝斗格：七杀居子午、寅申",
+      "chapter": "将星孤独，宜武职",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "紫微星",
+          "天府星",
+          "七杀星"
+        ]
+      }
+    },
+    {
+      "id": "zw_gusuifu_009",
+      "book": "斗数骨髓赋",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/gusuifu/zw_gusuifu_009.md",
+      "weight": 3,
+      "title": "七杀逢羊陀，主刑伤血光；七杀",
+      "chapter": "将星孤独，宜武职",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "官禄宫",
+          "四化",
+          "七杀星"
+        ]
+      }
+    },
+    {
+      "id": "zw_gusuifu_010",
+      "book": "斗数骨髓赋",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/gusuifu/zw_gusuifu_010.md",
+      "weight": 3,
+      "title": "七杀、破军、贪狼三星会命迁财",
+      "chapter": "开创闯荡，变动之命",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "贪狼星",
+          "七杀星",
+          "破军星"
+        ]
+      }
+    },
+    {
+      "id": "zw_gusuifu_011",
+      "book": "斗数骨髓赋",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/gusuifu/zw_gusuifu_011.md",
+      "weight": 3,
+      "title": "杀破狼三方有化禄或化权，主动",
+      "chapter": "开创闯荡，变动之命",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "四化",
+          "辅煞星"
+        ]
+      }
+    },
+    {
+      "id": "zw_gusuifu_012",
+      "book": "斗数骨髓赋",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/gusuifu/zw_gusuifu_012.md",
+      "weight": 3,
+      "title": "天机、太阴、天同、天梁四星齐",
+      "chapter": "稳定累积，宜公职",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "天机星",
+          "天同星",
+          "太阴星",
+          "天梁星"
+        ]
+      }
+    },
+    {
+      "id": "zw_gusuifu_013",
+      "book": "斗数骨髓赋",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/gusuifu/zw_gusuifu_013.md",
+      "weight": 3,
+      "title": "机月同梁作吏人——古云此格者",
+      "chapter": "稳定累积，宜公职",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "四化",
+          "辅煞星"
+        ]
+      }
+    },
+    {
+      "id": "zw_gusuifu_014",
+      "book": "斗数骨髓赋",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/gusuifu/zw_gusuifu_014.md",
+      "weight": 3,
+      "title": "化禄主财、主缘、主能力变现；",
+      "chapter": "化禄化权化科化忌之吉凶",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "四化"
+        ]
+      }
+    },
+    {
+      "id": "zw_gusuifu_015",
+      "book": "斗数骨髓赋",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/gusuifu/zw_gusuifu_015.md",
+      "weight": 3,
+      "title": "化禄入命，财源广进；化权入命",
+      "chapter": "化禄化权化科化忌之吉凶",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "四化"
+        ]
+      }
+    },
+    {
+      "id": "zw_gusuifu_016",
+      "book": "斗数骨髓赋",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/gusuifu/zw_gusuifu_016.md",
+      "weight": 3,
+      "title": "化忌入财，主财来财去；化忌入",
+      "chapter": "化禄化权化科化忌之吉凶",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "夫妻宫",
+          "官禄宫",
+          "四化"
+        ]
+      }
+    },
+    {
+      "id": "zw_gusuifu_017",
+      "book": "斗数骨髓赋",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/gusuifu/zw_gusuifu_017.md",
+      "weight": 3,
+      "title": "禄存与化禄同会命三方，称「双",
+      "chapter": "化禄化权化科化忌之吉凶",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "四化",
+          "禄存"
+        ]
+      }
+    },
+    {
+      "id": "zw_gusuifu_018",
+      "book": "斗数骨髓赋",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/gusuifu/zw_gusuifu_018.md",
+      "weight": 3,
+      "title": "左辅右弼为「相星」，主助力贵",
+      "chapter": "六吉星之贵",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "昌曲",
+          "辅弼",
+          "魁钺"
+        ]
+      }
+    },
+    {
+      "id": "zw_gusuifu_019",
+      "book": "斗数骨髓赋",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/gusuifu/zw_gusuifu_019.md",
+      "weight": 3,
+      "title": "六吉星齐会命宫三方四正，主一",
+      "chapter": "六吉星之贵",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "命宫",
+          "三方四正"
+        ]
+      }
+    },
+    {
+      "id": "zw_gusuifu_020",
+      "book": "斗数骨髓赋",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/gusuifu/zw_gusuifu_020.md",
+      "weight": 3,
+      "title": "辅弼夹命：左辅右弼夹于命宫前",
+      "chapter": "六吉星之贵",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "命宫",
+          "紫微星",
+          "辅弼"
+        ]
+      }
+    },
+    {
+      "id": "zw_gusuifu_021",
+      "book": "斗数骨髓赋",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/gusuifu/zw_gusuifu_021.md",
+      "weight": 3,
+      "title": "擎羊陀罗为「煞星」，主血光、",
+      "chapter": "羊陀火铃空劫之凶",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "羊陀",
+          "火铃",
+          "空劫",
+          "辅煞星"
+        ]
+      }
+    },
+    {
+      "id": "zw_gusuifu_022",
+      "book": "斗数骨髓赋",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/gusuifu/zw_gusuifu_022.md",
+      "weight": 3,
+      "title": "煞星不全是凶——煞星犹如磨刀",
+      "chapter": "羊陀火铃空劫之凶",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "辅煞星"
+        ]
+      }
+    },
+    {
+      "id": "zw_gusuifu_023",
+      "book": "斗数骨髓赋",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/gusuifu/zw_gusuifu_023.md",
+      "weight": 3,
+      "title": "羊陀夹忌：擎羊陀罗夹于化忌星",
+      "chapter": "羊陀火铃空劫之凶",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "四化",
+          "羊陀",
+          "大限流年"
+        ]
+      }
+    },
+    {
+      "id": "zw_gusuifu_024",
+      "book": "斗数骨髓赋",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/gusuifu/zw_gusuifu_024.md",
+      "weight": 3,
+      "title": "空劫夹命：地空地劫夹于命宫前",
+      "chapter": "羊陀火铃空劫之凶",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "命宫",
+          "空劫"
+        ]
+      }
+    },
+    {
+      "id": "zw_gusuifu_025",
+      "book": "斗数骨髓赋",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/gusuifu/zw_gusuifu_025.md",
+      "weight": 3,
+      "title": "命宫为本，三方为用：财帛主财",
+      "chapter": "各宫主象与吉凶",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "命宫",
+          "官禄宫",
+          "三方四正"
+        ]
+      }
+    },
+    {
+      "id": "zw_gusuifu_026",
+      "book": "斗数骨髓赋",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/gusuifu/zw_gusuifu_026.md",
+      "weight": 3,
+      "title": "夫妻宫看配偶气质，子女宫看子",
+      "chapter": "各宫主象与吉凶",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "夫妻宫",
+          "子女宫",
+          "疾厄宫",
+          "迁移宫",
+          "四化",
+          "主星"
+        ]
+      }
+    },
+    {
+      "id": "zw_gusuifu_027",
+      "book": "斗数骨髓赋",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/gusuifu/zw_gusuifu_027.md",
+      "weight": 3,
+      "title": "田宅宫为命盘财库，正财能否守",
+      "chapter": "各宫主象与吉凶",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "田宅宫",
+          "福德宫",
+          "父母宫"
+        ]
+      }
+    },
+    {
+      "id": "zw_gusuifu_028",
+      "book": "斗数骨髓赋",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/gusuifu/zw_gusuifu_028.md",
+      "weight": 3,
+      "title": "空宫借对宫论事——某宫无主星",
+      "chapter": "各宫主象与吉凶",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "命宫",
+          "迁移宫",
+          "主星"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanji_000",
+      "book": "紫微斗数全集",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanji/zw_quanji_000.md",
+      "weight": 3,
+      "title": "夫紫微斗数者，乃陈抟祖师所传",
+      "chapter": "紫微斗数的基本立法",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "命宫",
+          "十二宫",
+          "紫微星",
+          "庙旺落陷",
+          "三方四正",
+          "大限流年"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanji_001",
+      "book": "紫微斗数全集",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanji/zw_quanji_001.md",
+      "weight": 3,
+      "title": "安星之法：先以年干起紫微，紫",
+      "chapter": "紫微斗数的基本立法",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "十二宫",
+          "紫微星",
+          "主星"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanji_002",
+      "book": "紫微斗数全集",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanji/zw_quanji_002.md",
+      "weight": 3,
+      "title": "命宫为本，主一生格局；身宫为",
+      "chapter": "紫微斗数的基本立法",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "命宫",
+          "十二宫",
+          "紫微星",
+          "三方四正",
+          "格局"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanji_003",
+      "book": "紫微斗数全集",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanji/zw_quanji_003.md",
+      "weight": 3,
+      "title": "紫微为北斗之主，统辖众星。紫",
+      "chapter": "帝座之尊",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "紫微星",
+          "辅弼"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanji_004",
+      "book": "紫微斗数全集",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanji/zw_quanji_004.md",
+      "weight": 3,
+      "title": "紫微独坐，需有左右昌曲魁钺夹",
+      "chapter": "帝座之尊",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "紫微星",
+          "三方四正"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanji_005",
+      "book": "紫微斗数全集",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanji/zw_quanji_005.md",
+      "weight": 3,
+      "title": "紫微入命，兄弟有贵气，独立挺",
+      "chapter": "帝座之尊",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "夫妻宫",
+          "紫微星"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanji_006",
+      "book": "紫微斗数全集",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanji/zw_quanji_006.md",
+      "weight": 3,
+      "title": "紫微在田宅，主有祖业又能自置",
+      "chapter": "帝座之尊",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "官禄宫",
+          "田宅宫",
+          "福德宫",
+          "紫微星"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanji_007",
+      "book": "紫微斗数全集",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanji/zw_quanji_007.md",
+      "weight": 3,
+      "title": "天府属土，南斗令星，乃禄库之",
+      "chapter": "天府、太阴、贪狼、巨门、天相、天梁",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "紫微星",
+          "天府星",
+          "太阴星",
+          "贪狼星",
+          "巨门星",
+          "天相星",
+          "天梁星",
+          "禄存"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanji_008",
+      "book": "紫微斗数全集",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanji/zw_quanji_008.md",
+      "weight": 3,
+      "title": "太阴为中天主星，属水。太阴庙",
+      "chapter": "天府、太阴、贪狼、巨门、天相、天梁",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "天府星",
+          "太阴星",
+          "贪狼星",
+          "巨门星",
+          "天相星",
+          "天梁星",
+          "庙旺落陷",
+          "主星"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanji_009",
+      "book": "紫微斗数全集",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanji/zw_quanji_009.md",
+      "weight": 3,
+      "title": "贪狼为桃花欲望之星，属木属水",
+      "chapter": "天府、太阴、贪狼、巨门、天相、天梁",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "天府星",
+          "太阴星",
+          "贪狼星",
+          "巨门星",
+          "天相星",
+          "天梁星",
+          "火铃"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanji_010",
+      "book": "紫微斗数全集",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanji/zw_quanji_010.md",
+      "weight": 3,
+      "title": "巨门属水，化气为暗，主口舌是",
+      "chapter": "天府、太阴、贪狼、巨门、天相、天梁",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "四化",
+          "太阳星",
+          "天府星",
+          "太阴星",
+          "贪狼星",
+          "巨门星",
+          "天相星",
+          "天梁星"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanji_011",
+      "book": "紫微斗数全集",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanji/zw_quanji_011.md",
+      "weight": 3,
+      "title": "天相属水，化气为印，乃辅佐之",
+      "chapter": "天府、太阴、贪狼、巨门、天相、天梁",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "紫微星",
+          "廉贞星",
+          "天府星",
+          "太阴星",
+          "贪狼星",
+          "巨门星",
+          "天相星",
+          "天梁星"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanji_012",
+      "book": "紫微斗数全集",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanji/zw_quanji_012.md",
+      "weight": 3,
+      "title": "天梁属土，化气为荫，乃老人之",
+      "chapter": "天府、太阴、贪狼、巨门、天相、天梁",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "四化",
+          "天府星",
+          "太阴星",
+          "贪狼星",
+          "巨门星",
+          "天相星",
+          "天梁星"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanji_013",
+      "book": "紫微斗数全集",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanji/zw_quanji_013.md",
+      "weight": 3,
+      "title": "紫微属土，已论于卷二。",
+      "chapter": "紫微、天机、太阳、武曲、廉贞、破军",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "紫微星",
+          "天机星",
+          "太阳星",
+          "武曲星",
+          "廉贞星",
+          "破军星"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanji_014",
+      "book": "紫微斗数全集",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanji/zw_quanji_014.md",
+      "weight": 3,
+      "title": "天机属木，化气为善，乃智慧之",
+      "chapter": "紫微、天机、太阳、武曲、廉贞、破军",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "紫微星",
+          "天机星",
+          "太阳星",
+          "武曲星",
+          "廉贞星",
+          "破军星",
+          "昌曲",
+          "三方四正"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanji_015",
+      "book": "紫微斗数全集",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanji/zw_quanji_015.md",
+      "weight": 3,
+      "title": "太阳属火，化气为贵，乃男贵之",
+      "chapter": "紫微、天机、太阳、武曲、廉贞、破军",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "紫微星",
+          "天机星",
+          "太阳星",
+          "武曲星",
+          "廉贞星",
+          "破军星",
+          "庙旺落陷"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanji_016",
+      "book": "紫微斗数全集",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanji/zw_quanji_016.md",
+      "weight": 3,
+      "title": "武曲属金，化气为财，乃财星之",
+      "chapter": "紫微、天机、太阳、武曲、廉贞、破军",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "四化",
+          "紫微星",
+          "天机星",
+          "太阳星",
+          "武曲星",
+          "廉贞星",
+          "七杀星",
+          "破军星"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanji_017",
+      "book": "紫微斗数全集",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanji/zw_quanji_017.md",
+      "weight": 3,
+      "title": "廉贞属火属木，化气为囚，乃次",
+      "chapter": "紫微、天机、太阳、武曲、廉贞、破军",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "四化",
+          "紫微星",
+          "天机星",
+          "太阳星",
+          "武曲星",
+          "廉贞星",
+          "天相星",
+          "破军星"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanji_018",
+      "book": "紫微斗数全集",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanji/zw_quanji_018.md",
+      "weight": 3,
+      "title": "破军属水，化气为耗，乃破坏创",
+      "chapter": "紫微、天机、太阳、武曲、廉贞、破军",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "四化",
+          "紫微星",
+          "天机星",
+          "太阳星",
+          "武曲星",
+          "廉贞星",
+          "破军星"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanji_019",
+      "book": "紫微斗数全集",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanji/zw_quanji_019.md",
+      "weight": 3,
+      "title": "化禄主财源，主缘分，主能力变",
+      "chapter": "四化之力与重要格局",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "四化",
+          "格局"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanji_020",
+      "book": "紫微斗数全集",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanji/zw_quanji_020.md",
+      "weight": 3,
+      "title": "化权主权力，主决断，主担当。",
+      "chapter": "四化之力与重要格局",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "官禄宫",
+          "四化",
+          "格局"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanji_021",
+      "book": "紫微斗数全集",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanji/zw_quanji_021.md",
+      "weight": 3,
+      "title": "化科主名声，主文书，主贵人。",
+      "chapter": "四化之力与重要格局",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "四化",
+          "格局"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanji_022",
+      "book": "紫微斗数全集",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanji/zw_quanji_022.md",
+      "weight": 3,
+      "title": "化忌主病，主煞，主深刻功课。",
+      "chapter": "四化之力与重要格局",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "四化",
+          "格局"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanji_023",
+      "book": "紫微斗数全集",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanji/zw_quanji_023.md",
+      "weight": 3,
+      "title": "紫府同宫格：紫微天府同入命宫",
+      "chapter": "四化之力与重要格局",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "命宫",
+          "四化",
+          "紫微星",
+          "天府星",
+          "格局"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanji_024",
+      "book": "紫微斗数全集",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanji/zw_quanji_024.md",
+      "weight": 3,
+      "title": "七杀朝斗格：七杀居子午寅申宫",
+      "chapter": "四化之力与重要格局",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "四化",
+          "紫微星",
+          "天府星",
+          "七杀星",
+          "格局"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanji_025",
+      "book": "紫微斗数全集",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanji/zw_quanji_025.md",
+      "weight": 3,
+      "title": "双禄朝垣格：化禄、禄存同会命",
+      "chapter": "四化之力与重要格局",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "命宫",
+          "四化",
+          "禄存",
+          "三方四正",
+          "格局"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanji_026",
+      "book": "紫微斗数全集",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanji/zw_quanji_026.md",
+      "weight": 3,
+      "title": "机月同梁格：天机、太阴、天同",
+      "chapter": "四化之力与重要格局",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "四化",
+          "天机星",
+          "天同星",
+          "太阴星",
+          "天梁星",
+          "格局"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanji_027",
+      "book": "紫微斗数全集",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanji/zw_quanji_027.md",
+      "weight": 3,
+      "title": "杀破狼格：七杀、破军、贪狼三",
+      "chapter": "四化之力与重要格局",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "四化",
+          "贪狼星",
+          "七杀星",
+          "破军星",
+          "格局"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanji_028",
+      "book": "紫微斗数全集",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanji/zw_quanji_028.md",
+      "weight": 3,
+      "title": "日月同宫格：太阳太阴同入丑宫",
+      "chapter": "四化之力与重要格局",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "官禄宫",
+          "四化",
+          "太阳星",
+          "太阴星",
+          "格局"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanshu_000",
+      "book": "紫微斗数全书",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanshu/zw_quanshu_000.md",
+      "weight": 3,
+      "title": "命宫者，一身之根本，万事之枢",
+      "chapter": "看命之根本",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "命宫",
+          "四化",
+          "三方四正",
+          "格局",
+          "主星"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanshu_001",
+      "book": "紫微斗数全书",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanshu/zw_quanshu_001.md",
+      "weight": 3,
+      "title": "命宫主星庙旺，主先天优势，做",
+      "chapter": "看命之根本",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "命宫",
+          "庙旺落陷",
+          "主星"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanshu_002",
+      "book": "紫微斗数全书",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanshu/zw_quanshu_002.md",
+      "weight": 3,
+      "title": "命宫见六吉星（左辅右弼文昌文",
+      "chapter": "看命之根本",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "命宫",
+          "昌曲",
+          "辅弼",
+          "羊陀",
+          "火铃",
+          "空劫",
+          "魁钺",
+          "辅煞星"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanshu_003",
+      "book": "紫微斗数全书",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanshu/zw_quanshu_003.md",
+      "weight": 3,
+      "title": "财帛宫主一生之财源、收入、理",
+      "chapter": "财源所在",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "财帛宫",
+          "紫微星",
+          "武曲星",
+          "太阴星",
+          "巨门星",
+          "主星"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanshu_004",
+      "book": "紫微斗数全书",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanshu/zw_quanshu_004.md",
+      "weight": 3,
+      "title": "财帛宫化禄入命，主财源广进；",
+      "chapter": "财源所在",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "财帛宫",
+          "四化",
+          "禄存"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanshu_005",
+      "book": "紫微斗数全书",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanshu/zw_quanshu_005.md",
+      "weight": 3,
+      "title": "官禄宫主事业、地位、社会成就",
+      "chapter": "事业之根",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "官禄宫",
+          "紫微星",
+          "太阳星",
+          "武曲星",
+          "廉贞星",
+          "主星"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanshu_006",
+      "book": "紫微斗数全书",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanshu/zw_quanshu_006.md",
+      "weight": 3,
+      "title": "官禄宫化权入命，主能独当一面",
+      "chapter": "事业之根",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "官禄宫",
+          "四化"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanshu_007",
+      "book": "紫微斗数全书",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanshu/zw_quanshu_007.md",
+      "weight": 3,
+      "title": "夫妻宫主配偶气质、婚姻状态。",
+      "chapter": "配偶气场",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "夫妻宫",
+          "紫微星",
+          "贪狼星",
+          "天梁星"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanshu_008",
+      "book": "紫微斗数全书",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanshu/zw_quanshu_008.md",
+      "weight": 3,
+      "title": "夫妻宫化忌冲命，主婚姻多波折",
+      "chapter": "配偶气场",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "夫妻宫",
+          "四化"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanshu_009",
+      "book": "紫微斗数全书",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanshu/zw_quanshu_009.md",
+      "weight": 3,
+      "title": "四化为命盘之精华——化禄主财",
+      "chapter": "化禄化权化科化忌",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "四化"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanshu_010",
+      "book": "紫微斗数全书",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanshu/zw_quanshu_010.md",
+      "weight": 3,
+      "title": "生年四化为本命四化，永远固定",
+      "chapter": "化禄化权化科化忌",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "四化",
+          "大限流年"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanshu_011",
+      "book": "紫微斗数全书",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanshu/zw_quanshu_011.md",
+      "weight": 3,
+      "title": "化禄入命三方四正：财源稳定，",
+      "chapter": "化禄化权化科化忌",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "夫妻宫",
+          "官禄宫",
+          "四化",
+          "三方四正"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanshu_012",
+      "book": "紫微斗数全书",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanshu/zw_quanshu_012.md",
+      "weight": 3,
+      "title": "化忌入命三方四正：一生有深刻",
+      "chapter": "化禄化权化科化忌",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "夫妻宫",
+          "官禄宫",
+          "四化",
+          "三方四正"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanshu_013",
+      "book": "紫微斗数全书",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanshu/zw_quanshu_013.md",
+      "weight": 3,
+      "title": "天机太阴天同天梁四星齐入命三",
+      "chapter": "稳定累积之命",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "天机星",
+          "天同星",
+          "太阴星",
+          "天梁星",
+          "三方四正"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanshu_014",
+      "book": "紫微斗数全书",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanshu/zw_quanshu_014.md",
+      "weight": 3,
+      "title": "机月同梁作吏人——古云此格者",
+      "chapter": "稳定累积之命",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "四化",
+          "辅煞星"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanshu_015",
+      "book": "紫微斗数全书",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanshu/zw_quanshu_015.md",
+      "weight": 3,
+      "title": "化禄与禄存同会命宫三方四正，",
+      "chapter": "富比陶朱",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "命宫",
+          "四化",
+          "禄存",
+          "三方四正"
+        ]
+      }
+    },
+    {
+      "id": "zw_quanshu_016",
+      "book": "紫微斗数全书",
+      "type": "chapter",
+      "tier": "library/ming/ziwei",
+      "category": "ming",
+      "subcategory": "ziwei",
+      "path": "library/ming/ziwei/quanshu/zw_quanshu_016.md",
+      "weight": 3,
+      "title": "双禄朝垣最忌空劫——空劫一冲",
+      "chapter": "富比陶朱",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "紫微斗数",
+          "昌曲",
+          "辅弼"
         ]
       }
     }
