@@ -16,7 +16,16 @@
 ```
 ancient-text-library/
 ├── README.md                     # 本文件：命名规范 / Frontmatter 规范 / 检索方式
-├── INDEX.md                      # 全库总索引（收录进度 + 分书导航 + 检索字段速查）
+├── INDEX.md                      # 全库总索引（收录进度 + 分书导航 + 检索字段速查，build_index 生成）
+├── manifest.json                 # 机器检索总清单（build_manifest 确定性生成，引擎一次性加载）
+├── AGENTS.md                     # 协作者规范：小步频繁 commit / 内容不变量 / 构建命令 / 环境坑
+├── engine/                       # Rust 检索骨架（框架无关，可被 Tauri 直接依赖；cargo test 自测）
+│   ├── Cargo.toml / Cargo.lock
+│   └── src/lib.rs                #   Library/Chart/Entry：加载 manifest、匹配、排序
+├── tests/                        # 召回回归测试（Python，与 Rust 语义交叉对齐）
+│   └── recall_regression.py
+├── docs/                         # 交叉校勘等工程化笔记
+│   └── cross-collation-tianyi-guiren.md  # 天乙贵人：三命 × 五行精纪 × 命理约言
 ├── raw/                          # 原始下载文本（统一 UTF-8，不做内容改动）
 │   ├── qiongtongbaojian.txt      #   穷通宝鉴（余春台辑本）
 │   ├── zipingzhenquan.txt        #   子平真诠评注（源为 UTF-16 LE，已转 UTF-8）
@@ -41,7 +50,10 @@ ancient-text-library/
 │   ├── parse_wuxingjingji.py     #   五行精纪 → 序2 + 34卷72节 = 74 条
 │   ├── fetch_mingliyaoyan.py     #   命理约言：抓取中华典藏六页并清洗合并
 │   ├── parse_mingliyaoyan.py     #   命理约言 → 序/48法/20赋/48论/杂论/跋 = 119 条
-│   ├── build_index.py            #   扫描 Frontmatter 生成各级 INDEX.md
+│   ├── build_index.py            #   扫描 Frontmatter 生成各级 INDEX.md（人读导航）
+│   ├── build_manifest.py         #   聚合为根 manifest.json（机读总清单，确定性、无时间戳）
+│   ├── retrieve_reference.py     #   参考检索器（Python，Rust engine 的等价参照 + CLI）
+│   ├── enrich_conditions.py      #   行级幂等增强 conditions 精准标签（--book/--dry，不碰正文）
 │   ├── validate_library.py       #   交付前质量门：YAML/id/字段/枚举/分层
 │   ├── export_for_baihua.py      #   白话管线：导出某书 id/标题/原文（含注解、命例）
 │   ├── export_compact.py         #   白话管线：精简导出（仅 id/标题/原文层，剔除注解与命例代码块）
@@ -162,8 +174,8 @@ tags: ["穷通宝鉴", "甲木", "寅月"]
 - **渊海子平（古歌赋印证）**：以 `keywords` 主题召回，作排盘下方歌赋佐证。
 - **神峰通考（病药实战）**：以 `keywords`（病药、雕枯旺弱、盖头、动静等）召回，weight=3。
 - **玉照定真经 / 千里命稿（古法流变 / 现代参照）**：玉照以口诀条目供溯源；千里本身为民国白话，按 `ten_god`/`pattern`/`keywords` 召回，weight=2。
-- **五行精纪（南宋禄命类书）**：体例为汇编体（每节集《烛神经》《珞琭子》《李虚中》等诸家），以 `keywords` 主题召回纳音、干神支神、禄马官印、贵局凶神、六亲运限等古法源流，weight=2。
-- **命理约言（清·陈素庵，韦千里选辑）**：以法 / 赋 / 论分体裁，按 `ten_god`/`pattern`/`keywords` 召回子平法汇与辨惑，weight=2。
+- **五行精纪（南宋禄命类书）**：体例为汇编体（每节集《烛神经》《珞琭子》《李虚中》等诸家），泛论以 `keywords` 主题召回纳音、干神支神、禄马官印、六亲运限等古法源流；贵人、合化、刑冲、德合等主题已由 `enrich_conditions.py` 补 `shensha`/`pattern`/`ten_god` 精确标签，weight=2。
+- **命理约言（清·陈素庵，韦千里选辑）**：以法 / 赋 / 论分体裁；十神法与赋已补对应子平 `pattern`，诸神煞论只保留 `shensha`（已清除早期按"煞"字误标的 `ten_god=七杀 / pattern=七杀格`），weight=2。
 
 ---
 
@@ -213,7 +225,8 @@ python scripts/fill_baihua.py --check    # 只统计已补 / 待补，不写文�
 
 ## 五、排盘引擎如何检索（调用逻辑）
 
-程序启动一次性扫描全部 `.md`，解析 Frontmatter，将 `conditions` 载入内存索引（HashMap）：
+程序启动**一次性加载根 `manifest.json`**（无需遍历目录、运行时不依赖 YAML 解析），
+将每条 `conditions` 载入内存索引；正文仍在 `path` 指向的 Markdown，命中后按需读取、分层渲染。
 
 ```
 排盘内核输出八字
@@ -221,24 +234,55 @@ python scripts/fill_baihua.py --check    # 只统计已补 / 待补，不写文�
  ├─ 格局=正官格        ──► 子平真诠/滴天髓/千里命稿/命理约言 pattern 命中
  ├─ 十神=七杀          ──► ten_god 命中（子平 ch39、千里六神篇、命理约言诸论等）
  ├─ 旺衰/从化/调候     ──► 滴天髓 pattern/keywords；神峰病药 keywords
- ├─ 神煞=天乙贵人      ──► 三命通会 shensha；五行精纪卷十四论天乙贵神（古法源流）
+ ├─ 神煞=天乙贵人      ──► 三命通会 shensha；五行精纪卷十三/十四、命理约言贵人论（源流与辨正）
  ├─ 日柱=庚子,时柱=己卯 ──► 三命通会 day_pillar∩hour_pillar → smth_rs_gengzi_jimao.md
  ├─ 纳音/禄马/运限古法 ──► 五行精纪 keywords 主题召回
  └─ 古歌赋佐证         ──► 渊海子平 keywords 召回
-结果按 weight 降序合并展示。
 ```
 
-参考匹配伪代码：
+### 5.1 匹配语义：复合键「组内 AND」、检索维度「组间 OR」
+
+- **组内 AND（复合键必须同时满足）**：调候键 `day_master + month_branch`、
+  日时键 `day_pillar + hour_pillar`，组内每个已声明字段都要与命盘相交，
+  以保证"甲日寅月""庚子日己卯时"这类精确锚定不被放宽。
+- **组间 OR（并列维度任一命中即可）**：`ten_god / pattern / shensha` 是三个独立召回
+  理由，一条目同时标了格局与神煞时，命盘只满足格局也应召回，不被其附带的神煞条件误杀。
+- 条目**未声明任何结构化硬字段**（序、通论）视为无约束通用条，恒可召回。
+- `keywords` 不参与硬匹配，只做主题包含式召回（见参考实现 `keyword_query`）。
 
 ```python
-def match(entry: dict, chart: dict) -> bool:
-    cond = entry["conditions"]
-    for key in ("day_master", "month_branch", "day_pillar", "hour_pillar",
-                "pattern", "ten_god", "shensha"):
-        if cond.get(key) and not (set(cond[key]) & set(chart.get(key, []))):
-            return False        # 声明了该条件但命盘无一命中 → 不召回
-    return True                 # 所有已声明条件均有交集 → 召回
+# 与 scripts/retrieve_reference.py、engine/src/lib.rs 严格一致
+GROUPS = [("day_master", "month_branch"), ("day_pillar", "hour_pillar"),
+          ("ten_god",), ("pattern",), ("shensha",)]
+
+def match(cond, chart) -> bool:
+    declared_any = False
+    for fields in GROUPS:                       # 遍历每个匹配键组
+        declared = [f for f in fields if cond.get(f)]
+        if not declared:
+            continue                            # 该组未声明，不约束
+        declared_any = True
+        if all(set(cond[f]) & set(chart.get(f, [])) for f in declared):
+            return True                         # 某一已声明组整体命中 → 召回（组间 OR）
+    return not declared_any                     # 全未声明=通论条，恒召回
 ```
+
+### 5.2 排序：精确度优先，其次典籍权重
+
+命中结果按 **(命中精确度 ↓, weight ↓, path ↑)** 排序：精确度 = 条目声明的非空结构化
+字段数（如穷通调候条同时锚定日干+月令，精确度 2；单维格局/神煞条为 1；无约束通论为 0）。
+因此精准锚定条文永远排在无约束通论之前，同精确度内再按典籍梯队 weight 降序，
+避免《论用神》这类通论以 weight 10 挤占精确条文。
+
+### 5.3 两套等价参考实现（已交叉自测）
+
+- **Rust（生产）**：`engine/`，纯 `serde_json`、框架无关，Tauri 可直接依赖；
+  `Library::from_json` 加载 manifest，`Library::query(&Chart)` 返回排序后的 `&Entry`。
+  `cd engine && cargo test`（含加载真实 1547 条 manifest 的用例）。
+- **Python（参照 / 快速验证）**：`scripts/retrieve_reference.py`，语义与 Rust 一致，
+  带 CLI：`python -X utf8 scripts/retrieve_reference.py --chart '{"day_master":["Jia"]}'`；
+  回归测试 `python -X utf8 tests/recall_regression.py`（12 例，覆盖精确锚定、格局/神煞
+  召回、元数据增强与误标纠错、排序契约、manifest 完整性）。
 
 ---
 
@@ -263,16 +307,29 @@ python scripts/parse_qianliminggao.py
 python scripts/parse_wuxingjingji.py
 python scripts/parse_mingliyaoyan.py
 
-# 3. 生成各级 INDEX.md 与根 INDEX.md
+# 3. 生成人读导航 INDEX.md 与机读总清单 manifest.json（两者均确定性、可重复生成）
 python scripts/build_index.py
+python scripts/build_manifest.py
 
 # 4. 交付前质量门校验
 python scripts/validate_library.py
 
-# 5.（可选）白话回填：撰写 scripts/baihua_data/*.json 后
+# 5. 召回回归测试（Python 参考实现）与 Rust engine 单测
+python -X utf8 tests/recall_regression.py
+cd engine; cargo test; cd ..
+
+# 6.（可选）白话回填：撰写 scripts/baihua_data/*.json 后
 python scripts/fill_baihua.py --check
 python scripts/fill_baihua.py
 ```
+
+> **元数据精准增强**：`scripts/enrich_conditions.py --book <wuxingjingji|mingliyaoyan> [--dry]`
+> 以行级、幂等方式只改 Frontmatter 的 conditions 目标行（合并去重 / 移除误标），
+> 不重排 YAML、不碰正文；用于把早期主要靠 `keywords` 召回的条目补到 `pattern/shensha/ten_god`
+> 精确字段。改动后须重跑步骤 3 的 `build_manifest.py` 与步骤 5 测试。
+>
+> **交叉校勘**：同主题多书对照见 `docs/`（如天乙贵人的起例分歧、阳贵/阴贵命名对调与异文校记），
+> 校勘只记于 docs，绝不回改任何条目【原文】。
 
 ---
 
