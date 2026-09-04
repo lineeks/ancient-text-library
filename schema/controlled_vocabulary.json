@@ -2,7 +2,7 @@
   "schema_version": 1,
   "name": "Aether-Cycle 受控检索词表",
   "note": "ten_god/pattern/shensha 为受控字段；新增取值须先更新本文件再入库，validate_library.py 据此做白名单校验。由 scripts/export_vocab.py 统计生成。",
-  "scanned_entries": 1547,
+  "scanned_entries": 1604,
   "fields": {
     "ten_god": {
       "open": false,
@@ -429,6 +429,53 @@
         "三奇": "三奇贵人",
         "天月德": "天月二德"
       }
+    },
+    "type": {
+      "open": false,
+      "distinct": 10,
+      "terms": [
+        {
+          "v": "rishi",
+          "n": 717
+        },
+        {
+          "v": "chapter",
+          "n": 391
+        },
+        {
+          "v": "koujue",
+          "n": 256
+        },
+        {
+          "v": "monthly",
+          "n": 106
+        },
+        {
+          "v": "chenggu",
+          "n": 52
+        },
+        {
+          "v": "shensha",
+          "n": 31
+        },
+        {
+          "v": "fuwen",
+          "n": 30
+        },
+        {
+          "v": "reference",
+          "n": 14
+        },
+        {
+          "v": "chenggu-table",
+          "n": 4
+        },
+        {
+          "v": "seasonal",
+          "n": 3
+        }
+      ],
+      "note": "条目体裁枚举，新增须先在 docs/metadata-spec.md §3 登记"
     },
     "day_master": {
       "open": false,
