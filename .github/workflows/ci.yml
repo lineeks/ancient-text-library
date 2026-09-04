@@ -1,0 +1,50 @@
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+
+jobs:
+  validate-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: pip install pyyaml
+
+      - name: Set up Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache cargo
+        uses: actions/cache@v4
+        with:
+          path: |
+            engine/target
+            ~/.cargo/registry
+            ~/.cargo/git
+          key: ${{ runner.os }}-cargo-${{ hashFiles('engine/Cargo.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-cargo-
+
+      - name: Validate library (frontmatter / ids / enums / body layers)
+        run: python -X utf8 scripts/validate_library.py
+
+      - name: Python recall regression + golden parity + self-recall
+        run: python -X utf8 tests/recall_regression.py
+
+      - name: Rust engine tests (loads real manifest + golden parity + self-recall + body loader)
+        run: cd engine && cargo test -- --nocapture
+
+      - name: Manifest determinism check (rebuild must produce zero diff)
+        run: |
+          cp manifest.json /tmp/manifest.before.json
+          python -X utf8 scripts/build_manifest.py
+          diff -q /tmp/manifest.before.json manifest.json
