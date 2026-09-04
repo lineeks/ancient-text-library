@@ -80,6 +80,8 @@ ancient-text-library/
 │               ├── luoluozi/      #   珞琭子赋注 62
 │               ├── lantaimiaoxuan/ #  兰台妙选 303
 │               └── sanmingzhimifu/ #  三命指迷赋 82
+│           └── qizheng/          # 七政四余（subcategory=qizheng）
+│               └── xingxuedacheng/ # 星学大成 30
 │           └── ziwei/             # 紫微斗数（subcategory=ziwei）
 │               ├── quanshu/       #   紫微斗数全书 17
 │               ├── quanji/        #   紫微斗数全集 29
