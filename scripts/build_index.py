@@ -355,7 +355,9 @@ def build_root_index(counts):
              f"| 命·紫微 | 紫微斗数全书 | 明罗洪先编·精选 | {counts['quanshu']} | [索引](./library/ming/ziwei/quanshu/INDEX.md) | ✅ |",
              f"| 命·紫微 | 紫微斗数全集 | 清代古本·精选 | {counts['quanji']} | [索引](./library/ming/ziwei/quanji/INDEX.md) | ✅ |",
              f"| 命·紫微 | 斗数骨髓赋 | 紫微核心歌诀 | {counts['gusuifu']} | [索引](./library/ming/ziwei/gusuifu/INDEX.md) | ✅ |",
-             f"| **合计** | **15 部** | — | **{total}** | — | — |", "",
+             f"| 补遗·格局赋文 | 兰台妙选 | 明西窗老人·四库本 | {counts['lantaimiaoxuan']} | [索引](./library/ming/bazi/extended/lantaimiaoxuan/INDEX.md) | ✅ |",
+             f"| 补遗·子平赋文 | 三命指迷赋 | 宋岳珂补注·四库本 | {counts['sanmingzhimifu']} | [索引](./library/ming/bazi/extended/sanmingzhimifu/INDEX.md) | ✅ |",
+             f"| **合计** | **17 部** | — | **{total}** | — | — |", "",
              "## 目录结构", "",
              "```text",
              "ancient-text-library/",
@@ -381,7 +383,9 @@ def build_root_index(counts):
              "│               ├── mingliyaoyan/ # 命理约言 119",
              "│               ├── chenggu/   # 袁天罡称骨歌 57",
              "│               ├── lxzmingshu/ # 李虚中命书 68",
-             "│               └── luoluozi/  # 珞琭子赋注 62",
+             "│               ├── luoluozi/  # 珞琭子赋注 62",
+             "│               ├── lantaimiaoxuan/ # 兰台妙选 303",
+             "│               └── sanmingzhimifu/ # 三命指迷赋 82",
              "│           └── ziwei/         # 紫微斗数（subcategory=ziwei）",
              "│               ├── quanshu/   # 紫微斗数全书 17",
              "│               ├── quanji/    # 紫微斗数全集 29",
@@ -454,6 +458,12 @@ def main():
         ("library/ming/ziwei", "gusuifu", build_generic_index(
             "斗数骨髓赋",
             "紫微斗数核心歌诀，以赋文体概括星曜性情与宫位断验。")),
+        ("library/ming/bazi/extended", "lantaimiaoxuan", build_generic_index(
+            "兰台妙选",
+            "明西窗老人，专论八字格局贵贱，以赋文体列举贵格贱格与神煞取象，四库全书本。")),
+        ("library/ming/bazi/extended", "sanmingzhimifu", build_generic_index(
+            "三命指迷赋",
+            "宋岳珂补注（依托），专主子平，论夹马夹禄拱库拱贵与五行生克，四库全书本。")),
     ]
     counts = {}
     for root, book, builder in plan:

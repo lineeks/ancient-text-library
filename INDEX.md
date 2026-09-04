@@ -24,7 +24,9 @@
 | 命·紫微 | 紫微斗数全书 | 明罗洪先编·精选 | 17 | [索引](./library/ming/ziwei/quanshu/INDEX.md) | ✅ |
 | 命·紫微 | 紫微斗数全集 | 清代古本·精选 | 29 | [索引](./library/ming/ziwei/quanji/INDEX.md) | ✅ |
 | 命·紫微 | 斗数骨髓赋 | 紫微核心歌诀 | 29 | [索引](./library/ming/ziwei/gusuifu/INDEX.md) | ✅ |
-| **合计** | **15 部** | — | **1809** | — | — |
+| 补遗·格局赋文 | 兰台妙选 | 明西窗老人·四库本 | 303 | [索引](./library/ming/bazi/extended/lantaimiaoxuan/INDEX.md) | ✅ |
+| 补遗·子平赋文 | 三命指迷赋 | 宋岳珂补注·四库本 | 82 | [索引](./library/ming/bazi/extended/sanmingzhimifu/INDEX.md) | ✅ |
+| **合计** | **17 部** | — | **2194** | — | — |
 
 ## 目录结构
 
@@ -52,7 +54,9 @@ ancient-text-library/
 │               ├── mingliyaoyan/ # 命理约言 119
 │               ├── chenggu/   # 袁天罡称骨歌 57
 │               ├── lxzmingshu/ # 李虚中命书 68
-│               └── luoluozi/  # 珞琭子赋注 62
+│               ├── luoluozi/  # 珞琭子赋注 62
+│               ├── lantaimiaoxuan/ # 兰台妙选 303
+│               └── sanmingzhimifu/ # 三命指迷赋 82
 │           └── ziwei/         # 紫微斗数（subcategory=ziwei）
 │               ├── quanshu/   # 紫微斗数全书 17
 │               ├── quanji/    # 紫微斗数全集 29
