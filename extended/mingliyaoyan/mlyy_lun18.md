@@ -12,8 +12,8 @@ conditions:
   month_branch: []
   day_pillar: []
   hour_pillar: []
-  ten_god: ["七杀"]
-  pattern: ["七杀格"]
+  ten_god: []
+  pattern: []
   shensha: ["月煞"]
   keywords: ["月煞"]
 weight: 2

@@ -13,7 +13,7 @@ conditions:
   day_pillar: []
   hour_pillar: []
   ten_god: ["比肩", "劫财"]
-  pattern: []
+  pattern: ["建禄格", "阳刃格", "月劫格"]
   shensha: []
   keywords: ["禄刃"]
 weight: 2

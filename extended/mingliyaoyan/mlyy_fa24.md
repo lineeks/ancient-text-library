@@ -13,7 +13,7 @@ conditions:
   day_pillar: []
   hour_pillar: []
   ten_god: ["食神"]
-  pattern: []
+  pattern: ["食神格"]
   shensha: []
   keywords: ["食神"]
 weight: 2

@@ -13,7 +13,7 @@ conditions:
   day_pillar: []
   hour_pillar: []
   ten_god: ["正财", "偏财"]
-  pattern: []
+  pattern: ["财格"]
   shensha: []
   keywords: ["偏财"]
 weight: 2

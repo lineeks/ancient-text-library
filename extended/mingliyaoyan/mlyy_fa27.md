@@ -13,7 +13,7 @@ conditions:
   day_pillar: []
   hour_pillar: []
   ten_god: []
-  pattern: []
+  pattern: ["杂气格"]
   shensha: []
   keywords: ["杂气墓库"]
 weight: 2

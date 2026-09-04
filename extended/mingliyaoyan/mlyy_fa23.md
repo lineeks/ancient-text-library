@@ -13,7 +13,7 @@ conditions:
   day_pillar: []
   hour_pillar: []
   ten_god: ["伤官"]
-  pattern: []
+  pattern: ["伤官格"]
   shensha: []
   keywords: ["伤官"]
 weight: 2

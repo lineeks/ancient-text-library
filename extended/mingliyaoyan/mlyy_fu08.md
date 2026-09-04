@@ -13,7 +13,7 @@ conditions:
   day_pillar: []
   hour_pillar: []
   ten_god: ["正印", "偏印"]
-  pattern: []
+  pattern: ["印绶格"]
   shensha: []
   keywords: ["偏印"]
 weight: 2
