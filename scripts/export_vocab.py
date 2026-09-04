@@ -21,7 +21,7 @@ from collections import Counter
 import yaml
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-LIB_ROOTS = ["library/ming/bazi/core", "library/ming/bazi/origin-shensha", "library/ming/bazi/extended", "library/ming/ziwei"]
+LIB_ROOTS = ["library/ming/bazi/core", "library/ming/bazi/origin-shensha", "library/ming/bazi/extended", "library/ming/ziwei", "library/ming/qizheng"]
 CONTROLLED = ["ten_god", "pattern", "shensha"]
 TYPE_CONTROLLED = True  # type 也是受控枚举
 FIXED_ENUM = ["day_master", "month_branch"]

@@ -357,7 +357,8 @@ def build_root_index(counts):
              f"| 命·紫微 | 斗数骨髓赋 | 紫微核心歌诀 | {counts['gusuifu']} | [索引](./library/ming/ziwei/gusuifu/INDEX.md) | ✅ |",
              f"| 补遗·格局赋文 | 兰台妙选 | 明西窗老人·四库本 | {counts['lantaimiaoxuan']} | [索引](./library/ming/bazi/extended/lantaimiaoxuan/INDEX.md) | ✅ |",
              f"| 补遗·子平赋文 | 三命指迷赋 | 宋岳珂补注·四库本 | {counts['sanmingzhimifu']} | [索引](./library/ming/bazi/extended/sanmingzhimifu/INDEX.md) | ✅ |",
-             f"| **合计** | **17 部** | — | **{total}** | — | — |", "",
+             f"| 命·七政四余 | 星学大成 | 明万民英撰·四库本 | {counts['xingxuedacheng']} | [索引](./library/ming/qizheng/xingxuedacheng/INDEX.md) | ✅ |",
+             f"| **合计** | **18 部** | — | **{total}** | — | — |", "",
              "## 目录结构", "",
              "```text",
              "ancient-text-library/",
@@ -386,6 +387,8 @@ def build_root_index(counts):
              "│               ├── luoluozi/  # 珞琭子赋注 62",
              "│               ├── lantaimiaoxuan/ # 兰台妙选 303",
              "│               └── sanmingzhimifu/ # 三命指迷赋 82",
+             "│           └── qizheng/       # 七政四余（subcategory=qizheng）",
+             "│               └── xingxuedacheng/ # 星学大成 30",
              "│           └── ziwei/         # 紫微斗数（subcategory=ziwei）",
              "│               ├── quanshu/   # 紫微斗数全书 17",
              "│               ├── quanji/    # 紫微斗数全集 29",
@@ -464,6 +467,9 @@ def main():
         ("library/ming/bazi/extended", "sanmingzhimifu", build_generic_index(
             "三命指迷赋",
             "宋岳珂补注（依托），专主子平，论夹马夹禄拱库拱贵与五行生克，四库全书本。")),
+        ("library/ming/qizheng", "xingxuedacheng", build_generic_index(
+            "星学大成",
+            "明万民英撰，四库全书本，三十卷，七政四余（五星禄命）集大成之作，汇集星曜图例、观星节要、诸家限例、耶律秘诀、三辰通载等星家古法。")),
     ]
     counts = {}
     for root, book, builder in plan:

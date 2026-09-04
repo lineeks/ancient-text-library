@@ -27,6 +27,7 @@ ROOTS = [
     ("library/ming/bazi/extended", "第三梯队·实战与补遗", "ming", "bazi"),
     ("library/ming", "命·命理", "ming", ""),
     ("library/ming/ziwei", "紫微斗数", "ming", "ziwei"),
+    ("library/ming/qizheng", "七政四余", "ming", "qizheng"),
     ("library/yi", "医·中医", "yi", ""),
     ("library/xiang", "相·相术", "xiang", ""),
     ("library/bu", "卜·卜筮", "bu", ""),
