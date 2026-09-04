@@ -32,6 +32,7 @@ SOURCES = [
     {"name": "shenfengtongkao", "label": "《神峰通考》（张楠）", "url": dz("神峰通考")},
     {"name": "yuzhaodingzhenjing", "label": "《玉照定真经》（张颙注）", "url": dz("玉照定真经")},
     {"name": "qianliminggao", "label": "《千里命稿》（韦千里）", "url": dz("千里命稿")},
+    {"name": "wuxingjingji", "label": "《五行精纪》（宋·廖中，34卷）", "url": dz("五行精纪")},
     {
         "name": "zipingzhenquan", "label": "《子平真诠评注》（徐乐吾评注本，源 UTF-16 LE）",
         "url": "https://raw.githubusercontent.com/bho1668/yibook/main/"

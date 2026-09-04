@@ -253,11 +253,84 @@ def build_qlmg_index(items):
         items)
 
 
+def build_wxjj_index(items):
+    """《五行精纪》：序 + 34 卷，按卷分组。"""
+    lines = ["# 《五行精纪》条目索引", "",
+             "> 宋·廖中撰，岳珂序（南宋绍定元年），34 卷，集早期禄命 / 纳音 / 神煞之大成的类书。",
+             "> 文件名规则：`wxjj_xu{1,2}`（序）、`wxjj_v<两位卷>_<两位节>`（卷内小节）。",
+             "> 干神条（论甲乙 / 丙丁…）填 `day_master`，禄马贵人 / 刑害空亡等填 `shensha`，十神类填 `ten_god`，余以 `keywords` 召回，weight=2。", ""]
+
+    def vkey(it):
+        f = it["_file"]
+        if f.startswith("wxjj_xu"):
+            return (0, 0, f)
+        m = re.search(r"v(\d+)_(\d+)", f)
+        return (1, int(m.group(1)) * 100 + int(m.group(2)), f) if m else (9, 0, f)
+
+    lines += ["| ID | 标题 | 日干 | 十神 | 神煞 | 关键词 | 文件 |",
+              "|---|---|---|---|---|---|---|"]
+    cur = None
+    for it in sorted(items, key=vkey):
+        chap = it.get("chapter", "")
+        if chap != cur:
+            cur = chap
+            lines.append(f"| **{chap}** |  |  |  |  |  |  |")
+        lines.append(
+            f"| `{it.get('id','')}` | {it.get('section_title','')} "
+            f"| {', '.join(it.get('day_master',[])) or '—'} "
+            f"| {', '.join(it.get('ten_god',[])) or '—'} "
+            f"| {', '.join(it.get('shensha',[])) or '—'} "
+            f"| {', '.join(it.get('keywords',[])[:2])} "
+            f"| [{it['_file']}](./{it['_file']}) |")
+    xu = len([x for x in items if x["_file"].startswith("wxjj_xu")])
+    lines += ["", f"**统计：序 {xu} 篇 + 34 卷分节 {len(items)-xu} 条，合计 {len(items)} 个文件。**", ""]
+    return "\n".join(lines)
+
+
+def build_mlyy_index(items):
+    """《命理约言》：序 + 48法 + 20赋 + 48论 + 杂论 + 跋，按类分组。"""
+    lines = ["# 《命理约言》条目索引", "",
+             "> 清·陈之遴（号素庵）撰，民国韦千里选辑《精选命理约言》标点本（子平旺衰派，以理驭法、简约严谨）。",
+             "> 文件名规则：`mlyy_<xu|fa|fu|lun|za|ba><两位序号>.md`（序 / 法 / 赋 / 论 / 杂论 / 跋）。",
+             "> 以 `ten_god`（官煞印财食伤比劫）、`pattern`（正官 / 七杀 / 从局 / 化局及诸变格）、`shensha`、`keywords` 召回，weight=2。", ""]
+    gname = {"xu": "序", "fa": "卷一·法四十八篇", "fu": "卷二·赋二十篇",
+             "lun": "卷三·论四十八篇", "za": "卷四·杂论", "ba": "跋"}
+    order = {"xu": 0, "fa": 1, "fu": 2, "lun": 3, "za": 4, "ba": 5}
+
+    def pref(it):
+        m = re.match(r"mlyy_([a-z]+)", it.get("id", ""))
+        return m.group(1) if m else "z"
+
+    def num(it):
+        m = re.search(r"(\d+)", it.get("id", ""))
+        return int(m.group(1)) if m else 0
+
+    lines += ["| ID | 标题 | 格局 pattern | 十神 ten_god | 神煞 | 文件 |",
+              "|---|---|---|---|---|---|"]
+    cur = None
+    for it in sorted(items, key=lambda x: (order.get(pref(x), 9), num(x))):
+        g = pref(it)
+        if g != cur:
+            cur = g
+            lines.append(f"| **{gname.get(g, g)}** |  |  |  |  |  |")
+        lines.append(
+            f"| `{it.get('id','')}` | {it.get('section_title','')} "
+            f"| {', '.join(it.get('pattern',[])) or '—'} "
+            f"| {', '.join(it.get('ten_god',[])) or '—'} "
+            f"| {', '.join(it.get('shensha',[])) or '—'} "
+            f"| [{it['_file']}](./{it['_file']}) |")
+    nfa = len([x for x in items if pref(x) == "fa"]); nfu = len([x for x in items if pref(x) == "fu"])
+    nlun = len([x for x in items if pref(x) == "lun"])
+    lines += ["", f"**统计：序 1 + 法 {nfa} + 赋 {nfu} + 论 {nlun} + 杂论 1 + 跋 1，合计 {len(items)} 个文件。**", ""]
+    return "\n".join(lines)
+
+
 # ============================ 总索引 ============================
 def build_root_index(counts):
     qtbj, zpqz, dts = counts["qiongtongbj"], counts["zipingzhenquan"], counts["ditianchui"]
     smth, yhzp = counts["sanmingtonghui"], counts["yuanhaiziping"]
     sftk, yzzj, qlmg = counts["shenfengtongkao"], counts["yuzhaodingzhenjing"], counts["qianliminggao"]
+    wxjj, mlyy = counts["wuxingjingji"], counts["mingliyaoyan"]
     total = sum(counts.values())
     lines = ["# Aether-Cycle 子平命理古籍知识库 · 总索引", "",
              "本知识库面向八字排盘引擎的**即时检索、引经据典、原汁原味**需求构建。",
@@ -274,7 +347,9 @@ def build_root_index(counts):
              f"| 第三梯队 | 神峰通考 | 张楠（明） | {sftk} | [索引](./extended/shenfengtongkao/INDEX.md) | ✅ |",
              f"| 第三梯队 | 玉照定真经 | 旧题郭璞·张颙注 | {yzzj} | [索引](./extended/yuzhaodingzhenjing/INDEX.md) | ✅ |",
              f"| 第三梯队 | 千里命稿 | 韦千里（民国） | {qlmg} | [索引](./extended/qianliminggao/INDEX.md) | ✅ |",
-             f"| **合计** | **8 部** | — | **{total}** | — | — |", "",
+             f"| 补遗·渊源 | 五行精纪 | 廖中（宋）·34卷 | {wxjj} | [索引](./extended/wuxingjingji/INDEX.md) | ✅ |",
+             f"| 补遗·子平法汇 | 命理约言 | 陈素庵（清）·韦千里选辑 | {mlyy} | [索引](./extended/mingliyaoyan/INDEX.md) | ✅ |",
+             f"| **合计** | **10 部** | — | **{total}** | — | — |", "",
              "## 目录结构", "",
              "```text",
              "ancient-text-library/",
@@ -292,7 +367,9 @@ def build_root_index(counts):
              "└── extended/                 # 第三梯队 实战辨惑参照（weight 2-3）",
              "    ├── shenfengtongkao/      # 神峰通考 65",
              "    ├── yuzhaodingzhenjing/   # 玉照定真经 256",
-             "    └── qianliminggao/        # 千里命稿 22",
+             "    ├── qianliminggao/        # 千里命稿 22",
+             "    ├── wuxingjingji/         # 五行精纪 74（宋·禄命纳音神煞类书）",
+             "    └── mingliyaoyan/         # 命理约言 119（清·子平旺衰法汇）",
              "```", "",
              "## 检索字段速查", "",
              "| 场景 | 匹配字段 | 示例 |",
@@ -304,9 +381,11 @@ def build_root_index(counts):
              "| 神煞出处（三命通会） | `shensha` | 天乙贵人/驿马/羊刃/文昌… |",
              "| 古歌赋印证（渊海子平） | `keywords` | 五言独步/继善篇/喜忌篇 |",
              "| 实战病药（神峰通考） | `keywords` | 病药/雕枯旺弱/盖头 |",
+             "| 早期禄命/纳音/神煞源流（五行精纪） | `day_master`/`shensha`/`keywords` | 论甲乙→日干；论禄/马/天乙→神煞 |",
+             "| 子平旺衰法汇（命理约言） | `ten_god`/`pattern` | 看正官法/从局法/诸神煞论 |",
              "| 十神专题 | `ten_god` | 正官/七杀/正财/偏财/正印/偏印/伤官/食神/比肩/劫财 |", "",
              "## 权重（weight）排序", "",
-             "穷通宝鉴月度 10 ＞ 滴天髓/子平格局 9 ＞ 穷通宝鉴季度 8 ＞ 第二梯队（三命/渊海）6 ＞ 神峰通考 3 ＞ 玉照/千里 2 ＞ 穷通总论参考 5（参考类独立排序）。多书同时命中时按 weight 降序展示。", "",
+             "穷通宝鉴月度 10 ＞ 滴天髓/子平格局 9 ＞ 穷通宝鉴季度 8 ＞ 第二梯队（三命/渊海）6 ＞ 神峰通考 3 ＞ 玉照/千里/五行精纪/命理约言 2 ＞ 穷通总论参考 5（参考类独立排序）。多书同时命中时按 weight 降序展示。", "",
              "> 免责声明：本库仅作传统命理文献的结构化整理与研究参考，原文保持原貌，不构成任何人生决策建议。", ""]
     return "\n".join(lines)
 
@@ -321,6 +400,8 @@ def main():
         ("extended", "shenfengtongkao", build_sftk_index),
         ("extended", "yuzhaodingzhenjing", build_yzzj_index),
         ("extended", "qianliminggao", build_qlmg_index),
+        ("extended", "wuxingjingji", build_wxjj_index),
+        ("extended", "mingliyaoyan", build_mlyy_index),
     ]
     counts = {}
     for root, book, builder in plan:
