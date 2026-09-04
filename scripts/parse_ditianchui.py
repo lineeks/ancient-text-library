@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 Aether-Cycle 古籍知识库 · 《滴天髓阐微》结构化解析脚本
 源文结构（规整）：
@@ -15,7 +15,7 @@ import re
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(BASE, "raw", "ditiansuichanwei.txt")
-OUT_DIR = os.path.join(BASE, "core", "ditianchui")
+OUT_DIR = os.path.join(BASE, "library", "ming", "bazi", "core", "ditianchui")
 os.makedirs(OUT_DIR, exist_ok=True)
 
 TITLE_RE = re.compile(r'^([一二三四五六七八九十]+)[、\s]+([^\s，。：；、？！,.]{1,6})$')

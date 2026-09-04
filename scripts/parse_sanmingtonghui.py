@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 Aether-Cycle 古籍知识库 · 《三命通会》结构化解析脚本（第二梯队）
 源文：四库全书本（无现代标点白文），万民英撰。
@@ -18,7 +18,7 @@ import re
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(BASE, "raw", "sanmingtonghui.txt")
-OUT = os.path.join(BASE, "origin-shensha", "sanmingtonghui")
+OUT = os.path.join(BASE, "library", "ming", "bazi", "origin-shensha", "sanmingtonghui")
 os.makedirs(OUT, exist_ok=True)
 
 STEM = "甲乙丙丁戊己庚辛壬癸"

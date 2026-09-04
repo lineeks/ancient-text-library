@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 Aether-Cycle 古籍知识库 · 《千里命稿》结构化解析脚本（第三梯队·民国通俗参照）
 民国·韦千里著，白话系统讲授子平格局与现代取象。源文前有目录（跳过），正文自「天干篇」起，
@@ -10,7 +10,7 @@ import re
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(BASE, "raw", "qianliminggao.txt")
-OUT = os.path.join(BASE, "extended", "qianliminggao")
+OUT = os.path.join(BASE, "library", "ming", "bazi", "extended", "qianliminggao")
 os.makedirs(OUT, exist_ok=True)
 
 BODY_START = 374 - 1     # 正文「天干篇」起始（0-based）

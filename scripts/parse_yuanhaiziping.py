@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 Aether-Cycle 古籍知识库 · 《渊海子平》结构化解析脚本（第二梯队）
 源文：徐大升编（此电子本为带标点本），全书分 总论/神煞/六亲/女命/赋论 五大部分。
@@ -11,7 +11,7 @@ import re
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(BASE, "raw", "yuanhaiziping.txt")
-OUT = os.path.join(BASE, "origin-shensha", "yuanhaiziping")
+OUT = os.path.join(BASE, "library", "ming", "bazi", "origin-shensha", "yuanhaiziping")
 os.makedirs(OUT, exist_ok=True)
 
 FUN_START = 740          # 「赋论」部分起始（1-based）

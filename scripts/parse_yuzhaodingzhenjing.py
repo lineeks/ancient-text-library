@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 Aether-Cycle 古籍知识库 · 《玉照定真经》结构化解析脚本（第三梯队·古法源流）
 旧题晋·郭璞撰，张颙注（四库全书本）。为早期虚中禄命古法，口诀 + 张颙注体例：
@@ -13,7 +13,7 @@ import re
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(BASE, "raw", "yuzhaodingzhenjing.txt")
-OUT = os.path.join(BASE, "extended", "yuzhaodingzhenjing")
+OUT = os.path.join(BASE, "library", "ming", "bazi", "extended", "yuzhaodingzhenjing")
 os.makedirs(OUT, exist_ok=True)
 
 INLINE_NOTE_MAX = 4        # ≤4 字的【】块视为口诀内嵌夹注

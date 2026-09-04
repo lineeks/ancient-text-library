@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 《李虚中命书》结构化入库脚本（纯标准库，确定性输出）
 
@@ -19,7 +19,7 @@ import re
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(BASE, "raw", "lxzmingshu.txt")
-OUT_DIR = os.path.join(BASE, "extended", "lxzmingshu")
+OUT_DIR = os.path.join(BASE, "library", "ming", "bazi", "extended", "lxzmingshu")
 
 # 六十甲子（按顺序）
 JIAZI = [

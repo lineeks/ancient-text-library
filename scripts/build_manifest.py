@@ -2,7 +2,7 @@
 """
 Aether-Cycle 古籍知识库 · 机器检索清单 manifest.json 生成器（纯标准库、确定性输出）
 
-扫描 core / origin-shensha / extended 下全部 Markdown，解析 Frontmatter，
+扫描 ming/bazi/{core,origin-shensha,extended} 下全部 Markdown，解析 Frontmatter，
 聚合为一张供排盘引擎（Rust/Tauri 或任意运行时）一次性加载的总清单，
 引擎侧无需再遍历目录、无需 YAML 依赖即可建立 conditions 内存索引。
 
@@ -19,17 +19,17 @@ import re
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # (root_dir, tier_name, category, default_subcategory)
-# core/origin-shensha/extended 为八字内部梯队，统一归 category=ming, subcategory=bazi；
+# ming/bazi/{core,origin-shensha,extended} 为八字内部梯队，统一归 category=ming, subcategory=bazi；
 # ming/yi/xiang/bu/shan 为五术顶层目录，subcategory 取二级目录名。
 ROOTS = [
-    ("core", "第一梯队·核心", "ming", "bazi"),
-    ("origin-shensha", "第二梯队·渊源神煞", "ming", "bazi"),
-    ("extended", "第三梯队·实战与补遗", "ming", "bazi"),
-    ("ming", "命·命理", "ming", ""),
-    ("yi", "医·中医", "yi", ""),
-    ("xiang", "相·相术", "xiang", ""),
-    ("bu", "卜·卜筮", "bu", ""),
-    ("shan", "山·仙学养生", "shan", ""),
+    ("library/ming/bazi/core", "第一梯队·核心", "ming", "bazi"),
+    ("library/ming/bazi/origin-shensha", "第二梯队·渊源神煞", "ming", "bazi"),
+    ("library/ming/bazi/extended", "第三梯队·实战与补遗", "ming", "bazi"),
+    ("library/ming", "命·命理", "ming", ""),
+    ("library/yi", "医·中医", "yi", ""),
+    ("library/xiang", "相·相术", "xiang", ""),
+    ("library/bu", "卜·卜筮", "bu", ""),
+    ("library/shan", "山·仙学养生", "shan", ""),
 ]
 FIVE_ARTS_ROOTS = {"ming", "yi", "xiang", "bu", "shan"}
 LIST_KEYS = {"day_master", "month_branch", "ten_god", "pattern", "shensha",
@@ -77,7 +77,7 @@ def main():
             if not os.path.isdir(bdir):
                 continue
             # 五术顶层目录的二级目录即为 subcategory（如 yi/shanghanlun/ -> shanghanlun）
-            subcategory = book if root in FIVE_ARTS_ROOTS else default_sub
+            subcategory = book if root.split("/")[-1] in FIVE_ARTS_ROOTS else default_sub
             n = 0
             for name in sorted(os.listdir(bdir)):
                 if not name.endswith(".md") or name == "INDEX.md":

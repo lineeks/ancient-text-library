@@ -11,7 +11,7 @@
 import os, re, json, glob, sys
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ROOTS = ["core", "origin-shensha", "extended"]
+ROOTS = ["library/ming/bazi/core", "library/ming/bazi/origin-shensha", "library/ming/bazi/extended"]
 DATA_DIR = os.path.join(BASE, "scripts", "baihua_data")
 CHECK = "--check" in sys.argv
 
