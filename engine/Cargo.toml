@@ -1,0 +1,15 @@
+[package]
+name = "aether-ancient-engine"
+version = "0.1.0"
+edition = "2021"
+description = "Aether-Cycle classical bazi text retrieval engine (manifest-driven, framework-agnostic)"
+license = "MIT"
+publish = false
+
+[lib]
+name = "ancient_engine"
+path = "src/lib.rs"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
