@@ -1,0 +1,145 @@
+{
+  "combined_complex": [
+    "qtbj_geng_zi",
+    "zpzq_ch39_pianguan",
+    "zpzq_ch40_pianguanquyun",
+    "mlyy_fa16",
+    "mlyy_fa17",
+    "mlyy_fa18",
+    "mlyy_fa19",
+    "mlyy_fu06",
+    "dtcs_ts12_bage",
+    "dtcs_ts21_guansha",
+    "zpzq_ch19_xiongshenchengge",
+    "smth_ss_luma",
+    "smth_ss_yima",
+    "mlyy_lun22",
+    "qlmg_06_liushen",
+    "qlmg_08_geju",
+    "wxjj_v05_05",
+    "wxjj_v16_01",
+    "wxjj_v17_01",
+    "wxjj_v17_02"
+  ],
+  "empty_chart": [],
+  "pattern_cong": [
+    "dtcs_lq12_congxiang",
+    "dtcs_lq14_jiacong",
+    "mlyy_fa28",
+    "mlyy_fu15",
+    "qlmg_09_waige",
+    "qlmg_10_waige_jielun"
+  ],
+  "pattern_huage": [
+    "wxjj_v04_01",
+    "dtcs_lq13_huaxiang",
+    "dtcs_lq15_jiahua",
+    "mlyy_fa29",
+    "mlyy_fu16",
+    "qlmg_09_waige",
+    "qlmg_10_waige_jielun"
+  ],
+  "pattern_plus_shensha": [
+    "zpzq_ch31_zhengguan",
+    "zpzq_ch32_zhengguanquyun",
+    "mlyy_fa15",
+    "mlyy_fa17",
+    "mlyy_fa18",
+    "mlyy_fa19",
+    "mlyy_fu05",
+    "dtcs_ts12_bage",
+    "smth_ss_tianyiguiren",
+    "mlyy_lun20",
+    "qlmg_08_geju",
+    "wxjj_v13_01",
+    "wxjj_v14_01"
+  ],
+  "pattern_qisha_with_ten_god": [
+    "zpzq_ch39_pianguan",
+    "zpzq_ch40_pianguanquyun",
+    "mlyy_fa16",
+    "mlyy_fa17",
+    "mlyy_fa18",
+    "mlyy_fa19",
+    "mlyy_fu06",
+    "dtcs_ts12_bage",
+    "dtcs_ts21_guansha",
+    "zpzq_ch19_xiongshenchengge",
+    "qlmg_06_liushen",
+    "qlmg_08_geju",
+    "wxjj_v17_02"
+  ],
+  "pattern_yinshou": [
+    "zpzq_ch35_yinshou",
+    "zpzq_ch36_yinshouquyun",
+    "mlyy_fa20",
+    "mlyy_fu07",
+    "mlyy_fu08",
+    "dtcs_ts12_bage",
+    "qlmg_08_geju"
+  ],
+  "pattern_zhengguan": [
+    "zpzq_ch31_zhengguan",
+    "zpzq_ch32_zhengguanquyun",
+    "mlyy_fa15",
+    "mlyy_fa17",
+    "mlyy_fa18",
+    "mlyy_fa19",
+    "mlyy_fu05",
+    "dtcs_ts12_bage",
+    "qlmg_08_geju"
+  ],
+  "rishi_gengzi_jimao": [
+    "smth_rs_gengzi_jimao"
+  ],
+  "rishi_jiazi_bingyin": [
+    "smth_rs_jiazi_bingyin"
+  ],
+  "rishi_wrong_hour": [],
+  "shensha_kongwang": [
+    "mlyy_lun23",
+    "wxjj_v23_01",
+    "wxjj_v25_03"
+  ],
+  "shensha_tianyi": [
+    "smth_ss_tianyiguiren",
+    "mlyy_lun20",
+    "wxjj_v13_01",
+    "wxjj_v14_01"
+  ],
+  "shensha_yima": [
+    "smth_ss_luma",
+    "smth_ss_yima",
+    "mlyy_lun22",
+    "wxjj_v16_01",
+    "wxjj_v17_01"
+  ],
+  "ten_god_zhengyin": [
+    "zpzq_ch35_yinshou",
+    "zpzq_ch36_yinshouquyun",
+    "mlyy_fa20",
+    "mlyy_fu07",
+    "mlyy_fu08",
+    "dtcs_lq03_fumu",
+    "dtcs_lq22_muxiang",
+    "zpzq_ch18_jishenpoge",
+    "qlmg_06_liushen",
+    "qlmg_16_liuqin_fenlun",
+    "wxjj_v18_01",
+    "wxjj_v19_02"
+  ],
+  "tiaohou_geng_zi": [
+    "qtbj_geng_zi",
+    "wxjj_v05_05"
+  ],
+  "tiaohou_jia_yin": [
+    "qtbj_jia_yin",
+    "qtbj_jia_yinmao",
+    "wxjj_v05_02"
+  ],
+  "tiaohou_wrong_month": [
+    "qtbj_jia_mao",
+    "qtbj_jia_yinmao",
+    "wxjj_v05_02"
+  ]
+}
