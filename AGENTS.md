@@ -42,23 +42,46 @@ stage hundreds/thousands of files in one commit.
 
 ## 2. Branching & pull requests via GitHub CLI (MANDATORY)
 
-Default integration path is a **feature branch + Pull Request**, not direct commits to `main`.
+**Three-layer branch model** (full policy: `docs/branching-policy.md`):
+
+- `main` — **release branch**: only accepts Release PRs from `develop`; every merge gets an
+  annotated tag. Never commit/push directly.
+- `develop` — **long-term integration branch**: all `feature/*` branches merge here. CI must
+  stay green. Never commit/push directly.
+- `feature/*` — **topic branch**: cut from up-to-date `develop`, one topic per branch, small
+  frequent commits, push often, PR back into `develop`.
+- `hotfix/*` — cut from `main`, merge into both `main` (patch tag) and `develop`.
+- `release/*` — optional freeze branch from `develop`, merge into `main` (tag) and back to `develop`.
+
 Use the **GitHub CLI (`gh`)** for remote-branch / PR / release operations.
 
-- **Never commit directly onto `main`/`dev`.** Create a type-prefixed, ASCII-lowercase,
-  hyphenated branch per topic:
-  `feat/<scope>`, `fix/<scope>`, `docs/<topic>`, `test/<topic>`, `chore/<topic>`
-  (e.g. `feat/retrieval-engine`, `docs/tianyi-collation`).
-- Standard loop:
+- **Never commit directly onto `main` or `develop`.** Create a type-prefixed, ASCII-lowercase,
+  hyphenated branch per topic from `develop`:
+  `feature/<scope>`, `hotfix/<scope>`, `docs/<topic>`, `test/<topic>`, `chore/<topic>`
+  (e.g. `feature/book-cheng-gu`, `docs/tianyi-collation`).
+- **Feature PR loop (feature → develop):**
 
   ```powershell
-  git switch -c feat/<scope>          # branch from an up-to-date main
-  # ... small commits per §1 ...
+  git switch develop; git pull origin develop
+  git switch -c feature/<scope>      # branch from up-to-date develop
+  # ... small commits per §1, push often ...
   git push -u origin HEAD             # push branch (SSH deploy-key remote already has write)
-  gh pr create --base main --head feat/<scope> --title "..." --body "..."
+  gh pr create --base develop --head feature/<scope> --title "..." --body "..."
   gh pr checks                        # wait for checks
-  gh pr view --web                    # review
   gh pr merge --merge --delete-branch # preserve small-commit history; tidy the branch
+  ```
+
+- **Release PR loop (develop → main):** when a milestone is complete and `develop` CI is green:
+
+  ```powershell
+  gh pr create --base main --head develop --title "release: vX.Y.Z" --body "..."
+  # final verification, then merge
+  gh pr merge <n> --merge
+  git switch main; git pull origin main
+  git tag -a vX.Y.Z -m "Release vX.Y.Z: ..."
+  git push origin vX.Y.Z
+  gh release create vX.Y.Z --generate-notes   # optional
+  git switch develop                           # back to long-term integration
   ```
 
 - **Division of labor between git and gh:** plain `git push` of a branch uses the configured
@@ -72,9 +95,11 @@ Use the **GitHub CLI (`gh`)** for remote-branch / PR / release operations.
   a deliberate series of small commits unless asked).
 - **Tags / releases:** create the annotated tag locally, push it, then optionally publish with
   `gh release create <tag> --generate-notes` (e.g. milestone `v1.0-library-1547`).
+  Semantic versioning: MAJOR = five-arts coverage / schema break; MINOR = new book / new skill;
+  PATCH = collation / OCR / bug fix.
 - **Auth:** `gh auth status` should show account **BerryUIKI** with `repo` + `workflow` scopes.
   If `gh` is missing or unauthenticated, stop and tell the owner; do not swap remotes or invent
-  credentials. Direct push to `main` is allowed only when the owner explicitly asks for it.
+  credentials. Direct push to `main`/`develop` is allowed only when the owner explicitly asks for it.
 
 ---
 
