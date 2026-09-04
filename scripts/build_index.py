@@ -349,6 +349,7 @@ def build_root_index(counts):
              f"| 第三梯队 | 千里命稿 | 韦千里（民国） | {qlmg} | [索引](./extended/qianliminggao/INDEX.md) | ✅ |",
              f"| 补遗·渊源 | 五行精纪 | 廖中（宋）·34卷 | {wxjj} | [索引](./extended/wuxingjingji/INDEX.md) | ✅ |",
              f"| 补遗·子平法汇 | 命理约言 | 陈素庵（清）·韦千里选辑 | {mlyy} | [索引](./extended/mingliyaoyan/INDEX.md) | ✅ |",
+             f"| 民俗·称骨 | 袁天罡称骨歌 | 袁天罡（托名·唐）·通行本 | {counts['chenggu']} | [索引](./extended/chenggu/INDEX.md) | ✅ |",
              f"| **合计** | **10 部** | — | **{total}** | — | — |", "",
              "## 目录结构", "",
              "```text",
@@ -369,7 +370,8 @@ def build_root_index(counts):
              "    ├── yuzhaodingzhenjing/   # 玉照定真经 256",
              "    ├── qianliminggao/        # 千里命稿 22",
              "    ├── wuxingjingji/         # 五行精纪 74（宋·禄命纳音神煞类书）",
-             "    └── mingliyaoyan/         # 命理约言 119（清·子平旺衰法汇）",
+             "    ├── mingliyaoyan/         # 命理约言 119（清·子平旺衰法汇）",
+             "    └── chenggu/              # 袁天罡称骨歌 57（民俗·四量表+52档歌诀）",
              "```", "",
              "## 检索字段速查", "",
              "| 场景 | 匹配字段 | 示例 |",
@@ -390,6 +392,20 @@ def build_root_index(counts):
     return "\n".join(lines)
 
 
+def build_generic_index(title, desc=""):
+    """通用书目索引生成器：按 id 排序列出全部条目（适用于结构简单的新增书目）。"""
+    def builder(items):
+        lines = [f"# {title}", ""]
+        if desc:
+            lines += [desc, ""]
+        lines += ["## 条目索引", ""]
+        for it in sorted(items, key=lambda x: x["id"]):
+            lines.append(f"- [{it['section_title']}](./{it['id']}.md) — `{it['id']}`")
+        lines.append("")
+        return "\n".join(lines)
+    return builder
+
+
 def main():
     plan = [
         ("core", "qiongtongbj", build_qtbj_index),
@@ -402,6 +418,9 @@ def main():
         ("extended", "qianliminggao", build_qlmg_index),
         ("extended", "wuxingjingji", build_wxjj_index),
         ("extended", "mingliyaoyan", build_mlyy_index),
+        ("extended", "chenggu", build_generic_index(
+            "袁天罡称骨歌",
+            "称骨算命法：出生年/月/日/时四重量表 + 男命五十二档歌诀（二两一至七两二）。民俗简法，仅供传统文化研究参考。")),
     ]
     counts = {}
     for root, book, builder in plan:

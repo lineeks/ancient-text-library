@@ -18,7 +18,8 @@
 | 第三梯队 | 千里命稿 | 韦千里（民国） | 22 | [索引](./extended/qianliminggao/INDEX.md) | ✅ |
 | 补遗·渊源 | 五行精纪 | 廖中（宋）·34卷 | 74 | [索引](./extended/wuxingjingji/INDEX.md) | ✅ |
 | 补遗·子平法汇 | 命理约言 | 陈素庵（清）·韦千里选辑 | 119 | [索引](./extended/mingliyaoyan/INDEX.md) | ✅ |
-| **合计** | **10 部** | — | **1547** | — | — |
+| 民俗·称骨 | 袁天罡称骨歌 | 袁天罡（托名·唐）·通行本 | 57 | [索引](./extended/chenggu/INDEX.md) | ✅ |
+| **合计** | **10 部** | — | **1604** | — | — |
 
 ## 目录结构
 
@@ -40,7 +41,8 @@ ancient-text-library/
     ├── yuzhaodingzhenjing/   # 玉照定真经 256
     ├── qianliminggao/        # 千里命稿 22
     ├── wuxingjingji/         # 五行精纪 74（宋·禄命纳音神煞类书）
-    └── mingliyaoyan/         # 命理约言 119（清·子平旺衰法汇）
+    ├── mingliyaoyan/         # 命理约言 119（清·子平旺衰法汇）
+    └── chenggu/              # 袁天罡称骨歌 57（民俗·四量表+52档歌诀）
 ```
 
 ## 检索字段速查
