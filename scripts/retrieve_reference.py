@@ -18,6 +18,7 @@ CLI：
 import argparse
 import json
 import os
+import re
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MANIFEST = os.path.join(BASE, "manifest.json")
@@ -102,6 +103,43 @@ class Library:
         out.sort(key=lambda e: (-self.specificity(e["conditions"]),
                                 -e["weight"], e["path"]))
         return out
+
+    # ── 正文三层加载器（轻量，按标记切分原文/古注/白话） ──────────
+    BODY_MARKER = re.compile(r'\*\*【([^】]+)】\*\*')
+    ORIGINAL_KEYS = {"原文", "经文", "原文·口诀", "原文（四库提要）"}
+    VERNACULAR_KEYS = {"白话提要"}
+
+    @staticmethod
+    def load_body(path):
+        """读取条目 .md，去掉 Frontmatter，按 **【...】** 标记切分三层正文。
+        返回 {'original': 原文, 'annotation': 古注/评注, 'vernacular': 白话提要}。
+        未出现的层返回空串。轻量实现，不做复杂排版解析。"""
+        text = open(path, encoding="utf-8").read()
+        if text.startswith("---"):
+            parts = text.split("---", 2)
+            body = parts[2] if len(parts) > 2 else text
+        else:
+            body = text
+        markers = list(Library.BODY_MARKER.finditer(body))
+        segments = []
+        for i, m in enumerate(markers):
+            key = m.group(1)
+            start = m.end()
+            end = markers[i + 1].start() if i + 1 < len(markers) else len(body)
+            segments.append((key, body[start:end].strip()))
+        original, annotation, vernacular = [], [], []
+        for key, content in segments:
+            if key in Library.ORIGINAL_KEYS:
+                original.append(content)
+            elif key in Library.VERNACULAR_KEYS:
+                vernacular.append(content)
+            else:
+                annotation.append(content)
+        return {
+            "original": "\n".join(original).strip(),
+            "annotation": "\n".join(annotation).strip(),
+            "vernacular": "\n".join(vernacular).strip(),
+        }
 
 
 def brief(e):

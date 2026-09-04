@@ -116,6 +116,65 @@ impl Chart {
     }
 }
 
+/// 正文三层：原文 / 古注（评注/阐微等） / 白话提要。
+#[derive(Debug, Clone, Default)]
+pub struct Body {
+    pub original: String,
+    pub annotation: String,
+    pub vernacular: String,
+}
+
+/// 轻量正文三层加载器：读取条目 .md，去 Frontmatter，按 `**【...】**` 标记切分。
+/// 未出现的层返回空串。不引入正则依赖，纯字符串查找。
+pub fn load_body(path: &str) -> std::io::Result<Body> {
+    let text = std::fs::read_to_string(path)?;
+    let body = if text.starts_with("---") {
+        text.splitn(3, "---").nth(2).unwrap_or(&text).to_string()
+    } else {
+        text
+    };
+    let mut original = String::new();
+    let mut annotation = String::new();
+    let mut vernacular = String::new();
+    let mut pos = 0;
+    while let Some(rel) = body[pos..].find("**【") {
+        let abs_start = pos + rel;
+        if let Some(rel_key) = body[abs_start..].find("】**") {
+            let abs_key_end = abs_start + rel_key;
+            // `**【` = '*'(1) + '*'(1) + '【'(3) = 5 bytes; `】**` = '】'(3) + '*' + '*' = 5 bytes
+            let key = &body[abs_start + 5..abs_key_end];
+            let content_start = abs_key_end + 5;
+            let next = body[content_start..]
+                .find("**【")
+                .map(|p| content_start + p)
+                .unwrap_or(body.len());
+            let content = body[content_start..next].trim().to_string();
+            match key {
+                "原文" | "经文" | "原文·口诀" | "原文（四库提要）" => {
+                    original.push_str(&content);
+                    original.push('\n');
+                }
+                "白话提要" => {
+                    vernacular.push_str(&content);
+                    vernacular.push('\n');
+                }
+                _ => {
+                    annotation.push_str(&content);
+                    annotation.push('\n');
+                }
+            }
+            pos = next;
+        } else {
+            break;
+        }
+    }
+    Ok(Body {
+        original: original.trim().to_string(),
+        annotation: annotation.trim().to_string(),
+        vernacular: vernacular.trim().to_string(),
+    })
+}
+
 /// 已加载的知识库：一次性载入内存，查询零 IO。
 #[derive(Debug, Clone)]
 pub struct Library {
@@ -347,6 +406,17 @@ mod tests {
     fn read_root(rel: &str) -> String {
         let path = concat!(env!("CARGO_MANIFEST_DIR"), "/../");
         std::fs::read_to_string(format!("{path}{rel}")).expect("golden 文件应存在")
+    }
+
+    /// 正文三层加载器：读真实条目，验证原文/白话非空。
+    #[test]
+    fn load_body_splits_three_layers() {
+        let path = concat!(env!("CARGO_MANIFEST_DIR"),
+            "/../core/qiongtongbj/qtbj_jia_yin.md");
+        let b = load_body(path).expect("qtbj_jia_yin.md 应存在");
+        assert!(!b.original.is_empty(), "原文层不应为空");
+        assert!(!b.vernacular.is_empty(), "白话层不应为空");
+        assert!(b.original.contains("正月甲木"));
     }
 
     /// 自召回不变量：每条有硬锚点的条目用自身 conditions 构造命盘必能召回自己。
