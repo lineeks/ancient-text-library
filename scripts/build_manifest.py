@@ -18,11 +18,20 @@ import os
 import re
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# (root_dir, tier_name, category, default_subcategory)
+# core/origin-shensha/extended 为八字内部梯队，统一归 category=ming, subcategory=bazi；
+# ming/yi/xiang/bu/shan 为五术顶层目录，subcategory 取二级目录名。
 ROOTS = [
-    ("core", "第一梯队·核心"),
-    ("origin-shensha", "第二梯队·渊源神煞"),
-    ("extended", "第三梯队·实战与补遗"),
+    ("core", "第一梯队·核心", "ming", "bazi"),
+    ("origin-shensha", "第二梯队·渊源神煞", "ming", "bazi"),
+    ("extended", "第三梯队·实战与补遗", "ming", "bazi"),
+    ("ming", "命·命理", "ming", ""),
+    ("yi", "医·中医", "yi", ""),
+    ("xiang", "相·相术", "xiang", ""),
+    ("bu", "卜·卜筮", "bu", ""),
+    ("shan", "山·仙学养生", "shan", ""),
 ]
+FIVE_ARTS_ROOTS = {"ming", "yi", "xiang", "bu", "shan"}
 LIST_KEYS = {"day_master", "month_branch", "ten_god", "pattern", "shensha",
              "keywords", "tags", "day_pillar", "hour_pillar"}
 COND_FIELDS = ["day_master", "month_branch", "day_pillar", "hour_pillar",
@@ -59,7 +68,7 @@ def main():
     books = []
     entries = []
     seen_ids = set()
-    for root, tier_name in ROOTS:
+    for root, tier_name, category, default_sub in ROOTS:
         rdir = os.path.join(BASE, root)
         if not os.path.isdir(rdir):
             continue
@@ -67,6 +76,8 @@ def main():
             bdir = os.path.join(rdir, book)
             if not os.path.isdir(bdir):
                 continue
+            # 五术顶层目录的二级目录即为 subcategory（如 yi/shanghanlun/ -> shanghanlun）
+            subcategory = book if root in FIVE_ARTS_ROOTS else default_sub
             n = 0
             for name in sorted(os.listdir(bdir)):
                 if not name.endswith(".md") or name == "INDEX.md":
@@ -83,6 +94,8 @@ def main():
                     "book": meta.get("book", book),
                     "type": meta.get("type", ""),
                     "tier": root,
+                    "category": category,
+                    "subcategory": subcategory,
                     "path": rel,
                     "weight": as_int(meta.get("weight")),
                     "title": meta.get("section_title", ""),
@@ -90,15 +103,17 @@ def main():
                     "conditions": cond,
                 })
                 n += 1
-            books.append({"dir": book, "tier": root, "tier_name": tier_name, "count": n})
+            books.append({"dir": book, "tier": root, "tier_name": tier_name,
+                          "category": category, "subcategory": subcategory, "count": n})
     entries.sort(key=lambda e: e["path"])
     manifest = {
-        "schema_version": 1,
-        "name": "Aether-Cycle 子平命理古籍知识库",
+        "schema_version": 2,
+        "name": "Aether-Cycle 五术古籍图书馆",
         "match_fields": COND_FIELDS,
         "match_rule": "entry is recalled iff, for every non-empty declared field, "
                       "it intersects the chart's same-field set; results sort by weight desc.",
-        "roots": {r: t for r, t in ROOTS},
+        "roots": {r: t for r, t, _, _ in ROOTS},
+        "categories": ["ming", "yi", "xiang", "bu", "shan"],
         "books": books,
         "total": len(entries),
         "entries": entries,

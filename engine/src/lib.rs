@@ -45,6 +45,10 @@ pub struct Entry {
     #[serde(rename = "type")]
     pub kind: String,
     pub tier: String,
+    #[serde(default)]
+    pub category: String,
+    #[serde(default)]
+    pub subcategory: String,
     pub path: String,
     pub weight: i32,
     #[serde(default)]
