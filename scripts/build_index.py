@@ -10,7 +10,7 @@ import re
 from collections import defaultdict
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ROOTS = ["core", "origin-shensha", "extended"]
+ROOTS = ["core", "origin-shensha", "extended", "ming", "yi", "xiang", "bu", "shan"]
 
 STEM_ORDER = ["甲", "乙", "丙", "丁", "戊", "己", "庚", "辛", "壬", "癸"]
 STEM_EN = {"甲": "Jia", "乙": "Yi", "丙": "Bing", "丁": "Ding", "戊": "Wu",

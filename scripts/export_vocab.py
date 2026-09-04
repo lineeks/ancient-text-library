@@ -23,6 +23,7 @@ import yaml
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LIB_ROOTS = ["core", "origin-shensha", "extended"]
 CONTROLLED = ["ten_god", "pattern", "shensha"]
+TYPE_CONTROLLED = True  # type 也是受控枚举
 FIXED_ENUM = ["day_master", "month_branch"]
 OUT = os.path.join(BASE, "schema", "controlled_vocabulary.json")
 
@@ -59,6 +60,7 @@ def terms_block(counter):
 
 def main():
     counts = {k: Counter() for k in CONTROLLED}
+    type_counts = Counter()
     total = 0
     for path in walk():
         text = open(path, encoding="utf-8").read()
@@ -69,6 +71,8 @@ def main():
         total += 1
         for k in CONTROLLED:
             counts[k].update(cond.get(k, []) or [])
+        if meta.get("type"):
+            type_counts.update([meta["type"]])
 
     fields = {}
     for k in CONTROLLED:
@@ -76,6 +80,8 @@ def main():
         if k in ALIASES:
             block["aliases"] = ALIASES[k]  # alias -> canonical（登记存量异形）
         fields[k] = block
+    fields["type"] = {"open": False, **terms_block(type_counts),
+                       "note": "条目体裁枚举，新增须先在 docs/metadata-spec.md §3 登记"}
     fields["day_master"] = {"open": False, "enum": VALID_STEM}
     fields["month_branch"] = {"open": False, "enum": VALID_BRANCH}
     fields["keywords"] = {"open": True,
@@ -96,6 +102,7 @@ def main():
     print(f"受控词表已写出：{OUT}")
     for k in CONTROLLED:
         print(f"  {k}: {fields[k]['distinct']} 个取值，覆盖 {sum(counts[k].values())} 处")
+    print(f"  type: {fields['type']['distinct']} 个体裁")
 
 
 if __name__ == "__main__":

@@ -17,7 +17,7 @@ import sys
 import yaml
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-LIB_ROOTS = ["core", "origin-shensha", "extended"]
+LIB_ROOTS = ["core", "origin-shensha", "extended", "ming", "yi", "xiang", "bu", "shan"]
 CONTROLLED_FIELDS = ["ten_god", "pattern", "shensha"]
 
 # 受控词表白名单（由 scripts/export_vocab.py 生成）。允许规范词与已登记别名，
