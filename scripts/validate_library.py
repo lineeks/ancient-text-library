@@ -11,12 +11,29 @@ Aether-Cycle 古籍知识库 · 交付前质量门校验（全库：core / origi
      子平真诠章号 1..48 唯一连续；
   6. 正文分层标记齐全（【原文】/【经文】/【原文·口诀】之一 + 【白话提要】）。
 """
+import json
 import os
 import sys
 import yaml
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LIB_ROOTS = ["core", "origin-shensha", "extended"]
+CONTROLLED_FIELDS = ["ten_god", "pattern", "shensha"]
+
+# 受控词表白名单（由 scripts/export_vocab.py 生成）。允许规范词与已登记别名，
+# 未登记取值判错，以防标签漂移 / 同义异形无序滋生。
+_VOCAB_PATH = os.path.join(BASE, "schema", "controlled_vocabulary.json")
+try:
+    with open(_VOCAB_PATH, encoding="utf-8") as _f:
+        _vocab = json.load(_f)
+    ALLOWED_TERMS = {
+        k: (set(t["v"] for t in _vocab["fields"][k]["terms"])
+            | set(_vocab["fields"][k].get("aliases", {}).keys()))
+        for k in CONTROLLED_FIELDS
+    }
+except FileNotFoundError:
+    print("缺少 schema/controlled_vocabulary.json，请先运行 python scripts/export_vocab.py")
+    sys.exit(2)
 
 VALID_STEM = {"Jia", "Yi", "Bing", "Ding", "Wu", "Ji", "Geng", "Xin", "Ren", "Gui"}
 VALID_BRANCH = {"Yin", "Mao", "Chen", "Si", "Wu", "Wei", "Shen", "You", "Xu", "Hai", "Zi", "Chou"}
@@ -97,6 +114,12 @@ for root, book, name, path in walk():
         for p in cond.get("day_pillar", []) + cond.get("hour_pillar", []):
             if p not in JIAZI:
                 errors.append(f"[干支柱非六十甲子:{p}] {book}/{name}")
+        for cf in CONTROLLED_FIELDS:
+            for v in cond.get(cf, []):
+                if v not in ALLOWED_TERMS[cf]:
+                    errors.append(
+                        f"[受控词表外取值 {cf}={v}] {book}/{name}；"
+                        f"如确需新增，请先更新 schema/controlled_vocabulary.json")
 
     t = meta.get("type")
     if book == "qiongtongbj" and t == "monthly" and isinstance(cond, dict):
