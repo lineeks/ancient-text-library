@@ -76,7 +76,8 @@ ancient-text-library/
 │               ├── wuxingjingji/  #   五行精纪 74
 │               ├── mingliyaoyan/  #   命理约言 119
 │               ├── chenggu/       #   袁天罡称骨歌 57
-│               └── lxzmingshu/    #   李虚中命书 68
+│               ├── lxzmingshu/    #   李虚中命书 68
+│               └── luoluozi/      #   珞琭子赋注 62
 ├── yi/ xiang/ bu/ shan/          # 其余四术（待建，见 library/ 下对应目录）
 ```
 
