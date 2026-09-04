@@ -78,6 +78,10 @@ ancient-text-library/
 │               ├── chenggu/       #   袁天罡称骨歌 57
 │               ├── lxzmingshu/    #   李虚中命书 68
 │               └── luoluozi/      #   珞琭子赋注 62
+│           └── ziwei/             # 紫微斗数（subcategory=ziwei）
+│               ├── quanshu/       #   紫微斗数全书 17
+│               ├── quanji/        #   紫微斗数全集 29
+│               └── gusuifu/       #   斗数骨髓赋 29
 ├── yi/ xiang/ bu/ shan/          # 其余四术（待建，见 library/ 下对应目录）
 ```
 

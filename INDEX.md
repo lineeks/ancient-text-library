@@ -21,7 +21,10 @@
 | 民俗·称骨 | 袁天罡称骨歌 | 袁天罡（托名·唐）·通行本 | 57 | [索引](./library/ming/bazi/extended/chenggu/INDEX.md) | ✅ |
 | 补遗·古法禄命 | 李虚中命书 | 旧题鬼谷子撰·唐李虚中注·四库本 | 68 | [索引](./library/ming/bazi/extended/lxzmingshu/INDEX.md) | ✅ |
 | 补遗·禄命鼻祖 | 珞琭子赋注 | 宋释昙莹撰·四库本 | 62 | [索引](./library/ming/bazi/extended/luoluozi/INDEX.md) | ✅ |
-| **合计** | **12 部** | — | **1734** | — | — |
+| 命·紫微 | 紫微斗数全书 | 明罗洪先编·精选 | 17 | [索引](./library/ming/ziwei/quanshu/INDEX.md) | ✅ |
+| 命·紫微 | 紫微斗数全集 | 清代古本·精选 | 29 | [索引](./library/ming/ziwei/quanji/INDEX.md) | ✅ |
+| 命·紫微 | 斗数骨髓赋 | 紫微核心歌诀 | 29 | [索引](./library/ming/ziwei/gusuifu/INDEX.md) | ✅ |
+| **合计** | **15 部** | — | **1809** | — | — |
 
 ## 目录结构
 
@@ -50,6 +53,10 @@ ancient-text-library/
 │               ├── chenggu/   # 袁天罡称骨歌 57
 │               ├── lxzmingshu/ # 李虚中命书 68
 │               └── luoluozi/  # 珞琭子赋注 62
+│           └── ziwei/         # 紫微斗数（subcategory=ziwei）
+│               ├── quanshu/   # 紫微斗数全书 17
+│               ├── quanji/    # 紫微斗数全集 29
+│               └── gusuifu/   # 斗数骨髓赋 29
 ├── yi/                        # 医·中医（待建，library/yi/）
 ├── xiang/                     # 相·相术（待建，library/xiang/）
 ├── bu/                        # 卜·卜筮（待建，library/bu/）
