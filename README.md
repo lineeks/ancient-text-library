@@ -109,6 +109,13 @@ ancient-text-library/
 ├── bu/                            # 卜·卜筮（library/bu/）
 │   └── yijing/                    # 易经（subcategory=yijing）
 │       └── zhouyi/                #   周易 68（64卦+4传）
+├── shan/                          # 山·山术（library/shan/）
+│   ├── dandao/                    # 丹道（subcategory=dandao）
+│   │   └── cantongqi/             #   周易参同契分章通真义 66
+│   ├── wushu/                     # 武术（subcategory=wushu）
+│   │   └── taijilun/              #   太极拳论 1
+│   └── yangsheng/                 # 养生（subcategory=yangsheng）
+│       └── yijinjing/             #   达摩洗髓易筋经 22
 │           └── ziwei/             # 紫微斗数（subcategory=ziwei）
 │               ├── quanshu/       #   紫微斗数全书 17
 │               ├── quanji/        #   紫微斗数全集 29
