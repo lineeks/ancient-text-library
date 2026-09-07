@@ -38,6 +38,7 @@ ROOTS = [
     ("library/bu/yijing", "卜部易经", "bu", "yijing"),
     ("library/bu/liuyao", "卜部六爻", "bu", "liuyao"),
     ("library/bu/meihua", "卜部梅花", "bu", "meihua"),
+    ("library/bu/qimen", "卜部奇门", "bu", "qimen"),
     ("library/shan/dandao", "山部丹道", "shan", "dandao"),
     ("library/shan/wushu", "山部武术", "shan", "wushu"),
     ("library/shan/yangsheng", "山部养生", "shan", "yangsheng"),

@@ -46,10 +46,11 @@
 | 卜·六爻 | 火珠林 | 题麻衣道者·通行本 | 64 | [索引](./library/bu/liuyao/huozhulin/INDEX.md) | ✅ |
 | 卜·六爻 | 增删卜易 | 清野鹤老人·通行本 | 123 | [索引](./library/bu/liuyao/zengshanbuyi/INDEX.md) | ✅ |
 | 卜·梅花 | 梅花易数 | 宋邵雍·通行本 | 136 | [索引](./library/bu/meihua/meihuayishu/INDEX.md) | ✅ |
+| 卜·奇门 | 奇门遁甲秘笈大全 | 明刘基辑·通行本 | 382 | [索引](./library/bu/qimen/qimen-dunjia-miji/INDEX.md) | ✅ |
 | 山·丹道 | 周易参同契分章通真义 | 汉魏伯阳·五代彭晓注 | 88 | [索引](./library/shan/dandao/cantongqi/INDEX.md) | ✅ |
 | 山·武术 | 太极拳论 | 清王宗岳·艺藏本 | 1 | [索引](./library/shan/wushu/taijilun/INDEX.md) | ✅ |
 | 山·养生 | 达摩洗髓易筋经 | 艺藏本 | 22 | [索引](./library/shan/yangsheng/yijinjing/INDEX.md) | ✅ |
-| **合计** | **40 部** | — | **3775** | — | — |
+| **合计** | **40 部** | — | **4157** | — | — |
 
 ## 目录结构
 
@@ -113,6 +114,8 @@ ancient-text-library/
 │       └── huozhulin/           #   火珠林 64
 │   └── meihua/                  # 梅花易数（subcategory=meihua）
 │       └── meihuayishu/         #   梅花易数 136
+│   └── qimen/                   # 奇门遁甲（subcategory=qimen）
+│       └── qimen-dunjia-miji/   #   奇门遁甲秘笈大全 382
 ├── shan/                        # 山·山术（library/shan/）
 │   ├── dandao/                  # 丹道（subcategory=dandao）
 │   │   └── cantongqi/           #   周易参同契分章通真义 66
