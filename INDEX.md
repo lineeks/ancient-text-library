@@ -37,7 +37,12 @@
 | 医·温病 | 温病条辨 | 清吴鞠通·通行本 | 6 | [索引](./library/yi/wenbing/wenbingtiaobian/INDEX.md) | ✅ |
 | 医·针灸 | 针灸甲乙经 | 晋皇甫谧·四库本 | 12 | [索引](./library/yi/zhenji/zhenjiujiayi/INDEX.md) | ✅ |
 | 医·诊法 | 脉经 | 晋王叔和·四库本 | 1 | [索引](./library/yi/zhenfa/maijing/INDEX.md) | ✅ |
-| **合计** | **28 部** | — | **2869** | — | — |
+| 相·人相 | 神相全编 | 明清相术集大成 | 174 | [索引](./library/xiang/renxiang/shenxiangquanbian/INDEX.md) | ✅ |
+| 相·人相 | 柳庄相法 | 清袁珙·通行本 | 170 | [索引](./library/xiang/renxiang/liuzhuangxiangfa/INDEX.md) | ✅ |
+| 相·地相 | 撼龙经 | 唐杨筠松·通行本 | 1 | [索引](./library/xiang/dixiang/hanlongjing/INDEX.md) | ✅ |
+| 相·地相 | 葬书 | 晋郭璞·通行本 | 1 | [索引](./library/xiang/dixiang/zangshu/INDEX.md) | ✅ |
+| 相·地相 | 青囊奥语 | 唐杨筠松·通行本 | 1 | [索引](./library/xiang/dixiang/qingnangaoyu/INDEX.md) | ✅ |
+| **合计** | **33 部** | — | **3216** | — | — |
 
 ## 目录结构
 
@@ -86,6 +91,14 @@ ancient-text-library/
 │   │   └── zhenjiujiayi/     #   针灸甲乙经 12
 │   └── zhenfa/               # 诊法（subcategory=zhenfa）
 │       └── maijing/          #   脉经 1
+├── xiang/                     # 相·相术（library/xiang/）
+│   ├── renxiang/              # 人相（subcategory=renxiang）
+│   │   ├── shenxiangquanbian/ #   神相全编 174
+│   │   └── liuzhuangxiangfa/  #   柳庄相法 170
+│   └── dixiang/               # 地相（subcategory=dixiang）
+│       ├── hanlongjing/       #   撼龙经 1
+│       ├── zangshu/           #   葬书 1
+│       └── qingnangaoyu/      #   青囊奥语 1
 │           └── ziwei/         # 紫微斗数（subcategory=ziwei）
 │               ├── quanshu/   # 紫微斗数全书 17
 │               ├── quanji/    # 紫微斗数全集 29

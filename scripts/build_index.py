@@ -368,7 +368,12 @@ def build_root_index(counts):
              f"| 医·温病 | 温病条辨 | 清吴鞠通·通行本 | {counts['wenbingtiaobian']} | [索引](./library/yi/wenbing/wenbingtiaobian/INDEX.md) | ✅ |",
              f"| 医·针灸 | 针灸甲乙经 | 晋皇甫谧·四库本 | {counts['zhenjiujiayi']} | [索引](./library/yi/zhenji/zhenjiujiayi/INDEX.md) | ✅ |",
              f"| 医·诊法 | 脉经 | 晋王叔和·四库本 | {counts['maijing']} | [索引](./library/yi/zhenfa/maijing/INDEX.md) | ✅ |",
-             f"| **合计** | **28 部** | — | **{total}** | — | — |", "",
+             f"| 相·人相 | 神相全编 | 明清相术集大成 | {counts['shenxiangquanbian']} | [索引](./library/xiang/renxiang/shenxiangquanbian/INDEX.md) | ✅ |",
+             f"| 相·人相 | 柳庄相法 | 清袁珙·通行本 | {counts['liuzhuangxiangfa']} | [索引](./library/xiang/renxiang/liuzhuangxiangfa/INDEX.md) | ✅ |",
+             f"| 相·地相 | 撼龙经 | 唐杨筠松·通行本 | {counts['hanlongjing']} | [索引](./library/xiang/dixiang/hanlongjing/INDEX.md) | ✅ |",
+             f"| 相·地相 | 葬书 | 晋郭璞·通行本 | {counts['zangshu']} | [索引](./library/xiang/dixiang/zangshu/INDEX.md) | ✅ |",
+             f"| 相·地相 | 青囊奥语 | 唐杨筠松·通行本 | {counts['qingnangaoyu']} | [索引](./library/xiang/dixiang/qingnangaoyu/INDEX.md) | ✅ |",
+             f"| **合计** | **33 部** | — | **{total}** | — | — |", "",
              "## 目录结构", "",
              "```text",
              "ancient-text-library/",
@@ -415,6 +420,14 @@ def build_root_index(counts):
              "│   │   └── zhenjiujiayi/     #   针灸甲乙经 12",
              "│   └── zhenfa/               # 诊法（subcategory=zhenfa）",
              "│       └── maijing/          #   脉经 1",
+             "├── xiang/                     # 相·相术（library/xiang/）",
+             "│   ├── renxiang/              # 人相（subcategory=renxiang）",
+             "│   │   ├── shenxiangquanbian/ #   神相全编 174",
+             "│   │   └── liuzhuangxiangfa/  #   柳庄相法 170",
+             "│   └── dixiang/               # 地相（subcategory=dixiang）",
+             "│       ├── hanlongjing/       #   撼龙经 1",
+             "│       ├── zangshu/           #   葬书 1",
+             "│       └── qingnangaoyu/      #   青囊奥语 1",
              "│           └── ziwei/         # 紫微斗数（subcategory=ziwei）",
              "│               ├── quanshu/   # 紫微斗数全书 17",
              "│               ├── quanji/    # 紫微斗数全集 29",
@@ -526,6 +539,21 @@ def main():
         ("library/yi/zhenfa", "maijing", build_generic_index(
             "脉经",
             "晋王叔和撰，四库全书本，10卷，中国现存最早脉学专著，系统整理24种脉象，为脉诊学之祖。")),
+        ("library/xiang/renxiang", "shenxiangquanbian", build_generic_index(
+            "神相全编",
+            "明清相术集大成，通行本，174条，汇集麻衣、柳庄、水镜诸家相法，论五官六府、三停五岳、气色纹痣、骨相声音。")),
+        ("library/xiang/renxiang", "liuzhuangxiangfa", build_generic_index(
+            "柳庄相法",
+            "清袁珙撰，通行本，170条，明清相术代表作，以气色、精神、骨格为相法三要，论男女老幼贵贱寿夭。")),
+        ("library/xiang/dixiang", "hanlongjing", build_generic_index(
+            "撼龙经",
+            "唐杨筠松撰，通行本，峦头派风水鼻祖，专论龙脉行止、星体剥换、龙穴砂水，为地理峦头之宗。")),
+        ("library/xiang/dixiang", "zangshu", build_generic_index(
+            "葬书",
+            "晋郭璞撰，通行本，风水理论奠基之作，首创『气乘风则散，界水则止』之论，为后世堪舆之祖。")),
+        ("library/xiang/dixiang", "qingnangaoyu", build_generic_index(
+            "青囊奥语",
+            "唐杨筠松撰，通行本，理气派风水经典，以阴阳五行、三元九运论龙穴砂水，为玄空理气之宗。")),
     ]
     counts = {}
     for root, book, builder in plan:
