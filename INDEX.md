@@ -28,7 +28,7 @@
 | 补遗·子平赋文 | 三命指迷赋 | 宋岳珂补注·四库本 | 82 | [索引](./library/ming/bazi/extended/sanmingzhimifu/INDEX.md) | ✅ |
 | 命·七政四余 | 星学大成 | 明万民英撰·四库本 | 30 | [索引](./library/ming/qizheng/xingxuedacheng/INDEX.md) | ✅ |
 | 医·经典 | 黄帝内经素问 | 唐王冰注·宋林亿校 | 81 | [索引](./library/yi/jingdian/suwen/INDEX.md) | ✅ |
-| 医·经典 | 灵枢经 | 四库本 | 79 | [索引](./library/yi/jingdian/lingshu/INDEX.md) | ✅ |
+| 医·经典 | 灵枢经 | 四库本 | 81 | [索引](./library/yi/jingdian/lingshu/INDEX.md) | ✅ |
 | 医·经典 | 八十一难经 | 旧题扁鹊·四库本 | 81 | [索引](./library/yi/jingdian/nanjing/INDEX.md) | ✅ |
 | 医·经典 | 伤寒论 | 汉张仲景·通行本 | 10 | [索引](./library/yi/jingdian/shanghan/INDEX.md) | ✅ |
 | 医·经典 | 神农本草经 | 四库本 | 313 | [索引](./library/yi/jingdian/shennong/INDEX.md) | ✅ |
@@ -48,10 +48,10 @@
 | 卜·梅花 | 梅花易数 | 宋邵雍·通行本 | 136 | [索引](./library/bu/meihua/meihuayishu/INDEX.md) | ✅ |
 | 卜·奇门 | 奇门遁甲秘笈大全 | 明刘基辑·通行本 | 382 | [索引](./library/bu/qimen/qimen-dunjia-miji/INDEX.md) | ✅ |
 | 卜·六壬 | 六壬大全 | 明郭载騋校·四库全书本 | 269 | [索引](./library/bu/liuren/liuren-daquan/INDEX.md) | ✅ |
-| 山·丹道 | 周易参同契分章通真义 | 汉魏伯阳·五代彭晓注 | 88 | [索引](./library/shan/dandao/cantongqi/INDEX.md) | ✅ |
+| 山·丹道 | 周易参同契分章通真义 | 汉魏伯阳·五代彭晓注 | 90 | [索引](./library/shan/dandao/cantongqi/INDEX.md) | ✅ |
 | 山·武术 | 太极拳论 | 清王宗岳·艺藏本 | 1 | [索引](./library/shan/wushu/taijilun/INDEX.md) | ✅ |
 | 山·养生 | 达摩洗髓易筋经 | 艺藏本 | 22 | [索引](./library/shan/yangsheng/yijinjing/INDEX.md) | ✅ |
-| **合计** | **40 部** | — | **4426** | — | — |
+| **合计** | **40 部** | — | **4430** | — | — |
 
 ## 目录结构
 

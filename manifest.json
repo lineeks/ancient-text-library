@@ -229,7 +229,7 @@
       "tier_name": "医部经典",
       "category": "yi",
       "subcategory": "jingdian",
-      "count": 79
+      "count": 81
     },
     {
       "dir": "nanjing",
@@ -397,7 +397,7 @@
       "tier_name": "山部丹道",
       "category": "shan",
       "subcategory": "dandao",
-      "count": 88
+      "count": 90
     },
     {
       "dir": "taijilun",
@@ -536,7 +536,7 @@
       "count": 0
     }
   ],
-  "total": 4426,
+  "total": 4430,
   "entries": [
     {
       "id": "bu6_liuren_000",
@@ -92832,13 +92832,7 @@
           "太极拳",
           "丹道象喻",
           "五行",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
@@ -92866,13 +92860,7 @@
           "太极拳",
           "丹道象喻",
           "丹道火候",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
@@ -92898,13 +92886,7 @@
         "keywords": [
           "山术",
           "太极拳",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
@@ -92931,13 +92913,7 @@
           "山术",
           "太极拳",
           "丹道火候",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
@@ -92961,14 +92937,7 @@
         "pattern": [],
         "shensha": [],
         "keywords": [
-          "山术",
-          "丹道金丹",
-          "丹道火候",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "山术"
         ]
       }
     },
@@ -92996,13 +92965,7 @@
           "太极拳",
           "丹道火候",
           "五行",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
@@ -93029,13 +92992,7 @@
           "山术",
           "太极拳",
           "丹道象喻",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
@@ -93060,13 +93017,7 @@
         "shensha": [],
         "keywords": [
           "山术",
-          "丹道象喻",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "丹道象喻"
         ]
       }
     },
@@ -93093,14 +93044,7 @@
           "山术",
           "太极拳",
           "丹道象喻",
-          "丹道火候",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
@@ -93112,6 +93056,34 @@
       "category": "shan",
       "subcategory": "dandao",
       "path": "library/shan/dandao/cantongqi/shan_cantongqi_009.md",
+      "weight": 4,
+      "title": "易者象也章第十",
+      "chapter": "易者象也章第十",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道象喻",
+          "丹道火候",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_010",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_010.md",
       "weight": 4,
       "title": "於是仲尼章第十一",
       "chapter": "於是仲尼章第十一",
@@ -93126,23 +93098,18 @@
         "keywords": [
           "山术",
           "丹道象喻",
-          "五行",
-          "丹道金丹",
-          "丹道性命",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "五行"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_010",
+      "id": "shan_cantongqi_011",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_010.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_011.md",
       "weight": 4,
       "title": "圣人不虚生章第十二",
       "chapter": "圣人不虚生章第十二",
@@ -93158,24 +93125,18 @@
           "山术",
           "太极拳",
           "五行",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_011",
+      "id": "shan_cantongqi_012",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_011.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_012.md",
       "weight": 4,
       "title": "复卦建始萌章第十三",
       "chapter": "复卦建始萌章第十三",
@@ -93189,24 +93150,18 @@
         "shensha": [],
         "keywords": [
           "山术",
-          "丹道火候",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "丹道火候"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_012",
+      "id": "shan_cantongqi_013",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_012.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_013.md",
       "weight": 4,
       "title": "十六转受统章第十四",
       "chapter": "十六转受统章第十四",
@@ -93222,24 +93177,18 @@
           "山术",
           "太极拳",
           "丹道象喻",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_013",
+      "id": "shan_cantongqi_014",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_013.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_014.md",
       "weight": 4,
       "title": "壬癸配甲乙章第十五",
       "chapter": "壬癸配甲乙章第十五",
@@ -93255,24 +93204,18 @@
           "山术",
           "太极拳",
           "丹道象喻",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_014",
+      "id": "shan_cantongqi_015",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_014.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_015.md",
       "weight": 4,
       "title": "元精眇难睹章第十六",
       "chapter": "元精眇难睹章第十六",
@@ -93288,24 +93231,18 @@
           "山术",
           "太极拳",
           "丹道象喻",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_015",
+      "id": "shan_cantongqi_016",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_015.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_016.md",
       "weight": 4,
       "title": "御政之首章第十七",
       "chapter": "御政之首章第十七",
@@ -93318,23 +93255,18 @@
         "pattern": [],
         "shensha": [],
         "keywords": [
-          "山术",
-          "丹道金丹",
-          "丹道性命",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "山术"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_016",
+      "id": "shan_cantongqi_017",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_016.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_017.md",
       "weight": 4,
       "title": "文曰曰统录章第十",
       "chapter": "文曰曰统录章第十",
@@ -93349,24 +93281,18 @@
         "keywords": [
           "山术",
           "太极拳",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_017",
+      "id": "shan_cantongqi_018",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_017.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_018.md",
       "weight": 4,
       "title": "日五行精章第十九",
       "chapter": "日五行精章第十九",
@@ -93383,24 +93309,18 @@
           "太极拳",
           "丹道火候",
           "五行",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_018",
+      "id": "shan_cantongqi_019",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_018.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_019.md",
       "weight": 4,
       "title": "辰极受正章第二十",
       "chapter": "辰极受正章第二十",
@@ -93417,25 +93337,18 @@
           "太极拳",
           "丹道象喻",
           "五行",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道火候",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_019",
+      "id": "shan_cantongqi_020",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_019.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_020.md",
       "weight": 4,
       "title": "黄中渐通理章第二十一",
       "chapter": "黄中渐通理章第二十一",
@@ -93450,24 +93363,18 @@
         "keywords": [
           "山术",
           "太极拳",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_020",
+      "id": "shan_cantongqi_021",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_020.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_021.md",
       "weight": 4,
       "title": "上德无为章第二十二",
       "chapter": "上德无为章第二十二",
@@ -93484,24 +93391,18 @@
           "太极拳",
           "丹道象喻",
           "五行",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_021",
+      "id": "shan_cantongqi_022",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_021.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_022.md",
       "weight": 4,
       "title": "知白守黑章第二十三",
       "chapter": "知白守黑章第二十三",
@@ -93518,25 +93419,18 @@
           "太极拳",
           "丹道象喻",
           "五行",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道火候",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_022",
+      "id": "shan_cantongqi_023",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_022.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_023.md",
       "weight": 4,
       "title": "金为水母章第二十四",
       "chapter": "金为水母章第二十四",
@@ -93549,24 +93443,18 @@
         "pattern": [],
         "shensha": [],
         "keywords": [
-          "山术",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "山术"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_023",
+      "id": "shan_cantongqi_024",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_023.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_024.md",
       "weight": 4,
       "title": "采之类白章第二十五",
       "chapter": "采之类白章第二十五",
@@ -93583,24 +93471,18 @@
           "太极拳",
           "丹道象喻",
           "五行",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_024",
+      "id": "shan_cantongqi_025",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_024.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_025.md",
       "weight": 4,
       "title": "旁有垣阙章第二十六",
       "chapter": "旁有垣阙章第二十六",
@@ -93616,24 +93498,18 @@
           "山术",
           "太极拳",
           "丹道象喻",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_025",
+      "id": "shan_cantongqi_026",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_025.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_026.md",
       "weight": 4,
       "title": "是非历藏法章第二十七",
       "chapter": "是非历藏法章第二十七",
@@ -93648,23 +93524,18 @@
         "keywords": [
           "山术",
           "丹道火候",
-          "丹道部位",
-          "丹道金丹",
-          "丹道性命",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "丹道部位"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_026",
+      "id": "shan_cantongqi_027",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_026.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_027.md",
       "weight": 4,
       "title": "明者省厥旨章第二十八",
       "chapter": "明者省厥旨章第二十八",
@@ -93678,24 +93549,18 @@
         "shensha": [],
         "keywords": [
           "山术",
-          "丹道象喻",
-          "丹道金丹",
-          "丹道火候",
-          "丹道性命",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "丹道象喻"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_027",
+      "id": "shan_cantongqi_028",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_027.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_028.md",
       "weight": 4,
       "title": "火记不虚作章第二十九",
       "chapter": "火记不虚作章第二十九",
@@ -93709,23 +93574,18 @@
         "shensha": [],
         "keywords": [
           "山术",
-          "丹道象喻",
-          "丹道金丹",
-          "丹道性命",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "丹道象喻"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_028",
+      "id": "shan_cantongqi_029",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_028.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_029.md",
       "weight": 4,
       "title": "金入猛火中章第三十",
       "chapter": "金入猛火中章第三十",
@@ -93740,23 +93600,18 @@
         "keywords": [
           "山术",
           "丹道象喻",
-          "五行",
-          "丹道金丹",
-          "丹道性命",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "五行"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_029",
+      "id": "shan_cantongqi_030",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_029.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_030.md",
       "weight": 4,
       "title": "子午数合三章第三十一",
       "chapter": "子午数合三章第三十一",
@@ -93771,23 +93626,18 @@
         "keywords": [
           "山术",
           "丹道火候",
-          "五行",
-          "丹道金丹",
-          "丹道性命",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "五行"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_030",
+      "id": "shan_cantongqi_031",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_030.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_031.md",
       "weight": 4,
       "title": "巨胜尚延年章第三十二",
       "chapter": "巨胜尚延年章第三十二",
@@ -93801,24 +93651,18 @@
         "shensha": [],
         "keywords": [
           "山术",
-          "丹道",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "丹道"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_031",
+      "id": "shan_cantongqi_032",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_031.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_032.md",
       "weight": 4,
       "title": "胡粉投火章第三十三",
       "chapter": "胡粉投火章第三十三",
@@ -93834,24 +93678,18 @@
           "山术",
           "太极拳",
           "五行",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_032",
+      "id": "shan_cantongqi_033",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_032.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_033.md",
       "weight": 4,
       "title": "世间多学士章第三十四",
       "chapter": "世间多学士章第三十四",
@@ -93864,23 +93702,18 @@
         "pattern": [],
         "shensha": [],
         "keywords": [
-          "山术",
-          "丹道金丹",
-          "丹道性命",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "山术"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_033",
+      "id": "shan_cantongqi_034",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_033.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_034.md",
       "weight": 4,
       "title": "若夫至圣章第三十五",
       "chapter": "若夫至圣章第三十五",
@@ -93896,24 +93729,18 @@
           "山术",
           "太极拳",
           "丹道象喻",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_034",
+      "id": "shan_cantongqi_035",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_034.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_035.md",
       "weight": 4,
       "title": "火记六百篇章第三十六",
       "chapter": "火记六百篇章第三十六",
@@ -93926,23 +93753,18 @@
         "pattern": [],
         "shensha": [],
         "keywords": [
-          "山术",
-          "丹道金丹",
-          "丹道性命",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "山术"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_035",
+      "id": "shan_cantongqi_036",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_035.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_036.md",
       "weight": 4,
       "title": "以金为堤防章第三十七",
       "chapter": "以金为堤防章第三十七",
@@ -93958,24 +93780,18 @@
           "山术",
           "太极拳",
           "五行",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_036",
+      "id": "shan_cantongqi_037",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_036.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_037.md",
       "weight": 4,
       "title": "捣治并合之章第三十八",
       "chapter": "捣治并合之章第三十八",
@@ -93989,24 +93805,18 @@
         "shensha": [],
         "keywords": [
           "山术",
-          "丹道火候",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "丹道火候"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_037",
+      "id": "shan_cantongqi_038",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_037.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_038.md",
       "weight": 4,
       "title": "推演五行数章第三十九",
       "chapter": "推演五行数章第三十九",
@@ -94022,27 +93832,46 @@
           "山术",
           "丹道",
           "太极拳",
-          "丹道象喻",
           "丹道火候",
           "五行",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_038",
+      "id": "shan_cantongqi_039",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_038.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_039.md",
+      "weight": 4,
+      "title": "名者以定情章第四十",
+      "chapter": "名者以定情章第四十",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "丹道",
+          "丹道象喻"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_040",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_040.md",
       "weight": 4,
       "title": "乾坤刚柔章第四十一",
       "chapter": "乾坤刚柔章第四十一",
@@ -94060,24 +93889,18 @@
           "太极拳",
           "丹道象喻",
           "五行",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_039",
+      "id": "shan_cantongqi_041",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_039.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_041.md",
       "weight": 4,
       "title": "君子居室章第四十二",
       "chapter": "君子居室章第四十二",
@@ -94093,24 +93916,18 @@
           "山术",
           "太极拳",
           "丹道象喻",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_040",
+      "id": "shan_cantongqi_042",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_040.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_042.md",
       "weight": 4,
       "title": "聊陈两象章第四十三",
       "chapter": "聊陈两象章第四十三",
@@ -94126,25 +93943,18 @@
           "山术",
           "太极拳",
           "丹道象喻",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道火候",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_041",
+      "id": "shan_cantongqi_043",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_041.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_043.md",
       "weight": 4,
       "title": "二至改度章第四十四",
       "chapter": "二至改度章第四十四",
@@ -94158,24 +93968,18 @@
         "shensha": [],
         "keywords": [
           "山术",
-          "丹道象喻",
-          "丹道金丹",
-          "丹道火候",
-          "丹道性命",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "丹道象喻"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_042",
+      "id": "shan_cantongqi_044",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_042.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_044.md",
       "weight": 4,
       "title": "动静有常章第四十五",
       "chapter": "动静有常章第四十五",
@@ -94191,24 +93995,18 @@
           "山术",
           "太极拳",
           "丹道象喻",
-          "五行",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "五行"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_043",
+      "id": "shan_cantongqi_045",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_043.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_045.md",
       "weight": 4,
       "title": "晦朔之间章第四十六",
       "chapter": "晦朔之间章第四十六",
@@ -94223,24 +94021,18 @@
         "keywords": [
           "山术",
           "丹道象喻",
-          "丹道火候",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "丹道火候"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_044",
+      "id": "shan_cantongqi_046",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_044.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_046.md",
       "weight": 4,
       "title": "昂毕之上章第四十七",
       "chapter": "昂毕之上章第四十七",
@@ -94256,24 +94048,18 @@
           "山术",
           "太极拳",
           "丹道象喻",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_045",
+      "id": "shan_cantongqi_047",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_045.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_047.md",
       "weight": 4,
       "title": "循据璇玑章第四十八",
       "chapter": "循据璇玑章第四十八",
@@ -94289,24 +94075,18 @@
           "山术",
           "太极拳",
           "丹道象喻",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_046",
+      "id": "shan_cantongqi_048",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_046.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_048.md",
       "weight": 4,
       "title": "朔旦为复章第四十九",
       "chapter": "朔旦为复章第四十九",
@@ -94320,24 +94100,18 @@
         "shensha": [],
         "keywords": [
           "山术",
-          "丹道火候",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "丹道火候"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_047",
+      "id": "shan_cantongqi_049",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_047.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_049.md",
       "weight": 4,
       "title": "临炉施条章第五十",
       "chapter": "临炉施条章第五十",
@@ -94351,24 +94125,18 @@
         "shensha": [],
         "keywords": [
           "山术",
-          "丹道火候",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "丹道火候"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_048",
+      "id": "shan_cantongqi_050",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_048.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_050.md",
       "weight": 4,
       "title": "仰以成泰章第五十一",
       "chapter": "仰以成泰章第五十一",
@@ -94385,24 +94153,18 @@
           "太极拳",
           "丹道象喻",
           "丹道火候",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_049",
+      "id": "shan_cantongqi_051",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_049.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_051.md",
       "weight": 4,
       "title": "渐历大壮章第五十二",
       "chapter": "渐历大壮章第五十二",
@@ -94417,24 +94179,18 @@
         "keywords": [
           "山术",
           "太极拳",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_050",
+      "id": "shan_cantongqi_052",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_050.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_052.md",
       "weight": 4,
       "title": "夬阴以退章第五十三",
       "chapter": "夬阴以退章第五十三",
@@ -94448,24 +94204,18 @@
         "shensha": [],
         "keywords": [
           "山术",
-          "丹道火候",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "丹道火候"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_051",
+      "id": "shan_cantongqi_053",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_051.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_053.md",
       "weight": 4,
       "title": "乾健盛明章第五十四",
       "chapter": "乾健盛明章第五十四",
@@ -94479,24 +94229,18 @@
         "shensha": [],
         "keywords": [
           "山术",
-          "丹道火候",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "丹道火候"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_052",
+      "id": "shan_cantongqi_054",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_052.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_054.md",
       "weight": 4,
       "title": "姤始纪序章第五十五",
       "chapter": "姤始纪序章第五十五",
@@ -94513,24 +94257,18 @@
           "太极拳",
           "丹道象喻",
           "丹道火候",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_053",
+      "id": "shan_cantongqi_055",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_053.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_055.md",
       "weight": 4,
       "title": "遁世去位章第五十六",
       "chapter": "遁世去位章第五十六",
@@ -94546,24 +94284,18 @@
           "山术",
           "太极拳",
           "丹道火候",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_054",
+      "id": "shan_cantongqi_056",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_054.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_056.md",
       "weight": 4,
       "title": "否塞不通章第五十七",
       "chapter": "否塞不通章第五十七",
@@ -94579,24 +94311,18 @@
           "山术",
           "太极拳",
           "丹道火候",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_055",
+      "id": "shan_cantongqi_057",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_055.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_057.md",
       "weight": 4,
       "title": "观其权量章第五十八",
       "chapter": "观其权量章第五十八",
@@ -94611,24 +94337,18 @@
         "keywords": [
           "山术",
           "太极拳",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_056",
+      "id": "shan_cantongqi_058",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_056.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_058.md",
       "weight": 4,
       "title": "剥烂肢体章第五十九",
       "chapter": "剥烂肢体章第五十九",
@@ -94642,24 +94362,18 @@
         "shensha": [],
         "keywords": [
           "山术",
-          "丹道火候",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "丹道火候"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_057",
+      "id": "shan_cantongqi_059",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_057.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_059.md",
       "weight": 4,
       "title": "道穷则反章第六十",
       "chapter": "道穷则反章第六十",
@@ -94674,25 +94388,18 @@
         "keywords": [
           "山术",
           "太极拳",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道火候",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_058",
+      "id": "shan_cantongqi_060",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_058.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_060.md",
       "weight": 4,
       "title": "玄幽远渺章第六十一",
       "chapter": "玄幽远渺章第六十一",
@@ -94709,24 +94416,18 @@
           "太极拳",
           "丹道象喻",
           "五行",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_059",
+      "id": "shan_cantongqi_061",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_059.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_061.md",
       "weight": 4,
       "title": "将欲养性章第六十二",
       "chapter": "将欲养性章第六十二",
@@ -94741,24 +94442,18 @@
         "keywords": [
           "山术",
           "太极拳",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_060",
+      "id": "shan_cantongqi_062",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_060.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_062.md",
       "weight": 4,
       "title": "阴阳为度章第六十三",
       "chapter": "阴阳为度章第六十三",
@@ -94775,24 +94470,18 @@
           "太极拳",
           "丹道象喻",
           "五行",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_061",
+      "id": "shan_cantongqi_063",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_061.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_063.md",
       "weight": 4,
       "title": "类如鸡子章第六十四",
       "chapter": "类如鸡子章第六十四",
@@ -94810,25 +94499,18 @@
           "太极拳",
           "丹道象喻",
           "养生经络",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道火候",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_062",
+      "id": "shan_cantongqi_064",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_062.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_064.md",
       "weight": 4,
       "title": "阳燧取火章第六十五",
       "chapter": "阳燧取火章第六十五",
@@ -94844,24 +94526,18 @@
           "山术",
           "太极拳",
           "丹道象喻",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_063",
+      "id": "shan_cantongqi_065",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_063.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_065.md",
       "weight": 4,
       "title": "耳目口三宝章第六十六",
       "chapter": "耳目口三宝章第六十六",
@@ -94878,25 +94554,18 @@
           "太极拳",
           "丹道象喻",
           "五行",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道火候",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_064",
+      "id": "shan_cantongqi_066",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_064.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_066.md",
       "weight": 4,
       "title": "世人好小卫章第六十七",
       "chapter": "世人好小卫章第六十七",
@@ -94909,23 +94578,18 @@
         "pattern": [],
         "shensha": [],
         "keywords": [
-          "山术",
-          "丹道金丹",
-          "丹道性命",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "山术"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_065",
+      "id": "shan_cantongqi_067",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_065.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_067.md",
       "weight": 4,
       "title": "太阳流珠章第六十八",
       "chapter": "太阳流珠章第六十八",
@@ -94942,24 +94606,18 @@
           "太极拳",
           "丹道象喻",
           "五行",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_066",
+      "id": "shan_cantongqi_068",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_066.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_068.md",
       "weight": 4,
       "title": "子当右转章第六十九",
       "chapter": "子当右转章第六十九",
@@ -94975,24 +94633,18 @@
           "山术",
           "太极拳",
           "丹道火候",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_067",
+      "id": "shan_cantongqi_069",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_067.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_069.md",
       "weight": 4,
       "title": "不得其理章第七十",
       "chapter": "不得其理章第七十",
@@ -95005,23 +94657,18 @@
         "pattern": [],
         "shensha": [],
         "keywords": [
-          "山术",
-          "丹道金丹",
-          "丹道性命",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "山术"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_068",
+      "id": "shan_cantongqi_070",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_068.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_070.md",
       "weight": 4,
       "title": "五行相克章第七十一",
       "chapter": "五行相克章第七十一",
@@ -95038,24 +94685,18 @@
           "太极拳",
           "丹道象喻",
           "五行",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_069",
+      "id": "shan_cantongqi_071",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_069.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_071.md",
       "weight": 4,
       "title": "河上女章第七十二",
       "chapter": "河上女章第七十二",
@@ -95068,23 +94709,18 @@
         "pattern": [],
         "shensha": [],
         "keywords": [
-          "山术",
-          "丹道金丹",
-          "丹道性命",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "山术"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_070",
+      "id": "shan_cantongqi_072",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_070.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_072.md",
       "weight": 4,
       "title": "物无阴阳章第七十三",
       "chapter": "物无阴阳章第七十三",
@@ -95099,24 +94735,18 @@
         "keywords": [
           "山术",
           "太极拳",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_071",
+      "id": "shan_cantongqi_073",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_071.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_073.md",
       "weight": 4,
       "title": "坎男为月章第七十四",
       "chapter": "坎男为月章第七十四",
@@ -95132,24 +94762,18 @@
           "山术",
           "太极拳",
           "丹道火候",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_072",
+      "id": "shan_cantongqi_074",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_072.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_074.md",
       "weight": 4,
       "title": "金化为水章第七十五",
       "chapter": "金化为水章第七十五",
@@ -95162,24 +94786,18 @@
         "pattern": [],
         "shensha": [],
         "keywords": [
-          "山术",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "山术"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_073",
+      "id": "shan_cantongqi_075",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_073.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_075.md",
       "weight": 4,
       "title": "丹砂木精章第七十六",
       "chapter": "丹砂木精章第七十六",
@@ -95196,24 +94814,18 @@
           "太极拳",
           "丹道象喻",
           "五行",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_074",
+      "id": "shan_cantongqi_076",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_074.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_076.md",
       "weight": 4,
       "title": "刚柔迭兴章第七十七",
       "chapter": "刚柔迭兴章第七十七",
@@ -95230,24 +94842,18 @@
           "太极拳",
           "丹道象喻",
           "丹道火候",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_075",
+      "id": "shan_cantongqi_077",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_075.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_077.md",
       "weight": 4,
       "title": "关关睢鸠章第七十八",
       "chapter": "关关睢鸠章第七十八",
@@ -95265,25 +94871,18 @@
           "太极拳",
           "丹道象喻",
           "五行",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道火候",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_076",
+      "id": "shan_cantongqi_078",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_076.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_078.md",
       "weight": 4,
       "title": "惟昔圣贤章第七十九",
       "chapter": "惟昔圣贤章第七十九",
@@ -95297,24 +94896,18 @@
         "shensha": [],
         "keywords": [
           "山术",
-          "养生经络",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "养生经络"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_077",
+      "id": "shan_cantongqi_079",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_077.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_079.md",
       "weight": 4,
       "title": "法象天地章第八十",
       "chapter": "法象天地章第八十",
@@ -95331,24 +94924,18 @@
           "太极拳",
           "丹道象喻",
           "丹道火候",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_078",
+      "id": "shan_cantongqi_080",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_078.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_080.md",
       "weight": 4,
       "title": "升熬於甑山章第八十一",
       "chapter": "升熬於甑山章第八十一",
@@ -95365,24 +94952,18 @@
           "太极拳",
           "丹道象喻",
           "五行",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_079",
+      "id": "shan_cantongqi_081",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_079.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_081.md",
       "weight": 4,
       "title": "阴阳得其配章第八十二",
       "chapter": "阴阳得其配章第八十二",
@@ -95397,24 +94978,18 @@
         "keywords": [
           "山术",
           "太极拳",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_080",
+      "id": "shan_cantongqi_082",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_080.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_082.md",
       "weight": 4,
       "title": "先白后黄章第八十三",
       "chapter": "先白后黄章第八十三",
@@ -95432,24 +95007,18 @@
           "丹道象喻",
           "丹道火候",
           "五行",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_081",
+      "id": "shan_cantongqi_083",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_081.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_083.md",
       "weight": 4,
       "title": "补塞遗脱章第八十四",
       "chapter": "补塞遗脱章第八十四",
@@ -95467,24 +95036,18 @@
           "太极拳",
           "丹道象喻",
           "五行",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_082",
+      "id": "shan_cantongqi_084",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_082.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_084.md",
       "weight": 4,
       "title": "大易情性章第八十五",
       "chapter": "大易情性章第八十五",
@@ -95499,23 +95062,18 @@
         "keywords": [
           "山术",
           "丹道",
-          "五行",
-          "丹道金丹",
-          "丹道性命",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "五行"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_083",
+      "id": "shan_cantongqi_085",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_083.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_085.md",
       "weight": 4,
       "title": "枝茎华叶章第八十六",
       "chapter": "枝茎华叶章第八十六",
@@ -95528,23 +95086,18 @@
         "pattern": [],
         "shensha": [],
         "keywords": [
-          "山术",
-          "丹道金丹",
-          "丹道性命",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "山术"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_084",
+      "id": "shan_cantongqi_086",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_084.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_086.md",
       "weight": 4,
       "title": "象彼仲冬节章第八十七",
       "chapter": "象彼仲冬节章第八十七",
@@ -95559,24 +95112,18 @@
         "keywords": [
           "山术",
           "太极拳",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_085",
+      "id": "shan_cantongqi_087",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_085.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_087.md",
       "weight": 4,
       "title": "会稽鄙夫章第八十八",
       "chapter": "会稽鄙夫章第八十八",
@@ -95592,24 +95139,18 @@
           "山术",
           "太极拳",
           "丹道象喻",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_086",
+      "id": "shan_cantongqi_088",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_086.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_088.md",
       "weight": 4,
       "title": "务在顺理章第八十九",
       "chapter": "务在顺理章第八十九",
@@ -95625,24 +95166,18 @@
           "山术",
           "太极拳",
           "丹道火候",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
     {
-      "id": "shan_cantongqi_087",
+      "id": "shan_cantongqi_089",
       "book": "周易参同契分章通真义",
       "type": "chapter",
       "tier": "library/shan/dandao",
       "category": "shan",
       "subcategory": "dandao",
-      "path": "library/shan/dandao/cantongqi/shan_cantongqi_087.md",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_089.md",
       "weight": 4,
       "title": "审用成物章第九十",
       "chapter": "审用成物章第九十",
@@ -95659,13 +95194,7 @@
           "丹道",
           "太极拳",
           "丹道象喻",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
@@ -95694,13 +95223,7 @@
           "武术",
           "五行",
           "阴阳易理",
-          "丹道部位",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "丹道部位"
         ]
       }
     },
@@ -95729,12 +95252,7 @@
           "养生导引",
           "丹道象喻",
           "阴阳易理",
-          "丹道部位",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生起居"
+          "丹道部位"
         ]
       }
     },
@@ -95764,13 +95282,7 @@
           "武术",
           "养生经络",
           "阴阳易理",
-          "内丹三要",
-          "丹道金丹",
-          "丹道火候",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生起居"
+          "内丹三要"
         ]
       }
     },
@@ -95797,12 +95309,7 @@
           "山术",
           "养生导引",
           "丹道象喻",
-          "丹道火候",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生起居"
+          "丹道火候"
         ]
       }
     },
@@ -95831,13 +95338,7 @@
           "养生导引",
           "养生经络",
           "五行",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道火候",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
@@ -95870,12 +95371,7 @@
           "养生经络",
           "阴阳易理",
           "内丹三要",
-          "丹道部位",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生起居"
+          "丹道部位"
         ]
       }
     },
@@ -95902,12 +95398,7 @@
           "山术",
           "养生导引",
           "养生经络",
-          "丹道部位",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生起居"
+          "丹道部位"
         ]
       }
     },
@@ -95932,13 +95423,7 @@
         "shensha": [],
         "keywords": [
           "山术",
-          "武术",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "武术"
         ]
       }
     },
@@ -95964,12 +95449,7 @@
         "keywords": [
           "山术",
           "养生导引",
-          "丹道部位",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生起居"
+          "丹道部位"
         ]
       }
     },
@@ -95994,12 +95474,7 @@
         "shensha": [],
         "keywords": [
           "山术",
-          "丹道部位",
-          "丹道金丹",
-          "丹道性命",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "丹道部位"
         ]
       }
     },
@@ -96023,14 +95498,7 @@
         "pattern": [],
         "shensha": [],
         "keywords": [
-          "山术",
-          "丹道金丹",
-          "丹道火候",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "山术"
         ]
       }
     },
@@ -96055,13 +95523,7 @@
         "shensha": [],
         "keywords": [
           "山术",
-          "武术",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "武术"
         ]
       }
     },
@@ -96086,13 +95548,7 @@
         "shensha": [],
         "keywords": [
           "山术",
-          "丹道部位",
-          "丹道金丹",
-          "丹道火候",
-          "丹道性命",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "丹道部位"
         ]
       }
     },
@@ -96116,12 +95572,7 @@
         "pattern": [],
         "shensha": [],
         "keywords": [
-          "山术",
-          "丹道金丹",
-          "丹道性命",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "山术"
         ]
       }
     },
@@ -96148,13 +95599,7 @@
           "山术",
           "太极拳",
           "武术",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
@@ -96179,13 +95624,7 @@
         "shensha": [],
         "keywords": [
           "山术",
-          "养生经络",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "养生经络"
         ]
       }
     },
@@ -96215,13 +95654,7 @@
           "武术",
           "养生经络",
           "内丹三要",
-          "丹道部位",
-          "丹道金丹",
-          "丹道火候",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生起居"
+          "丹道部位"
         ]
       }
     },
@@ -96250,14 +95683,7 @@
           "丹道象喻",
           "武术",
           "五行",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道火候",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生导引",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
@@ -96283,12 +95709,7 @@
         "keywords": [
           "山术",
           "养生导引",
-          "武术",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生起居"
+          "武术"
         ]
       }
     },
@@ -96315,12 +95736,7 @@
           "山术",
           "养生导引",
           "武术",
-          "丹道部位",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生起居"
+          "丹道部位"
         ]
       }
     },
@@ -96347,11 +95763,7 @@
           "山术",
           "养生导引",
           "武术",
-          "养生经络",
-          "丹道金丹",
-          "丹道性命",
-          "武术内家",
-          "养生起居"
+          "养生经络"
         ]
       }
     },
@@ -96377,13 +95789,7 @@
         "keywords": [
           "山术",
           "养生导引",
-          "丹道部位",
-          "丹道金丹",
-          "丹道火候",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生起居"
+          "丹道部位"
         ]
       }
     },
@@ -96413,12 +95819,7 @@
           "武术",
           "养生经络",
           "五行",
-          "阴阳易理",
-          "丹道金丹",
-          "丹道性命",
-          "武术太极",
-          "武术内家",
-          "养生起居"
+          "阴阳易理"
         ]
       }
     },
@@ -110452,9 +109853,7 @@
           "病机",
           "针灸",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -110488,9 +109887,7 @@
           "针灸",
           "病因",
           "治法",
-          "养生",
-          "脏腑",
-          "诊法"
+          "养生"
         ]
       }
     },
@@ -110525,9 +109922,7 @@
           "针灸",
           "病因",
           "治法",
-          "养生",
-          "脏腑",
-          "病证"
+          "养生"
         ]
       }
     },
@@ -110562,9 +109957,7 @@
           "病因",
           "治法",
           "养生",
-          "气血津液",
-          "脏腑",
-          "病证"
+          "气血津液"
         ]
       }
     },
@@ -110601,8 +109994,7 @@
           "针灸",
           "病因",
           "治法",
-          "气血津液",
-          "脏腑"
+          "气血津液"
         ]
       }
     },
@@ -110635,8 +110027,7 @@
           "病机",
           "针灸",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -110669,9 +110060,7 @@
           "针灸",
           "病因",
           "治法",
-          "养生",
-          "脏腑",
-          "病证"
+          "养生"
         ]
       }
     },
@@ -110704,8 +110093,7 @@
           "针灸",
           "病因",
           "治法",
-          "养生",
-          "脏腑"
+          "养生"
         ]
       }
     },
@@ -110741,9 +110129,7 @@
           "针灸",
           "病因",
           "治法",
-          "养生",
-          "脏腑",
-          "病证"
+          "养生"
         ]
       }
     },
@@ -110779,9 +110165,7 @@
           "病机",
           "针灸",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -110813,9 +110197,7 @@
           "经络",
           "方剂",
           "病机",
-          "治法",
-          "药性",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -110850,8 +110232,7 @@
           "病机",
           "针灸",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -110883,10 +110264,7 @@
           "药性",
           "针灸",
           "病因",
-          "治法",
-          "脏腑",
-          "经络",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -110915,8 +110293,7 @@
           "五脏",
           "六腑",
           "经络",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -110943,8 +110320,7 @@
           "中医",
           "黄帝内经",
           "经络",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -110976,9 +110352,7 @@
           "方剂",
           "病机",
           "治法",
-          "气血津液",
-          "脏腑",
-          "经络"
+          "气血津液"
         ]
       }
     },
@@ -111010,10 +110384,7 @@
           "经络",
           "脉象",
           "病机",
-          "治法",
-          "药性",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -111047,8 +110418,7 @@
           "病因",
           "治法",
           "养生",
-          "气血津液",
-          "脏腑"
+          "气血津液"
         ]
       }
     },
@@ -111084,9 +110454,7 @@
           "针灸",
           "病因",
           "治法",
-          "养生",
-          "脏腑",
-          "病证"
+          "养生"
         ]
       }
     },
@@ -111118,9 +110486,7 @@
           "病机",
           "针灸",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -111154,10 +110520,7 @@
           "针灸",
           "病因",
           "治法",
-          "养生",
-          "脏腑",
-          "诊法",
-          "病证"
+          "养生"
         ]
       }
     },
@@ -111188,11 +110551,7 @@
           "病机",
           "针灸",
           "病因",
-          "治法",
-          "脏腑",
-          "经络",
-          "诊法",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -111227,9 +110586,7 @@
           "针灸",
           "病因",
           "治法",
-          "养生",
-          "脏腑",
-          "病证"
+          "养生"
         ]
       }
     },
@@ -111262,10 +110619,7 @@
           "病机",
           "针灸",
           "病因",
-          "治法",
-          "脏腑",
-          "诊法",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -111290,18 +110644,10 @@
         "shensha": [],
         "keywords": [
           "中医",
-          "伤寒论",
           "五脏",
-          "六腑",
-          "脉象",
           "药性",
-          "针灸",
           "病因",
-          "治法",
-          "五运六气",
-          "脏腑",
-          "诊法",
-          "病证"
+          "五运六气"
         ]
       }
     },
@@ -111313,6 +110659,39 @@
       "category": "yi",
       "subcategory": "jingdian",
       "path": "library/yi/jingdian/lingshu/yd_lingshu_025.md",
+      "weight": 3,
+      "title": "杂病第二十六",
+      "chapter": "杂病第二十六",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "中医",
+          "伤寒论",
+          "金匮要略",
+          "五脏",
+          "六腑",
+          "脉象",
+          "药性",
+          "针灸",
+          "病因",
+          "治法"
+        ]
+      }
+    },
+    {
+      "id": "yd_lingshu_026",
+      "book": "灵枢经",
+      "type": "chapter",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_026.md",
       "weight": 3,
       "title": "周痹第二十七",
       "chapter": "周痹第二十七",
@@ -111332,19 +110711,18 @@
           "病机",
           "针灸",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
     {
-      "id": "yd_lingshu_026",
+      "id": "yd_lingshu_027",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_026.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_027.md",
       "weight": 3,
       "title": "口问第二十八",
       "chapter": "口问第二十八",
@@ -111370,20 +110748,18 @@
           "病因",
           "治法",
           "养生",
-          "气血津液",
-          "脏腑",
-          "病证"
+          "气血津液"
         ]
       }
     },
     {
-      "id": "yd_lingshu_027",
+      "id": "yd_lingshu_028",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_027.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_028.md",
       "weight": 3,
       "title": "师传第二十九",
       "chapter": "师传第二十九",
@@ -111403,20 +110779,18 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
     {
-      "id": "yd_lingshu_028",
+      "id": "yd_lingshu_029",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_028.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_029.md",
       "weight": 3,
       "title": "决气第三十",
       "chapter": "决气第三十",
@@ -111434,20 +110808,18 @@
           "六腑",
           "病机",
           "治法",
-          "气血津液",
-          "脏腑",
-          "病证"
+          "气血津液"
         ]
       }
     },
     {
-      "id": "yd_lingshu_029",
+      "id": "yd_lingshu_030",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_029.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_030.md",
       "weight": 3,
       "title": "肠胃第三十一",
       "chapter": "肠胃第三十一",
@@ -111463,19 +110835,18 @@
           "中医",
           "黄帝内经",
           "六腑",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
     {
-      "id": "yd_lingshu_030",
+      "id": "yd_lingshu_031",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_030.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_031.md",
       "weight": 3,
       "title": "平人绝谷第三十二",
       "chapter": "平人绝谷第三十二",
@@ -111493,19 +110864,18 @@
           "五脏",
           "六腑",
           "病机",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
     {
-      "id": "yd_lingshu_031",
+      "id": "yd_lingshu_032",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_031.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_032.md",
       "weight": 3,
       "title": "海论第三十三",
       "chapter": "海论第三十三",
@@ -111527,20 +110897,18 @@
           "病机",
           "针灸",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
     {
-      "id": "yd_lingshu_032",
+      "id": "yd_lingshu_033",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_032.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_033.md",
       "weight": 3,
       "title": "五乱第三十四",
       "chapter": "五乱第三十四",
@@ -111563,20 +110931,18 @@
           "针灸",
           "治法",
           "养生",
-          "气血津液",
-          "脏腑",
-          "病证"
+          "气血津液"
         ]
       }
     },
     {
-      "id": "yd_lingshu_033",
+      "id": "yd_lingshu_034",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_033.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_034.md",
       "weight": 3,
       "title": "胀论第三十五",
       "chapter": "胀论第三十五",
@@ -111599,20 +110965,18 @@
           "病因",
           "治法",
           "养生",
-          "气血津液",
-          "脏腑",
-          "病证"
+          "气血津液"
         ]
       }
     },
     {
-      "id": "yd_lingshu_034",
+      "id": "yd_lingshu_035",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_034.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_035.md",
       "weight": 3,
       "title": "五癃津液别第三十六",
       "chapter": "五癃津液别第三十六",
@@ -111633,19 +110997,18 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
     {
-      "id": "yd_lingshu_035",
+      "id": "yd_lingshu_036",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_035.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_036.md",
       "weight": 3,
       "title": "五阅五使第三十七",
       "chapter": "五阅五使第三十七",
@@ -111663,19 +111026,18 @@
           "五脏",
           "药性",
           "针灸",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
     {
-      "id": "yd_lingshu_036",
+      "id": "yd_lingshu_037",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_036.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_037.md",
       "weight": 3,
       "title": "逆顺肥瘦第三十八",
       "chapter": "逆顺肥瘦第三十八",
@@ -111697,20 +111059,18 @@
           "病机",
           "针灸",
           "病因",
-          "治法",
-          "脏腑",
-          "经络"
+          "治法"
         ]
       }
     },
     {
-      "id": "yd_lingshu_037",
+      "id": "yd_lingshu_038",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_037.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_038.md",
       "weight": 3,
       "title": "血络论第三十九",
       "chapter": "血络论第三十九",
@@ -111728,19 +111088,18 @@
           "药性",
           "病机",
           "针灸",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
     {
-      "id": "yd_lingshu_038",
+      "id": "yd_lingshu_039",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_038.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_039.md",
       "weight": 3,
       "title": "阴阳清浊第四十",
       "chapter": "阴阳清浊第四十",
@@ -111761,19 +111120,18 @@
           "经络",
           "病机",
           "针灸",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
     {
-      "id": "yd_lingshu_039",
+      "id": "yd_lingshu_040",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_039.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_040.md",
       "weight": 3,
       "title": "阴阳系日月第四十一",
       "chapter": "阴阳系日月第四十一",
@@ -111797,19 +111155,18 @@
           "针灸",
           "病因",
           "治法",
-          "养生",
-          "脏腑"
+          "养生"
         ]
       }
     },
     {
-      "id": "yd_lingshu_040",
+      "id": "yd_lingshu_041",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_040.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_041.md",
       "weight": 3,
       "title": "病传第四十二",
       "chapter": "病传第四十二",
@@ -111829,20 +111186,18 @@
           "病机",
           "针灸",
           "治法",
-          "养生方术",
-          "脏腑",
-          "病证"
+          "养生方术"
         ]
       }
     },
     {
-      "id": "yd_lingshu_041",
+      "id": "yd_lingshu_042",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_041.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_042.md",
       "weight": 3,
       "title": "淫邪发梦第四十三",
       "chapter": "淫邪发梦第四十三",
@@ -111862,20 +111217,18 @@
           "病机",
           "病因",
           "治法",
-          "养生",
-          "药性",
-          "脏腑"
+          "养生"
         ]
       }
     },
     {
-      "id": "yd_lingshu_042",
+      "id": "yd_lingshu_043",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_042.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_043.md",
       "weight": 3,
       "title": "顺气一日分为四时第四十四",
       "chapter": "顺气一日分为四时第四十四",
@@ -111897,19 +111250,18 @@
           "针灸",
           "病因",
           "治法",
-          "养生",
-          "脏腑"
+          "养生"
         ]
       }
     },
     {
-      "id": "yd_lingshu_043",
+      "id": "yd_lingshu_044",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_043.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_044.md",
       "weight": 3,
       "title": "外揣第四十五",
       "chapter": "外揣第四十五",
@@ -111928,19 +111280,18 @@
           "病机",
           "针灸",
           "治法",
-          "养生",
-          "脏腑"
+          "养生"
         ]
       }
     },
     {
-      "id": "yd_lingshu_044",
+      "id": "yd_lingshu_045",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_044.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_045.md",
       "weight": 3,
       "title": "五变第四十六",
       "chapter": "五变第四十六",
@@ -111960,20 +111311,18 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
     {
-      "id": "yd_lingshu_045",
+      "id": "yd_lingshu_046",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_045.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_046.md",
       "weight": 3,
       "title": "本藏第四十七",
       "chapter": "本藏第四十七",
@@ -111997,20 +111346,18 @@
           "病因",
           "治法",
           "养生",
-          "气血津液",
-          "脏腑",
-          "病证"
+          "气血津液"
         ]
       }
     },
     {
-      "id": "yd_lingshu_046",
+      "id": "yd_lingshu_047",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_046.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_047.md",
       "weight": 3,
       "title": "禁服第四十八",
       "chapter": "禁服第四十八",
@@ -112036,19 +111383,18 @@
           "针灸",
           "病因",
           "治法",
-          "气血津液",
-          "脏腑"
+          "气血津液"
         ]
       }
     },
     {
-      "id": "yd_lingshu_047",
+      "id": "yd_lingshu_048",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_047.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_048.md",
       "weight": 3,
       "title": "五色第四十九",
       "chapter": "五色第四十九",
@@ -112070,20 +111416,18 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
     {
-      "id": "yd_lingshu_048",
+      "id": "yd_lingshu_049",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_048.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_049.md",
       "weight": 3,
       "title": "论勇第五十",
       "chapter": "论勇第五十",
@@ -112104,19 +111448,18 @@
           "病机",
           "病因",
           "治法",
-          "养生",
-          "脏腑"
+          "养生"
         ]
       }
     },
     {
-      "id": "yd_lingshu_049",
+      "id": "yd_lingshu_050",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_049.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_050.md",
       "weight": 3,
       "title": "背腧第五十一",
       "chapter": "背腧第五十一",
@@ -112135,19 +111478,18 @@
           "六腑",
           "针灸",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
     {
-      "id": "yd_lingshu_050",
+      "id": "yd_lingshu_051",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_050.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_051.md",
       "weight": 3,
       "title": "卫气第五十二",
       "chapter": "卫气第五十二",
@@ -112171,21 +111513,18 @@
           "病机",
           "针灸",
           "治法",
-          "气血津液",
-          "脏腑",
-          "诊法",
-          "病证"
+          "气血津液"
         ]
       }
     },
     {
-      "id": "yd_lingshu_051",
+      "id": "yd_lingshu_052",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_051.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_052.md",
       "weight": 3,
       "title": "论痛第五十三",
       "chapter": "论痛第五十三",
@@ -112202,19 +111541,18 @@
           "黄帝内经",
           "六腑",
           "药性",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
     {
-      "id": "yd_lingshu_052",
+      "id": "yd_lingshu_053",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_052.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_053.md",
       "weight": 3,
       "title": "天年第五十四",
       "chapter": "天年第五十四",
@@ -112235,20 +111573,18 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
     {
-      "id": "yd_lingshu_053",
+      "id": "yd_lingshu_054",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_053.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_054.md",
       "weight": 3,
       "title": "五味第五十六",
       "chapter": "五味第五十六",
@@ -112267,43 +111603,7 @@
           "六腑",
           "药性",
           "病机",
-          "针灸",
-          "病因",
-          "治法",
-          "气血津液",
-          "脏腑",
-          "病证"
-        ]
-      }
-    },
-    {
-      "id": "yd_lingshu_054",
-      "book": "灵枢经",
-      "type": "chapter",
-      "tier": "library/yi/jingdian",
-      "category": "yi",
-      "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_054.md",
-      "weight": 3,
-      "title": "贼风第五十八",
-      "chapter": "贼风第五十八",
-      "conditions": {
-        "day_master": [],
-        "month_branch": [],
-        "day_pillar": [],
-        "hour_pillar": [],
-        "ten_god": [],
-        "pattern": [],
-        "shensha": [],
-        "keywords": [
-          "中医",
-          "黄帝内经",
-          "药性",
-          "病机",
-          "病因",
-          "治法",
-          "养生",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -112316,6 +111616,36 @@
       "subcategory": "jingdian",
       "path": "library/yi/jingdian/lingshu/yd_lingshu_055.md",
       "weight": 3,
+      "title": "水胀第五十七",
+      "chapter": "水胀第五十七",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "中医",
+          "黄帝内经",
+          "药性",
+          "针灸",
+          "病因",
+          "治法",
+          "气血津液"
+        ]
+      }
+    },
+    {
+      "id": "yd_lingshu_056",
+      "book": "灵枢经",
+      "type": "chapter",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_056.md",
+      "weight": 3,
       "title": "贼风第五十八",
       "chapter": "贼风第五十八",
       "conditions": {
@@ -112333,19 +111663,48 @@
           "病机",
           "病因",
           "治法",
-          "养生",
-          "脏腑"
+          "养生"
         ]
       }
     },
     {
-      "id": "yd_lingshu_056",
+      "id": "yd_lingshu_057",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_056.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_057.md",
+      "weight": 3,
+      "title": "贼风第五十八",
+      "chapter": "贼风第五十八",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "中医",
+          "黄帝内经",
+          "药性",
+          "病机",
+          "病因",
+          "治法",
+          "养生"
+        ]
+      }
+    },
+    {
+      "id": "yd_lingshu_058",
+      "book": "灵枢经",
+      "type": "chapter",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_058.md",
       "weight": 3,
       "title": "卫气失常第五十九",
       "chapter": "卫气失常第五十九",
@@ -112369,19 +111728,18 @@
           "针灸",
           "病因",
           "治法",
-          "气血津液",
-          "脏腑"
+          "气血津液"
         ]
       }
     },
     {
-      "id": "yd_lingshu_057",
+      "id": "yd_lingshu_059",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_057.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_059.md",
       "weight": 3,
       "title": "玉版第六十",
       "chapter": "玉版第六十",
@@ -112404,20 +111762,18 @@
           "针灸",
           "治法",
           "养生",
-          "气血津液",
-          "脏腑",
-          "病证"
+          "气血津液"
         ]
       }
     },
     {
-      "id": "yd_lingshu_058",
+      "id": "yd_lingshu_060",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_058.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_060.md",
       "weight": 3,
       "title": "五禁第六十一",
       "chapter": "五禁第六十一",
@@ -112435,19 +111791,18 @@
           "药性",
           "针灸",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
     {
-      "id": "yd_lingshu_059",
+      "id": "yd_lingshu_061",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_059.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_061.md",
       "weight": 3,
       "title": "动输第六十二",
       "chapter": "动输第六十二",
@@ -112471,19 +111826,18 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
     {
-      "id": "yd_lingshu_060",
+      "id": "yd_lingshu_062",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_060.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_062.md",
       "weight": 3,
       "title": "五味论第六十三",
       "chapter": "五味论第六十三",
@@ -112501,19 +111855,18 @@
           "五脏",
           "六腑",
           "药性",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
     {
-      "id": "yd_lingshu_061",
+      "id": "yd_lingshu_063",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_061.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_063.md",
       "weight": 3,
       "title": "阴阳二十五人第六十四",
       "chapter": "阴阳二十五人第六十四",
@@ -112536,19 +111889,18 @@
           "病机",
           "针灸",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
     {
-      "id": "yd_lingshu_062",
+      "id": "yd_lingshu_064",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_062.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_064.md",
       "weight": 3,
       "title": "五音五味第六十五",
       "chapter": "五音五味第六十五",
@@ -112568,19 +111920,18 @@
           "经络",
           "药性",
           "病机",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
     {
-      "id": "yd_lingshu_063",
+      "id": "yd_lingshu_065",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_063.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_065.md",
       "weight": 3,
       "title": "百病始生第六十六",
       "chapter": "百病始生第六十六",
@@ -112604,19 +111955,18 @@
           "病机",
           "病因",
           "治法",
-          "养生",
-          "脏腑"
+          "养生"
         ]
       }
     },
     {
-      "id": "yd_lingshu_064",
+      "id": "yd_lingshu_066",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_064.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_066.md",
       "weight": 3,
       "title": "行针第六十七",
       "chapter": "行针第六十七",
@@ -112635,19 +111985,18 @@
           "五脏",
           "病机",
           "针灸",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
     {
-      "id": "yd_lingshu_065",
+      "id": "yd_lingshu_067",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_065.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_067.md",
       "weight": 3,
       "title": "上膈第六十八",
       "chapter": "上膈第六十八",
@@ -112668,20 +112017,18 @@
           "病因",
           "治法",
           "气血津液",
-          "养生方术",
-          "脏腑",
-          "病证"
+          "养生方术"
         ]
       }
     },
     {
-      "id": "yd_lingshu_066",
+      "id": "yd_lingshu_068",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_066.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_068.md",
       "weight": 3,
       "title": "忧恚无言第六十九",
       "chapter": "忧恚无言第六十九",
@@ -112701,20 +112048,18 @@
           "病机",
           "针灸",
           "病因",
-          "治法",
-          "脏腑",
-          "经络"
+          "治法"
         ]
       }
     },
     {
-      "id": "yd_lingshu_067",
+      "id": "yd_lingshu_069",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_067.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_069.md",
       "weight": 3,
       "title": "寒热第七十",
       "chapter": "寒热第七十",
@@ -112732,19 +112077,18 @@
           "药性",
           "针灸",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
     {
-      "id": "yd_lingshu_068",
+      "id": "yd_lingshu_070",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_068.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_070.md",
       "weight": 3,
       "title": "邪客第七十一",
       "chapter": "邪客第七十一",
@@ -112770,20 +112114,18 @@
           "病因",
           "治法",
           "养生",
-          "气血津液",
-          "脏腑",
-          "诊法"
+          "气血津液"
         ]
       }
     },
     {
-      "id": "yd_lingshu_069",
+      "id": "yd_lingshu_071",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_069.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_071.md",
       "weight": 3,
       "title": "通天第七十二",
       "chapter": "通天第七十二",
@@ -112804,20 +112146,18 @@
           "经络",
           "病机",
           "治法",
-          "气血津液",
-          "脏腑",
-          "病证"
+          "气血津液"
         ]
       }
     },
     {
-      "id": "yd_lingshu_070",
+      "id": "yd_lingshu_072",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_070.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_072.md",
       "weight": 3,
       "title": "官能第七十三",
       "chapter": "官能第七十三",
@@ -112840,19 +112180,18 @@
           "病因",
           "治法",
           "养生",
-          "养生方术",
-          "脏腑"
+          "养生方术"
         ]
       }
     },
     {
-      "id": "yd_lingshu_071",
+      "id": "yd_lingshu_073",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_071.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_073.md",
       "weight": 3,
       "title": "论疾诊尺第七十四",
       "chapter": "论疾诊尺第七十四",
@@ -112875,20 +112214,18 @@
           "病机",
           "病因",
           "治法",
-          "养生",
-          "脏腑",
-          "病证"
+          "养生"
         ]
       }
     },
     {
-      "id": "yd_lingshu_072",
+      "id": "yd_lingshu_074",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_072.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_074.md",
       "weight": 3,
       "title": "刺节真邪第七十五",
       "chapter": "刺节真邪第七十五",
@@ -112913,20 +112250,18 @@
           "病因",
           "治法",
           "养生",
-          "气血津液",
-          "脏腑",
-          "诊法"
+          "气血津液"
         ]
       }
     },
     {
-      "id": "yd_lingshu_073",
+      "id": "yd_lingshu_075",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_073.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_075.md",
       "weight": 3,
       "title": "卫气行第七十六",
       "chapter": "卫气行第七十六",
@@ -112947,19 +112282,18 @@
           "病机",
           "针灸",
           "治法",
-          "气血津液",
-          "脏腑"
+          "气血津液"
         ]
       }
     },
     {
-      "id": "yd_lingshu_074",
+      "id": "yd_lingshu_076",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_074.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_076.md",
       "weight": 3,
       "title": "九宫八风第七十七",
       "chapter": "九宫八风第七十七",
@@ -112978,19 +112312,18 @@
           "六腑",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
     {
-      "id": "yd_lingshu_075",
+      "id": "yd_lingshu_077",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_075.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_077.md",
       "weight": 3,
       "title": "九针论第七十八",
       "chapter": "九针论第七十八",
@@ -113014,19 +112347,18 @@
           "针灸",
           "病因",
           "治法",
-          "养生",
-          "脏腑"
+          "养生"
         ]
       }
     },
     {
-      "id": "yd_lingshu_076",
+      "id": "yd_lingshu_078",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_076.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_078.md",
       "weight": 3,
       "title": "岁露论第七十九",
       "chapter": "岁露论第七十九",
@@ -113049,19 +112381,18 @@
           "病因",
           "治法",
           "养生",
-          "气血津液",
-          "脏腑"
+          "气血津液"
         ]
       }
     },
     {
-      "id": "yd_lingshu_077",
+      "id": "yd_lingshu_079",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_077.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_079.md",
       "weight": 3,
       "title": "大惑论第八十",
       "chapter": "大惑论第八十",
@@ -113083,19 +112414,18 @@
           "病机",
           "病因",
           "治法",
-          "气血津液",
-          "脏腑"
+          "气血津液"
         ]
       }
     },
     {
-      "id": "yd_lingshu_078",
+      "id": "yd_lingshu_080",
       "book": "灵枢经",
       "type": "chapter",
       "tier": "library/yi/jingdian",
       "category": "yi",
       "subcategory": "jingdian",
-      "path": "library/yi/jingdian/lingshu/yd_lingshu_078.md",
+      "path": "library/yi/jingdian/lingshu/yd_lingshu_080.md",
       "weight": 3,
       "title": "痈疽第八十一",
       "chapter": "痈疽第八十一",
@@ -113119,9 +112449,7 @@
           "针灸",
           "病因",
           "治法",
-          "气血津液",
-          "脏腑",
-          "病证"
+          "气血津液"
         ]
       }
     },
@@ -113151,9 +112479,7 @@
           "六腑",
           "经络",
           "脉象",
-          "治法",
-          "脏腑",
-          "诊法"
+          "治法"
         ]
       }
     },
@@ -113179,8 +112505,7 @@
         "keywords": [
           "中医",
           "经络",
-          "脉象",
-          "脏腑"
+          "脉象"
         ]
       }
     },
@@ -113206,8 +112531,7 @@
         "keywords": [
           "中医",
           "经络",
-          "病机",
-          "脏腑"
+          "病机"
         ]
       }
     },
@@ -113236,8 +112560,7 @@
           "经络",
           "脉象",
           "方剂",
-          "病机",
-          "脏腑"
+          "病机"
         ]
       }
     },
@@ -113263,8 +112586,7 @@
         "keywords": [
           "中医",
           "五脏",
-          "经络",
-          "脏腑"
+          "经络"
         ]
       }
     },
@@ -113290,8 +112612,7 @@
         "keywords": [
           "中医",
           "经络",
-          "病机",
-          "脏腑"
+          "病机"
         ]
       }
     },
@@ -113317,8 +112638,7 @@
         "keywords": [
           "中医",
           "伤寒论",
-          "经络",
-          "脏腑"
+          "经络"
         ]
       }
     },
@@ -113347,8 +112667,7 @@
           "六腑",
           "经络",
           "脉象",
-          "病机",
-          "脏腑"
+          "病机"
         ]
       }
     },
@@ -113375,8 +112694,7 @@
           "中医",
           "经络",
           "药性",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -113404,8 +112722,7 @@
           "五脏",
           "六腑",
           "经络",
-          "脉象",
-          "脏腑"
+          "脉象"
         ]
       }
     },
@@ -113431,8 +112748,7 @@
         "keywords": [
           "中医",
           "五脏",
-          "经络",
-          "脏腑"
+          "经络"
         ]
       }
     },
@@ -113459,8 +112775,7 @@
           "中医",
           "五脏",
           "经络",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -113489,8 +112804,7 @@
           "经络",
           "脉象",
           "方剂",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -113523,9 +112837,7 @@
           "病因",
           "治法",
           "养生",
-          "气血津液",
-          "脏腑",
-          "病证"
+          "气血津液"
         ]
       }
     },
@@ -113555,8 +112867,7 @@
           "经络",
           "病因",
           "治法",
-          "养生",
-          "脏腑"
+          "养生"
         ]
       }
     },
@@ -113587,9 +112898,7 @@
           "病机",
           "病因",
           "治法",
-          "养生",
-          "脏腑",
-          "病证"
+          "养生"
         ]
       }
     },
@@ -113618,9 +112927,7 @@
           "经络",
           "脉象",
           "药性",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -113652,10 +112959,7 @@
           "病机",
           "针灸",
           "病因",
-          "治法",
-          "脏腑",
-          "诊法",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -113681,8 +112985,7 @@
         "keywords": [
           "中医",
           "经络",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -113708,8 +113011,7 @@
         "keywords": [
           "中医",
           "经络",
-          "病机",
-          "脏腑"
+          "病机"
         ]
       }
     },
@@ -113735,8 +113037,7 @@
         "keywords": [
           "中医",
           "经络",
-          "脉象",
-          "脏腑"
+          "脉象"
         ]
       }
     },
@@ -113761,8 +113062,7 @@
         "shensha": [],
         "keywords": [
           "中医",
-          "经络",
-          "脏腑"
+          "经络"
         ]
       }
     },
@@ -113791,8 +113091,7 @@
           "五脏",
           "经络",
           "脉象",
-          "病机",
-          "脏腑"
+          "病机"
         ]
       }
     },
@@ -113823,8 +113122,7 @@
           "药性",
           "病机",
           "治法",
-          "养生方术",
-          "脏腑"
+          "养生方术"
         ]
       }
     },
@@ -113852,8 +113150,7 @@
           "伤寒论",
           "五脏",
           "六腑",
-          "经络",
-          "脏腑"
+          "经络"
         ]
       }
     },
@@ -113879,8 +113176,7 @@
         "keywords": [
           "中医",
           "五脏",
-          "经络",
-          "脏腑"
+          "经络"
         ]
       }
     },
@@ -113906,8 +113202,7 @@
         "keywords": [
           "中医",
           "经络",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -113937,8 +113232,7 @@
           "方剂",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -113966,10 +113260,7 @@
           "五脏",
           "药性",
           "病机",
-          "病因",
-          "脏腑",
-          "经络",
-          "病证"
+          "病因"
         ]
       }
     },
@@ -113998,8 +113289,7 @@
           "六腑",
           "病机",
           "治法",
-          "气血津液",
-          "脏腑"
+          "气血津液"
         ]
       }
     },
@@ -114026,8 +113316,7 @@
           "中医",
           "五脏",
           "六腑",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -114054,8 +113343,7 @@
           "中医",
           "五脏",
           "经络",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -114082,8 +113370,7 @@
           "中医",
           "五脏",
           "药性",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -114111,8 +113398,7 @@
           "五脏",
           "药性",
           "病机",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -114140,8 +113426,7 @@
           "五脏",
           "六腑",
           "病机",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -114168,8 +113453,7 @@
           "中医",
           "五脏",
           "病机",
-          "气血津液",
-          "脏腑"
+          "气血津液"
         ]
       }
     },
@@ -114198,9 +113482,7 @@
           "六腑",
           "药性",
           "病机",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -114227,8 +113509,7 @@
           "中医",
           "伤寒论",
           "六腑",
-          "气血津液",
-          "脏腑"
+          "气血津液"
         ]
       }
     },
@@ -114256,8 +113537,7 @@
           "五脏",
           "六腑",
           "病机",
-          "气血津液",
-          "脏腑"
+          "气血津液"
         ]
       }
     },
@@ -114283,8 +113563,7 @@
         "keywords": [
           "中医",
           "五脏",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -114310,8 +113589,7 @@
         "keywords": [
           "中医",
           "伤寒论",
-          "五脏",
-          "脏腑"
+          "五脏"
         ]
       }
     },
@@ -114341,8 +113619,7 @@
           "方剂",
           "药性",
           "病机",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -114368,8 +113645,7 @@
         "keywords": [
           "中医",
           "六腑",
-          "病机",
-          "脏腑"
+          "病机"
         ]
       }
     },
@@ -114395,8 +113671,7 @@
         "keywords": [
           "中医",
           "六腑",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -114422,8 +113697,7 @@
         "keywords": [
           "中医",
           "六腑",
-          "药性",
-          "脏腑"
+          "药性"
         ]
       }
     },
@@ -114448,9 +113722,7 @@
         "shensha": [],
         "keywords": [
           "中医",
-          "病机",
-          "脏腑",
-          "病证"
+          "病机"
         ]
       }
     },
@@ -114476,8 +113748,7 @@
         "keywords": [
           "中医",
           "药性",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -114501,8 +113772,7 @@
         "pattern": [],
         "shensha": [],
         "keywords": [
-          "中医",
-          "脏腑"
+          "中医"
         ]
       }
     },
@@ -114534,10 +113804,7 @@
           "药性",
           "病因",
           "治法",
-          "养生",
-          "脏腑",
-          "经络",
-          "病证"
+          "养生"
         ]
       }
     },
@@ -114566,9 +113833,7 @@
           "五脏",
           "药性",
           "病因",
-          "养生",
-          "脏腑",
-          "病证"
+          "养生"
         ]
       }
     },
@@ -114595,8 +113860,7 @@
           "中医",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -114621,8 +113885,7 @@
         "shensha": [],
         "keywords": [
           "中医",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -114647,8 +113910,7 @@
         "shensha": [],
         "keywords": [
           "中医",
-          "五脏",
-          "脏腑"
+          "五脏"
         ]
       }
     },
@@ -114672,8 +113934,7 @@
         "pattern": [],
         "shensha": [],
         "keywords": [
-          "中医",
-          "脏腑"
+          "中医"
         ]
       }
     },
@@ -114700,9 +113961,7 @@
           "中医",
           "五脏",
           "六腑",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -114732,8 +113991,7 @@
           "药性",
           "病因",
           "治法",
-          "养生",
-          "脏腑"
+          "养生"
         ]
       }
     },
@@ -114761,9 +114019,7 @@
           "五脏",
           "六腑",
           "治法",
-          "养生",
-          "脏腑",
-          "病证"
+          "养生"
         ]
       }
     },
@@ -114793,9 +114049,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -114820,8 +114074,7 @@
         "shensha": [],
         "keywords": [
           "中医",
-          "病机",
-          "脏腑"
+          "病机"
         ]
       }
     },
@@ -114848,9 +114101,7 @@
           "中医",
           "五脏",
           "药性",
-          "病因",
-          "脏腑",
-          "病证"
+          "病因"
         ]
       }
     },
@@ -114876,9 +114127,7 @@
         "keywords": [
           "中医",
           "脉象",
-          "病机",
-          "药性",
-          "脏腑"
+          "病机"
         ]
       }
     },
@@ -114903,8 +114152,7 @@
         "shensha": [],
         "keywords": [
           "中医",
-          "六腑",
-          "脏腑"
+          "六腑"
         ]
       }
     },
@@ -114930,8 +114178,7 @@
         "keywords": [
           "中医",
           "五脏",
-          "六腑",
-          "脏腑"
+          "六腑"
         ]
       }
     },
@@ -114957,8 +114204,7 @@
         "keywords": [
           "中医",
           "病机",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -114982,8 +114228,7 @@
         "pattern": [],
         "shensha": [],
         "keywords": [
-          "中医",
-          "脏腑"
+          "中医"
         ]
       }
     },
@@ -115013,8 +114258,7 @@
           "六腑",
           "经络",
           "治法",
-          "气血津液",
-          "脏腑"
+          "气血津液"
         ]
       }
     },
@@ -115039,8 +114283,7 @@
         "shensha": [],
         "keywords": [
           "中医",
-          "五脏",
-          "脏腑"
+          "五脏"
         ]
       }
     },
@@ -115069,8 +114312,7 @@
           "六腑",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -115095,9 +114337,7 @@
         "shensha": [],
         "keywords": [
           "中医",
-          "治法",
-          "脏腑",
-          "经络"
+          "治法"
         ]
       }
     },
@@ -115126,8 +114366,7 @@
           "药性",
           "针灸",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -115153,8 +114392,7 @@
         "keywords": [
           "中医",
           "方剂",
-          "针灸",
-          "脏腑"
+          "针灸"
         ]
       }
     },
@@ -115180,8 +114418,7 @@
         "keywords": [
           "中医",
           "经络",
-          "病机",
-          "脏腑"
+          "病机"
         ]
       }
     },
@@ -115208,8 +114445,7 @@
           "中医",
           "针灸",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -115237,8 +114473,7 @@
           "五脏",
           "药性",
           "针灸",
-          "养生",
-          "脏腑"
+          "养生"
         ]
       }
     },
@@ -115265,8 +114500,7 @@
           "中医",
           "五脏",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -115291,8 +114525,7 @@
         "shensha": [],
         "keywords": [
           "中医",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -115317,8 +114550,7 @@
         "shensha": [],
         "keywords": [
           "中医",
-          "五脏",
-          "脏腑"
+          "五脏"
         ]
       }
     },
@@ -115344,9 +114576,7 @@
         "keywords": [
           "中医",
           "针灸",
-          "治法",
-          "脏腑",
-          "诊法"
+          "治法"
         ]
       }
     },
@@ -115372,8 +114602,7 @@
         "keywords": [
           "中医",
           "五脏",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -115397,8 +114626,7 @@
         "pattern": [],
         "shensha": [],
         "keywords": [
-          "中医",
-          "脏腑"
+          "中医"
         ]
       }
     },
@@ -115425,8 +114653,7 @@
           "中医",
           "五脏",
           "脉象",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -115457,10 +114684,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑",
-          "诊法",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -115492,9 +114716,7 @@
           "方剂",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -115529,10 +114751,7 @@
           "病因",
           "治法",
           "养生",
-          "五运六气",
-          "脏腑",
-          "经络",
-          "病证"
+          "五运六气"
         ]
       }
     },
@@ -115565,9 +114784,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -115598,9 +114815,7 @@
           "方剂",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -115632,9 +114847,7 @@
           "方剂",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -115668,9 +114881,7 @@
           "病机",
           "针灸",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -115704,9 +114915,7 @@
           "病机",
           "针灸",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -115737,9 +114946,7 @@
           "方剂",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -115772,9 +114979,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -115803,8 +115008,7 @@
           "五脏",
           "药性",
           "病机",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -115833,8 +115037,7 @@
           "五脏",
           "药性",
           "病机",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -115862,8 +115065,7 @@
           "神农本草经",
           "药性",
           "病机",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -115891,9 +115093,7 @@
           "神农本草经",
           "药性",
           "病机",
-          "病因",
-          "脏腑",
-          "病证"
+          "病因"
         ]
       }
     },
@@ -115920,9 +115120,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "病因",
-          "脏腑",
-          "病证"
+          "病因"
         ]
       }
     },
@@ -115951,9 +115149,7 @@
           "五脏",
           "药性",
           "病机",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -115982,9 +115178,7 @@
           "五脏",
           "药性",
           "病机",
-          "病因",
-          "脏腑",
-          "病证"
+          "病因"
         ]
       }
     },
@@ -116017,9 +115211,7 @@
           "病机",
           "病因",
           "治法",
-          "养生",
-          "脏腑",
-          "病证"
+          "养生"
         ]
       }
     },
@@ -116046,8 +115238,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -116076,9 +115267,7 @@
           "六腑",
           "药性",
           "病机",
-          "病因",
-          "脏腑",
-          "病证"
+          "病因"
         ]
       }
     },
@@ -116107,8 +115296,7 @@
           "五脏",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -116136,9 +115324,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -116167,8 +115353,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -116196,8 +115381,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -116225,8 +115409,7 @@
           "神农本草经",
           "药性",
           "病机",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -116256,8 +115439,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -116286,8 +115468,7 @@
           "五脏",
           "药性",
           "病机",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -116313,8 +115494,7 @@
         "keywords": [
           "中医",
           "神农本草经",
-          "药性",
-          "脏腑"
+          "药性"
         ]
       }
     },
@@ -116342,8 +115522,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -116371,9 +115550,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -116400,9 +115577,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "病因",
-          "脏腑",
-          "病证"
+          "病因"
         ]
       }
     },
@@ -116429,9 +115604,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "病因",
-          "脏腑",
-          "病证"
+          "病因"
         ]
       }
     },
@@ -116460,9 +115633,7 @@
           "六腑",
           "药性",
           "病机",
-          "病因",
-          "脏腑",
-          "病证"
+          "病因"
         ]
       }
     },
@@ -116490,8 +115661,7 @@
           "神农本草经",
           "药性",
           "病机",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -116521,9 +115691,7 @@
           "方剂",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -116551,8 +115719,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -116580,8 +115747,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -116611,8 +115777,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -116640,9 +115805,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -116670,9 +115833,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -116702,8 +115863,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -116730,8 +115890,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -116758,8 +115917,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -116788,8 +115946,7 @@
           "五脏",
           "药性",
           "病机",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -116818,8 +115975,7 @@
           "五脏",
           "药性",
           "病机",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -116848,8 +116004,7 @@
           "五脏",
           "药性",
           "病机",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -116877,8 +116032,7 @@
           "神农本草经",
           "五脏",
           "药性",
-          "病机",
-          "脏腑"
+          "病机"
         ]
       }
     },
@@ -116906,9 +116060,7 @@
           "神农本草经",
           "药性",
           "病机",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -116935,8 +116087,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -116964,9 +116115,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -116996,9 +116145,7 @@
           "方剂",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -117025,8 +116172,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -117055,8 +116201,7 @@
           "五脏",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -117084,8 +116229,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -117113,8 +116257,7 @@
           "神农本草经",
           "六腑",
           "药性",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -117143,8 +116286,7 @@
           "五脏",
           "药性",
           "病机",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -117174,9 +116316,7 @@
           "六腑",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -117203,8 +116343,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -117233,8 +116372,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -117266,9 +116404,7 @@
           "病机",
           "病因",
           "治法",
-          "养生",
-          "脏腑",
-          "病证"
+          "养生"
         ]
       }
     },
@@ -117294,8 +116430,7 @@
         "keywords": [
           "中医",
           "神农本草经",
-          "药性",
-          "脏腑"
+          "药性"
         ]
       }
     },
@@ -117324,8 +116459,7 @@
           "五脏",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -117353,8 +116487,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -117384,8 +116517,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -117413,9 +116545,7 @@
           "神农本草经",
           "方剂",
           "药性",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -117445,8 +116575,7 @@
           "六腑",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -117473,8 +116602,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -117503,8 +116631,7 @@
           "五脏",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -117532,9 +116659,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -117563,8 +116688,7 @@
           "五脏",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -117595,8 +116719,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -117624,8 +116747,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -117652,9 +116774,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -117682,8 +116802,7 @@
           "神农本草经",
           "药性",
           "针灸",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -117711,8 +116830,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -117741,8 +116859,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -117773,8 +116890,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -117802,8 +116918,7 @@
           "神农本草经",
           "五脏",
           "药性",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -117830,8 +116945,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "病机",
-          "脏腑"
+          "病机"
         ]
       }
     },
@@ -117858,8 +116972,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "病机",
-          "脏腑"
+          "病机"
         ]
       }
     },
@@ -117888,8 +117001,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -117917,8 +117029,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -117946,8 +117057,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -117975,9 +117085,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -118005,9 +117113,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -118033,8 +117139,7 @@
         "keywords": [
           "中医",
           "神农本草经",
-          "药性",
-          "脏腑"
+          "药性"
         ]
       }
     },
@@ -118062,8 +117167,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -118090,8 +117194,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -118119,8 +117222,7 @@
           "神农本草经",
           "药性",
           "病机",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -118149,8 +117251,7 @@
           "五脏",
           "六腑",
           "经络",
-          "药性",
-          "脏腑"
+          "药性"
         ]
       }
     },
@@ -118179,9 +117280,7 @@
           "五脏",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -118211,9 +117310,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -118240,9 +117337,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -118270,8 +117365,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -118300,8 +117394,7 @@
           "五脏",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -118329,9 +117422,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -118359,8 +117450,7 @@
           "神农本草经",
           "药性",
           "病机",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -118389,9 +117479,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -118418,9 +117506,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "病因",
-          "脏腑",
-          "病证"
+          "病因"
         ]
       }
     },
@@ -118448,8 +117534,7 @@
           "神农本草经",
           "药性",
           "病机",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -118477,8 +117562,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -118506,9 +117590,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -118537,8 +117619,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -118566,9 +117647,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -118597,9 +117676,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -118627,9 +117704,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -118657,9 +117732,7 @@
           "伤寒论",
           "神农本草经",
           "药性",
-          "病因",
-          "脏腑",
-          "病证"
+          "病因"
         ]
       }
     },
@@ -118687,9 +117760,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -118717,9 +117788,7 @@
           "神农本草经",
           "五脏",
           "药性",
-          "病因",
-          "脏腑",
-          "病证"
+          "病因"
         ]
       }
     },
@@ -118748,9 +117817,7 @@
           "五脏",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -118779,9 +117846,7 @@
           "五脏",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -118808,8 +117873,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -118836,8 +117900,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -118866,8 +117929,7 @@
           "五脏",
           "六腑",
           "药性",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -118896,9 +117958,7 @@
           "药性",
           "针灸",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -118926,8 +117986,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -118956,8 +118015,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -118986,8 +118044,7 @@
           "五脏",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -119016,9 +118073,7 @@
           "五脏",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -119045,9 +118100,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "病因",
-          "脏腑",
-          "病证"
+          "病因"
         ]
       }
     },
@@ -119075,8 +118128,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -119104,9 +118156,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -119134,8 +118184,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -119163,8 +118212,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -119192,8 +118240,7 @@
           "神农本草经",
           "六腑",
           "药性",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -119221,8 +118268,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -119250,9 +118296,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -119279,9 +118323,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "病因",
-          "脏腑",
-          "病证"
+          "病因"
         ]
       }
     },
@@ -119309,9 +118351,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -119339,8 +118379,7 @@
           "神农本草经",
           "五脏",
           "药性",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -119368,8 +118407,7 @@
           "神农本草经",
           "方剂",
           "药性",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -119397,9 +118435,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -119426,8 +118462,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -119457,9 +118492,7 @@
           "六腑",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -119487,9 +118520,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -119519,9 +118550,7 @@
           "药性",
           "针灸",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -119550,8 +118579,7 @@
           "五脏",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -119578,8 +118606,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -119607,8 +118634,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -119635,8 +118661,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -119666,9 +118691,7 @@
           "六腑",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -119695,9 +118718,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -119725,9 +118746,7 @@
           "神农本草经",
           "五脏",
           "药性",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -119756,9 +118775,7 @@
           "五脏",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -119786,9 +118803,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -119818,9 +118833,7 @@
           "六腑",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -119848,9 +118861,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -119879,9 +118890,7 @@
           "药性",
           "病因",
           "治法",
-          "养生",
-          "脏腑",
-          "病证"
+          "养生"
         ]
       }
     },
@@ -119909,8 +118918,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -119938,9 +118946,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -119971,9 +118977,7 @@
           "药性",
           "病因",
           "治法",
-          "养生",
-          "脏腑",
-          "病证"
+          "养生"
         ]
       }
     },
@@ -120001,9 +119005,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -120031,8 +119033,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -120060,9 +119061,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -120090,9 +119089,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -120121,8 +119118,7 @@
           "五脏",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -120150,8 +119146,7 @@
           "神农本草经",
           "方剂",
           "药性",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -120178,9 +119173,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -120208,8 +119201,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -120236,8 +119228,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -120267,9 +119258,7 @@
           "五脏",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -120298,8 +119287,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -120327,8 +119315,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -120357,9 +119344,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -120387,8 +119372,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -120418,8 +119402,7 @@
           "方剂",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -120447,8 +119430,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -120477,9 +119459,7 @@
           "五脏",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -120507,9 +119487,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -120537,8 +119515,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -120566,9 +119543,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -120596,8 +119571,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -120626,9 +119600,7 @@
           "方剂",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -120656,8 +119628,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -120685,8 +119656,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -120715,8 +119685,7 @@
           "方剂",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -120745,8 +119714,7 @@
           "六腑",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -120774,8 +119742,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -120803,8 +119770,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -120834,9 +119800,7 @@
           "病机",
           "病因",
           "治法",
-          "养生",
-          "脏腑",
-          "病证"
+          "养生"
         ]
       }
     },
@@ -120864,8 +119828,7 @@
           "神农本草经",
           "药性",
           "病机",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -120892,8 +119855,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -120921,8 +119883,7 @@
           "神农本草经",
           "药性",
           "病机",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -120950,9 +119911,7 @@
           "神农本草经",
           "五脏",
           "药性",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -120980,8 +119939,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -121009,8 +119967,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -121038,8 +119995,7 @@
           "神农本草经",
           "药性",
           "病机",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -121068,8 +120024,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -121099,8 +120054,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -121130,8 +120084,7 @@
           "方剂",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -121159,8 +120112,7 @@
           "神农本草经",
           "五脏",
           "药性",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -121188,8 +120140,7 @@
           "神农本草经",
           "药性",
           "病机",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -121218,8 +120169,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -121246,8 +120196,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -121278,9 +120227,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -121308,8 +120255,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -121335,8 +120281,7 @@
         "keywords": [
           "中医",
           "神农本草经",
-          "药性",
-          "脏腑"
+          "药性"
         ]
       }
     },
@@ -121364,8 +120309,7 @@
           "神农本草经",
           "五脏",
           "药性",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -121393,8 +120337,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -121422,9 +120365,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -121452,8 +120393,7 @@
           "神农本草经",
           "药性",
           "病机",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -121482,8 +120422,7 @@
           "五脏",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -121511,8 +120450,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -121541,8 +120479,7 @@
           "五脏",
           "药性",
           "病机",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -121569,9 +120506,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "病机",
-          "脏腑",
-          "病证"
+          "病机"
         ]
       }
     },
@@ -121598,8 +120533,7 @@
           "中医",
           "神农本草经",
           "五脏",
-          "药性",
-          "脏腑"
+          "药性"
         ]
       }
     },
@@ -121627,8 +120561,7 @@
           "神农本草经",
           "五脏",
           "药性",
-          "病机",
-          "脏腑"
+          "病机"
         ]
       }
     },
@@ -121657,9 +120590,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -121689,8 +120620,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -121718,8 +120648,7 @@
           "神农本草经",
           "五脏",
           "药性",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -121748,8 +120677,7 @@
           "五脏",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -121777,8 +120705,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -121806,8 +120733,7 @@
           "神农本草经",
           "六腑",
           "药性",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -121835,8 +120761,7 @@
           "神农本草经",
           "五脏",
           "药性",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -121865,8 +120790,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -121893,8 +120817,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -121921,8 +120844,7 @@
           "中医",
           "神农本草经",
           "方剂",
-          "药性",
-          "脏腑"
+          "药性"
         ]
       }
     },
@@ -121951,9 +120873,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -121981,8 +120901,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -122010,9 +120929,7 @@
           "神农本草经",
           "五脏",
           "药性",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -122039,8 +120956,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -122069,9 +120985,7 @@
           "五脏",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -122099,8 +121013,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -122128,8 +121041,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -122158,9 +121070,7 @@
           "五脏",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -122190,9 +121100,7 @@
           "六腑",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -122220,8 +121128,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -122249,9 +121156,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -122279,9 +121184,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -122309,8 +121212,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -122338,8 +121240,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -122369,8 +121270,7 @@
           "方剂",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -122399,8 +121299,7 @@
           "方剂",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -122429,8 +121328,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -122459,9 +121357,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -122489,9 +121385,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -122519,8 +121413,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -122548,9 +121441,7 @@
           "神农本草经",
           "药性",
           "病机",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -122579,8 +121470,7 @@
           "五脏",
           "药性",
           "病机",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -122610,9 +121500,7 @@
           "方剂",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -122640,8 +121528,7 @@
           "神农本草经",
           "药性",
           "病机",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -122669,9 +121556,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -122698,9 +121583,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -122728,9 +121611,7 @@
           "神农本草经",
           "五脏",
           "药性",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -122760,9 +121641,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -122790,8 +121669,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -122819,8 +121697,7 @@
           "神农本草经",
           "五脏",
           "药性",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -122847,8 +121724,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -122877,8 +121753,7 @@
           "五脏",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -122907,9 +121782,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -122938,8 +121811,7 @@
           "六腑",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -122967,8 +121839,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -122996,8 +121867,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -123026,8 +121896,7 @@
           "五脏",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -123056,8 +121925,7 @@
           "五脏",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -123084,9 +121952,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -123115,9 +121981,7 @@
           "六腑",
           "药性",
           "病机",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -123146,8 +122010,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -123174,8 +122037,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -123203,8 +122065,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -123232,9 +122093,7 @@
           "神农本草经",
           "药性",
           "病机",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -123262,8 +122121,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -123290,8 +122148,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -123319,8 +122176,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -123348,8 +122204,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -123377,9 +122232,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -123406,8 +122259,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -123435,8 +122287,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -123464,8 +122315,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -123494,8 +122344,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -123524,8 +122373,7 @@
           "五脏",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -123554,9 +122402,7 @@
           "五脏",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -123584,8 +122430,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -123613,8 +122458,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -123642,8 +122486,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -123671,8 +122514,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -123698,8 +122540,7 @@
         "keywords": [
           "中医",
           "神农本草经",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -123727,8 +122568,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -123756,8 +122596,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -123784,8 +122623,7 @@
           "中医",
           "神农本草经",
           "五脏",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -123815,9 +122653,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -123846,8 +122682,7 @@
           "五脏",
           "药性",
           "病机",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -123876,8 +122711,7 @@
           "五脏",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -123904,9 +122738,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -123933,8 +122765,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -123962,8 +122793,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -123991,8 +122821,7 @@
           "神农本草经",
           "药性",
           "病机",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -124019,9 +122848,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -124049,8 +122876,7 @@
           "神农本草经",
           "药性",
           "针灸",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -124078,8 +122904,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -124106,8 +122931,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -124135,8 +122959,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -124165,8 +122988,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -124194,9 +123016,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -124224,8 +123044,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -124254,8 +123073,7 @@
           "药性",
           "针灸",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -124283,8 +123101,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -124312,8 +123129,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -124342,8 +123158,7 @@
           "六腑",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -124371,8 +123186,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -124400,8 +123214,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -124429,8 +123242,7 @@
           "神农本草经",
           "药性",
           "病机",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -124461,8 +123273,7 @@
           "经络",
           "药性",
           "病机",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -124490,8 +123301,7 @@
           "神农本草经",
           "药性",
           "病机",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -124520,8 +123330,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -124548,8 +123357,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -124577,8 +123385,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -124608,8 +123415,7 @@
           "六腑",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -124637,8 +123443,7 @@
           "神农本草经",
           "五脏",
           "药性",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -124666,8 +123471,7 @@
           "神农本草经",
           "五脏",
           "药性",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -124695,8 +123499,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -124726,9 +123529,7 @@
           "方剂",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -124756,8 +123557,7 @@
           "神农本草经",
           "药性",
           "病机",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -124786,8 +123586,7 @@
           "五脏",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -124816,9 +123615,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -124846,8 +123643,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -124875,8 +123671,7 @@
           "神农本草经",
           "药性",
           "病机",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -124903,8 +123698,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -124933,8 +123727,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -124962,8 +123755,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -124992,9 +123784,7 @@
           "五脏",
           "六腑",
           "药性",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -125021,8 +123811,7 @@
           "中医",
           "神农本草经",
           "药性",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -125050,9 +123839,7 @@
           "神农本草经",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -125084,9 +123871,7 @@
           "病机",
           "病因",
           "治法",
-          "养生",
-          "脏腑",
-          "经络"
+          "养生"
         ]
       }
     },
@@ -125117,8 +123902,7 @@
           "病机",
           "病因",
           "治法",
-          "养生",
-          "脏腑"
+          "养生"
         ]
       }
     },
@@ -125152,9 +123936,7 @@
           "病因",
           "治法",
           "养生",
-          "气血津液",
-          "脏腑",
-          "病证"
+          "气血津液"
         ]
       }
     },
@@ -125187,8 +123969,7 @@
           "病机",
           "病因",
           "治法",
-          "养生",
-          "脏腑"
+          "养生"
         ]
       }
     },
@@ -125222,9 +124003,7 @@
           "病机",
           "病因",
           "治法",
-          "养生",
-          "脏腑",
-          "病证"
+          "养生"
         ]
       }
     },
@@ -125253,8 +124032,7 @@
           "伤寒论",
           "病机",
           "治法",
-          "气血津液",
-          "脏腑"
+          "气血津液"
         ]
       }
     },
@@ -125288,9 +124066,7 @@
           "病机",
           "病因",
           "治法",
-          "养生",
-          "脏腑",
-          "病证"
+          "养生"
         ]
       }
     },
@@ -125320,9 +124096,7 @@
           "六腑",
           "病机",
           "治法",
-          "养生",
-          "药性",
-          "脏腑"
+          "养生"
         ]
       }
     },
@@ -125355,9 +124129,7 @@
           "药性",
           "病机",
           "治法",
-          "养生",
-          "脏腑",
-          "病证"
+          "养生"
         ]
       }
     },
@@ -125388,9 +124160,7 @@
           "药性",
           "病因",
           "治法",
-          "气血津液",
-          "脏腑",
-          "病证"
+          "气血津液"
         ]
       }
     },
@@ -125421,8 +124191,7 @@
           "六腑",
           "药性",
           "病机",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -125452,8 +124221,7 @@
           "针灸",
           "病因",
           "治法",
-          "养生方术",
-          "脏腑"
+          "养生方术"
         ]
       }
     },
@@ -125483,8 +124251,7 @@
           "药性",
           "病机",
           "病因",
-          "养生",
-          "脏腑"
+          "养生"
         ]
       }
     },
@@ -125514,8 +124281,7 @@
           "药性",
           "病机",
           "针灸",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -125547,8 +124313,7 @@
           "病机",
           "病因",
           "治法",
-          "养生",
-          "脏腑"
+          "养生"
         ]
       }
     },
@@ -125582,9 +124347,7 @@
           "病机",
           "针灸",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -125620,9 +124383,7 @@
           "病因",
           "诊法",
           "治法",
-          "养生",
-          "脏腑",
-          "病证"
+          "养生"
         ]
       }
     },
@@ -125658,10 +124419,7 @@
           "病因",
           "治法",
           "养生",
-          "气血津液",
-          "脏腑",
-          "诊法",
-          "病证"
+          "气血津液"
         ]
       }
     },
@@ -125694,9 +124452,7 @@
           "针灸",
           "病因",
           "治法",
-          "养生",
-          "脏腑",
-          "病证"
+          "养生"
         ]
       }
     },
@@ -125732,9 +124488,7 @@
           "针灸",
           "病因",
           "治法",
-          "养生",
-          "脏腑",
-          "诊法"
+          "养生"
         ]
       }
     },
@@ -125770,8 +124524,7 @@
           "诊法",
           "治法",
           "养生",
-          "养生方术",
-          "脏腑"
+          "养生方术"
         ]
       }
     },
@@ -125805,9 +124558,7 @@
           "针灸",
           "病因",
           "治法",
-          "养生",
-          "脏腑",
-          "病证"
+          "养生"
         ]
       }
     },
@@ -125837,8 +124588,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -125869,8 +124619,7 @@
           "药性",
           "病机",
           "针灸",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -125902,8 +124651,7 @@
           "针灸",
           "病因",
           "治法",
-          "养生",
-          "脏腑"
+          "养生"
         ]
       }
     },
@@ -125937,8 +124685,7 @@
           "病因",
           "治法",
           "养生",
-          "气血津液",
-          "脏腑"
+          "气血津液"
         ]
       }
     },
@@ -125972,9 +124719,7 @@
           "针灸",
           "病因",
           "治法",
-          "养生",
-          "脏腑",
-          "诊法"
+          "养生"
         ]
       }
     },
@@ -126009,9 +124754,7 @@
           "病机",
           "针灸",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -126045,8 +124788,7 @@
           "病因",
           "治法",
           "养生",
-          "养生方术",
-          "脏腑"
+          "养生方术"
         ]
       }
     },
@@ -126075,8 +124817,7 @@
           "伤寒论",
           "六腑",
           "药性",
-          "病因",
-          "脏腑"
+          "病因"
         ]
       }
     },
@@ -126110,9 +124851,7 @@
           "病因",
           "治法",
           "养生",
-          "五运六气",
-          "脏腑",
-          "病证"
+          "五运六气"
         ]
       }
     },
@@ -126143,9 +124882,7 @@
           "病机",
           "针灸",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -126180,8 +124917,7 @@
           "针灸",
           "病因",
           "治法",
-          "五运六气",
-          "脏腑"
+          "五运六气"
         ]
       }
     },
@@ -126217,8 +124953,7 @@
           "病因",
           "治法",
           "养生",
-          "气血津液",
-          "脏腑"
+          "气血津液"
         ]
       }
     },
@@ -126255,9 +124990,7 @@
           "病因",
           "治法",
           "养生",
-          "气血津液",
-          "脏腑",
-          "病证"
+          "气血津液"
         ]
       }
     },
@@ -126289,10 +125022,7 @@
           "病机",
           "针灸",
           "病因",
-          "治法",
-          "脏腑",
-          "诊法",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -126322,9 +125052,7 @@
           "六腑",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -126355,9 +125083,7 @@
           "药性",
           "病因",
           "治法",
-          "养生",
-          "脏腑",
-          "病证"
+          "养生"
         ]
       }
     },
@@ -126391,9 +125117,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -126428,9 +125152,7 @@
           "针灸",
           "病因",
           "治法",
-          "养生",
-          "脏腑",
-          "病证"
+          "养生"
         ]
       }
     },
@@ -126460,11 +125182,7 @@
           "药性",
           "针灸",
           "病因",
-          "治法",
-          "脏腑",
-          "经络",
-          "诊法",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -126497,9 +125215,7 @@
           "药性",
           "病因",
           "治法",
-          "气血津液",
-          "脏腑",
-          "病证"
+          "气血津液"
         ]
       }
     },
@@ -126533,9 +125249,7 @@
           "病机",
           "病因",
           "治法",
-          "养生",
-          "脏腑",
-          "病证"
+          "养生"
         ]
       }
     },
@@ -126568,8 +125282,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -126603,9 +125316,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -126641,9 +125352,7 @@
           "针灸",
           "病因",
           "治法",
-          "养生",
-          "脏腑",
-          "病证"
+          "养生"
         ]
       }
     },
@@ -126679,9 +125388,7 @@
           "针灸",
           "病因",
           "治法",
-          "养生方术",
-          "脏腑",
-          "病证"
+          "养生方术"
         ]
       }
     },
@@ -126714,8 +125421,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -126746,10 +125452,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑",
-          "经络",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -126779,9 +125482,7 @@
           "药性",
           "针灸",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -126807,8 +125508,7 @@
         "keywords": [
           "中医",
           "黄帝内经",
-          "针灸",
-          "脏腑"
+          "针灸"
         ]
       }
     },
@@ -126838,8 +125538,7 @@
           "五脏",
           "六腑",
           "针灸",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -126871,9 +125570,7 @@
           "药性",
           "针灸",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -126905,8 +125602,7 @@
           "针灸",
           "病因",
           "治法",
-          "养生",
-          "脏腑"
+          "养生"
         ]
       }
     },
@@ -126935,10 +125631,7 @@
           "药性",
           "针灸",
           "病因",
-          "治法",
-          "脏腑",
-          "诊法",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -126971,8 +125664,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -127003,8 +125695,7 @@
           "药性",
           "病机",
           "病因",
-          "养生",
-          "脏腑"
+          "养生"
         ]
       }
     },
@@ -127038,9 +125729,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -127070,10 +125759,7 @@
           "脉象",
           "病机",
           "病因",
-          "治法",
-          "脏腑",
-          "经络",
-          "诊法"
+          "治法"
         ]
       }
     },
@@ -127106,11 +125792,7 @@
           "病机",
           "针灸",
           "病因",
-          "治法",
-          "脏腑",
-          "经络",
-          "诊法",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -127143,9 +125825,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -127181,9 +125861,7 @@
           "病因",
           "治法",
           "养生",
-          "气血津液",
-          "脏腑",
-          "病证"
+          "气血津液"
         ]
       }
     },
@@ -127219,10 +125897,7 @@
           "针灸",
           "病因",
           "治法",
-          "养生",
-          "脏腑",
-          "诊法",
-          "病证"
+          "养生"
         ]
       }
     },
@@ -127255,8 +125930,7 @@
           "病机",
           "针灸",
           "病因",
-          "养生",
-          "脏腑"
+          "养生"
         ]
       }
     },
@@ -127289,9 +125963,7 @@
           "针灸",
           "病因",
           "治法",
-          "五运六气",
-          "脏腑",
-          "病证"
+          "五运六气"
         ]
       }
     },
@@ -127322,8 +125994,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -127356,9 +126027,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑",
-          "诊法"
+          "治法"
         ]
       }
     },
@@ -127388,9 +126057,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -127421,9 +126088,7 @@
           "药性",
           "病机",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -127454,9 +126119,7 @@
           "方剂",
           "药性",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -127489,8 +126152,7 @@
           "病机",
           "病因",
           "治法",
-          "五运六气",
-          "病证"
+          "五运六气"
         ]
       }
     },
@@ -127526,9 +126188,7 @@
           "病因",
           "治法",
           "养生",
-          "五运六气",
-          "脏腑",
-          "病证"
+          "五运六气"
         ]
       }
     },
@@ -127558,8 +126218,7 @@
           "病机",
           "病因",
           "治法",
-          "养生",
-          "脏腑"
+          "养生"
         ]
       }
     },
@@ -127595,9 +126254,7 @@
           "病机",
           "针灸",
           "病因",
-          "治法",
-          "脏腑",
-          "病证"
+          "治法"
         ]
       }
     },
@@ -127630,8 +126287,7 @@
           "针灸",
           "病因",
           "治法",
-          "养生",
-          "脏腑"
+          "养生"
         ]
       }
     },
@@ -127664,8 +126320,7 @@
           "病机",
           "病因",
           "治法",
-          "养生",
-          "脏腑"
+          "养生"
         ]
       }
     },
@@ -127698,8 +126353,7 @@
           "脉象",
           "病机",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -127732,9 +126386,7 @@
           "病机",
           "病因",
           "治法",
-          "养生",
-          "脏腑",
-          "病证"
+          "养生"
         ]
       }
     },
@@ -127766,8 +126418,7 @@
           "病机",
           "针灸",
           "病因",
-          "治法",
-          "脏腑"
+          "治法"
         ]
       }
     },
@@ -127802,8 +126453,7 @@
           "针灸",
           "病因",
           "治法",
-          "五运六气",
-          "脏腑"
+          "五运六气"
         ]
       }
     },
@@ -127836,9 +126486,7 @@
           "病因",
           "治法",
           "养生",
-          "五运六气",
-          "脏腑",
-          "病证"
+          "五运六气"
         ]
       }
     },

@@ -15,7 +15,7 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["中医", "黄帝内经", "五脏", "六腑", "经络", "治法", "脏腑"]
+  keywords: ["中医", "黄帝内经", "五脏", "六腑", "经络", "治法"]
 weight: 3
 tags: ["医部经典", "灵枢经"]
 ---
