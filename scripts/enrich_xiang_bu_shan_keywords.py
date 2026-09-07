@@ -202,7 +202,7 @@ def process_file(path, rules):
         return False
     new_kw_line = "  keywords: [" + ", ".join(f'"{k}"' for k in new_kws) + "]"
     new_fm = re.sub(r"^\s*keywords:\s*\[.*?\]\s*$", new_kw_line, fm, flags=re.M)
-    new_content = "---" + new_fm + "---" + body
+    new_content = "---" + new_fm + "\n---\n" + body
     with open(path, "w", encoding="utf-8", newline="\n") as f:
         f.write(new_content)
     return True
