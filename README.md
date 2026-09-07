@@ -82,6 +82,13 @@ ancient-text-library/
 │               └── sanmingzhimifu/ #  三命指迷赋 82
 │           └── qizheng/          # 七政四余（subcategory=qizheng）
 │               └── xingxuedacheng/ # 星学大成 30
+├── yi/                          # 医·中医（library/yi/）
+│   └── jingdian/               # 医部经典（subcategory=jingdian）
+│       ├── suwen/              #   黄帝内经素问 81
+│       ├── lingshu/            #   灵枢经 71
+│       ├── nanjing/            #   八十一难经 81
+│       ├── shanghan/           #   伤寒论 10
+│       └── shennong/           #   神农本草经 313
 │           └── ziwei/             # 紫微斗数（subcategory=ziwei）
 │               ├── quanshu/       #   紫微斗数全书 17
 │               ├── quanji/        #   紫微斗数全集 29
