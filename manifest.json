@@ -27,6 +27,7 @@
     "library/xiang/renxiang": "相部人相",
     "library/xiang/dixiang": "相部地相",
     "library/bu/yijing": "卜部易经",
+    "library/bu/liuyao": "卜部六爻",
     "library/shan/dandao": "山部丹道",
     "library/shan/wushu": "山部武术",
     "library/shan/yangsheng": "山部养生",
@@ -348,6 +349,14 @@
       "count": 68
     },
     {
+      "dir": "huozhulin",
+      "tier": "library/bu/liuyao",
+      "tier_name": "卜部六爻",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "count": 64
+    },
+    {
       "dir": "cantongqi",
       "tier": "library/shan/dandao",
       "tier_name": "山部丹道",
@@ -428,6 +437,14 @@
       "count": 0
     },
     {
+      "dir": "liuyao",
+      "tier": "library/bu",
+      "tier_name": "卜·卜筮",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "count": 0
+    },
+    {
       "dir": "yijing",
       "tier": "library/bu",
       "tier_name": "卜·卜筮",
@@ -460,8 +477,1887 @@
       "count": 0
     }
   ],
-  "total": 3412,
+  "total": 3476,
   "entries": [
+    {
+      "id": "bu2_huozhulin_000",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_000.md",
+      "weight": 4,
+      "title": "1．易中明义",
+      "chapter": "1．易中明义",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "火珠林",
+          "六亲",
+          "五行旺衰",
+          "冲合刑害",
+          "卦体"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_001",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_001.md",
+      "weight": 4,
+      "title": "2．六亲根源",
+      "chapter": "2．六亲根源",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "火珠林",
+          "六亲",
+          "五行旺衰",
+          "飞伏"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_002",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_002.md",
+      "weight": 4,
+      "title": "3．财官辅助",
+      "chapter": "3．财官辅助",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "五行旺衰",
+          "冲合刑害"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_003",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_003.md",
+      "weight": 4,
+      "title": "4．独发乱动",
+      "chapter": "4．独发乱动",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "动变",
+          "飞伏",
+          "冲合刑害",
+          "用神"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_004",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_004.md",
+      "weight": 4,
+      "title": "5．世应相克",
+      "chapter": "5．世应相克",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "动变",
+          "占财",
+          "占官"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_005",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_005.md",
+      "weight": 4,
+      "title": "6．公私用事",
+      "chapter": "6．公私用事",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "火珠林",
+          "六亲",
+          "冲合刑害",
+          "占财",
+          "占官",
+          "占病",
+          "占婚姻"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_006",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_006.md",
+      "weight": 4,
+      "title": "7．出现伏藏",
+      "chapter": "7．出现伏藏",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "世应",
+          "五行旺衰",
+          "日辰月建",
+          "飞伏",
+          "卦体"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_007",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_007.md",
+      "weight": 4,
+      "title": "8．占财伏鬼",
+      "chapter": "8．占财伏鬼",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "日辰月建",
+          "飞伏",
+          "占财"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_008",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_008.md",
+      "weight": 4,
+      "title": "9．占财伏兄",
+      "chapter": "9．占财伏兄",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "五行旺衰",
+          "日辰月建",
+          "占财"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_009",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_009.md",
+      "weight": 4,
+      "title": "10．财伏父子",
+      "chapter": "10．财伏父子",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "占财"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_010",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_010.md",
+      "weight": 4,
+      "title": "11．占鬼伏兄",
+      "chapter": "11．占鬼伏兄",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "日辰月建",
+          "占官"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_011",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_011.md",
+      "weight": 4,
+      "title": "12．占鬼伏财",
+      "chapter": "12．占鬼伏财",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "动变",
+          "日辰月建"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_012",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_012.md",
+      "weight": 4,
+      "title": "13．官伏父母",
+      "chapter": "13．官伏父母",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "五行旺衰"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_013",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_013.md",
+      "weight": 4,
+      "title": "14．官伏子孙",
+      "chapter": "14．官伏子孙",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "五行旺衰",
+          "日辰月建"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_014",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_014.md",
+      "weight": 4,
+      "title": "15．官鬼伏官",
+      "chapter": "15．官鬼伏官",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "飞伏"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_015",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_015.md",
+      "weight": 4,
+      "title": "16．出现重迭",
+      "chapter": "16．出现重迭",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "飞伏",
+          "冲合刑害",
+          "卦体"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_016",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_016.md",
+      "weight": 4,
+      "title": "17．子孙独发",
+      "chapter": "17．子孙独发",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "五行旺衰",
+          "动变",
+          "飞伏",
+          "占财",
+          "占病",
+          "卦体"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_017",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_017.md",
+      "weight": 4,
+      "title": "18．兄弟独发",
+      "chapter": "18．兄弟独发",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "动变",
+          "飞伏",
+          "冲合刑害"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_018",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_018.md",
+      "weight": 4,
+      "title": "19．父母独发",
+      "chapter": "19．父母独发",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "动变",
+          "日辰月建",
+          "飞伏",
+          "冲合刑害",
+          "占官"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_019",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_019.md",
+      "weight": 4,
+      "title": "20．官鬼独发",
+      "chapter": "20．官鬼独发",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "动变",
+          "冲合刑害",
+          "占官"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_020",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_020.md",
+      "weight": 4,
+      "title": "21．妻财独发",
+      "chapter": "21．妻财独发",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "动变",
+          "占婚姻"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_021",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_021.md",
+      "weight": 4,
+      "title": "22．占身命",
+      "chapter": "22．占身命",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "世应",
+          "五行旺衰",
+          "冲合刑害"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_022",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_022.md",
+      "weight": 4,
+      "title": "23．占形性",
+      "chapter": "23．占形性",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "五行旺衰",
+          "冲合刑害",
+          "卦体"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_023",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_023.md",
+      "weight": 4,
+      "title": "24．占运限",
+      "chapter": "24．占运限",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "冲合刑害"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_024",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_024.md",
+      "weight": 4,
+      "title": "25．占婚姻",
+      "chapter": "25．占婚姻",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "火珠林",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "飞伏",
+          "冲合刑害",
+          "空亡",
+          "占婚姻",
+          "卦体",
+          "用神"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_025",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_025.md",
+      "weight": 4,
+      "title": "26．占孕产",
+      "chapter": "26．占孕产",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "火珠林",
+          "六亲",
+          "五行旺衰",
+          "冲合刑害",
+          "卦体"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_026",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_026.md",
+      "weight": 4,
+      "title": "27．占科举",
+      "chapter": "27．占科举",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "火珠林",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "动变",
+          "日辰月建",
+          "飞伏",
+          "冲合刑害",
+          "占官",
+          "卦体"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_027",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_027.md",
+      "weight": 4,
+      "title": "28．占谒贵",
+      "chapter": "28．占谒贵",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "动变",
+          "飞伏",
+          "冲合刑害",
+          "空亡"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_028",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_028.md",
+      "weight": 4,
+      "title": "29．占买卖",
+      "chapter": "29．占买卖",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "日辰月建",
+          "飞伏",
+          "占财",
+          "卦体"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_029",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_029.md",
+      "weight": 4,
+      "title": "30．占求财",
+      "chapter": "30．占求财",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "日辰月建",
+          "冲合刑害",
+          "空亡",
+          "占财"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_030",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_030.md",
+      "weight": 4,
+      "title": "31．占博戏",
+      "chapter": "31．占博戏",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "动变"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_031",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_031.md",
+      "weight": 4,
+      "title": "32．占出行",
+      "chapter": "32．占出行",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "动变",
+          "冲合刑害",
+          "占行人"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_032",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_032.md",
+      "weight": 4,
+      "title": "33．占行人",
+      "chapter": "33．占行人",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "动变",
+          "日辰月建",
+          "飞伏",
+          "冲合刑害",
+          "占行人",
+          "用神"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_033",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_033.md",
+      "weight": 4,
+      "title": "34．占逃亡",
+      "chapter": "34．占逃亡",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "火珠林",
+          "六亲",
+          "世应",
+          "飞伏",
+          "冲合刑害",
+          "卦体"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_034",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_034.md",
+      "weight": 4,
+      "title": "35．占逃亡方位",
+      "chapter": "35．占逃亡方位",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "动变",
+          "飞伏",
+          "卦体",
+          "用神"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_035",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_035.md",
+      "weight": 4,
+      "title": "36．占失物鬼祟",
+      "chapter": "36．占失物鬼祟",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "世应",
+          "飞伏"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_036",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_036.md",
+      "weight": 4,
+      "title": "37．占贼盗",
+      "chapter": "37．占贼盗",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "火珠林",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "动变",
+          "飞伏",
+          "冲合刑害"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_037",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_037.md",
+      "weight": 4,
+      "title": "38．占鬼神",
+      "chapter": "38．占鬼神",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "火珠林",
+          "六亲",
+          "五行旺衰",
+          "动变",
+          "日辰月建",
+          "冲合刑害",
+          "占婚姻",
+          "卦体"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_038",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_038.md",
+      "weight": 4,
+      "title": "39．占词讼",
+      "chapter": "39．占词讼",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "飞伏",
+          "冲合刑害",
+          "卦体"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_039",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_039.md",
+      "weight": 4,
+      "title": "40．占脱事散忧",
+      "chapter": "40．占脱事散忧",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "动变",
+          "日辰月建",
+          "飞伏",
+          "冲合刑害",
+          "卦体"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_040",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_040.md",
+      "weight": 4,
+      "title": "41．占疾病",
+      "chapter": "41．占疾病",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "动变",
+          "飞伏",
+          "冲合刑害",
+          "占病",
+          "卦体"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_041",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_041.md",
+      "weight": 4,
+      "title": "42．病忌官鬼",
+      "chapter": "42．病忌官鬼",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "动变"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_042",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_042.md",
+      "weight": 4,
+      "title": "43．病忌父兄",
+      "chapter": "43．病忌父兄",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "五行旺衰",
+          "动变",
+          "占病"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_043",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_043.md",
+      "weight": 4,
+      "title": "44．占医药",
+      "chapter": "44．占医药",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "动变",
+          "空亡",
+          "占病"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_044",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_044.md",
+      "weight": 4,
+      "title": "45．占家宅",
+      "chapter": "45．占家宅",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "冲合刑害",
+          "卦体"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_045",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_045.md",
+      "weight": 4,
+      "title": "46．占人口",
+      "chapter": "46．占人口",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "动变",
+          "占病"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_046",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_046.md",
+      "weight": 4,
+      "title": "47．占起造迁移 附：阳宅",
+      "chapter": "47．占起造迁移 附：阳宅",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "火珠林",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "动变",
+          "飞伏",
+          "冲合刑害",
+          "占财"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_047",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_047.md",
+      "weight": 4,
+      "title": "48．占耕种",
+      "chapter": "48．占耕种",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "火珠林",
+          "六亲",
+          "五行旺衰",
+          "冲合刑害",
+          "空亡",
+          "占病"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_048",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_048.md",
+      "weight": 4,
+      "title": "49．占蚕桑",
+      "chapter": "49．占蚕桑",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "世应"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_049",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_049.md",
+      "weight": 4,
+      "title": "50．占畜养",
+      "chapter": "50．占畜养",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "冲合刑害"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_050",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_050.md",
+      "weight": 4,
+      "title": "51．占渔猎",
+      "chapter": "51．占渔猎",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "火珠林",
+          "五行旺衰",
+          "空亡",
+          "卦体"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_051",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_051.md",
+      "weight": 4,
+      "title": "52．占坟墓",
+      "chapter": "52．占坟墓",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "火珠林",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "动变",
+          "飞伏",
+          "冲合刑害",
+          "卦体"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_052",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_052.md",
+      "weight": 4,
+      "title": "53．占朝国",
+      "chapter": "53．占朝国",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "日辰月建",
+          "冲合刑害",
+          "卦体"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_053",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_053.md",
+      "weight": 4,
+      "title": "54．占征战",
+      "chapter": "54．占征战",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "火珠林",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "动变",
+          "飞伏",
+          "冲合刑害",
+          "空亡",
+          "卦体"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_054",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_054.md",
+      "weight": 4,
+      "title": "55．占天时",
+      "chapter": "55．占天时",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "动变",
+          "冲合刑害",
+          "卦体"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_055",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_055.md",
+      "weight": 4,
+      "title": "56．占天道晴雨",
+      "chapter": "56．占天道晴雨",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "世应",
+          "动变",
+          "日辰月建",
+          "飞伏",
+          "冲合刑害",
+          "卦体"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_056",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_056.md",
+      "weight": 4,
+      "title": "57．占射覆",
+      "chapter": "57．占射覆",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "世应",
+          "飞伏",
+          "冲合刑害",
+          "卦体"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_057",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_057.md",
+      "weight": 4,
+      "title": "58．覆射物色（节录）",
+      "chapter": "58．覆射物色（节录）",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "火珠林",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "动变",
+          "飞伏",
+          "冲合刑害",
+          "卦体"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_058",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_058.md",
+      "weight": 4,
+      "title": "59．占来情",
+      "chapter": "59．占来情",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "卦体"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_059",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_059.md",
+      "weight": 4,
+      "title": "60．达人事",
+      "chapter": "60．达人事",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "世应",
+          "五行旺衰",
+          "日辰月建",
+          "冲合刑害"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_060",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_060.md",
+      "weight": 4,
+      "title": "61．占姓字",
+      "chapter": "61．占姓字",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "五行旺衰",
+          "冲合刑害",
+          "卦体"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_061",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_061.md",
+      "weight": 4,
+      "title": "62．占法卦数（节录）",
+      "chapter": "62．占法卦数（节录）",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "六亲",
+          "世应",
+          "五行旺衰",
+          "冲合刑害",
+          "空亡",
+          "占财",
+          "占官",
+          "占病",
+          "占婚姻",
+          "占行人",
+          "卦体"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_062",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_062.md",
+      "weight": 4,
+      "title": "63．易道心性",
+      "chapter": "63．易道心性",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻",
+          "火珠林",
+          "六亲",
+          "冲合刑害",
+          "卦体"
+        ]
+      }
+    },
+    {
+      "id": "bu2_huozhulin_063",
+      "book": "火珠林",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/huozhulin/bu2_huozhulin_063.md",
+      "weight": 4,
+      "title": "64．邵尧夫诗",
+      "chapter": "64．邵尧夫诗",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "六爻"
+        ]
+      }
+    },
     {
       "id": "bu_zhouyi_000",
       "book": "周易",
