@@ -96,8 +96,9 @@ tags: [{tags_str}]
     return fm + "\n" + body
 
 
-def split_by_juan(text, pattern=r"^　*卷第?[一二三四五六七八九十百]+[^\n]{0,20}$"):
+def split_by_juan(text, pattern=r"^　*(?:[\u4e00-\u9fff]{1,6}\s+)?卷第?[一二三四五六七八九十百]+[^\n]{0,20}$"):
     """按卷标题切分，去重（只取每个卷号的首次出现）。
+    支持 '卷一'、'卷第一'、'脉经 卷一' 等格式。
     返回 [(title, content), ...]
     """
     matches = list(re.finditer(pattern, text, re.M))
@@ -106,7 +107,7 @@ def split_by_juan(text, pattern=r"^　*卷第?[一二三四五六七八九十百
     unique_matches = []
     for m in matches:
         title = m.group(0).strip()
-        # 提取卷号（卷一/卷第一 → 一）
+        # 提取卷号（卷一/卷第一/脉经 卷一 → 一）
         num_match = re.search(r"卷第?([一二三四五六七八九十百]+)", title)
         num = num_match.group(1) if num_match else title
         if num not in seen:
@@ -115,11 +116,13 @@ def split_by_juan(text, pattern=r"^　*卷第?[一二三四五六七八九十百
     entries = []
     for i, m in enumerate(unique_matches):
         title = m.group(0).strip()
+        # 去掉书名前缀（如 '脉经 卷一' → '卷一'）
+        clean_title = re.sub(r"^[\u4e00-\u9fff]{1,6}\s+", "", title)
         start = m.end()
         end = unique_matches[i + 1].start() if i + 1 < len(unique_matches) else len(text)
         content = text[start:end].strip()
         if len(content) > 50:
-            entries.append((title, content))
+            entries.append((clean_title, content))
     return entries
 
 

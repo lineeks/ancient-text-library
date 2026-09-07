@@ -15,7 +15,7 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["中医", "黄帝内经", "伤寒论", "病机", "治法", "气血津液"]
+  keywords: ["中医", "黄帝内经", "伤寒论", "病机", "治法", "气血津液", "脏腑"]
 weight: 3
 tags: ["医部经典", "黄帝内经素问"]
 ---

@@ -28,7 +28,7 @@
 | 补遗·子平赋文 | 三命指迷赋 | 宋岳珂补注·四库本 | 82 | [索引](./library/ming/bazi/extended/sanmingzhimifu/INDEX.md) | ✅ |
 | 命·七政四余 | 星学大成 | 明万民英撰·四库本 | 30 | [索引](./library/ming/qizheng/xingxuedacheng/INDEX.md) | ✅ |
 | 医·经典 | 黄帝内经素问 | 唐王冰注·宋林亿校 | 81 | [索引](./library/yi/jingdian/suwen/INDEX.md) | ✅ |
-| 医·经典 | 灵枢经 | 四库本 | 71 | [索引](./library/yi/jingdian/lingshu/INDEX.md) | ✅ |
+| 医·经典 | 灵枢经 | 四库本 | 79 | [索引](./library/yi/jingdian/lingshu/INDEX.md) | ✅ |
 | 医·经典 | 八十一难经 | 旧题扁鹊·四库本 | 81 | [索引](./library/yi/jingdian/nanjing/INDEX.md) | ✅ |
 | 医·经典 | 伤寒论 | 汉张仲景·通行本 | 10 | [索引](./library/yi/jingdian/shanghan/INDEX.md) | ✅ |
 | 医·经典 | 神农本草经 | 四库本 | 313 | [索引](./library/yi/jingdian/shennong/INDEX.md) | ✅ |
@@ -36,17 +36,22 @@
 | 医·方书 | 外台秘要 | 唐王焘·明程校 | 40 | [索引](./library/yi/fangshu/waitaimiyao/INDEX.md) | ✅ |
 | 医·温病 | 温病条辨 | 清吴鞠通·通行本 | 6 | [索引](./library/yi/wenbing/wenbingtiaobian/INDEX.md) | ✅ |
 | 医·针灸 | 针灸甲乙经 | 晋皇甫谧·四库本 | 12 | [索引](./library/yi/zhenji/zhenjiujiayi/INDEX.md) | ✅ |
-| 医·诊法 | 脉经 | 晋王叔和·四库本 | 1 | [索引](./library/yi/zhenfa/maijing/INDEX.md) | ✅ |
+| 医·诊法 | 脉经 | 晋王叔和·四库本 | 10 | [索引](./library/yi/zhenfa/maijing/INDEX.md) | ✅ |
 | 相·人相 | 神相全编 | 明清相术集大成 | 174 | [索引](./library/xiang/renxiang/shenxiangquanbian/INDEX.md) | ✅ |
 | 相·人相 | 柳庄相法 | 清袁珙·通行本 | 170 | [索引](./library/xiang/renxiang/liuzhuangxiangfa/INDEX.md) | ✅ |
-| 相·地相 | 撼龙经 | 唐杨筠松·通行本 | 1 | [索引](./library/xiang/dixiang/hanlongjing/INDEX.md) | ✅ |
-| 相·地相 | 葬书 | 晋郭璞·通行本 | 1 | [索引](./library/xiang/dixiang/zangshu/INDEX.md) | ✅ |
+| 相·地相 | 撼龙经 | 唐杨筠松·通行本 | 29 | [索引](./library/xiang/dixiang/hanlongjing/INDEX.md) | ✅ |
+| 相·地相 | 葬书 | 晋郭璞·通行本 | 13 | [索引](./library/xiang/dixiang/zangshu/INDEX.md) | ✅ |
 | 相·地相 | 青囊奥语 | 唐杨筠松·通行本 | 1 | [索引](./library/xiang/dixiang/qingnangaoyu/INDEX.md) | ✅ |
 | 卜·易经 | 周易 | 经传合编·通行本 | 68 | [索引](./library/bu/yijing/zhouyi/INDEX.md) | ✅ |
-| 山·丹道 | 周易参同契分章通真义 | 汉魏伯阳·五代彭晓注 | 66 | [索引](./library/shan/dandao/cantongqi/INDEX.md) | ✅ |
+| 卜·六爻 | 火珠林 | 题麻衣道者·通行本 | 64 | [索引](./library/bu/liuyao/huozhulin/INDEX.md) | ✅ |
+| 卜·六爻 | 增删卜易 | 清野鹤老人·通行本 | 123 | [索引](./library/bu/liuyao/zengshanbuyi/INDEX.md) | ✅ |
+| 卜·梅花 | 梅花易数 | 宋邵雍·通行本 | 136 | [索引](./library/bu/meihua/meihuayishu/INDEX.md) | ✅ |
+| 卜·奇门 | 奇门遁甲秘笈大全 | 明刘基辑·通行本 | 382 | [索引](./library/bu/qimen/qimen-dunjia-miji/INDEX.md) | ✅ |
+| 卜·六壬 | 六壬大全 | 明郭载騋校·四库全书本 | 269 | [索引](./library/bu/liuren/liuren-daquan/INDEX.md) | ✅ |
+| 山·丹道 | 周易参同契分章通真义 | 汉魏伯阳·五代彭晓注 | 88 | [索引](./library/shan/dandao/cantongqi/INDEX.md) | ✅ |
 | 山·武术 | 太极拳论 | 清王宗岳·艺藏本 | 1 | [索引](./library/shan/wushu/taijilun/INDEX.md) | ✅ |
 | 山·养生 | 达摩洗髓易筋经 | 艺藏本 | 22 | [索引](./library/shan/yangsheng/yijinjing/INDEX.md) | ✅ |
-| **合计** | **37 部** | — | **3373** | — | — |
+| **合计** | **40 部** | — | **4426** | — | — |
 
 ## 目录结构
 
@@ -106,6 +111,14 @@ ancient-text-library/
 ├── bu/                          # 卜·卜筮（library/bu/）
 │   └── yijing/                  # 易经（subcategory=yijing）
 │       └── zhouyi/              #   周易 68（64卦+4传）
+│   └── liuyao/                  # 六爻（subcategory=liuyao）
+│       └── huozhulin/           #   火珠林 64
+│   └── meihua/                  # 梅花易数（subcategory=meihua）
+│       └── meihuayishu/         #   梅花易数 136
+│   └── qimen/                   # 奇门遁甲（subcategory=qimen）
+│       └── qimen-dunjia-miji/   #   奇门遁甲秘笈大全 382
+│   └── liuren/                  # 大六壬（subcategory=liuren）
+│       └── liuren-daquan/       #   六壬大全 269
 ├── shan/                        # 山·山术（library/shan/）
 │   ├── dandao/                  # 丹道（subcategory=dandao）
 │   │   └── cantongqi/           #   周易参同契分章通真义 66

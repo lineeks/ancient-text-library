@@ -15,7 +15,7 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["相术", "相学名著", "峦头派", "命理吉凶"]
+  keywords: ["相术", "相学名著", "峦头派", "命理吉凶", "人相部位", "人相格局", "人相气色", "地相砂水"]
 weight: 3
 tags: ["相部", "神相全编"]
 ---

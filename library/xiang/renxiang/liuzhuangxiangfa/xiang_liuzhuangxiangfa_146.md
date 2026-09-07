@@ -15,7 +15,7 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["相术", "气色", "命理吉凶"]
+  keywords: ["相术", "气色", "命理吉凶", "人相格局", "人相气色"]
 weight: 3
 tags: ["相部", "柳庄相法"]
 ---

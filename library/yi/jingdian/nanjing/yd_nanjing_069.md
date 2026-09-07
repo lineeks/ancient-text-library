@@ -15,7 +15,7 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["中医", "五脏", "药性", "针灸", "病因", "治法"]
+  keywords: ["中医", "五脏", "药性", "针灸", "病因", "治法", "脏腑"]
 weight: 3
 tags: ["医部经典", "八十一难经"]
 ---

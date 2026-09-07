@@ -15,7 +15,7 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["中医", "黄帝内经", "伤寒论", "六腑", "药性", "病因"]
+  keywords: ["中医", "黄帝内经", "伤寒论", "六腑", "药性", "病因", "脏腑"]
 weight: 3
 tags: ["医部经典", "黄帝内经素问"]
 ---

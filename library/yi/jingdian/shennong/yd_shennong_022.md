@@ -15,7 +15,7 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["中医", "神农本草经", "六腑", "药性", "病机", "病因"]
+  keywords: ["中医", "神农本草经", "六腑", "药性", "病机", "病因", "脏腑", "病证"]
 weight: 3
 tags: ["医部经典", "神农本草经"]
 ---

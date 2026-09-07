@@ -15,7 +15,7 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["中医", "病机"]
+  keywords: ["中医", "病机", "脏腑", "病证"]
 weight: 3
 tags: ["医部经典", "八十一难经"]
 ---

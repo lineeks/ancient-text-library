@@ -15,7 +15,7 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["山术", "武术"]
+  keywords: ["山术", "武术", "丹道金丹", "丹道性命", "武术太极", "武术内家", "养生导引", "养生起居"]
 weight: 3
 tags: ["山部", "达摩洗髓易筋经"]
 ---
