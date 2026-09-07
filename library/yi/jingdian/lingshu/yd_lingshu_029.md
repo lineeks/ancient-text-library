@@ -15,10 +15,9 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["中医", "黄帝内经", "六腑", "治法"]
+  keywords: ["中医", "黄帝内经", "六腑", "治法", "脏腑"]
 weight: 3
-tags: ["医部经典", "灵枢经"]
----
+tags: ["医部经典", "灵枢经"]---
 
 ### 肠胃第三十一
 
