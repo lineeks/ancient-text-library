@@ -27,6 +27,9 @@
     "library/xiang/renxiang": "相部人相",
     "library/xiang/dixiang": "相部地相",
     "library/bu/yijing": "卜部易经",
+    "library/shan/dandao": "山部丹道",
+    "library/shan/wushu": "山部武术",
+    "library/shan/yangsheng": "山部养生",
     "library/yi": "医·中医",
     "library/xiang": "相·相术",
     "library/bu": "卜·卜筮",
@@ -345,6 +348,30 @@
       "count": 68
     },
     {
+      "dir": "cantongqi",
+      "tier": "library/shan/dandao",
+      "tier_name": "山部丹道",
+      "category": "shan",
+      "subcategory": "dandao",
+      "count": 66
+    },
+    {
+      "dir": "taijilun",
+      "tier": "library/shan/wushu",
+      "tier_name": "山部武术",
+      "category": "shan",
+      "subcategory": "wushu",
+      "count": 1
+    },
+    {
+      "dir": "yijinjing",
+      "tier": "library/shan/yangsheng",
+      "tier_name": "山部养生",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "count": 22
+    },
+    {
       "dir": "fangshu",
       "tier": "library/yi",
       "tier_name": "医·中医",
@@ -407,9 +434,33 @@
       "category": "bu",
       "subcategory": "yijing",
       "count": 0
+    },
+    {
+      "dir": "dandao",
+      "tier": "library/shan",
+      "tier_name": "山·仙学养生",
+      "category": "shan",
+      "subcategory": "dandao",
+      "count": 0
+    },
+    {
+      "dir": "wushu",
+      "tier": "library/shan",
+      "tier_name": "山·仙学养生",
+      "category": "shan",
+      "subcategory": "wushu",
+      "count": 0
+    },
+    {
+      "dir": "yangsheng",
+      "tier": "library/shan",
+      "tier_name": "山·仙学养生",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "count": 0
     }
   ],
-  "total": 3284,
+  "total": 3373,
   "entries": [
     {
       "id": "bu_zhouyi_000",
@@ -63856,6 +63907,2413 @@
           "紫微斗数",
           "昌曲",
           "辅弼"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_000",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_000.md",
+      "weight": 4,
+      "title": "乾坤者《易》之门户章第一",
+      "chapter": "乾坤者《易》之门户章第一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道象喻",
+          "五行",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_001",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_001.md",
+      "weight": 4,
+      "title": "牝牡四卦章第二",
+      "chapter": "牝牡四卦章第二",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道象喻",
+          "丹道火候",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_002",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_002.md",
+      "weight": 4,
+      "title": "既未至晦爽章第四",
+      "chapter": "既未至晦爽章第四",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道火候",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_003",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_003.md",
+      "weight": 4,
+      "title": "赏罚应春秋章第六",
+      "chapter": "赏罚应春秋章第六",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道火候",
+          "五行",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_004",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_004.md",
+      "weight": 4,
+      "title": "天地设位章第七",
+      "chapter": "天地设位章第七",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道象喻",
+          "丹道火候",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_005",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_005.md",
+      "weight": 4,
+      "title": "於是仲尼章第十一",
+      "chapter": "於是仲尼章第十一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "丹道象喻",
+          "五行"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_006",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_006.md",
+      "weight": 4,
+      "title": "圣人不虚生章第十二",
+      "chapter": "圣人不虚生章第十二",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "五行",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_007",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_007.md",
+      "weight": 4,
+      "title": "复卦建始萌章第十三",
+      "chapter": "复卦建始萌章第十三",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "丹道火候"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_008",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_008.md",
+      "weight": 4,
+      "title": "十六转受统章第十四",
+      "chapter": "十六转受统章第十四",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道象喻",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_009",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_009.md",
+      "weight": 4,
+      "title": "壬癸配甲乙章第十五",
+      "chapter": "壬癸配甲乙章第十五",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道象喻",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_010",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_010.md",
+      "weight": 4,
+      "title": "元精眇难睹章第十六",
+      "chapter": "元精眇难睹章第十六",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道象喻",
+          "丹道火候",
+          "五行",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_011",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_011.md",
+      "weight": 4,
+      "title": "辰极受正章第二十",
+      "chapter": "辰极受正章第二十",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道象喻",
+          "五行",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_012",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_012.md",
+      "weight": 4,
+      "title": "黄中渐通理章第二十一",
+      "chapter": "黄中渐通理章第二十一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道象喻",
+          "五行",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_013",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_013.md",
+      "weight": 4,
+      "title": "知白守黑章第二十三",
+      "chapter": "知白守黑章第二十三",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道象喻",
+          "五行",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_014",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_014.md",
+      "weight": 4,
+      "title": "金为水母章第二十四",
+      "chapter": "金为水母章第二十四",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_015",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_015.md",
+      "weight": 4,
+      "title": "采之类白章第二十五",
+      "chapter": "采之类白章第二十五",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道象喻",
+          "五行",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_016",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_016.md",
+      "weight": 4,
+      "title": "旁有垣阙章第二十六",
+      "chapter": "旁有垣阙章第二十六",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道象喻",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_017",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_017.md",
+      "weight": 4,
+      "title": "是非历藏法章第二十七",
+      "chapter": "是非历藏法章第二十七",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "丹道火候",
+          "丹道部位"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_018",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_018.md",
+      "weight": 4,
+      "title": "明者省厥旨章第二十八",
+      "chapter": "明者省厥旨章第二十八",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "丹道象喻"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_019",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_019.md",
+      "weight": 4,
+      "title": "火记不虚作章第二十九",
+      "chapter": "火记不虚作章第二十九",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "丹道象喻",
+          "五行"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_020",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_020.md",
+      "weight": 4,
+      "title": "子午数合三章第三十一",
+      "chapter": "子午数合三章第三十一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "丹道火候",
+          "五行"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_021",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_021.md",
+      "weight": 4,
+      "title": "巨胜尚延年章第三十二",
+      "chapter": "巨胜尚延年章第三十二",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "丹道"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_022",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_022.md",
+      "weight": 4,
+      "title": "胡粉投火章第三十三",
+      "chapter": "胡粉投火章第三十三",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "五行",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_023",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_023.md",
+      "weight": 4,
+      "title": "若夫至圣章第三十五",
+      "chapter": "若夫至圣章第三十五",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道象喻",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_024",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_024.md",
+      "weight": 4,
+      "title": "火记六百篇章第三十六",
+      "chapter": "火记六百篇章第三十六",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_025",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_025.md",
+      "weight": 4,
+      "title": "以金为堤防章第三十七",
+      "chapter": "以金为堤防章第三十七",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道火候",
+          "五行",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_026",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_026.md",
+      "weight": 4,
+      "title": "推演五行数章第三十九",
+      "chapter": "推演五行数章第三十九",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "丹道",
+          "太极拳",
+          "丹道象喻",
+          "丹道火候",
+          "五行",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_027",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_027.md",
+      "weight": 4,
+      "title": "乾坤刚柔章第四十一",
+      "chapter": "乾坤刚柔章第四十一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "丹道",
+          "太极拳",
+          "丹道象喻",
+          "五行",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_028",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_028.md",
+      "weight": 4,
+      "title": "君子居室章第四十二",
+      "chapter": "君子居室章第四十二",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道象喻",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_029",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_029.md",
+      "weight": 4,
+      "title": "聊陈两象章第四十三",
+      "chapter": "聊陈两象章第四十三",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道象喻",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_030",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_030.md",
+      "weight": 4,
+      "title": "二至改度章第四十四",
+      "chapter": "二至改度章第四十四",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "丹道象喻"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_031",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_031.md",
+      "weight": 4,
+      "title": "动静有常章第四十五",
+      "chapter": "动静有常章第四十五",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道象喻",
+          "丹道火候",
+          "五行",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_032",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_032.md",
+      "weight": 4,
+      "title": "循据璇玑章第四十八",
+      "chapter": "循据璇玑章第四十八",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道象喻",
+          "丹道火候",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_033",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_033.md",
+      "weight": 4,
+      "title": "临炉施条章第五十",
+      "chapter": "临炉施条章第五十",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "丹道火候"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_034",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_034.md",
+      "weight": 4,
+      "title": "仰以成泰章第五十一",
+      "chapter": "仰以成泰章第五十一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道象喻",
+          "丹道火候",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_035",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_035.md",
+      "weight": 4,
+      "title": "渐历大壮章第五十二",
+      "chapter": "渐历大壮章第五十二",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道火候",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_036",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_036.md",
+      "weight": 4,
+      "title": "乾健盛明章第五十四",
+      "chapter": "乾健盛明章第五十四",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道象喻",
+          "丹道火候",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_037",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_037.md",
+      "weight": 4,
+      "title": "否塞不通章第五十七",
+      "chapter": "否塞不通章第五十七",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道火候",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_038",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_038.md",
+      "weight": 4,
+      "title": "观其权量章第五十八",
+      "chapter": "观其权量章第五十八",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_039",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_039.md",
+      "weight": 4,
+      "title": "剥烂肢体章第五十九",
+      "chapter": "剥烂肢体章第五十九",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "丹道火候"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_040",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_040.md",
+      "weight": 4,
+      "title": "道穷则反章第六十",
+      "chapter": "道穷则反章第六十",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_041",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_041.md",
+      "weight": 4,
+      "title": "玄幽远渺章第六十一",
+      "chapter": "玄幽远渺章第六十一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道象喻",
+          "五行",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_042",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_042.md",
+      "weight": 4,
+      "title": "将欲养性章第六十二",
+      "chapter": "将欲养性章第六十二",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_043",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_043.md",
+      "weight": 4,
+      "title": "阴阳为度章第六十三",
+      "chapter": "阴阳为度章第六十三",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道象喻",
+          "五行",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_044",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_044.md",
+      "weight": 4,
+      "title": "类如鸡子章第六十四",
+      "chapter": "类如鸡子章第六十四",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "丹道",
+          "太极拳",
+          "丹道象喻",
+          "养生经络",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_045",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_045.md",
+      "weight": 4,
+      "title": "耳目口三宝章第六十六",
+      "chapter": "耳目口三宝章第六十六",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道象喻",
+          "五行",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_046",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_046.md",
+      "weight": 4,
+      "title": "太阳流珠章第六十八",
+      "chapter": "太阳流珠章第六十八",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道象喻",
+          "五行",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_047",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_047.md",
+      "weight": 4,
+      "title": "子当右转章第六十九",
+      "chapter": "子当右转章第六十九",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道火候",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_048",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_048.md",
+      "weight": 4,
+      "title": "不得其理章第七十",
+      "chapter": "不得其理章第七十",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_049",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_049.md",
+      "weight": 4,
+      "title": "五行相克章第七十一",
+      "chapter": "五行相克章第七十一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道象喻",
+          "五行",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_050",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_050.md",
+      "weight": 4,
+      "title": "坎男为月章第七十四",
+      "chapter": "坎男为月章第七十四",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道火候",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_051",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_051.md",
+      "weight": 4,
+      "title": "金化为水章第七十五",
+      "chapter": "金化为水章第七十五",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_052",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_052.md",
+      "weight": 4,
+      "title": "丹砂木精章第七十六",
+      "chapter": "丹砂木精章第七十六",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道象喻",
+          "五行",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_053",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_053.md",
+      "weight": 4,
+      "title": "刚柔迭兴章第七十七",
+      "chapter": "刚柔迭兴章第七十七",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道象喻",
+          "丹道火候",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_054",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_054.md",
+      "weight": 4,
+      "title": "关关睢鸠章第七十八",
+      "chapter": "关关睢鸠章第七十八",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "丹道",
+          "太极拳",
+          "丹道象喻",
+          "五行",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_055",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_055.md",
+      "weight": 4,
+      "title": "惟昔圣贤章第七十九",
+      "chapter": "惟昔圣贤章第七十九",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "养生经络"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_056",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_056.md",
+      "weight": 4,
+      "title": "法象天地章第八十",
+      "chapter": "法象天地章第八十",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道象喻",
+          "丹道火候",
+          "五行",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_057",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_057.md",
+      "weight": 4,
+      "title": "阴阳得其配章第八十二",
+      "chapter": "阴阳得其配章第八十二",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_058",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_058.md",
+      "weight": 4,
+      "title": "先白后黄章第八十三",
+      "chapter": "先白后黄章第八十三",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道象喻",
+          "丹道火候",
+          "五行",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_059",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_059.md",
+      "weight": 4,
+      "title": "补塞遗脱章第八十四",
+      "chapter": "补塞遗脱章第八十四",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "丹道",
+          "太极拳",
+          "丹道象喻",
+          "五行",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_060",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_060.md",
+      "weight": 4,
+      "title": "大易情性章第八十五",
+      "chapter": "大易情性章第八十五",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "丹道",
+          "五行"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_061",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_061.md",
+      "weight": 4,
+      "title": "枝茎华叶章第八十六",
+      "chapter": "枝茎华叶章第八十六",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_062",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_062.md",
+      "weight": 4,
+      "title": "象彼仲冬节章第八十七",
+      "chapter": "象彼仲冬节章第八十七",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_063",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_063.md",
+      "weight": 4,
+      "title": "会稽鄙夫章第八十八",
+      "chapter": "会稽鄙夫章第八十八",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道象喻",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_064",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_064.md",
+      "weight": 4,
+      "title": "务在顺理章第八十九",
+      "chapter": "务在顺理章第八十九",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道火候",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_cantongqi_065",
+      "book": "周易参同契分章通真义",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/shan_cantongqi_065.md",
+      "weight": 4,
+      "title": "审用成物章第九十",
+      "chapter": "审用成物章第九十",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "丹道",
+          "太极拳",
+          "丹道象喻",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_taijilun_000",
+      "book": "太极拳论",
+      "type": "chapter",
+      "tier": "library/shan/wushu",
+      "category": "shan",
+      "subcategory": "wushu",
+      "path": "library/shan/wushu/taijilun/shan_taijilun_000.md",
+      "weight": 3,
+      "title": "太极拳论",
+      "chapter": "太极拳论",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "武术",
+          "五行",
+          "阴阳易理",
+          "丹道部位"
+        ]
+      }
+    },
+    {
+      "id": "shan_yijinjing_000",
+      "book": "达摩洗髓易筋经",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/yijinjing/shan_yijinjing_000.md",
+      "weight": 3,
+      "title": "原理源流篇",
+      "chapter": "原理源流篇",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "养生导引",
+          "丹道象喻",
+          "阴阳易理",
+          "丹道部位"
+        ]
+      }
+    },
+    {
+      "id": "shan_yijinjing_001",
+      "book": "达摩洗髓易筋经",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/yijinjing/shan_yijinjing_001.md",
+      "weight": 3,
+      "title": "易筋经总论",
+      "chapter": "易筋经总论",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "养生导引",
+          "武术",
+          "养生经络",
+          "阴阳易理",
+          "内丹三要"
+        ]
+      }
+    },
+    {
+      "id": "shan_yijinjing_002",
+      "book": "达摩洗髓易筋经",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/yijinjing/shan_yijinjing_002.md",
+      "weight": 3,
+      "title": "洗髓经总义",
+      "chapter": "洗髓经总义",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "养生导引",
+          "丹道象喻",
+          "丹道火候"
+        ]
+      }
+    },
+    {
+      "id": "shan_yijinjing_003",
+      "book": "达摩洗髓易筋经",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/yijinjing/shan_yijinjing_003.md",
+      "weight": 3,
+      "title": "养身养心论说",
+      "chapter": "养身养心论说",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "养生导引",
+          "养生经络",
+          "五行",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_yijinjing_004",
+      "book": "达摩洗髓易筋经",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/yijinjing/shan_yijinjing_004.md",
+      "weight": 3,
+      "title": "练功歌诀",
+      "chapter": "练功歌诀",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "养生导引",
+          "丹道象喻",
+          "丹道火候",
+          "武术",
+          "养生经络",
+          "阴阳易理",
+          "内丹三要",
+          "丹道部位"
+        ]
+      }
+    },
+    {
+      "id": "shan_yijinjing_005",
+      "book": "达摩洗髓易筋经",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/yijinjing/shan_yijinjing_005.md",
+      "weight": 3,
+      "title": "正身图说",
+      "chapter": "正身图说",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "养生导引",
+          "养生经络",
+          "丹道部位"
+        ]
+      }
+    },
+    {
+      "id": "shan_yijinjing_006",
+      "book": "达摩洗髓易筋经",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/yijinjing/shan_yijinjing_006.md",
+      "weight": 3,
+      "title": "侧身图说",
+      "chapter": "侧身图说",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "武术"
+        ]
+      }
+    },
+    {
+      "id": "shan_yijinjing_007",
+      "book": "达摩洗髓易筋经",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/yijinjing/shan_yijinjing_007.md",
+      "weight": 3,
+      "title": "半身图说",
+      "chapter": "半身图说",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "养生导引",
+          "丹道部位"
+        ]
+      }
+    },
+    {
+      "id": "shan_yijinjing_008",
+      "book": "达摩洗髓易筋经",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/yijinjing/shan_yijinjing_008.md",
+      "weight": 3,
+      "title": "屈身图说",
+      "chapter": "屈身图说",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "丹道部位"
+        ]
+      }
+    },
+    {
+      "id": "shan_yijinjing_009",
+      "book": "达摩洗髓易筋经",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/yijinjing/shan_yijinjing_009.md",
+      "weight": 3,
+      "title": "折身图说",
+      "chapter": "折身图说",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术"
+        ]
+      }
+    },
+    {
+      "id": "shan_yijinjing_010",
+      "book": "达摩洗髓易筋经",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/yijinjing/shan_yijinjing_010.md",
+      "weight": 3,
+      "title": "扭身图说",
+      "chapter": "扭身图说",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "武术"
+        ]
+      }
+    },
+    {
+      "id": "shan_yijinjing_011",
+      "book": "达摩洗髓易筋经",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/yijinjing/shan_yijinjing_011.md",
+      "weight": 3,
+      "title": "倒身图说",
+      "chapter": "倒身图说",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "丹道部位"
+        ]
+      }
+    },
+    {
+      "id": "shan_yijinjing_012",
+      "book": "达摩洗髓易筋经",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/yijinjing/shan_yijinjing_012.md",
+      "weight": 3,
+      "title": "翻身图说",
+      "chapter": "翻身图说",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术"
+        ]
+      }
+    },
+    {
+      "id": "shan_yijinjing_013",
+      "book": "达摩洗髓易筋经",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/yijinjing/shan_yijinjing_013.md",
+      "weight": 3,
+      "title": "行身图说",
+      "chapter": "行身图说",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "武术",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_yijinjing_014",
+      "book": "达摩洗髓易筋经",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/yijinjing/shan_yijinjing_014.md",
+      "weight": 3,
+      "title": "坐身图说",
+      "chapter": "坐身图说",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "养生经络"
+        ]
+      }
+    },
+    {
+      "id": "shan_yijinjing_015",
+      "book": "达摩洗髓易筋经",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/yijinjing/shan_yijinjing_015.md",
+      "weight": 3,
+      "title": "定身图说",
+      "chapter": "定身图说",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "养生导引",
+          "丹道象喻",
+          "武术",
+          "养生经络",
+          "内丹三要",
+          "丹道部位"
+        ]
+      }
+    },
+    {
+      "id": "shan_yijinjing_016",
+      "book": "达摩洗髓易筋经",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/yijinjing/shan_yijinjing_016.md",
+      "weight": 3,
+      "title": "卧身图说",
+      "chapter": "卧身图说",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "丹道象喻",
+          "武术",
+          "五行",
+          "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "shan_yijinjing_017",
+      "book": "达摩洗髓易筋经",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/yijinjing/shan_yijinjing_017.md",
+      "weight": 3,
+      "title": "韦驮劲十二势图说",
+      "chapter": "韦驮劲十二势图说",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "养生导引",
+          "武术"
+        ]
+      }
+    },
+    {
+      "id": "shan_yijinjing_018",
+      "book": "达摩洗髓易筋经",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/yijinjing/shan_yijinjing_018.md",
+      "weight": 3,
+      "title": "十二大劲图说",
+      "chapter": "十二大劲图说",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "养生导引",
+          "武术",
+          "丹道部位"
+        ]
+      }
+    },
+    {
+      "id": "shan_yijinjing_019",
+      "book": "达摩洗髓易筋经",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/yijinjing/shan_yijinjing_019.md",
+      "weight": 3,
+      "title": "立八段锦图说",
+      "chapter": "立八段锦图说",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "养生导引",
+          "武术",
+          "养生经络"
+        ]
+      }
+    },
+    {
+      "id": "shan_yijinjing_020",
+      "book": "达摩洗髓易筋经",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/yijinjing/shan_yijinjing_020.md",
+      "weight": 3,
+      "title": "坐十二段锦图说",
+      "chapter": "坐十二段锦图说",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "养生导引",
+          "丹道部位"
+        ]
+      }
+    },
+    {
+      "id": "shan_yijinjing_021",
+      "book": "达摩洗髓易筋经",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/yijinjing/shan_yijinjing_021.md",
+      "weight": 3,
+      "title": "操腹九冲图说",
+      "chapter": "操腹九冲图说",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "山术",
+          "太极拳",
+          "养生导引",
+          "武术",
+          "养生经络",
+          "五行",
+          "阴阳易理"
         ]
       }
     },

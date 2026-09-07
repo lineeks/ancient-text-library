@@ -374,7 +374,10 @@ def build_root_index(counts):
              f"| 相·地相 | 葬书 | 晋郭璞·通行本 | {counts['zangshu']} | [索引](./library/xiang/dixiang/zangshu/INDEX.md) | ✅ |",
              f"| 相·地相 | 青囊奥语 | 唐杨筠松·通行本 | {counts['qingnangaoyu']} | [索引](./library/xiang/dixiang/qingnangaoyu/INDEX.md) | ✅ |",
              f"| 卜·易经 | 周易 | 经传合编·通行本 | {counts['zhouyi']} | [索引](./library/bu/yijing/zhouyi/INDEX.md) | ✅ |",
-             f"| **合计** | **34 部** | — | **{total}** | — | — |", "",
+             f"| 山·丹道 | 周易参同契分章通真义 | 汉魏伯阳·五代彭晓注 | {counts['cantongqi']} | [索引](./library/shan/dandao/cantongqi/INDEX.md) | ✅ |",
+             f"| 山·武术 | 太极拳论 | 清王宗岳·艺藏本 | {counts['taijilun']} | [索引](./library/shan/wushu/taijilun/INDEX.md) | ✅ |",
+             f"| 山·养生 | 达摩洗髓易筋经 | 艺藏本 | {counts['yijinjing']} | [索引](./library/shan/yangsheng/yijinjing/INDEX.md) | ✅ |",
+             f"| **合计** | **37 部** | — | **{total}** | — | — |", "",
              "## 目录结构", "",
              "```text",
              "ancient-text-library/",
@@ -432,6 +435,13 @@ def build_root_index(counts):
              "├── bu/                          # 卜·卜筮（library/bu/）",
              "│   └── yijing/                  # 易经（subcategory=yijing）",
              "│       └── zhouyi/              #   周易 68（64卦+4传）",
+             "├── shan/                        # 山·山术（library/shan/）",
+             "│   ├── dandao/                  # 丹道（subcategory=dandao）",
+             "│   │   └── cantongqi/           #   周易参同契分章通真义 66",
+             "│   ├── wushu/                   # 武术（subcategory=wushu）",
+             "│   │   └── taijilun/            #   太极拳论 1",
+             "│   └── yangsheng/               # 养生（subcategory=yangsheng）",
+             "│       └── yijinjing/           #   达摩洗髓易筋经 22",
              "│           └── ziwei/         # 紫微斗数（subcategory=ziwei）",
              "│               ├── quanshu/   # 紫微斗数全书 17",
              "│               ├── quanji/    # 紫微斗数全集 29",
@@ -561,6 +571,15 @@ def main():
         ("library/bu/yijing", "zhouyi", build_generic_index(
             "周易",
             "周易经传合编，通行本，64卦+易传4篇（系辞/说卦/序卦/杂卦），群经之首，大道之源，以阴阳八卦论天地人三才之道，为五术卜部之根本经典。")),
+        ("library/shan/dandao", "cantongqi", build_generic_index(
+            "周易参同契分章通真义",
+            "汉魏伯阳原著，五代彭晓注，正统道藏太玄部，66章，丹道鼻祖，以周易阴阳象喻论金丹炉火，为内丹学之祖。")),
+        ("library/shan/wushu", "taijilun", build_generic_index(
+            "太极拳论",
+            "清王宗岳撰，艺藏武术本，太极拳经典理论，以阴阳刚柔动静虚实论拳理，为内家拳之宗。")),
+        ("library/shan/yangsheng", "yijinjing", build_generic_index(
+            "达摩洗髓易筋经",
+            "艺藏武术本，22篇，养生导引经典，含易筋经总论、洗髓经总义、正身/侧身/半身/屈身/折身/扭身/倒身/翻身/行身/坐身/定身/卧身十二图说、韦驮劲十二势、立八段锦、坐十二段锦等。")),
     ]
     counts = {}
     for root, book, builder in plan:
