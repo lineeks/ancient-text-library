@@ -1,0 +1,29 @@
+---
+id: "xiang_shenxiangquanbian_017"
+book: "神相全编"
+chapter: "天中"
+section_title: "天中"
+source_version: "明清相术集大成·通行本"
+author: "见版本"
+dynasty: "晋唐明清"
+type: "chapter"
+conditions:
+  day_master: []
+  month_branch: []
+  day_pillar: []
+  hour_pillar: []
+  ten_god: []
+  pattern: []
+  shensha: []
+  keywords: ["相术"]
+weight: 3
+tags: ["相部", "神相全编"]
+---
+
+### 天中
+
+**【原文】**
+第一天中对天岳，左厢内府相随续。高广尺阳武库同，军门辅角边地足。
+
+**【白话提要】**
+此条出自《神相全编》「天中」，为相术典籍原文。相部以观察形貌、气色、骨格、举止推断人之吉凶祸福，与命部同属五术体系中的重要分支。

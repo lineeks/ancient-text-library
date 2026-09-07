@@ -33,6 +33,8 @@ ROOTS = [
     ("library/yi/wenbing", "医部温病", "yi", "wenbing"),
     ("library/yi/zhenji", "医部针灸", "yi", "zhenji"),
     ("library/yi/zhenfa", "医部诊法", "yi", "zhenfa"),
+    ("library/xiang/renxiang", "相部人相", "xiang", "renxiang"),
+    ("library/xiang/dixiang", "相部地相", "xiang", "dixiang"),
     ("library/yi", "医·中医", "yi", ""),
     ("library/xiang", "相·相术", "xiang", ""),
     ("library/bu", "卜·卜筮", "bu", ""),
