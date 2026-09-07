@@ -375,10 +375,11 @@ def build_root_index(counts):
              f"| 相·地相 | 青囊奥语 | 唐杨筠松·通行本 | {counts['qingnangaoyu']} | [索引](./library/xiang/dixiang/qingnangaoyu/INDEX.md) | ✅ |",
              f"| 卜·易经 | 周易 | 经传合编·通行本 | {counts['zhouyi']} | [索引](./library/bu/yijing/zhouyi/INDEX.md) | ✅ |",
              f"| 卜·六爻 | 火珠林 | 题麻衣道者·通行本 | {counts['huozhulin']} | [索引](./library/bu/liuyao/huozhulin/INDEX.md) | ✅ |",
+             f"| 卜·梅花 | 梅花易数 | 宋邵雍·通行本 | {counts['meihuayishu']} | [索引](./library/bu/meihua/meihuayishu/INDEX.md) | ✅ |",
              f"| 山·丹道 | 周易参同契分章通真义 | 汉魏伯阳·五代彭晓注 | {counts['cantongqi']} | [索引](./library/shan/dandao/cantongqi/INDEX.md) | ✅ |",
              f"| 山·武术 | 太极拳论 | 清王宗岳·艺藏本 | {counts['taijilun']} | [索引](./library/shan/wushu/taijilun/INDEX.md) | ✅ |",
              f"| 山·养生 | 达摩洗髓易筋经 | 艺藏本 | {counts['yijinjing']} | [索引](./library/shan/yangsheng/yijinjing/INDEX.md) | ✅ |",
-             f"| **合计** | **38 部** | — | **{total}** | — | — |", "",
+             f"| **合计** | **39 部** | — | **{total}** | — | — |", "",
              "## 目录结构", "",
              "```text",
              "ancient-text-library/",
@@ -438,6 +439,8 @@ def build_root_index(counts):
              "│       └── zhouyi/              #   周易 68（64卦+4传）",
              "│   └── liuyao/                  # 六爻（subcategory=liuyao）",
              "│       └── huozhulin/           #   火珠林 64",
+             "│   └── meihua/                  # 梅花易数（subcategory=meihua）",
+             "│       └── meihuayishu/         #   梅花易数 136",
              "├── shan/                        # 山·山术（library/shan/）",
              "│   ├── dandao/                  # 丹道（subcategory=dandao）",
              "│   │   └── cantongqi/           #   周易参同契分章通真义 66",
@@ -577,6 +580,9 @@ def main():
         ("library/bu/liuyao", "huozhulin", build_generic_index(
             "火珠林",
             "题麻衣道者著，通行本，64条，六爻纳甲法鼻祖，以六亲世应、五行旺衰、动变飞伏、冲合刑害论占断，为火珠林派（纳甲筮法）之宗。")),
+        ("library/bu/meihua", "meihuayishu", build_generic_index(
+            "梅花易数",
+            "宋邵雍撰，通行本，136条，梅花易数派鼻祖，以体用生克、卦气旺衰、万物类象为核心，不拘古法随心起卦，为象数易占之集大成者。")),
         ("library/shan/dandao", "cantongqi", build_generic_index(
             "周易参同契分章通真义",
             "汉魏伯阳原著，五代彭晓注，正统道藏太玄部，88章，丹道鼻祖，以周易阴阳象喻论金丹炉火，为内丹学之祖。")),

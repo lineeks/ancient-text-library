@@ -44,10 +44,11 @@
 | 相·地相 | 青囊奥语 | 唐杨筠松·通行本 | 1 | [索引](./library/xiang/dixiang/qingnangaoyu/INDEX.md) | ✅ |
 | 卜·易经 | 周易 | 经传合编·通行本 | 68 | [索引](./library/bu/yijing/zhouyi/INDEX.md) | ✅ |
 | 卜·六爻 | 火珠林 | 题麻衣道者·通行本 | 64 | [索引](./library/bu/liuyao/huozhulin/INDEX.md) | ✅ |
+| 卜·梅花 | 梅花易数 | 宋邵雍·通行本 | 136 | [索引](./library/bu/meihua/meihuayishu/INDEX.md) | ✅ |
 | 山·丹道 | 周易参同契分章通真义 | 汉魏伯阳·五代彭晓注 | 88 | [索引](./library/shan/dandao/cantongqi/INDEX.md) | ✅ |
 | 山·武术 | 太极拳论 | 清王宗岳·艺藏本 | 1 | [索引](./library/shan/wushu/taijilun/INDEX.md) | ✅ |
 | 山·养生 | 达摩洗髓易筋经 | 艺藏本 | 22 | [索引](./library/shan/yangsheng/yijinjing/INDEX.md) | ✅ |
-| **合计** | **38 部** | — | **3476** | — | — |
+| **合计** | **39 部** | — | **3612** | — | — |
 
 ## 目录结构
 
@@ -109,6 +110,8 @@ ancient-text-library/
 │       └── zhouyi/              #   周易 68（64卦+4传）
 │   └── liuyao/                  # 六爻（subcategory=liuyao）
 │       └── huozhulin/           #   火珠林 64
+│   └── meihua/                  # 梅花易数（subcategory=meihua）
+│       └── meihuayishu/         #   梅花易数 136
 ├── shan/                        # 山·山术（library/shan/）
 │   ├── dandao/                  # 丹道（subcategory=dandao）
 │   │   └── cantongqi/           #   周易参同契分章通真义 66

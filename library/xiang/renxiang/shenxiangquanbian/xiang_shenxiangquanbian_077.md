@@ -17,7 +17,8 @@ conditions:
   shensha: []
   keywords: ["相术", "人相气色"]
 weight: 3
-tags: ["相部", "神相全编"]---
+tags: ["相部", "神相全编"]
+---
 
 ### 旋螺聚必执旗枪。
 

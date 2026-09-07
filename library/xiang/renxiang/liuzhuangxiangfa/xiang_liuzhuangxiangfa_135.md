@@ -17,7 +17,8 @@ conditions:
   shensha: []
   keywords: ["相术", "人相气色"]
 weight: 3
-tags: ["相部", "柳庄相法"]---
+tags: ["相部", "柳庄相法"]
+---
 
 ### 四十七、一世禄好则不如何说？
 

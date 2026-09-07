@@ -17,7 +17,8 @@ conditions:
   shensha: []
   keywords: ["相术", "人相气色", "地相理气"]
 weight: 3
-tags: ["相部", "柳庄相法"]---
+tags: ["相部", "柳庄相法"]
+---
 
 ### 五、总论
 
