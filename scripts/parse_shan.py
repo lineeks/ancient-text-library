@@ -83,22 +83,28 @@ tags: [{tags_str}]
 
 def split_cantongqi(text):
     """周易参同契分章通真义：按90章切分。
-    章标题在目录和正文中各出现一次，去重取正文（第二次出现）。
+    跳过目录（找到第二个章标题即正文开始），用宽松正则匹配。
     """
-    pattern = r"^　*([^　\n]+章第[一二三四五六七八九十百]+)\s*$"
+    pattern = r"^　*([^　\n]{2,20}章第[一二三四五六七八九十百]+)\s*$"
     matches = list(re.finditer(pattern, text, re.M))
-    # 去重：相同章名只取第二次出现（正文部分）
-    seen = {}
-    for m in matches:
-        title = m.group(1).strip()
-        if title in seen:
-            seen[title] = m  # 第二次出现（正文）
-        else:
-            seen[title] = None  # 第一次出现（目录），标记但不保留
-    # 保留第二次出现的章标题
-    body_matches = [m for m in seen.values() if m is not None]
-    body_matches.sort(key=lambda x: x.start())
+    if len(matches) < 2:
+        return []
+    # 找到目录结束位置：第一个章标题是目录开始，找到连续目录段的结束
+    # 简单方法：取第二个章标题（正文开始）
+    # 但目录可能有多个连续标题，需要找到目录段结束后的第一个标题
+    # 观察：目录中标题连续出现（每行一个），正文标题之间有大量内容
+    # 取 matches 中第一个 content > 100 的位置作为正文开始
+    body_start_idx = 0
+    for i, m in enumerate(matches):
+        if i + 1 < len(matches):
+            gap = matches[i+1].start() - m.end()
+            if gap > 100:  # 标题之间有大量内容，说明 i 是目录最后一条，i+1 是正文第一条
+                body_start_idx = i + 1
+                break
+    else:
+        body_start_idx = 0
 
+    body_matches = matches[body_start_idx:]
     entries = []
     for i, m in enumerate(body_matches):
         title = m.group(1).strip()
