@@ -8,7 +8,8 @@
 //! - 复合键“组内 AND”：调候 `day_master + month_branch`、日时 `day_pillar + hour_pillar`
 //!   必须同时满足；
 //! - 检索维度“组间 OR”：`ten_god / pattern / shensha` 互为并列召回理由，任一命中即可；
-//! - 条目未声明任何结构化硬条件时视为无约束通论条，恒可召回；
+//! - 无任何结构化硬锚点的通论条（序、泛论、纯歌赋）默认不参与命盘召回，避免噪声，
+//!   仅在 `query_with(.., true)` 时整体附在精确条之后，或经关键词 / 书目浏览获取；
 //! - 排序：命中精确度（声明的非空字段数）优先，其次典籍权重 weight，再次 path 稳定。
 //!
 //! 本 crate 不依赖 Tauri / 前端，纯 std + serde_json，便于单测与独立演进。
@@ -44,6 +45,10 @@ pub struct Entry {
     #[serde(rename = "type")]
     pub kind: String,
     pub tier: String,
+    #[serde(default)]
+    pub category: String,
+    #[serde(default)]
+    pub subcategory: String,
     pub path: String,
     pub weight: i32,
     #[serde(default)]
@@ -63,14 +68,21 @@ pub struct Manifest {
 }
 
 /// 排盘内核产出的查询命盘：只填已算出的维度，未算出的维度留空。
-#[derive(Debug, Clone, Default)]
+#[derive(Debug, Clone, Default, Deserialize)]
 pub struct Chart {
+    #[serde(default)]
     pub day_master: Vec<String>,
+    #[serde(default)]
     pub month_branch: Vec<String>,
+    #[serde(default)]
     pub day_pillar: Vec<String>,
+    #[serde(default)]
     pub hour_pillar: Vec<String>,
+    #[serde(default)]
     pub ten_god: Vec<String>,
+    #[serde(default)]
     pub pattern: Vec<String>,
+    #[serde(default)]
     pub shensha: Vec<String>,
 }
 
@@ -106,6 +118,65 @@ impl Chart {
         self.shensha = v.iter().map(|s| s.to_string()).collect();
         self
     }
+}
+
+/// 正文三层：原文 / 古注（评注/阐微等） / 白话提要。
+#[derive(Debug, Clone, Default)]
+pub struct Body {
+    pub original: String,
+    pub annotation: String,
+    pub vernacular: String,
+}
+
+/// 轻量正文三层加载器：读取条目 .md，去 Frontmatter，按 `**【...】**` 标记切分。
+/// 未出现的层返回空串。不引入正则依赖，纯字符串查找。
+pub fn load_body(path: &str) -> std::io::Result<Body> {
+    let text = std::fs::read_to_string(path)?;
+    let body = if text.starts_with("---") {
+        text.splitn(3, "---").nth(2).unwrap_or(&text).to_string()
+    } else {
+        text
+    };
+    let mut original = String::new();
+    let mut annotation = String::new();
+    let mut vernacular = String::new();
+    let mut pos = 0;
+    while let Some(rel) = body[pos..].find("**【") {
+        let abs_start = pos + rel;
+        if let Some(rel_key) = body[abs_start..].find("】**") {
+            let abs_key_end = abs_start + rel_key;
+            // `**【` = '*'(1) + '*'(1) + '【'(3) = 5 bytes; `】**` = '】'(3) + '*' + '*' = 5 bytes
+            let key = &body[abs_start + 5..abs_key_end];
+            let content_start = abs_key_end + 5;
+            let next = body[content_start..]
+                .find("**【")
+                .map(|p| content_start + p)
+                .unwrap_or(body.len());
+            let content = body[content_start..next].trim().to_string();
+            match key {
+                "原文" | "经文" | "原文·口诀" | "原文（四库提要）" => {
+                    original.push_str(&content);
+                    original.push('\n');
+                }
+                "白话提要" => {
+                    vernacular.push_str(&content);
+                    vernacular.push('\n');
+                }
+                _ => {
+                    annotation.push_str(&content);
+                    annotation.push('\n');
+                }
+            }
+            pos = next;
+        } else {
+            break;
+        }
+    }
+    Ok(Body {
+        original: original.trim().to_string(),
+        annotation: annotation.trim().to_string(),
+        vernacular: vernacular.trim().to_string(),
+    })
 }
 
 /// 已加载的知识库：一次性载入内存，查询零 IO。
@@ -161,12 +232,18 @@ impl Library {
         .count()
     }
 
-    /// 单条匹配：组内 AND、组间 OR；未声明任何硬字段的通论条恒命中。
+    /// 无任何结构化硬锚点（序、泛论、纯歌赋/口诀）：不参与结构化命盘召回，
+    /// 只通过关键词或书目浏览获取，避免大量通论条在每一命盘下恒命中、稀释精确结果。
+    pub fn is_general(c: &Conditions) -> bool {
+        c.day_master.is_empty() && c.month_branch.is_empty() && c.day_pillar.is_empty()
+            && c.hour_pillar.is_empty() && c.ten_god.is_empty() && c.pattern.is_empty()
+            && c.shensha.is_empty()
+    }
+
+    /// 单条严格匹配：至少一个已声明匹配组整体命中（组内 AND、组间 OR）；
+    /// 无硬锚点的通论条返回 false，不混入结构化召回。
     pub fn matches_entry(e: &Entry, chart: &Chart) -> bool {
         let c = &e.conditions;
-        let mut declared_any = false;
-        let mut any_group_hit = false;
-
         let groups: [Vec<(&Vec<String>, &Vec<String>)>; 5] = [
             vec![(&c.day_master, &chart.day_master), (&c.month_branch, &chart.month_branch)],
             vec![(&c.day_pillar, &chart.day_pillar), (&c.hour_pillar, &chart.hour_pillar)],
@@ -174,39 +251,51 @@ impl Library {
             vec![(&c.pattern, &chart.pattern)],
             vec![(&c.shensha, &chart.shensha)],
         ];
-        for g in groups.iter() {
-            if let Some(hit) = group_hit(g) {
-                declared_any = true;
-                if hit {
-                    any_group_hit = true;
-                }
-            }
-        }
-        !declared_any || any_group_hit
+        groups
+            .iter()
+            .any(|g| matches!(group_hit(g), Some(true)))
     }
 
-    /// 结构化召回，返回按（精确度↓, weight↓, path↑）排序的命中条目引用。
+    /// 结构化召回（严格，默认）：只返回至少一个硬维度命中的精确条。
     pub fn query<'a>(&'a self, chart: &Chart) -> Vec<&'a Entry> {
-        let mut hits: Vec<&Entry> = self
-            .manifest
-            .entries
-            .iter()
-            .filter(|e| Self::matches_entry(e, chart))
-            .collect();
-        hits.sort_by(|a, b| {
+        self.query_with(chart, false)
+    }
+
+    /// 结构化召回；`include_general=true` 时把无锚点通论条（按 weight↓, path↑）
+    /// 整体附在精确条之后。
+    pub fn query_with<'a>(&'a self, chart: &Chart, include_general: bool) -> Vec<&'a Entry> {
+        let mut precise: Vec<&Entry> = Vec::new();
+        let mut general: Vec<&Entry> = Vec::new();
+        for e in self.manifest.entries.iter() {
+            if Self::is_general(&e.conditions) {
+                general.push(e);
+            } else if Self::matches_entry(e, chart) {
+                precise.push(e);
+            }
+        }
+        precise.sort_by(|a, b| {
             let sa = Self::specificity(&a.conditions);
             let sb = Self::specificity(&b.conditions);
             sb.cmp(&sa)
                 .then_with(|| b.weight.cmp(&a.weight))
                 .then_with(|| a.path.cmp(&b.path))
         });
-        hits
+        if include_general {
+            general.sort_by(|a, b| {
+                b.weight
+                    .cmp(&a.weight)
+                    .then_with(|| a.path.cmp(&b.path))
+            });
+            precise.extend(general);
+        }
+        precise
     }
 }
 
 #[cfg(test)]
 mod tests {
     use super::*;
+    use std::collections::{HashMap, HashSet};
 
     fn sample_manifest() -> String {
         r#"{
@@ -272,11 +361,23 @@ mod tests {
     }
 
     #[test]
-    fn general_entry_always_recalled_but_sinks() {
-        let r = ids(&Chart::new().pattern(&["正官格"]).ten_god(&["正官"]));
-        assert!(r.contains(&"general_lun".to_string())); // 无约束通论恒召回
-        assert_eq!(r[0], "zpzq_zhengguan"); // 精确条在通论之前
-        assert_eq!(r[r.len() - 1], "general_lun"); // 通论沉底
+    fn general_entry_excluded_by_default_appended_when_asked() {
+        let chart = Chart::new().pattern(&["正官格"]).ten_god(&["正官"]);
+        // 默认严格召回：无锚点通论不制造噪声
+        let strict = ids(&chart);
+        assert!(!strict.contains(&"general_lun".to_string()));
+        assert_eq!(strict[0], "zpzq_zhengguan"); // 精确条仍在最前
+        // 显式附带通论时，通论整体沉底
+        let with = lib().query_with(&chart, true).into_iter()
+            .map(|e| e.id.clone()).collect::<Vec<_>>();
+        assert!(with.contains(&"general_lun".to_string()));
+        assert_eq!(with[0], "zpzq_zhengguan");
+        assert_eq!(with[with.len() - 1], "general_lun");
+    }
+
+    #[test]
+    fn empty_chart_is_silent() {
+        assert!(ids(&Chart::new()).is_empty());
     }
 
     #[test]
@@ -299,10 +400,84 @@ mod tests {
         let path = concat!(env!("CARGO_MANIFEST_DIR"), "/../manifest.json");
         let text = std::fs::read_to_string(path).expect("manifest.json 应存在于库根");
         let l = Library::from_json(&text).unwrap();
-        assert_eq!(l.total(), 1547);
-        assert_eq!(l.entries().len(), 1547);
+        assert_eq!(l.total(), 3373);
+        assert_eq!(l.entries().len(), 3373);
         // 甲日寅月首条即穷通精确锚定
         let r = l.query(&Chart::new().day_master(&["Jia"]).month_branch(&["Yin"]));
         assert_eq!(r[0].id, "qtbj_jia_yin");
+    }
+
+    fn read_root(rel: &str) -> String {
+        let path = concat!(env!("CARGO_MANIFEST_DIR"), "/../");
+        std::fs::read_to_string(format!("{path}{rel}")).expect("golden 文件应存在")
+    }
+
+    /// 正文三层加载器：读真实条目，验证原文/白话非空。
+    #[test]
+    fn load_body_splits_three_layers() {
+        let path = concat!(env!("CARGO_MANIFEST_DIR"),
+            "/../library/ming/bazi/core/qiongtongbj/qtbj_jia_yin.md");
+        let b = load_body(path).expect("qtbj_jia_yin.md 应存在");
+        assert!(!b.original.is_empty(), "原文层不应为空");
+        assert!(!b.vernacular.is_empty(), "白话层不应为空");
+        assert!(b.original.contains("正月甲木"));
+    }
+
+    /// 自召回不变量：每条有硬锚点的条目用自身 conditions 构造命盘必能召回自己。
+    #[test]
+    fn every_anchored_entry_self_recalls() {
+        let text = std::fs::read_to_string(
+            concat!(env!("CARGO_MANIFEST_DIR"), "/../manifest.json")).unwrap();
+        let l = Library::from_json(&text).unwrap();
+        let mut missing = Vec::new();
+        for e in l.entries() {
+            if Library::is_general(&e.conditions) {
+                continue;
+            }
+            let c = &e.conditions;
+            let chart = Chart {
+                day_master: c.day_master.clone(),
+                month_branch: c.month_branch.clone(),
+                day_pillar: c.day_pillar.clone(),
+                hour_pillar: c.hour_pillar.clone(),
+                ten_god: c.ten_god.clone(),
+                pattern: c.pattern.clone(),
+                shensha: c.shensha.clone(),
+            };
+            let got: Vec<&str> = l.query(&chart).iter().map(|x| x.id.as_str()).collect();
+            if !got.contains(&e.id.as_str()) {
+                missing.push(e.id.clone());
+            }
+        }
+        assert!(missing.is_empty(), "无法自召回的条目: {missing:?}");
+    }
+
+    /// 黄金对拍：Rust 结果序列必须与 Python 生成的 golden_expected.json 完全一致。
+    #[test]
+    fn golden_parity_with_python() {
+        #[derive(Deserialize)]
+        struct GoldenCases {
+            cases: HashMap<String, Chart>,
+        }
+        let cases: GoldenCases =
+            serde_json::from_str(&read_root("tests/golden_cases.json")).unwrap();
+        let expected: HashMap<String, Vec<String>> =
+            serde_json::from_str(&read_root("tests/golden_expected.json")).unwrap();
+        assert_eq!(
+            cases.cases.keys().collect::<HashSet<_>>(),
+            expected.keys().collect::<HashSet<_>>(),
+            "golden case 集合不一致"
+        );
+        let text = std::fs::read_to_string(
+            concat!(env!("CARGO_MANIFEST_DIR"), "/../manifest.json")).unwrap();
+        let l = Library::from_json(&text).unwrap();
+        for (name, chart) in &cases.cases {
+            let got: Vec<String> = l.query(chart).iter().map(|e| e.id.clone()).collect();
+            let want = expected.get(name).unwrap();
+            if &got != want {
+                eprintln!("CASE {name}\n rust={got:?}\n py  ={want:?}");
+                panic!("golden case 失配: {name}");
+            }
+        }
     }
 }

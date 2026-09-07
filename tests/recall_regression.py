@@ -7,6 +7,7 @@ Rust engine/ 的匹配语义须与本测试一致。运行：
     python -X utf8 tests/recall_regression.py
 或： python -m unittest tests.recall_regression -v
 """
+import json
 import os
 import sys
 import unittest
@@ -116,11 +117,41 @@ class RecallTests(unittest.TestCase):
         self.assertEqual(top[0]["id"], "qtbj_geng_zi")
         self.assertGreater(rr.Library.specificity(top[0]["conditions"]), 0)
 
-    # 9) 空命盘：只召回“未声明任何结构化硬条件”的条目
-    def test_empty_chart_semantics(self):
-        hard = rr.HARD_FIELDS
-        for e in self.lib.structured_query({}):
-            self.assertTrue(not any(e["conditions"].get(k) for k in hard))
+    # 9) 空命盘默认零召回（无锚点通论不制造噪声）；显式 include_general 才附带且全为通论
+    def test_empty_chart_no_general_noise(self):
+        self.assertEqual(self.lib.structured_query({}), [])
+        gen = self.lib.structured_query({}, include_general=True)
+        self.assertTrue(all(rr.Library.is_general(e["conditions"]) for e in gen))
+        self.assertGreater(len(gen), 0)
+
+    # 9b) 自召回不变量：每条“有硬锚点”的条目用自身 conditions 构造命盘必能召回自己
+    def test_every_anchored_entry_self_recalls(self):
+        bad = []
+        for e in self.E:
+            cond = e["conditions"]
+            if rr.Library.is_general(cond):
+                continue
+            chart = {k: list(cond.get(k, [])) for k in rr.HARD_FIELDS}
+            ids = self.hit_ids(chart)
+            if e["id"] not in ids:
+                bad.append(e["id"])
+        self.assertEqual(bad, [], f"这些条目无法被自身 conditions 召回: {bad[:10]}")
+
+    # 9c) 无锚点条目规模基线（只靠关键词/书目浏览，不进结构化召回），防止无序膨胀
+    def test_unanchored_baseline(self):
+        n_general = sum(rr.Library.is_general(e["conditions"]) for e in self.E)
+        self.assertLessEqual(n_general, 2400, f"无锚点条目增至 {n_general}，请评估是否补 conditions")
+
+    # 9d) 黄金对拍：Python 结果必须与 golden_expected.json 完全一致（Rust 侧同测此文件）
+    def test_golden_matches_expected(self):
+        cases = json.load(open(os.path.join(ROOT, "tests/golden_cases.json"),
+                               encoding="utf-8"))["cases"]
+        expected = json.load(open(os.path.join(ROOT, "tests/golden_expected.json"),
+                                  encoding="utf-8"))
+        self.assertEqual(set(cases), set(expected))
+        for name, chart in cases.items():
+            got = [e["id"] for e in self.lib.structured_query(chart)]
+            self.assertEqual(got, expected[name], f"golden case 失配: {name}")
 
     # 10) 综合命盘多条件 AND：穷通条不受它书字段约束，仍按日干月令命中
     def test_combined_chart(self):
@@ -131,8 +162,8 @@ class RecallTests(unittest.TestCase):
 
     # 11) manifest 完整性：总数、id 唯一、weight 区间、path 文件真实存在
     def test_manifest_integrity(self):
-        self.assertEqual(self.lib.meta["total"], 1547)
-        self.assertEqual(len(self.E), 1547)
+        self.assertEqual(self.lib.meta["total"], 3373)
+        self.assertEqual(len(self.E), 3373)
         ids = [e["id"] for e in self.E]
         self.assertEqual(len(ids), len(set(ids)))
         for e in self.E:

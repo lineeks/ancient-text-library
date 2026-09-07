@@ -1,0 +1,23 @@
+{
+  "_comment": "Golden chart fixtures shared by Python and Rust retrieval. Keys are conditions fields; values use the same enums/vocabulary as frontmatter. Regenerate golden_expected.json with scripts/dump_golden.py after intentional data/matching changes.",
+  "cases": {
+    "tiaohou_jia_yin": {"day_master": ["Jia"], "month_branch": ["Yin"]},
+    "tiaohou_geng_zi": {"day_master": ["Geng"], "month_branch": ["Zi"]},
+    "tiaohou_wrong_month": {"day_master": ["Jia"], "month_branch": ["Mao"]},
+    "pattern_zhengguan": {"pattern": ["正官格"]},
+    "pattern_qisha_with_ten_god": {"pattern": ["七杀格"], "ten_god": ["七杀"]},
+    "pattern_huage": {"pattern": ["化格"]},
+    "pattern_yinshou": {"pattern": ["印绶格"]},
+    "pattern_cong": {"pattern": ["从格"]},
+    "ten_god_zhengyin": {"ten_god": ["正印"]},
+    "shensha_tianyi": {"shensha": ["天乙贵人"]},
+    "shensha_yima": {"shensha": ["驿马"]},
+    "shensha_kongwang": {"shensha": ["空亡"]},
+    "rishi_gengzi_jimao": {"day_pillar": ["庚子"], "hour_pillar": ["己卯"]},
+    "rishi_jiazi_bingyin": {"day_pillar": ["甲子"], "hour_pillar": ["丙寅"]},
+    "rishi_wrong_hour": {"day_pillar": ["庚子"], "hour_pillar": ["甲子"]},
+    "pattern_plus_shensha": {"pattern": ["正官格"], "shensha": ["天乙贵人"]},
+    "combined_complex": {"day_master": ["Geng"], "month_branch": ["Zi"], "pattern": ["七杀格"], "ten_god": ["七杀"], "shensha": ["驿马"]},
+    "empty_chart": {}
+  }
+}

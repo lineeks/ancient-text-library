@@ -18,6 +18,7 @@ CLI：
 import argparse
 import json
 import os
+import re
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MANIFEST = os.path.join(BASE, "manifest.json")
@@ -43,39 +44,50 @@ class Library:
         self.entries = data["entries"]
 
     @staticmethod
+    def is_general(conditions):
+        """无任何结构化硬锚点（序、泛论、纯歌赋/口诀）：不参与结构化命盘召回，
+        只通过关键词或书目浏览获取，避免大量通论条在每一命盘下恒命中、稀释精确结果。"""
+        return not any(conditions.get(k) for k in HARD_FIELDS)
+
+    @staticmethod
     def match(conditions, chart):
-        """组内 AND、组间 OR 的结构化匹配。
+        """严格结构化匹配：至少一个“已声明的匹配组”整体命中才召回。
 
         - 复合键组（调候 day_master+month_branch、日时 day_pillar+hour_pillar）：
           组内所有已声明字段都与命盘有交集，该组才算命中；
         - 单维组（ten_god / pattern / shensha）：该字段有交集即该组命中；
-        - 条目在任一“已声明的组”命中即召回（组间 OR，不同维度互为并列召回理由）；
-        - 条目未声明任何硬字段（序、泛论）为通用条，恒可召回。
+        - 组间 OR：任一已声明组命中即召回；
+        - 无任何硬字段声明的通论条（见 is_general）此处返回 False，不混入命盘召回。
         """
-        declared_any = False
         for fields in MATCH_GROUPS.values():
             declared = [f for f in fields if conditions.get(f)]
             if not declared:
                 continue
-            declared_any = True
-            group_hit = all(
-                set(conditions[f]) & set(chart.get(f) or []) for f in declared)
-            if group_hit:
+            if all(set(conditions[f]) & set(chart.get(f) or []) for f in declared):
                 return True
-        return not declared_any
+        return False
 
     @staticmethod
     def specificity(cond):
         """命中精确度：声明了几个非空结构化字段（0=无约束通论条）。"""
         return sum(1 for k in HARD_FIELDS if cond.get(k))
 
-    def structured_query(self, chart):
-        """命中条目排序：精确度优先（精准锚定在前、无约束通论沉底），
-        同精确度内按 weight（典籍梯队）降序，再按 path 升序稳定。"""
-        hits = [e for e in self.entries if self.match(e["conditions"], chart)]
-        hits.sort(key=lambda e: (-self.specificity(e["conditions"]),
-                                 -e["weight"], e["path"]))
-        return hits
+    def structured_query(self, chart, include_general=False):
+        """结构化召回。默认只返回至少一个硬维度命中的“精确条”，按
+        (命中精确度↓, weight↓, path↑) 排序；无锚点通论条默认不返回。
+        include_general=True 时把通论条（按 weight↓, path↑）整体附在最后。"""
+        precise, general = [], []
+        for e in self.entries:
+            if self.is_general(e["conditions"]):
+                general.append(e)
+            elif self.match(e["conditions"], chart):
+                precise.append(e)
+        precise.sort(key=lambda e: (-self.specificity(e["conditions"]),
+                                    -e["weight"], e["path"]))
+        if include_general:
+            general.sort(key=lambda e: (-e["weight"], e["path"]))
+            return precise + general
+        return precise
 
     def keyword_query(self, text):
         """主题包含式召回：命中文本出现在任一 keyword / 标题 / 章节中。"""
@@ -91,6 +103,43 @@ class Library:
         out.sort(key=lambda e: (-self.specificity(e["conditions"]),
                                 -e["weight"], e["path"]))
         return out
+
+    # ── 正文三层加载器（轻量，按标记切分原文/古注/白话） ──────────
+    BODY_MARKER = re.compile(r'\*\*【([^】]+)】\*\*')
+    ORIGINAL_KEYS = {"原文", "经文", "原文·口诀", "原文（四库提要）"}
+    VERNACULAR_KEYS = {"白话提要"}
+
+    @staticmethod
+    def load_body(path):
+        """读取条目 .md，去掉 Frontmatter，按 **【...】** 标记切分三层正文。
+        返回 {'original': 原文, 'annotation': 古注/评注, 'vernacular': 白话提要}。
+        未出现的层返回空串。轻量实现，不做复杂排版解析。"""
+        text = open(path, encoding="utf-8").read()
+        if text.startswith("---"):
+            parts = text.split("---", 2)
+            body = parts[2] if len(parts) > 2 else text
+        else:
+            body = text
+        markers = list(Library.BODY_MARKER.finditer(body))
+        segments = []
+        for i, m in enumerate(markers):
+            key = m.group(1)
+            start = m.end()
+            end = markers[i + 1].start() if i + 1 < len(markers) else len(body)
+            segments.append((key, body[start:end].strip()))
+        original, annotation, vernacular = [], [], []
+        for key, content in segments:
+            if key in Library.ORIGINAL_KEYS:
+                original.append(content)
+            elif key in Library.VERNACULAR_KEYS:
+                vernacular.append(content)
+            else:
+                annotation.append(content)
+        return {
+            "original": "\n".join(original).strip(),
+            "annotation": "\n".join(annotation).strip(),
+            "vernacular": "\n".join(vernacular).strip(),
+        }
 
 
 def brief(e):

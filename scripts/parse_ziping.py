@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 Aether-Cycle 古籍知识库 · 《子平真诠评注》结构化解析脚本
 源文正文章节标题缺失（仅首尾保留），采用「48章首句指纹」精确定位章节边界并切分。
@@ -10,7 +10,7 @@ import re
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(BASE, "raw", "zipingzhenquan.txt")
-OUT_DIR = os.path.join(BASE, "core", "zipingzhenquan")
+OUT_DIR = os.path.join(BASE, "library", "ming", "bazi", "core", "zipingzhenquan")
 os.makedirs(OUT_DIR, exist_ok=True)
 
 # 48 章元数据：(序号, 章名, 首句指纹, slug, [pattern], [ten_god], [keywords])

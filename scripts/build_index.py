@@ -10,7 +10,7 @@ import re
 from collections import defaultdict
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ROOTS = ["core", "origin-shensha", "extended"]
+ROOTS = ["library/ming/bazi/core", "library/ming/bazi/origin-shensha", "library/ming/bazi/extended", "library/ming", "library/yi", "library/xiang", "library/bu", "library/shan"]
 
 STEM_ORDER = ["甲", "乙", "丙", "丁", "戊", "己", "庚", "辛", "壬", "癸"]
 STEM_EN = {"甲": "Jia", "乙": "Yi", "丙": "Bing", "丁": "Ding", "戊": "Wu",
@@ -339,17 +339,45 @@ def build_root_index(counts):
              "## 典籍收录进度", "",
              "| 梯队 | 典籍 | 版本 | 文件数 | 索引 | 状态 |",
              "|---|---|---|---|---|---|",
-             f"| 第一梯队 | 穷通宝鉴 | 余春台辑本 | {qtbj} | [索引](./core/qiongtongbj/INDEX.md) | ✅ |",
-             f"| 第一梯队 | 子平真诠评注 | 沈孝瞻·徐乐吾评注 | {zpqz} | [索引](./core/zipingzhenquan/INDEX.md) | ✅ |",
-             f"| 第一梯队 | 滴天髓阐微 | 京图(传)·刘伯温·任铁樵 | {dts} | [索引](./core/ditianchui/INDEX.md) | ✅ |",
-             f"| 第二梯队 | 三命通会 | 万民英·四库本 | {smth} | [索引](./origin-shensha/sanmingtonghui/INDEX.md) | ✅ |",
-             f"| 第二梯队 | 渊海子平 | 徐大升编·赋论30篇 | {yhzp} | [索引](./origin-shensha/yuanhaiziping/INDEX.md) | ✅ |",
-             f"| 第三梯队 | 神峰通考 | 张楠（明） | {sftk} | [索引](./extended/shenfengtongkao/INDEX.md) | ✅ |",
-             f"| 第三梯队 | 玉照定真经 | 旧题郭璞·张颙注 | {yzzj} | [索引](./extended/yuzhaodingzhenjing/INDEX.md) | ✅ |",
-             f"| 第三梯队 | 千里命稿 | 韦千里（民国） | {qlmg} | [索引](./extended/qianliminggao/INDEX.md) | ✅ |",
-             f"| 补遗·渊源 | 五行精纪 | 廖中（宋）·34卷 | {wxjj} | [索引](./extended/wuxingjingji/INDEX.md) | ✅ |",
-             f"| 补遗·子平法汇 | 命理约言 | 陈素庵（清）·韦千里选辑 | {mlyy} | [索引](./extended/mingliyaoyan/INDEX.md) | ✅ |",
-             f"| **合计** | **10 部** | — | **{total}** | — | — |", "",
+             f"| 第一梯队 | 穷通宝鉴 | 余春台辑本 | {qtbj} | [索引](./library/ming/bazi/core/qiongtongbj/INDEX.md) | ✅ |",
+             f"| 第一梯队 | 子平真诠评注 | 沈孝瞻·徐乐吾评注 | {zpqz} | [索引](./library/ming/bazi/core/zipingzhenquan/INDEX.md) | ✅ |",
+             f"| 第一梯队 | 滴天髓阐微 | 京图(传)·刘伯温·任铁樵 | {dts} | [索引](./library/ming/bazi/core/ditianchui/INDEX.md) | ✅ |",
+             f"| 第二梯队 | 三命通会 | 万民英·四库本 | {smth} | [索引](./library/ming/bazi/origin-shensha/sanmingtonghui/INDEX.md) | ✅ |",
+             f"| 第二梯队 | 渊海子平 | 徐大升编·赋论30篇 | {yhzp} | [索引](./library/ming/bazi/origin-shensha/yuanhaiziping/INDEX.md) | ✅ |",
+             f"| 第三梯队 | 神峰通考 | 张楠（明） | {sftk} | [索引](./library/ming/bazi/extended/shenfengtongkao/INDEX.md) | ✅ |",
+             f"| 第三梯队 | 玉照定真经 | 旧题郭璞·张颙注 | {yzzj} | [索引](./library/ming/bazi/extended/yuzhaodingzhenjing/INDEX.md) | ✅ |",
+             f"| 第三梯队 | 千里命稿 | 韦千里（民国） | {qlmg} | [索引](./library/ming/bazi/extended/qianliminggao/INDEX.md) | ✅ |",
+             f"| 补遗·渊源 | 五行精纪 | 廖中（宋）·34卷 | {wxjj} | [索引](./library/ming/bazi/extended/wuxingjingji/INDEX.md) | ✅ |",
+             f"| 补遗·子平法汇 | 命理约言 | 陈素庵（清）·韦千里选辑 | {mlyy} | [索引](./library/ming/bazi/extended/mingliyaoyan/INDEX.md) | ✅ |",
+             f"| 民俗·称骨 | 袁天罡称骨歌 | 袁天罡（托名·唐）·通行本 | {counts['chenggu']} | [索引](./library/ming/bazi/extended/chenggu/INDEX.md) | ✅ |",
+             f"| 补遗·古法禄命 | 李虚中命书 | 旧题鬼谷子撰·唐李虚中注·四库本 | {counts['lxzmingshu']} | [索引](./library/ming/bazi/extended/lxzmingshu/INDEX.md) | ✅ |",
+             f"| 补遗·禄命鼻祖 | 珞琭子赋注 | 宋释昙莹撰·四库本 | {counts['luoluozi']} | [索引](./library/ming/bazi/extended/luoluozi/INDEX.md) | ✅ |",
+             f"| 命·紫微 | 紫微斗数全书 | 明罗洪先编·精选 | {counts['quanshu']} | [索引](./library/ming/ziwei/quanshu/INDEX.md) | ✅ |",
+             f"| 命·紫微 | 紫微斗数全集 | 清代古本·精选 | {counts['quanji']} | [索引](./library/ming/ziwei/quanji/INDEX.md) | ✅ |",
+             f"| 命·紫微 | 斗数骨髓赋 | 紫微核心歌诀 | {counts['gusuifu']} | [索引](./library/ming/ziwei/gusuifu/INDEX.md) | ✅ |",
+             f"| 补遗·格局赋文 | 兰台妙选 | 明西窗老人·四库本 | {counts['lantaimiaoxuan']} | [索引](./library/ming/bazi/extended/lantaimiaoxuan/INDEX.md) | ✅ |",
+             f"| 补遗·子平赋文 | 三命指迷赋 | 宋岳珂补注·四库本 | {counts['sanmingzhimifu']} | [索引](./library/ming/bazi/extended/sanmingzhimifu/INDEX.md) | ✅ |",
+             f"| 命·七政四余 | 星学大成 | 明万民英撰·四库本 | {counts['xingxuedacheng']} | [索引](./library/ming/qizheng/xingxuedacheng/INDEX.md) | ✅ |",
+             f"| 医·经典 | 黄帝内经素问 | 唐王冰注·宋林亿校 | {counts['suwen']} | [索引](./library/yi/jingdian/suwen/INDEX.md) | ✅ |",
+             f"| 医·经典 | 灵枢经 | 四库本 | {counts['lingshu']} | [索引](./library/yi/jingdian/lingshu/INDEX.md) | ✅ |",
+             f"| 医·经典 | 八十一难经 | 旧题扁鹊·四库本 | {counts['nanjing']} | [索引](./library/yi/jingdian/nanjing/INDEX.md) | ✅ |",
+             f"| 医·经典 | 伤寒论 | 汉张仲景·通行本 | {counts['shanghan']} | [索引](./library/yi/jingdian/shanghan/INDEX.md) | ✅ |",
+             f"| 医·经典 | 神农本草经 | 四库本 | {counts['shennong']} | [索引](./library/yi/jingdian/shennong/INDEX.md) | ✅ |",
+             f"| 医·方书 | 备急千金要方 | 唐孙思邈·四库本 | {counts['qianjinfang']} | [索引](./library/yi/fangshu/qianjinfang/INDEX.md) | ✅ |",
+             f"| 医·方书 | 外台秘要 | 唐王焘·明程校 | {counts['waitaimiyao']} | [索引](./library/yi/fangshu/waitaimiyao/INDEX.md) | ✅ |",
+             f"| 医·温病 | 温病条辨 | 清吴鞠通·通行本 | {counts['wenbingtiaobian']} | [索引](./library/yi/wenbing/wenbingtiaobian/INDEX.md) | ✅ |",
+             f"| 医·针灸 | 针灸甲乙经 | 晋皇甫谧·四库本 | {counts['zhenjiujiayi']} | [索引](./library/yi/zhenji/zhenjiujiayi/INDEX.md) | ✅ |",
+             f"| 医·诊法 | 脉经 | 晋王叔和·四库本 | {counts['maijing']} | [索引](./library/yi/zhenfa/maijing/INDEX.md) | ✅ |",
+             f"| 相·人相 | 神相全编 | 明清相术集大成 | {counts['shenxiangquanbian']} | [索引](./library/xiang/renxiang/shenxiangquanbian/INDEX.md) | ✅ |",
+             f"| 相·人相 | 柳庄相法 | 清袁珙·通行本 | {counts['liuzhuangxiangfa']} | [索引](./library/xiang/renxiang/liuzhuangxiangfa/INDEX.md) | ✅ |",
+             f"| 相·地相 | 撼龙经 | 唐杨筠松·通行本 | {counts['hanlongjing']} | [索引](./library/xiang/dixiang/hanlongjing/INDEX.md) | ✅ |",
+             f"| 相·地相 | 葬书 | 晋郭璞·通行本 | {counts['zangshu']} | [索引](./library/xiang/dixiang/zangshu/INDEX.md) | ✅ |",
+             f"| 相·地相 | 青囊奥语 | 唐杨筠松·通行本 | {counts['qingnangaoyu']} | [索引](./library/xiang/dixiang/qingnangaoyu/INDEX.md) | ✅ |",
+             f"| 卜·易经 | 周易 | 经传合编·通行本 | {counts['zhouyi']} | [索引](./library/bu/yijing/zhouyi/INDEX.md) | ✅ |",
+             f"| 山·丹道 | 周易参同契分章通真义 | 汉魏伯阳·五代彭晓注 | {counts['cantongqi']} | [索引](./library/shan/dandao/cantongqi/INDEX.md) | ✅ |",
+             f"| 山·武术 | 太极拳论 | 清王宗岳·艺藏本 | {counts['taijilun']} | [索引](./library/shan/wushu/taijilun/INDEX.md) | ✅ |",
+             f"| 山·养生 | 达摩洗髓易筋经 | 艺藏本 | {counts['yijinjing']} | [索引](./library/shan/yangsheng/yijinjing/INDEX.md) | ✅ |",
+             f"| **合计** | **37 部** | — | **{total}** | — | — |", "",
              "## 目录结构", "",
              "```text",
              "ancient-text-library/",
@@ -357,19 +385,71 @@ def build_root_index(counts):
              "├── INDEX.md                   # 本文件：全库总索引",
              "├── raw/                       # 原始下载文本（UTF-8，不修改）",
              "├── scripts/                   # 下载 / 解析 / 索引 / 校验脚本",
-             "├── core/                      # 第一梯队核心典籍（weight 8-10）",
-             "│   ├── qiongtongbj/          # 穷通宝鉴 122",
-             "│   ├── zipingzhenquan/       # 子平真诠评注 48",
-             "│   └── ditianchui/           # 滴天髓阐微 63",
-             "├── origin-shensha/           # 第二梯队 渊源与神煞（weight 6）",
-             "│   ├── sanmingtonghui/       # 三命通会 31神煞 + 717日时断",
-             "│   └── yuanhaiziping/        # 渊海子平赋论 30",
-             "└── extended/                 # 第三梯队 实战辨惑参照（weight 2-3）",
-             "    ├── shenfengtongkao/      # 神峰通考 65",
-             "    ├── yuzhaodingzhenjing/   # 玉照定真经 256",
-             "    ├── qianliminggao/        # 千里命稿 22",
-             "    ├── wuxingjingji/         # 五行精纪 74（宋·禄命纳音神煞类书）",
-             "    └── mingliyaoyan/         # 命理约言 119（清·子平旺衰法汇）",
+             "├── library/                   # 五术典籍内容（山/医/命/相/卜）",
+             "│   └── ming/                  # 命·命理（八字/紫微/七政…）",
+             "│       └── bazi/              # 子平八字",
+             "│           ├── core/          # 第一梯队核心典籍（weight 8-10）",
+             "│           │   ├── qiongtongbj/ # 穷通宝鉴 122",
+             "│           │   ├── zipingzhenquan/ # 子平真诠评注 48",
+             "│           │   └── ditianchui/ # 滴天髓阐微 63",
+             "│           ├── origin-shensha/ # 第二梯队 渊源与神煞（weight 6）",
+             "│           │   ├── sanmingtonghui/ # 三命通会 31神煞 + 717日时断",
+             "│           │   └── yuanhaiziping/ # 渊海子平赋论 30",
+             "│           └── extended/      # 第三梯队 实战辨惑参照（weight 2-4）",
+             "│               ├── shenfengtongkao/ # 神峰通考 65",
+             "│               ├── yuzhaodingzhenjing/ # 玉照定真经 256",
+             "│               ├── qianliminggao/ # 千里命稿 22",
+             "│               ├── wuxingjingji/ # 五行精纪 74",
+             "│               ├── mingliyaoyan/ # 命理约言 119",
+             "│               ├── chenggu/   # 袁天罡称骨歌 57",
+             "│               ├── lxzmingshu/ # 李虚中命书 68",
+             "│               ├── luoluozi/  # 珞琭子赋注 62",
+             "│               ├── lantaimiaoxuan/ # 兰台妙选 303",
+             "│               └── sanmingzhimifu/ # 三命指迷赋 82",
+             "│           └── qizheng/       # 七政四余（subcategory=qizheng）",
+             "│               └── xingxuedacheng/ # 星学大成 30",
+             "├── yi/                        # 医·中医（library/yi/）",
+             "│   └── jingdian/             # 医部经典（subcategory=jingdian）",
+             "│       ├── suwen/            #   黄帝内经素问 81",
+             "│       ├── lingshu/          #   灵枢经 71",
+             "│       ├── nanjing/          #   八十一难经 81",
+             "│       ├── shanghan/         #   伤寒论 10",
+             "│       └── shennong/         #   神农本草经 313",
+             "│   ├── fangshu/              # 方书（subcategory=fangshu）",
+             "│   │   ├── qianjinfang/      #   备急千金要方 30",
+             "│   │   └── waitaimiyao/      #   外台秘要 40",
+             "│   ├── wenbing/              # 温病（subcategory=wenbing）",
+             "│   │   └── wenbingtiaobian/  #   温病条辨 6",
+             "│   ├── zhenji/               # 针灸（subcategory=zhenji）",
+             "│   │   └── zhenjiujiayi/     #   针灸甲乙经 12",
+             "│   └── zhenfa/               # 诊法（subcategory=zhenfa）",
+             "│       └── maijing/          #   脉经 1",
+             "├── xiang/                     # 相·相术（library/xiang/）",
+             "│   ├── renxiang/              # 人相（subcategory=renxiang）",
+             "│   │   ├── shenxiangquanbian/ #   神相全编 174",
+             "│   │   └── liuzhuangxiangfa/  #   柳庄相法 170",
+             "│   └── dixiang/               # 地相（subcategory=dixiang）",
+             "│       ├── hanlongjing/       #   撼龙经 1",
+             "│       ├── zangshu/           #   葬书 1",
+             "│       └── qingnangaoyu/      #   青囊奥语 1",
+             "├── bu/                          # 卜·卜筮（library/bu/）",
+             "│   └── yijing/                  # 易经（subcategory=yijing）",
+             "│       └── zhouyi/              #   周易 68（64卦+4传）",
+             "├── shan/                        # 山·山术（library/shan/）",
+             "│   ├── dandao/                  # 丹道（subcategory=dandao）",
+             "│   │   └── cantongqi/           #   周易参同契分章通真义 66",
+             "│   ├── wushu/                   # 武术（subcategory=wushu）",
+             "│   │   └── taijilun/            #   太极拳论 1",
+             "│   └── yangsheng/               # 养生（subcategory=yangsheng）",
+             "│       └── yijinjing/           #   达摩洗髓易筋经 22",
+             "│           └── ziwei/         # 紫微斗数（subcategory=ziwei）",
+             "│               ├── quanshu/   # 紫微斗数全书 17",
+             "│               ├── quanji/    # 紫微斗数全集 29",
+             "│               └── gusuifu/   # 斗数骨髓赋 29",
+             "├── yi/                        # 医·中医（待建，library/yi/）",
+             "├── xiang/                     # 相·相术（待建，library/xiang/）",
+             "├── bu/                        # 卜·卜筮（待建，library/bu/）",
+             "└── shan/                      # 山·仙学养生（待建，library/shan/）",
              "```", "",
              "## 检索字段速查", "",
              "| 场景 | 匹配字段 | 示例 |",
@@ -390,18 +470,116 @@ def build_root_index(counts):
     return "\n".join(lines)
 
 
+def build_generic_index(title, desc=""):
+    """通用书目索引生成器：按 id 排序列出全部条目（适用于结构简单的新增书目）。"""
+    def builder(items):
+        lines = [f"# {title}", ""]
+        if desc:
+            lines += [desc, ""]
+        lines += ["## 条目索引", ""]
+        for it in sorted(items, key=lambda x: x["id"]):
+            lines.append(f"- [{it['section_title']}](./{it['id']}.md) — `{it['id']}`")
+        lines.append("")
+        return "\n".join(lines)
+    return builder
+
+
 def main():
     plan = [
-        ("core", "qiongtongbj", build_qtbj_index),
-        ("core", "zipingzhenquan", build_zpqz_index),
-        ("core", "ditianchui", build_dts_index),
-        ("origin-shensha", "sanmingtonghui", build_smth_index),
-        ("origin-shensha", "yuanhaiziping", build_yhzp_index),
-        ("extended", "shenfengtongkao", build_sftk_index),
-        ("extended", "yuzhaodingzhenjing", build_yzzj_index),
-        ("extended", "qianliminggao", build_qlmg_index),
-        ("extended", "wuxingjingji", build_wxjj_index),
-        ("extended", "mingliyaoyan", build_mlyy_index),
+        ("library/ming/bazi/core", "qiongtongbj", build_qtbj_index),
+        ("library/ming/bazi/core", "zipingzhenquan", build_zpqz_index),
+        ("library/ming/bazi/core", "ditianchui", build_dts_index),
+        ("library/ming/bazi/origin-shensha", "sanmingtonghui", build_smth_index),
+        ("library/ming/bazi/origin-shensha", "yuanhaiziping", build_yhzp_index),
+        ("library/ming/bazi/extended", "shenfengtongkao", build_sftk_index),
+        ("library/ming/bazi/extended", "yuzhaodingzhenjing", build_yzzj_index),
+        ("library/ming/bazi/extended", "qianliminggao", build_qlmg_index),
+        ("library/ming/bazi/extended", "wuxingjingji", build_wxjj_index),
+        ("library/ming/bazi/extended", "mingliyaoyan", build_mlyy_index),
+        ("library/ming/bazi/extended", "chenggu", build_generic_index(
+            "袁天罡称骨歌",
+            "称骨算命法：出生年/月/日/时四重量表 + 男命五十二档歌诀（二两一至七两二）。民俗简法，仅供传统文化研究参考。")),
+        ("library/ming/bazi/extended", "lxzmingshu", build_generic_index(
+            "李虚中命书",
+            "旧题鬼谷子撰，唐李虚中注。三柱古法（年月日）纳音论命代表作，四库全书本。含六十甲子纳音论命六十条 + 卷上贵神总论 + 卷中通理物化/真假邪正/升降清浊 + 卷下衰旺取时/三元九限/天承地禄/水土名用。")),
+        ("library/ming/bazi/extended", "luoluozi", build_generic_index(
+            "珞琭子赋注",
+            "宋释昙莹撰，兼收王廷光、李仝注。珞琭子三命消息赋为禄命鼻祖，以赋文体论述五行、干禄、支命、大运、神煞等命理原理，四库全书本。")),
+        ("library/ming/ziwei", "quanshu", build_generic_index(
+            "紫微斗数全书",
+            "明罗洪先编，紫微斗数最系统古籍，强调十二宫与四化关系。核心精选本。")),
+        ("library/ming/ziwei", "quanji", build_generic_index(
+            "紫微斗数全集",
+            "清代古本，紫微斗数重要典籍。核心精选本。")),
+        ("library/ming/ziwei", "gusuifu", build_generic_index(
+            "斗数骨髓赋",
+            "紫微斗数核心歌诀，以赋文体概括星曜性情与宫位断验。")),
+        ("library/ming/bazi/extended", "lantaimiaoxuan", build_generic_index(
+            "兰台妙选",
+            "明西窗老人，专论八字格局贵贱，以赋文体列举贵格贱格与神煞取象，四库全书本。")),
+        ("library/ming/bazi/extended", "sanmingzhimifu", build_generic_index(
+            "三命指迷赋",
+            "宋岳珂补注（依托），专主子平，论夹马夹禄拱库拱贵与五行生克，四库全书本。")),
+        ("library/ming/qizheng", "xingxuedacheng", build_generic_index(
+            "星学大成",
+            "明万民英撰，四库全书本，三十卷，七政四余（五星禄命）集大成之作，汇集星曜图例、观星节要、诸家限例、耶律秘诀、三辰通载等星家古法。")),
+        ("library/yi/jingdian", "suwen", build_generic_index(
+            "黄帝内经素问",
+            "重广补注本，唐王冰注，宋林亿校，81篇，中医理论奠基之作，论阴阳五行、脏腑经络、病机诊法、治则养生。")),
+        ("library/yi/jingdian", "lingshu", build_generic_index(
+            "灵枢经",
+            "四库全书本，81篇，与素问合称黄帝内经，偏重经络针灸、腧穴刺法、病机论治。")),
+        ("library/yi/jingdian", "nanjing", build_generic_index(
+            "八十一难经",
+            "旧题扁鹊撰，四库全书本，81难，以问答体阐释脉学、经络、脏腑、腧穴、针法，为内经要义之提纲。")),
+        ("library/yi/jingdian", "shanghan", build_generic_index(
+            "伤寒论",
+            "汉张仲景撰，通行本，10篇，辨证论治奠基之作，以六经辨证统摄外感热病，载方113首。")),
+        ("library/yi/jingdian", "shennong", build_generic_index(
+            "神农本草经",
+            "四库全书本，上中下三品，313味药，中国现存最早药物学专著，论药物气味、主治、君臣佐使、七情合和。")),
+        ("library/yi/fangshu", "qianjinfang", build_generic_index(
+            "备急千金要方",
+            "唐孙思邈撰，四库全书本，30卷，中国最早临床百科全书，载方5300余首，合方论、针灸、食疗、养生于一体。")),
+        ("library/yi/fangshu", "waitaimiyao", build_generic_index(
+            "外台秘要",
+            "唐王焘撰，明程衍道校，40卷，唐代方书集大成，载方6000余首，集唐以前方书之大成，伤寒遵仲景、论冠病源。")),
+        ("library/yi/wenbing", "wenbingtiaobian", build_generic_index(
+            "温病条辨",
+            "清吴鞠通撰，通行本，6卷，温病学奠基之作，以三焦辨证统摄温病，创银翘散、桑菊饮等名方。")),
+        ("library/yi/zhenji", "zhenjiujiayi", build_generic_index(
+            "针灸甲乙经",
+            "晋皇甫谧撰，四库全书本，12卷，中国现存最早针灸专著，系统整理腧穴、刺法、灸法，为针灸学之祖。")),
+        ("library/yi/zhenfa", "maijing", build_generic_index(
+            "脉经",
+            "晋王叔和撰，四库全书本，10卷，中国现存最早脉学专著，系统整理24种脉象，为脉诊学之祖。")),
+        ("library/xiang/renxiang", "shenxiangquanbian", build_generic_index(
+            "神相全编",
+            "明清相术集大成，通行本，174条，汇集麻衣、柳庄、水镜诸家相法，论五官六府、三停五岳、气色纹痣、骨相声音。")),
+        ("library/xiang/renxiang", "liuzhuangxiangfa", build_generic_index(
+            "柳庄相法",
+            "清袁珙撰，通行本，170条，明清相术代表作，以气色、精神、骨格为相法三要，论男女老幼贵贱寿夭。")),
+        ("library/xiang/dixiang", "hanlongjing", build_generic_index(
+            "撼龙经",
+            "唐杨筠松撰，通行本，峦头派风水鼻祖，专论龙脉行止、星体剥换、龙穴砂水，为地理峦头之宗。")),
+        ("library/xiang/dixiang", "zangshu", build_generic_index(
+            "葬书",
+            "晋郭璞撰，通行本，风水理论奠基之作，首创『气乘风则散，界水则止』之论，为后世堪舆之祖。")),
+        ("library/xiang/dixiang", "qingnangaoyu", build_generic_index(
+            "青囊奥语",
+            "唐杨筠松撰，通行本，理气派风水经典，以阴阳五行、三元九运论龙穴砂水，为玄空理气之宗。")),
+        ("library/bu/yijing", "zhouyi", build_generic_index(
+            "周易",
+            "周易经传合编，通行本，64卦+易传4篇（系辞/说卦/序卦/杂卦），群经之首，大道之源，以阴阳八卦论天地人三才之道，为五术卜部之根本经典。")),
+        ("library/shan/dandao", "cantongqi", build_generic_index(
+            "周易参同契分章通真义",
+            "汉魏伯阳原著，五代彭晓注，正统道藏太玄部，66章，丹道鼻祖，以周易阴阳象喻论金丹炉火，为内丹学之祖。")),
+        ("library/shan/wushu", "taijilun", build_generic_index(
+            "太极拳论",
+            "清王宗岳撰，艺藏武术本，太极拳经典理论，以阴阳刚柔动静虚实论拳理，为内家拳之宗。")),
+        ("library/shan/yangsheng", "yijinjing", build_generic_index(
+            "达摩洗髓易筋经",
+            "艺藏武术本，22篇，养生导引经典，含易筋经总论、洗髓经总义、正身/侧身/半身/屈身/折身/扭身/倒身/翻身/行身/坐身/定身/卧身十二图说、韦驮劲十二势、立八段锦、坐十二段锦等。")),
     ]
     counts = {}
     for root, book, builder in plan:

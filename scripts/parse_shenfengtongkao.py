@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 Aether-Cycle 古籍知识库 · 《神峰通考》结构化解析脚本（第三梯队·实战辨惑）
 源文：明·张楠（张神峰）著，带现代标点电子本。核心为「病药说」「雕枯旺弱四病」
@@ -11,7 +11,7 @@ import re
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(BASE, "raw", "shenfengtongkao.txt")
-OUT = os.path.join(BASE, "extended", "shenfengtongkao")
+OUT = os.path.join(BASE, "library", "ming", "bazi", "extended", "shenfengtongkao")
 os.makedirs(OUT, exist_ok=True)
 
 TITLE_RE = re.compile(r"(说类|论|赋|歌|篇|诀|说|类)$")

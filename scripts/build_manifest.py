@@ -2,7 +2,7 @@
 """
 Aether-Cycle 古籍知识库 · 机器检索清单 manifest.json 生成器（纯标准库、确定性输出）
 
-扫描 core / origin-shensha / extended 下全部 Markdown，解析 Frontmatter，
+扫描 ming/bazi/{core,origin-shensha,extended} 下全部 Markdown，解析 Frontmatter，
 聚合为一张供排盘引擎（Rust/Tauri 或任意运行时）一次性加载的总清单，
 引擎侧无需再遍历目录、无需 YAML 依赖即可建立 conditions 内存索引。
 
@@ -18,11 +18,33 @@ import os
 import re
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# (root_dir, tier_name, category, default_subcategory)
+# ming/bazi/{core,origin-shensha,extended} 为八字内部梯队，统一归 category=ming, subcategory=bazi；
+# ming/yi/xiang/bu/shan 为五术顶层目录，subcategory 取二级目录名。
 ROOTS = [
-    ("core", "第一梯队·核心"),
-    ("origin-shensha", "第二梯队·渊源神煞"),
-    ("extended", "第三梯队·实战与补遗"),
+    ("library/ming/bazi/core", "第一梯队·核心", "ming", "bazi"),
+    ("library/ming/bazi/origin-shensha", "第二梯队·渊源神煞", "ming", "bazi"),
+    ("library/ming/bazi/extended", "第三梯队·实战与补遗", "ming", "bazi"),
+    ("library/ming", "命·命理", "ming", ""),
+    ("library/ming/ziwei", "紫微斗数", "ming", "ziwei"),
+    ("library/ming/qizheng", "七政四余", "ming", "qizheng"),
+    ("library/yi/jingdian", "医部经典", "yi", "jingdian"),
+    ("library/yi/fangshu", "医部方书", "yi", "fangshu"),
+    ("library/yi/wenbing", "医部温病", "yi", "wenbing"),
+    ("library/yi/zhenji", "医部针灸", "yi", "zhenji"),
+    ("library/yi/zhenfa", "医部诊法", "yi", "zhenfa"),
+    ("library/xiang/renxiang", "相部人相", "xiang", "renxiang"),
+    ("library/xiang/dixiang", "相部地相", "xiang", "dixiang"),
+    ("library/bu/yijing", "卜部易经", "bu", "yijing"),
+    ("library/shan/dandao", "山部丹道", "shan", "dandao"),
+    ("library/shan/wushu", "山部武术", "shan", "wushu"),
+    ("library/shan/yangsheng", "山部养生", "shan", "yangsheng"),
+    ("library/yi", "医·中医", "yi", ""),
+    ("library/xiang", "相·相术", "xiang", ""),
+    ("library/bu", "卜·卜筮", "bu", ""),
+    ("library/shan", "山·仙学养生", "shan", ""),
 ]
+FIVE_ARTS_ROOTS = {"ming", "yi", "xiang", "bu", "shan"}
 LIST_KEYS = {"day_master", "month_branch", "ten_god", "pattern", "shensha",
              "keywords", "tags", "day_pillar", "hour_pillar"}
 COND_FIELDS = ["day_master", "month_branch", "day_pillar", "hour_pillar",
@@ -59,7 +81,7 @@ def main():
     books = []
     entries = []
     seen_ids = set()
-    for root, tier_name in ROOTS:
+    for root, tier_name, category, default_sub in ROOTS:
         rdir = os.path.join(BASE, root)
         if not os.path.isdir(rdir):
             continue
@@ -67,6 +89,8 @@ def main():
             bdir = os.path.join(rdir, book)
             if not os.path.isdir(bdir):
                 continue
+            # 五术顶层目录的二级目录即为 subcategory（如 yi/shanghanlun/ -> shanghanlun）
+            subcategory = book if root.split("/")[-1] in FIVE_ARTS_ROOTS else default_sub
             n = 0
             for name in sorted(os.listdir(bdir)):
                 if not name.endswith(".md") or name == "INDEX.md":
@@ -83,6 +107,8 @@ def main():
                     "book": meta.get("book", book),
                     "type": meta.get("type", ""),
                     "tier": root,
+                    "category": category,
+                    "subcategory": subcategory,
                     "path": rel,
                     "weight": as_int(meta.get("weight")),
                     "title": meta.get("section_title", ""),
@@ -90,15 +116,17 @@ def main():
                     "conditions": cond,
                 })
                 n += 1
-            books.append({"dir": book, "tier": root, "tier_name": tier_name, "count": n})
+            books.append({"dir": book, "tier": root, "tier_name": tier_name,
+                          "category": category, "subcategory": subcategory, "count": n})
     entries.sort(key=lambda e: e["path"])
     manifest = {
-        "schema_version": 1,
-        "name": "Aether-Cycle 子平命理古籍知识库",
+        "schema_version": 2,
+        "name": "Aether-Cycle 五术古籍图书馆",
         "match_fields": COND_FIELDS,
         "match_rule": "entry is recalled iff, for every non-empty declared field, "
                       "it intersects the chart's same-field set; results sort by weight desc.",
-        "roots": {r: t for r, t in ROOTS},
+        "roots": {r: t for r, t, _, _ in ROOTS},
+        "categories": ["ming", "yi", "xiang", "bu", "shan"],
         "books": books,
         "total": len(entries),
         "entries": entries,

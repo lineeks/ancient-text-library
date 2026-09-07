@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 《五行精纪》（宋·廖中 撰，岳珂序，34 卷）解析为结构化 Markdown。
 源：raw/wuxingjingji.txt（同源 GitHub 古籍仓库，UTF-8）。
@@ -10,7 +10,7 @@ import os, re, sys
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(BASE, "raw", "wuxingjingji.txt")
-OUT = os.path.join(BASE, "extended", "wuxingjingji")
+OUT = os.path.join(BASE, "library", "ming", "bazi", "extended", "wuxingjingji")
 DRY = "--write" not in sys.argv
 
 DIGIT = {"零":0,"〇":0,"○":0,"一":1,"二":2,"两":2,"三":3,"四":4,"五":5,"六":6,"七":7,"八":8,"九":9}
