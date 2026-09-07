@@ -358,7 +358,12 @@ def build_root_index(counts):
              f"| 补遗·格局赋文 | 兰台妙选 | 明西窗老人·四库本 | {counts['lantaimiaoxuan']} | [索引](./library/ming/bazi/extended/lantaimiaoxuan/INDEX.md) | ✅ |",
              f"| 补遗·子平赋文 | 三命指迷赋 | 宋岳珂补注·四库本 | {counts['sanmingzhimifu']} | [索引](./library/ming/bazi/extended/sanmingzhimifu/INDEX.md) | ✅ |",
              f"| 命·七政四余 | 星学大成 | 明万民英撰·四库本 | {counts['xingxuedacheng']} | [索引](./library/ming/qizheng/xingxuedacheng/INDEX.md) | ✅ |",
-             f"| **合计** | **18 部** | — | **{total}** | — | — |", "",
+             f"| 医·经典 | 黄帝内经素问 | 唐王冰注·宋林亿校 | {counts['suwen']} | [索引](./library/yi/jingdian/suwen/INDEX.md) | ✅ |",
+             f"| 医·经典 | 灵枢经 | 四库本 | {counts['lingshu']} | [索引](./library/yi/jingdian/lingshu/INDEX.md) | ✅ |",
+             f"| 医·经典 | 八十一难经 | 旧题扁鹊·四库本 | {counts['nanjing']} | [索引](./library/yi/jingdian/nanjing/INDEX.md) | ✅ |",
+             f"| 医·经典 | 伤寒论 | 汉张仲景·通行本 | {counts['shanghan']} | [索引](./library/yi/jingdian/shanghan/INDEX.md) | ✅ |",
+             f"| 医·经典 | 神农本草经 | 四库本 | {counts['shennong']} | [索引](./library/yi/jingdian/shennong/INDEX.md) | ✅ |",
+             f"| **合计** | **23 部** | — | **{total}** | — | — |", "",
              "## 目录结构", "",
              "```text",
              "ancient-text-library/",
@@ -389,6 +394,13 @@ def build_root_index(counts):
              "│               └── sanmingzhimifu/ # 三命指迷赋 82",
              "│           └── qizheng/       # 七政四余（subcategory=qizheng）",
              "│               └── xingxuedacheng/ # 星学大成 30",
+             "├── yi/                        # 医·中医（library/yi/）",
+             "│   └── jingdian/             # 医部经典（subcategory=jingdian）",
+             "│       ├── suwen/            #   黄帝内经素问 81",
+             "│       ├── lingshu/          #   灵枢经 71",
+             "│       ├── nanjing/          #   八十一难经 81",
+             "│       ├── shanghan/         #   伤寒论 10",
+             "│       └── shennong/         #   神农本草经 313",
              "│           └── ziwei/         # 紫微斗数（subcategory=ziwei）",
              "│               ├── quanshu/   # 紫微斗数全书 17",
              "│               ├── quanji/    # 紫微斗数全集 29",
@@ -470,6 +482,21 @@ def main():
         ("library/ming/qizheng", "xingxuedacheng", build_generic_index(
             "星学大成",
             "明万民英撰，四库全书本，三十卷，七政四余（五星禄命）集大成之作，汇集星曜图例、观星节要、诸家限例、耶律秘诀、三辰通载等星家古法。")),
+        ("library/yi/jingdian", "suwen", build_generic_index(
+            "黄帝内经素问",
+            "重广补注本，唐王冰注，宋林亿校，81篇，中医理论奠基之作，论阴阳五行、脏腑经络、病机诊法、治则养生。")),
+        ("library/yi/jingdian", "lingshu", build_generic_index(
+            "灵枢经",
+            "四库全书本，81篇，与素问合称黄帝内经，偏重经络针灸、腧穴刺法、病机论治。")),
+        ("library/yi/jingdian", "nanjing", build_generic_index(
+            "八十一难经",
+            "旧题扁鹊撰，四库全书本，81难，以问答体阐释脉学、经络、脏腑、腧穴、针法，为内经要义之提纲。")),
+        ("library/yi/jingdian", "shanghan", build_generic_index(
+            "伤寒论",
+            "汉张仲景撰，通行本，10篇，辨证论治奠基之作，以六经辨证统摄外感热病，载方113首。")),
+        ("library/yi/jingdian", "shennong", build_generic_index(
+            "神农本草经",
+            "四库全书本，上中下三品，313味药，中国现存最早药物学专著，论药物气味、主治、君臣佐使、七情合和。")),
     ]
     counts = {}
     for root, book, builder in plan:

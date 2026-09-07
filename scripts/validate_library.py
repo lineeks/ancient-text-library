@@ -17,7 +17,7 @@ import sys
 import yaml
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-LIB_ROOTS = ["library/ming/bazi/core", "library/ming/bazi/origin-shensha", "library/ming/bazi/extended", "library/ming", "library/ming/ziwei", "library/ming/qizheng", "library/yi", "library/xiang", "library/bu", "library/shan"]
+LIB_ROOTS = ["library/ming/bazi/core", "library/ming/bazi/origin-shensha", "library/ming/bazi/extended", "library/ming", "library/ming/ziwei", "library/ming/qizheng", "library/yi/jingdian", "library/yi", "library/xiang", "library/bu", "library/shan"]
 CONTROLLED_FIELDS = ["ten_god", "pattern", "shensha"]
 
 # 受控词表白名单（由 scripts/export_vocab.py 生成）。允许规范词与已登记别名，
