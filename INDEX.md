@@ -39,8 +39,8 @@
 | 医·诊法 | 脉经 | 晋王叔和·四库本 | 10 | [索引](./library/yi/zhenfa/maijing/INDEX.md) | ✅ |
 | 相·人相 | 神相全编 | 明清相术集大成 | 174 | [索引](./library/xiang/renxiang/shenxiangquanbian/INDEX.md) | ✅ |
 | 相·人相 | 柳庄相法 | 清袁珙·通行本 | 170 | [索引](./library/xiang/renxiang/liuzhuangxiangfa/INDEX.md) | ✅ |
-| 相·地相 | 撼龙经 | 唐杨筠松·通行本 | 1 | [索引](./library/xiang/dixiang/hanlongjing/INDEX.md) | ✅ |
-| 相·地相 | 葬书 | 晋郭璞·通行本 | 1 | [索引](./library/xiang/dixiang/zangshu/INDEX.md) | ✅ |
+| 相·地相 | 撼龙经 | 唐杨筠松·通行本 | 29 | [索引](./library/xiang/dixiang/hanlongjing/INDEX.md) | ✅ |
+| 相·地相 | 葬书 | 晋郭璞·通行本 | 13 | [索引](./library/xiang/dixiang/zangshu/INDEX.md) | ✅ |
 | 相·地相 | 青囊奥语 | 唐杨筠松·通行本 | 1 | [索引](./library/xiang/dixiang/qingnangaoyu/INDEX.md) | ✅ |
 | 卜·易经 | 周易 | 经传合编·通行本 | 68 | [索引](./library/bu/yijing/zhouyi/INDEX.md) | ✅ |
 | 卜·六爻 | 火珠林 | 题麻衣道者·通行本 | 64 | [索引](./library/bu/liuyao/huozhulin/INDEX.md) | ✅ |
@@ -49,7 +49,7 @@
 | 山·丹道 | 周易参同契分章通真义 | 汉魏伯阳·五代彭晓注 | 88 | [索引](./library/shan/dandao/cantongqi/INDEX.md) | ✅ |
 | 山·武术 | 太极拳论 | 清王宗岳·艺藏本 | 1 | [索引](./library/shan/wushu/taijilun/INDEX.md) | ✅ |
 | 山·养生 | 达摩洗髓易筋经 | 艺藏本 | 22 | [索引](./library/shan/yangsheng/yijinjing/INDEX.md) | ✅ |
-| **合计** | **40 部** | — | **3735** | — | — |
+| **合计** | **40 部** | — | **3775** | — | — |
 
 ## 目录结构
 

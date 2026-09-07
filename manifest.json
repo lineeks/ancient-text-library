@@ -323,7 +323,7 @@
       "tier_name": "相部地相",
       "category": "xiang",
       "subcategory": "dixiang",
-      "count": 1
+      "count": 29
     },
     {
       "dir": "qingnangaoyu",
@@ -339,7 +339,7 @@
       "tier_name": "相部地相",
       "category": "xiang",
       "subcategory": "dixiang",
-      "count": 1
+      "count": 13
     },
     {
       "dir": "zhouyi",
@@ -502,7 +502,7 @@
       "count": 0
     }
   ],
-  "total": 3735,
+  "total": 3775,
   "entries": [
     {
       "id": "bu2_huozhulin_000",
@@ -77384,16 +77384,16 @@
       }
     },
     {
-      "id": "xiang_hanlongjing_000",
+      "id": "xx2_hanlongjing_000",
       "book": "撼龙经",
       "type": "chapter",
       "tier": "library/xiang/dixiang",
       "category": "xiang",
       "subcategory": "dixiang",
-      "path": "library/xiang/dixiang/hanlongjing/xiang_hanlongjing_000.md",
+      "path": "library/xiang/dixiang/hanlongjing/xx2_hanlongjing_000.md",
       "weight": 4,
-      "title": "全书",
-      "chapter": "全书",
+      "title": "九星总论",
+      "chapter": "撼龙经",
       "conditions": {
         "day_master": [],
         "month_branch": [],
@@ -77403,22 +77403,883 @@
         "pattern": [],
         "shensha": [],
         "keywords": [
-          "相术",
-          "峦头派",
-          "理气派",
-          "杨公风水",
-          "骨相",
-          "手相",
-          "行止相",
-          "命理吉凶",
-          "龙脉",
-          "人相部位",
-          "人相格局",
-          "人相气色",
-          "地相龙法",
-          "地相穴法",
-          "地相砂水",
-          "地相理气"
+          "撼龙经",
+          "地相",
+          "风水",
+          "撼龙疑龙",
+          "九星",
+          "龙法",
+          "穴法",
+          "水法",
+          "疑龙十问"
+        ]
+      }
+    },
+    {
+      "id": "xx2_hanlongjing_001",
+      "book": "撼龙经",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/hanlongjing/xx2_hanlongjing_001.md",
+      "weight": 4,
+      "title": "中篇",
+      "chapter": "疑龙经·中篇",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "撼龙经",
+          "地相",
+          "风水",
+          "撼龙疑龙",
+          "龙法",
+          "穴法",
+          "砂法",
+          "水法",
+          "风水基础"
+        ]
+      }
+    },
+    {
+      "id": "xx2_hanlongjing_002",
+      "book": "撼龙经",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/hanlongjing/xx2_hanlongjing_002.md",
+      "weight": 4,
+      "title": "下篇",
+      "chapter": "疑龙经·下篇",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "撼龙经",
+          "地相",
+          "风水",
+          "撼龙疑龙",
+          "九星",
+          "龙法",
+          "穴法",
+          "水法",
+          "理气"
+        ]
+      }
+    },
+    {
+      "id": "xx2_hanlongjing_003",
+      "book": "撼龙经",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/hanlongjing/xx2_hanlongjing_003.md",
+      "weight": 4,
+      "title": "一问抱养及僧道嗣续疑龙如何",
+      "chapter": "疑龙经·疑龙十问",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "撼龙经",
+          "地相",
+          "风水",
+          "撼龙疑龙",
+          "龙法",
+          "穴法",
+          "疑龙十问"
+        ]
+      }
+    },
+    {
+      "id": "xx2_hanlongjing_004",
+      "book": "撼龙经",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/hanlongjing/xx2_hanlongjing_004.md",
+      "weight": 4,
+      "title": "三问公位盛衰疑龙如何",
+      "chapter": "疑龙经·疑龙十问",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "撼龙经",
+          "地相",
+          "风水",
+          "撼龙疑龙",
+          "龙法",
+          "穴法",
+          "水法",
+          "疑龙十问"
+        ]
+      }
+    },
+    {
+      "id": "xx2_hanlongjing_005",
+      "book": "撼龙经",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/hanlongjing/xx2_hanlongjing_005.md",
+      "weight": 4,
+      "title": "四问阳宅隂宅疑龙如何",
+      "chapter": "疑龙经·疑龙十问",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "撼龙经",
+          "地相",
+          "风水",
+          "撼龙疑龙",
+          "龙法",
+          "穴法",
+          "疑龙十问"
+        ]
+      }
+    },
+    {
+      "id": "xx2_hanlongjing_006",
+      "book": "撼龙经",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/hanlongjing/xx2_hanlongjing_006.md",
+      "weight": 4,
+      "title": "五问阳宅阳地大小如何",
+      "chapter": "疑龙经·疑龙十问",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "撼龙经",
+          "地相",
+          "风水",
+          "撼龙疑龙",
+          "龙法",
+          "穴法",
+          "水法",
+          "疑龙十问"
+        ]
+      }
+    },
+    {
+      "id": "xx2_hanlongjing_007",
+      "book": "撼龙经",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/hanlongjing/xx2_hanlongjing_007.md",
+      "weight": 4,
+      "title": "六问主客山疑龙如何",
+      "chapter": "疑龙经·疑龙十问",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "撼龙经",
+          "地相",
+          "风水",
+          "撼龙疑龙",
+          "龙法",
+          "穴法",
+          "水法",
+          "疑龙十问"
+        ]
+      }
+    },
+    {
+      "id": "xx2_hanlongjing_008",
+      "book": "撼龙经",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/hanlongjing/xx2_hanlongjing_008.md",
+      "weight": 4,
+      "title": "七问形真假疑龙如何",
+      "chapter": "疑龙经·疑龙十问",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "撼龙经",
+          "地相",
+          "风水",
+          "撼龙疑龙",
+          "龙法",
+          "穴法",
+          "砂法",
+          "水法",
+          "疑龙十问"
+        ]
+      }
+    },
+    {
+      "id": "xx2_hanlongjing_009",
+      "book": "撼龙经",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/hanlongjing/xx2_hanlongjing_009.md",
+      "weight": 4,
+      "title": "八问干作枝衰疑龙如何",
+      "chapter": "疑龙经·疑龙十问",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "撼龙经",
+          "地相",
+          "风水",
+          "撼龙疑龙",
+          "龙法",
+          "穴法",
+          "水法",
+          "疑龙十问"
+        ]
+      }
+    },
+    {
+      "id": "xx2_hanlongjing_010",
+      "book": "撼龙经",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/hanlongjing/xx2_hanlongjing_010.md",
+      "weight": 4,
+      "title": "九问穴有花假疑龙如何",
+      "chapter": "疑龙经·疑龙十问",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "撼龙经",
+          "地相",
+          "风水",
+          "撼龙疑龙",
+          "龙法",
+          "穴法",
+          "疑龙十问"
+        ]
+      }
+    },
+    {
+      "id": "xx2_hanlongjing_011",
+      "book": "撼龙经",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/hanlongjing/xx2_hanlongjing_011.md",
+      "weight": 4,
+      "title": "十问博换疑龙如何",
+      "chapter": "疑龙经·疑龙十问",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "撼龙经",
+          "地相",
+          "风水",
+          "撼龙疑龙",
+          "九星",
+          "龙法",
+          "穴法",
+          "水法",
+          "疑龙十问",
+          "理气"
+        ]
+      }
+    },
+    {
+      "id": "xx2_hanlongjing_012",
+      "book": "撼龙经",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/hanlongjing/xx2_hanlongjing_012.md",
+      "weight": 4,
+      "title": "卫龙篇【附】",
+      "chapter": "疑龙经·卫龙篇【附】",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "撼龙经",
+          "地相",
+          "风水",
+          "撼龙疑龙",
+          "龙法",
+          "水法",
+          "理气"
+        ]
+      }
+    },
+    {
+      "id": "xx2_hanlongjing_013",
+      "book": "撼龙经",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/hanlongjing/xx2_hanlongjing_013.md",
+      "weight": 4,
+      "title": "变星篇【附】",
+      "chapter": "疑龙经·变星篇【附】",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "撼龙经",
+          "地相",
+          "风水",
+          "撼龙疑龙",
+          "九星",
+          "龙法",
+          "穴法",
+          "理气"
+        ]
+      }
+    },
+    {
+      "id": "xx2_hanlongjing_014",
+      "book": "撼龙经",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/hanlongjing/xx2_hanlongjing_014.md",
+      "weight": 4,
+      "title": "分两仪",
+      "chapter": "葬法倒杖·理气篇",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "撼龙经",
+          "地相",
+          "风水",
+          "撼龙疑龙",
+          "龙法",
+          "穴法",
+          "倒杖十二法",
+          "理气",
+          "风水基础"
+        ]
+      }
+    },
+    {
+      "id": "xx2_hanlongjing_015",
+      "book": "撼龙经",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/hanlongjing/xx2_hanlongjing_015.md",
+      "weight": 4,
+      "title": "求四象",
+      "chapter": "葬法倒杖·理气篇",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "撼龙经",
+          "地相",
+          "风水",
+          "撼龙疑龙",
+          "穴法",
+          "倒杖十二法",
+          "理气",
+          "风水基础"
+        ]
+      }
+    },
+    {
+      "id": "xx2_hanlongjing_016",
+      "book": "撼龙经",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/hanlongjing/xx2_hanlongjing_016.md",
+      "weight": 4,
+      "title": "倍八卦",
+      "chapter": "葬法倒杖·理气篇",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "撼龙经",
+          "地相",
+          "风水",
+          "撼龙疑龙",
+          "龙法",
+          "穴法",
+          "砂法",
+          "水法",
+          "倒杖十二法",
+          "理气",
+          "风水基础"
+        ]
+      }
+    },
+    {
+      "id": "xx2_hanlongjing_017",
+      "book": "撼龙经",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/hanlongjing/xx2_hanlongjing_017.md",
+      "weight": 4,
+      "title": "顺杖",
+      "chapter": "葬法倒杖·倒杖十二法",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "撼龙经",
+          "地相",
+          "风水",
+          "撼龙疑龙",
+          "龙法",
+          "穴法",
+          "砂法",
+          "水法",
+          "倒杖十二法"
+        ]
+      }
+    },
+    {
+      "id": "xx2_hanlongjing_018",
+      "book": "撼龙经",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/hanlongjing/xx2_hanlongjing_018.md",
+      "weight": 4,
+      "title": "逆杖",
+      "chapter": "葬法倒杖·倒杖十二法",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "撼龙经",
+          "地相",
+          "风水",
+          "撼龙疑龙",
+          "龙法",
+          "穴法",
+          "水法",
+          "倒杖十二法"
+        ]
+      }
+    },
+    {
+      "id": "xx2_hanlongjing_019",
+      "book": "撼龙经",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/hanlongjing/xx2_hanlongjing_019.md",
+      "weight": 4,
+      "title": "缩杖",
+      "chapter": "葬法倒杖·倒杖十二法",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "撼龙经",
+          "地相",
+          "风水",
+          "撼龙疑龙",
+          "穴法",
+          "水法",
+          "倒杖十二法",
+          "二十四砂葬法"
+        ]
+      }
+    },
+    {
+      "id": "xx2_hanlongjing_020",
+      "book": "撼龙经",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/hanlongjing/xx2_hanlongjing_020.md",
+      "weight": 4,
+      "title": "离杖",
+      "chapter": "葬法倒杖·倒杖十二法",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "撼龙经",
+          "地相",
+          "风水",
+          "撼龙疑龙",
+          "龙法",
+          "穴法",
+          "倒杖十二法",
+          "二十四砂葬法"
+        ]
+      }
+    },
+    {
+      "id": "xx2_hanlongjing_021",
+      "book": "撼龙经",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/hanlongjing/xx2_hanlongjing_021.md",
+      "weight": 4,
+      "title": "没杖",
+      "chapter": "葬法倒杖·倒杖十二法",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "撼龙经",
+          "地相",
+          "风水",
+          "撼龙疑龙",
+          "穴法",
+          "水法",
+          "倒杖十二法"
+        ]
+      }
+    },
+    {
+      "id": "xx2_hanlongjing_022",
+      "book": "撼龙经",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/hanlongjing/xx2_hanlongjing_022.md",
+      "weight": 4,
+      "title": "穿杖",
+      "chapter": "葬法倒杖·倒杖十二法",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "撼龙经",
+          "地相",
+          "风水",
+          "撼龙疑龙",
+          "穴法",
+          "倒杖十二法"
+        ]
+      }
+    },
+    {
+      "id": "xx2_hanlongjing_023",
+      "book": "撼龙经",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/hanlongjing/xx2_hanlongjing_023.md",
+      "weight": 4,
+      "title": "鬭杖",
+      "chapter": "葬法倒杖·倒杖十二法",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "撼龙经",
+          "地相",
+          "风水",
+          "撼龙疑龙",
+          "龙法",
+          "穴法",
+          "倒杖十二法"
+        ]
+      }
+    },
+    {
+      "id": "xx2_hanlongjing_024",
+      "book": "撼龙经",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/hanlongjing/xx2_hanlongjing_024.md",
+      "weight": 4,
+      "title": "截杖",
+      "chapter": "葬法倒杖·倒杖十二法",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "撼龙经",
+          "地相",
+          "风水",
+          "撼龙疑龙",
+          "龙法",
+          "穴法",
+          "倒杖十二法"
+        ]
+      }
+    },
+    {
+      "id": "xx2_hanlongjing_025",
+      "book": "撼龙经",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/hanlongjing/xx2_hanlongjing_025.md",
+      "weight": 4,
+      "title": "对杖",
+      "chapter": "葬法倒杖·倒杖十二法",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "撼龙经",
+          "地相",
+          "风水",
+          "撼龙疑龙",
+          "穴法",
+          "倒杖十二法",
+          "风水基础"
+        ]
+      }
+    },
+    {
+      "id": "xx2_hanlongjing_026",
+      "book": "撼龙经",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/hanlongjing/xx2_hanlongjing_026.md",
+      "weight": 4,
+      "title": "缀杖",
+      "chapter": "葬法倒杖·倒杖十二法",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "撼龙经",
+          "地相",
+          "风水",
+          "撼龙疑龙",
+          "穴法",
+          "水法",
+          "倒杖十二法"
+        ]
+      }
+    },
+    {
+      "id": "xx2_hanlongjing_027",
+      "book": "撼龙经",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/hanlongjing/xx2_hanlongjing_027.md",
+      "weight": 4,
+      "title": "犯杖",
+      "chapter": "葬法倒杖·倒杖十二法",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "撼龙经",
+          "地相",
+          "风水",
+          "撼龙疑龙",
+          "龙法",
+          "倒杖十二法"
+        ]
+      }
+    },
+    {
+      "id": "xx2_hanlongjing_028",
+      "book": "撼龙经",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/hanlongjing/xx2_hanlongjing_028.md",
+      "weight": 4,
+      "title": "二十四砂葬法【附】",
+      "chapter": "葬法倒杖·二十四砂葬法",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "撼龙经",
+          "地相",
+          "风水",
+          "撼龙疑龙",
+          "龙法",
+          "穴法",
+          "砂法",
+          "水法",
+          "倒杖十二法",
+          "二十四砂葬法",
+          "风水基础"
         ]
       }
     },
@@ -77466,16 +78327,16 @@
       }
     },
     {
-      "id": "xiang_zangshu_000",
+      "id": "xx2_zangshu_000",
       "book": "葬书",
       "type": "chapter",
       "tier": "library/xiang/dixiang",
       "category": "xiang",
       "subcategory": "dixiang",
-      "path": "library/xiang/dixiang/zangshu/xiang_zangshu_000.md",
+      "path": "library/xiang/dixiang/zangshu/xx2_zangshu_000.md",
       "weight": 4,
-      "title": "全书",
-      "chapter": "全书",
+      "title": "葬书葬者乘生气也",
+      "chapter": "葬书",
       "conditions": {
         "day_master": [],
         "month_branch": [],
@@ -77485,23 +78346,368 @@
         "pattern": [],
         "shensha": [],
         "keywords": [
-          "相术",
-          "风水堪舆",
-          "峦头派",
-          "郭璞风水",
-          "骨相",
-          "行止相",
-          "命理吉凶",
-          "五行相",
-          "阴阳相",
+          "葬书",
+          "地相",
+          "风水",
+          "生气论"
+        ]
+      }
+    },
+    {
+      "id": "xx2_zangshu_001",
+      "book": "葬书",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/zangshu/xx2_zangshu_001.md",
+      "weight": 4,
+      "title": "五气行乎地中，发而生乎万物",
+      "chapter": "葬书",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "葬书",
+          "地相",
+          "风水",
+          "生气论"
+        ]
+      }
+    },
+    {
+      "id": "xx2_zangshu_002",
+      "book": "葬书",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/zangshu/xx2_zangshu_002.md",
+      "weight": 4,
+      "title": "人受体于父母，本骸得气，遗体受",
+      "chapter": "葬书",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "葬书",
+          "地相",
+          "风水"
+        ]
+      }
+    },
+    {
+      "id": "xx2_zangshu_003",
+      "book": "葬书",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/zangshu/xx2_zangshu_003.md",
+      "weight": 4,
+      "title": "经曰：气感而应，鬼福及人",
+      "chapter": "葬书",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "葬书",
+          "地相",
+          "风水",
+          "气感论",
+          "穴法",
+          "砂法",
+          "水法",
+          "龙脉"
+        ]
+      }
+    },
+    {
+      "id": "xx2_zangshu_004",
+      "book": "葬书",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/zangshu/xx2_zangshu_004.md",
+      "weight": 4,
+      "title": "汉未央宫一日无故钟自呜，东方朔",
+      "chapter": "葬书",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "葬书",
+          "地相",
+          "风水"
+        ]
+      }
+    },
+    {
+      "id": "xx2_zangshu_005",
+      "book": "葬书",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/zangshu/xx2_zangshu_005.md",
+      "weight": 4,
+      "title": "木华于春，栗芽于室",
+      "chapter": "葬书",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "葬书",
+          "地相",
+          "风水",
+          "生气论"
+        ]
+      }
+    },
+    {
+      "id": "xx2_zangshu_006",
+      "book": "葬书",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/zangshu/xx2_zangshu_006.md",
+      "weight": 4,
+      "title": "乾父之精，坤母之血，二气感合，",
+      "chapter": "葬书",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "葬书",
+          "地相",
+          "风水",
+          "生气论",
+          "气感论"
+        ]
+      }
+    },
+    {
+      "id": "xx2_zangshu_007",
+      "book": "葬书",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/zangshu/xx2_zangshu_007.md",
+      "weight": 4,
+      "title": "丘垅之骨，冈阜之支，气之所随",
+      "chapter": "葬书",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "葬书",
+          "地相",
+          "风水",
+          "生气论",
+          "龙法",
+          "风水定义",
+          "藏风得水",
+          "四灵乘气",
+          "穴法",
+          "水法",
           "龙脉",
-          "人相部位",
-          "人相格局",
-          "人相气色",
-          "地相龙法",
-          "地相穴法",
-          "地相砂水",
-          "地相理气"
+          "明堂",
+          "风水基础"
+        ]
+      }
+    },
+    {
+      "id": "xx2_zangshu_008",
+      "book": "葬书",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/zangshu/xx2_zangshu_008.md",
+      "weight": 4,
+      "title": "山之不可葬者五：气以生和，而童",
+      "chapter": "葬书",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "葬书",
+          "地相",
+          "风水",
+          "生气论",
+          "气感论",
+          "龙法",
+          "藏风得水",
+          "穴法",
+          "砂法",
+          "水法",
+          "明堂"
+        ]
+      }
+    },
+    {
+      "id": "xx2_zangshu_009",
+      "book": "葬书",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/zangshu/xx2_zangshu_009.md",
+      "weight": 4,
+      "title": "外 篇夫重冈叠阜，群城众支，",
+      "chapter": "葬书",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "葬书",
+          "地相",
+          "风水",
+          "生气论",
+          "四灵乘气",
+          "穴法",
+          "砂法",
+          "水法",
+          "龙脉"
+        ]
+      }
+    },
+    {
+      "id": "xx2_zangshu_010",
+      "book": "葬书",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/zangshu/xx2_zangshu_010.md",
+      "weight": 4,
+      "title": "杂 篇占山之法，以势为难，而",
+      "chapter": "葬书",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "葬书",
+          "地相",
+          "风水",
+          "穴法",
+          "水法"
+        ]
+      }
+    },
+    {
+      "id": "xx2_zangshu_011",
+      "book": "葬书",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/zangshu/xx2_zangshu_011.md",
+      "weight": 4,
+      "title": "势如惊蛇，屈曲徐斜，灭亡家国",
+      "chapter": "葬书",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "葬书",
+          "地相",
+          "风水",
+          "生气论",
+          "四灵乘气",
+          "阴阳龙",
+          "穴法",
+          "砂法",
+          "水法",
+          "龙脉"
+        ]
+      }
+    },
+    {
+      "id": "xx2_zangshu_012",
+      "book": "葬书",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/zangshu/xx2_zangshu_012.md",
+      "weight": 4,
+      "title": "经曰：穴吉葬凶，与弃尸同",
+      "chapter": "葬书",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "葬书",
+          "地相",
+          "风水",
+          "生气论",
+          "穴法",
+          "水法",
+          "风水基础"
         ]
       }
     },
