@@ -1,0 +1,70 @@
+# 火珠林
+
+题麻衣道者著，通行本，64条，六爻纳甲法鼻祖，以六亲世应、五行旺衰、动变飞伏、冲合刑害论占断，为火珠林派（纳甲筮法）之宗。
+
+## 条目索引
+
+- [1．易中明义](./bu2_huozhulin_000.md) — `bu2_huozhulin_000`
+- [2．六亲根源](./bu2_huozhulin_001.md) — `bu2_huozhulin_001`
+- [3．财官辅助](./bu2_huozhulin_002.md) — `bu2_huozhulin_002`
+- [4．独发乱动](./bu2_huozhulin_003.md) — `bu2_huozhulin_003`
+- [5．世应相克](./bu2_huozhulin_004.md) — `bu2_huozhulin_004`
+- [6．公私用事](./bu2_huozhulin_005.md) — `bu2_huozhulin_005`
+- [7．出现伏藏](./bu2_huozhulin_006.md) — `bu2_huozhulin_006`
+- [8．占财伏鬼](./bu2_huozhulin_007.md) — `bu2_huozhulin_007`
+- [9．占财伏兄](./bu2_huozhulin_008.md) — `bu2_huozhulin_008`
+- [10．财伏父子](./bu2_huozhulin_009.md) — `bu2_huozhulin_009`
+- [11．占鬼伏兄](./bu2_huozhulin_010.md) — `bu2_huozhulin_010`
+- [12．占鬼伏财](./bu2_huozhulin_011.md) — `bu2_huozhulin_011`
+- [13．官伏父母](./bu2_huozhulin_012.md) — `bu2_huozhulin_012`
+- [14．官伏子孙](./bu2_huozhulin_013.md) — `bu2_huozhulin_013`
+- [15．官鬼伏官](./bu2_huozhulin_014.md) — `bu2_huozhulin_014`
+- [16．出现重迭](./bu2_huozhulin_015.md) — `bu2_huozhulin_015`
+- [17．子孙独发](./bu2_huozhulin_016.md) — `bu2_huozhulin_016`
+- [18．兄弟独发](./bu2_huozhulin_017.md) — `bu2_huozhulin_017`
+- [19．父母独发](./bu2_huozhulin_018.md) — `bu2_huozhulin_018`
+- [20．官鬼独发](./bu2_huozhulin_019.md) — `bu2_huozhulin_019`
+- [21．妻财独发](./bu2_huozhulin_020.md) — `bu2_huozhulin_020`
+- [22．占身命](./bu2_huozhulin_021.md) — `bu2_huozhulin_021`
+- [23．占形性](./bu2_huozhulin_022.md) — `bu2_huozhulin_022`
+- [24．占运限](./bu2_huozhulin_023.md) — `bu2_huozhulin_023`
+- [25．占婚姻](./bu2_huozhulin_024.md) — `bu2_huozhulin_024`
+- [26．占孕产](./bu2_huozhulin_025.md) — `bu2_huozhulin_025`
+- [27．占科举](./bu2_huozhulin_026.md) — `bu2_huozhulin_026`
+- [28．占谒贵](./bu2_huozhulin_027.md) — `bu2_huozhulin_027`
+- [29．占买卖](./bu2_huozhulin_028.md) — `bu2_huozhulin_028`
+- [30．占求财](./bu2_huozhulin_029.md) — `bu2_huozhulin_029`
+- [31．占博戏](./bu2_huozhulin_030.md) — `bu2_huozhulin_030`
+- [32．占出行](./bu2_huozhulin_031.md) — `bu2_huozhulin_031`
+- [33．占行人](./bu2_huozhulin_032.md) — `bu2_huozhulin_032`
+- [34．占逃亡](./bu2_huozhulin_033.md) — `bu2_huozhulin_033`
+- [35．占逃亡方位](./bu2_huozhulin_034.md) — `bu2_huozhulin_034`
+- [36．占失物鬼祟](./bu2_huozhulin_035.md) — `bu2_huozhulin_035`
+- [37．占贼盗](./bu2_huozhulin_036.md) — `bu2_huozhulin_036`
+- [38．占鬼神](./bu2_huozhulin_037.md) — `bu2_huozhulin_037`
+- [39．占词讼](./bu2_huozhulin_038.md) — `bu2_huozhulin_038`
+- [40．占脱事散忧](./bu2_huozhulin_039.md) — `bu2_huozhulin_039`
+- [41．占疾病](./bu2_huozhulin_040.md) — `bu2_huozhulin_040`
+- [42．病忌官鬼](./bu2_huozhulin_041.md) — `bu2_huozhulin_041`
+- [43．病忌父兄](./bu2_huozhulin_042.md) — `bu2_huozhulin_042`
+- [44．占医药](./bu2_huozhulin_043.md) — `bu2_huozhulin_043`
+- [45．占家宅](./bu2_huozhulin_044.md) — `bu2_huozhulin_044`
+- [46．占人口](./bu2_huozhulin_045.md) — `bu2_huozhulin_045`
+- [47．占起造迁移 附：阳宅](./bu2_huozhulin_046.md) — `bu2_huozhulin_046`
+- [48．占耕种](./bu2_huozhulin_047.md) — `bu2_huozhulin_047`
+- [49．占蚕桑](./bu2_huozhulin_048.md) — `bu2_huozhulin_048`
+- [50．占畜养](./bu2_huozhulin_049.md) — `bu2_huozhulin_049`
+- [51．占渔猎](./bu2_huozhulin_050.md) — `bu2_huozhulin_050`
+- [52．占坟墓](./bu2_huozhulin_051.md) — `bu2_huozhulin_051`
+- [53．占朝国](./bu2_huozhulin_052.md) — `bu2_huozhulin_052`
+- [54．占征战](./bu2_huozhulin_053.md) — `bu2_huozhulin_053`
+- [55．占天时](./bu2_huozhulin_054.md) — `bu2_huozhulin_054`
+- [56．占天道晴雨](./bu2_huozhulin_055.md) — `bu2_huozhulin_055`
+- [57．占射覆](./bu2_huozhulin_056.md) — `bu2_huozhulin_056`
+- [58．覆射物色（节录）](./bu2_huozhulin_057.md) — `bu2_huozhulin_057`
+- [59．占来情](./bu2_huozhulin_058.md) — `bu2_huozhulin_058`
+- [60．达人事](./bu2_huozhulin_059.md) — `bu2_huozhulin_059`
+- [61．占姓字](./bu2_huozhulin_060.md) — `bu2_huozhulin_060`
+- [62．占法卦数（节录）](./bu2_huozhulin_061.md) — `bu2_huozhulin_061`
+- [63．易道心性](./bu2_huozhulin_062.md) — `bu2_huozhulin_062`
+- [64．邵尧夫诗](./bu2_huozhulin_063.md) — `bu2_huozhulin_063`
