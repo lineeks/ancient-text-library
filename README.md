@@ -98,6 +98,14 @@ ancient-text-library/
 │   │   └── zhenjiujiayi/       #   针灸甲乙经 12
 │   └── zhenfa/                 # 诊法（subcategory=zhenfa）
 │       └── maijing/            #   脉经 1
+├── xiang/                       # 相·相术（library/xiang/）
+│   ├── renxiang/                # 人相（subcategory=renxiang）
+│   │   ├── shenxiangquanbian/   #   神相全编 174
+│   │   └── liuzhuangxiangfa/    #   柳庄相法 170
+│   └── dixiang/                 # 地相（subcategory=dixiang）
+│       ├── hanlongjing/         #   撼龙经 1
+│       ├── zangshu/             #   葬书 1
+│       └── qingnangaoyu/        #   青囊奥语 1
 │           └── ziwei/             # 紫微斗数（subcategory=ziwei）
 │               ├── quanshu/       #   紫微斗数全书 17
 │               ├── quanji/        #   紫微斗数全集 29
