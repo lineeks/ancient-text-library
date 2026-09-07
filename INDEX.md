@@ -32,7 +32,12 @@
 | 医·经典 | 八十一难经 | 旧题扁鹊·四库本 | 81 | [索引](./library/yi/jingdian/nanjing/INDEX.md) | ✅ |
 | 医·经典 | 伤寒论 | 汉张仲景·通行本 | 10 | [索引](./library/yi/jingdian/shanghan/INDEX.md) | ✅ |
 | 医·经典 | 神农本草经 | 四库本 | 313 | [索引](./library/yi/jingdian/shennong/INDEX.md) | ✅ |
-| **合计** | **23 部** | — | **2780** | — | — |
+| 医·方书 | 备急千金要方 | 唐孙思邈·四库本 | 30 | [索引](./library/yi/fangshu/qianjinfang/INDEX.md) | ✅ |
+| 医·方书 | 外台秘要 | 唐王焘·明程校 | 40 | [索引](./library/yi/fangshu/waitaimiyao/INDEX.md) | ✅ |
+| 医·温病 | 温病条辨 | 清吴鞠通·通行本 | 6 | [索引](./library/yi/wenbing/wenbingtiaobian/INDEX.md) | ✅ |
+| 医·针灸 | 针灸甲乙经 | 晋皇甫谧·四库本 | 12 | [索引](./library/yi/zhenji/zhenjiujiayi/INDEX.md) | ✅ |
+| 医·诊法 | 脉经 | 晋王叔和·四库本 | 1 | [索引](./library/yi/zhenfa/maijing/INDEX.md) | ✅ |
+| **合计** | **28 部** | — | **2869** | — | — |
 
 ## 目录结构
 
@@ -72,6 +77,15 @@ ancient-text-library/
 │       ├── nanjing/          #   八十一难经 81
 │       ├── shanghan/         #   伤寒论 10
 │       └── shennong/         #   神农本草经 313
+│   ├── fangshu/              # 方书（subcategory=fangshu）
+│   │   ├── qianjinfang/      #   备急千金要方 30
+│   │   └── waitaimiyao/      #   外台秘要 40
+│   ├── wenbing/              # 温病（subcategory=wenbing）
+│   │   └── wenbingtiaobian/  #   温病条辨 6
+│   ├── zhenji/               # 针灸（subcategory=zhenji）
+│   │   └── zhenjiujiayi/     #   针灸甲乙经 12
+│   └── zhenfa/               # 诊法（subcategory=zhenfa）
+│       └── maijing/          #   脉经 1
 │           └── ziwei/         # 紫微斗数（subcategory=ziwei）
 │               ├── quanshu/   # 紫微斗数全书 17
 │               ├── quanji/    # 紫微斗数全集 29

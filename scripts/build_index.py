@@ -363,7 +363,12 @@ def build_root_index(counts):
              f"| 医·经典 | 八十一难经 | 旧题扁鹊·四库本 | {counts['nanjing']} | [索引](./library/yi/jingdian/nanjing/INDEX.md) | ✅ |",
              f"| 医·经典 | 伤寒论 | 汉张仲景·通行本 | {counts['shanghan']} | [索引](./library/yi/jingdian/shanghan/INDEX.md) | ✅ |",
              f"| 医·经典 | 神农本草经 | 四库本 | {counts['shennong']} | [索引](./library/yi/jingdian/shennong/INDEX.md) | ✅ |",
-             f"| **合计** | **23 部** | — | **{total}** | — | — |", "",
+             f"| 医·方书 | 备急千金要方 | 唐孙思邈·四库本 | {counts['qianjinfang']} | [索引](./library/yi/fangshu/qianjinfang/INDEX.md) | ✅ |",
+             f"| 医·方书 | 外台秘要 | 唐王焘·明程校 | {counts['waitaimiyao']} | [索引](./library/yi/fangshu/waitaimiyao/INDEX.md) | ✅ |",
+             f"| 医·温病 | 温病条辨 | 清吴鞠通·通行本 | {counts['wenbingtiaobian']} | [索引](./library/yi/wenbing/wenbingtiaobian/INDEX.md) | ✅ |",
+             f"| 医·针灸 | 针灸甲乙经 | 晋皇甫谧·四库本 | {counts['zhenjiujiayi']} | [索引](./library/yi/zhenji/zhenjiujiayi/INDEX.md) | ✅ |",
+             f"| 医·诊法 | 脉经 | 晋王叔和·四库本 | {counts['maijing']} | [索引](./library/yi/zhenfa/maijing/INDEX.md) | ✅ |",
+             f"| **合计** | **28 部** | — | **{total}** | — | — |", "",
              "## 目录结构", "",
              "```text",
              "ancient-text-library/",
@@ -401,6 +406,15 @@ def build_root_index(counts):
              "│       ├── nanjing/          #   八十一难经 81",
              "│       ├── shanghan/         #   伤寒论 10",
              "│       └── shennong/         #   神农本草经 313",
+             "│   ├── fangshu/              # 方书（subcategory=fangshu）",
+             "│   │   ├── qianjinfang/      #   备急千金要方 30",
+             "│   │   └── waitaimiyao/      #   外台秘要 40",
+             "│   ├── wenbing/              # 温病（subcategory=wenbing）",
+             "│   │   └── wenbingtiaobian/  #   温病条辨 6",
+             "│   ├── zhenji/               # 针灸（subcategory=zhenji）",
+             "│   │   └── zhenjiujiayi/     #   针灸甲乙经 12",
+             "│   └── zhenfa/               # 诊法（subcategory=zhenfa）",
+             "│       └── maijing/          #   脉经 1",
              "│           └── ziwei/         # 紫微斗数（subcategory=ziwei）",
              "│               ├── quanshu/   # 紫微斗数全书 17",
              "│               ├── quanji/    # 紫微斗数全集 29",
@@ -497,6 +511,21 @@ def main():
         ("library/yi/jingdian", "shennong", build_generic_index(
             "神农本草经",
             "四库全书本，上中下三品，313味药，中国现存最早药物学专著，论药物气味、主治、君臣佐使、七情合和。")),
+        ("library/yi/fangshu", "qianjinfang", build_generic_index(
+            "备急千金要方",
+            "唐孙思邈撰，四库全书本，30卷，中国最早临床百科全书，载方5300余首，合方论、针灸、食疗、养生于一体。")),
+        ("library/yi/fangshu", "waitaimiyao", build_generic_index(
+            "外台秘要",
+            "唐王焘撰，明程衍道校，40卷，唐代方书集大成，载方6000余首，集唐以前方书之大成，伤寒遵仲景、论冠病源。")),
+        ("library/yi/wenbing", "wenbingtiaobian", build_generic_index(
+            "温病条辨",
+            "清吴鞠通撰，通行本，6卷，温病学奠基之作，以三焦辨证统摄温病，创银翘散、桑菊饮等名方。")),
+        ("library/yi/zhenji", "zhenjiujiayi", build_generic_index(
+            "针灸甲乙经",
+            "晋皇甫谧撰，四库全书本，12卷，中国现存最早针灸专著，系统整理腧穴、刺法、灸法，为针灸学之祖。")),
+        ("library/yi/zhenfa", "maijing", build_generic_index(
+            "脉经",
+            "晋王叔和撰，四库全书本，10卷，中国现存最早脉学专著，系统整理24种脉象，为脉诊学之祖。")),
     ]
     counts = {}
     for root, book, builder in plan:

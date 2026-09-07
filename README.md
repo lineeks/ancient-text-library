@@ -89,6 +89,15 @@ ancient-text-library/
 │       ├── nanjing/            #   八十一难经 81
 │       ├── shanghan/           #   伤寒论 10
 │       └── shennong/           #   神农本草经 313
+│   ├── fangshu/                # 方书（subcategory=fangshu）
+│   │   ├── qianjinfang/        #   备急千金要方 30
+│   │   └── waitaimiyao/        #   外台秘要 40
+│   ├── wenbing/                # 温病（subcategory=wenbing）
+│   │   └── wenbingtiaobian/    #   温病条辨 6
+│   ├── zhenji/                 # 针灸（subcategory=zhenji）
+│   │   └── zhenjiujiayi/       #   针灸甲乙经 12
+│   └── zhenfa/                 # 诊法（subcategory=zhenfa）
+│       └── maijing/            #   脉经 1
 │           └── ziwei/             # 紫微斗数（subcategory=ziwei）
 │               ├── quanshu/       #   紫微斗数全书 17
 │               ├── quanji/        #   紫微斗数全集 29
