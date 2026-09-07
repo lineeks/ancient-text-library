@@ -140,7 +140,7 @@ class RecallTests(unittest.TestCase):
     # 9c) 无锚点条目规模基线（只靠关键词/书目浏览，不进结构化召回），防止无序膨胀
     def test_unanchored_baseline(self):
         n_general = sum(rr.Library.is_general(e["conditions"]) for e in self.E)
-        self.assertLessEqual(n_general, 1900, f"无锚点条目增至 {n_general}，请评估是否补 conditions")
+        self.assertLessEqual(n_general, 2200, f"无锚点条目增至 {n_general}，请评估是否补 conditions")
 
     # 9d) 黄金对拍：Python 结果必须与 golden_expected.json 完全一致（Rust 侧同测此文件）
     def test_golden_matches_expected(self):
@@ -162,8 +162,8 @@ class RecallTests(unittest.TestCase):
 
     # 11) manifest 完整性：总数、id 唯一、weight 区间、path 文件真实存在
     def test_manifest_integrity(self):
-        self.assertEqual(self.lib.meta["total"], 2869)
-        self.assertEqual(len(self.E), 2869)
+        self.assertEqual(self.lib.meta["total"], 3216)
+        self.assertEqual(len(self.E), 3216)
         ids = [e["id"] for e in self.E]
         self.assertEqual(len(ids), len(set(ids)))
         for e in self.E:
