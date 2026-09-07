@@ -42,7 +42,8 @@
 | 相·地相 | 撼龙经 | 唐杨筠松·通行本 | 1 | [索引](./library/xiang/dixiang/hanlongjing/INDEX.md) | ✅ |
 | 相·地相 | 葬书 | 晋郭璞·通行本 | 1 | [索引](./library/xiang/dixiang/zangshu/INDEX.md) | ✅ |
 | 相·地相 | 青囊奥语 | 唐杨筠松·通行本 | 1 | [索引](./library/xiang/dixiang/qingnangaoyu/INDEX.md) | ✅ |
-| **合计** | **33 部** | — | **3216** | — | — |
+| 卜·易经 | 周易 | 经传合编·通行本 | 68 | [索引](./library/bu/yijing/zhouyi/INDEX.md) | ✅ |
+| **合计** | **34 部** | — | **3284** | — | — |
 
 ## 目录结构
 
@@ -99,6 +100,9 @@ ancient-text-library/
 │       ├── hanlongjing/       #   撼龙经 1
 │       ├── zangshu/           #   葬书 1
 │       └── qingnangaoyu/      #   青囊奥语 1
+├── bu/                          # 卜·卜筮（library/bu/）
+│   └── yijing/                  # 易经（subcategory=yijing）
+│       └── zhouyi/              #   周易 68（64卦+4传）
 │           └── ziwei/         # 紫微斗数（subcategory=ziwei）
 │               ├── quanshu/   # 紫微斗数全书 17
 │               ├── quanji/    # 紫微斗数全集 29

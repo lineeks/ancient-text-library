@@ -35,6 +35,7 @@ ROOTS = [
     ("library/yi/zhenfa", "医部诊法", "yi", "zhenfa"),
     ("library/xiang/renxiang", "相部人相", "xiang", "renxiang"),
     ("library/xiang/dixiang", "相部地相", "xiang", "dixiang"),
+    ("library/bu/yijing", "卜部易经", "bu", "yijing"),
     ("library/yi", "医·中医", "yi", ""),
     ("library/xiang", "相·相术", "xiang", ""),
     ("library/bu", "卜·卜筮", "bu", ""),
