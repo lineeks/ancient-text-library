@@ -117,9 +117,15 @@ def parse_suwen(path):
 
 
 def parse_lingshu(path):
-    """灵枢：按 XXX第X 切分（行首可有全角空格，行尾可有空格）"""
+    """灵枢：按 XXX第X 切分（跳过目录，从正文开始；放宽标题长度到20字）"""
     text = open(path, encoding="utf-8").read()
-    return split_by_pattern(text, r"^　*[\u4e00-\u9fff]{2,15}第[一二三四五六七八九十]+　*$")
+    # 找到第二个"九针十二原第一"（正文开始处），跳过目录
+    first = text.find("九针十二原第一")
+    if first >= 0:
+        second = text.find("九针十二原第一", first + 1)
+        if second >= 0:
+            text = text[second:]
+    return split_by_pattern(text, r"^　*[\u4e00-\u9fff]{2,20}第[一二三四五六七八九十百]+(?:法[天地人时空音律星民野])?　*$")
 
 
 def parse_nanjing(path):
