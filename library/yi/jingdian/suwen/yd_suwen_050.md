@@ -15,10 +15,9 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["中医", "黄帝内经", "针灸"]
+  keywords: ["中医", "黄帝内经", "针灸", "脏腑"]
 weight: 3
-tags: ["医部经典", "黄帝内经素问"]
----
+tags: ["医部经典", "黄帝内经素问"]---
 
 ### 刺齐论篇第五十一
 

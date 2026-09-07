@@ -15,10 +15,9 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["中医", "方剂", "针灸"]
+  keywords: ["中医", "方剂", "针灸", "脏腑"]
 weight: 3
-tags: ["医部经典", "八十一难经"]
----
+tags: ["医部经典", "八十一难经"]---
 
 ### 七十一难
 

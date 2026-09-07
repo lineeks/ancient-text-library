@@ -15,10 +15,9 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["中医", "伤寒论", "六腑", "气血津液"]
+  keywords: ["中医", "伤寒论", "六腑", "气血津液", "脏腑"]
 weight: 3
-tags: ["医部经典", "八十一难经"]
----
+tags: ["医部经典", "八十一难经"]---
 
 ### 三十八难
 
