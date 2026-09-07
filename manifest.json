@@ -31,6 +31,7 @@
     "library/bu/meihua": "卜部梅花",
     "library/bu/qimen": "卜部奇门",
     "library/bu/liuren": "卜部六壬",
+    "library/bu/taiyi": "卜部太乙",
     "library/shan/dandao": "山部丹道",
     "library/shan/wushu": "山部武术",
     "library/shan/yangsheng": "山部养生",
@@ -392,6 +393,14 @@
       "count": 269
     },
     {
+      "dir": "taiyi-jinjingshijing",
+      "tier": "library/bu/taiyi",
+      "tier_name": "卜部太乙",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "count": 111
+    },
+    {
       "dir": "cantongqi",
       "tier": "library/shan/dandao",
       "tier_name": "山部丹道",
@@ -504,6 +513,14 @@
       "count": 0
     },
     {
+      "dir": "taiyi",
+      "tier": "library/bu",
+      "tier_name": "卜·卜筮",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "count": 0
+    },
+    {
       "dir": "yijing",
       "tier": "library/bu",
       "tier_name": "卜·卜筮",
@@ -536,7 +553,7 @@
       "count": 0
     }
   ],
-  "total": 4430,
+  "total": 4541,
   "entries": [
     {
       "id": "bu6_liuren_000",
@@ -29091,6 +29108,3270 @@
           "卜部",
           "奇门",
           "占断"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_000",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_000.md",
+      "weight": 4,
+      "title": "推列宿十二分野立成法",
+      "chapter": "卷一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "八门",
+          "黄道分野",
+          "太乙基础",
+          "占断"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_001",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_001.md",
+      "weight": 4,
+      "title": "推上元积年·推太嵗所在法",
+      "chapter": "卷一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "上元积年",
+          "二十四气",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_002",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_002.md",
+      "weight": 4,
+      "title": "推入六纪三元法",
+      "chapter": "卷一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "上元积年",
+          "太乙基础",
+          "六纪三元"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_003",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_003.md",
+      "weight": 4,
+      "title": "推天目所在法·推计神所在法·推太嵗支合神法",
+      "chapter": "卷一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "上元积年",
+          "天目主客算",
+          "计神"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_004",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_004.md",
+      "weight": 4,
+      "title": "推六纪月建法·推太乙月计差法·推积月·推求闰月",
+      "chapter": "卷一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "上元积年",
+          "天目主客算",
+          "计神",
+          "二十四气",
+          "月日时计",
+          "太乙基础",
+          "六纪三元"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_005",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_005.md",
+      "weight": 4,
+      "title": "推太乙月计所在·推天目所在·推计神所在",
+      "chapter": "卷一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "计神",
+          "月日时计",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_006",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_006.md",
+      "weight": 4,
+      "title": "推日计差法",
+      "chapter": "卷一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "月日时计",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_007",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_007.md",
+      "weight": 4,
+      "title": "推日计太乙所在",
+      "chapter": "卷一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "月日时计",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_008",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_008.md",
+      "weight": 4,
+      "title": "推月计天目所在·推日计计神所在",
+      "chapter": "卷一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "计神",
+          "月日时计"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_009",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_009.md",
+      "weight": 4,
+      "title": "推时计差法",
+      "chapter": "卷一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "上元积年",
+          "阴阳遁",
+          "二十四气",
+          "月日时计",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_010",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_010.md",
+      "weight": 4,
+      "title": "推冬至太乙加时变行",
+      "chapter": "卷一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "二十四气",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_011",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_011.md",
+      "weight": 4,
+      "title": "推太乙夏至加时所在变行",
+      "chapter": "卷一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "阴阳遁",
+          "二十四气",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_012",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_012.md",
+      "weight": 4,
+      "title": "推冬夏二至以后太乙所在法·推隂阳二遁时计计神法",
+      "chapter": "卷一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "计神",
+          "阴阳遁",
+          "月日时计",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_013",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_013.md",
+      "weight": 4,
+      "title": "推时计太乙变卦",
+      "chapter": "卷一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "阴阳遁",
+          "二十四气",
+          "月日时计",
+          "太乙基础",
+          "占断",
+          "六纪三元"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_014",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_014.md",
+      "weight": 4,
+      "title": "推求阳遁太乙直使法",
+      "chapter": "卷一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "计神",
+          "阴阳遁",
+          "直使",
+          "二十四气",
+          "月日时计",
+          "太乙基础",
+          "占断",
+          "六纪三元"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_015",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_015.md",
+      "weight": 4,
+      "title": "推二十四气黄道日度所在立成法",
+      "chapter": "卷一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "二十四气",
+          "黄道分野"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_016",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_016.md",
+      "weight": 4,
+      "title": "推黄道数立成",
+      "chapter": "卷一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "黄道分野"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_017",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_017.md",
+      "weight": 4,
+      "title": "推列宿十二分野立成",
+      "chapter": "卷一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "黄道分野"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_018",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_018.md",
+      "weight": 4,
+      "title": "推太乙当时法",
+      "chapter": "卷一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "计神",
+          "黄道分野",
+          "月日时计",
+          "太乙基础",
+          "占断",
+          "六纪三元"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_019",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_019.md",
+      "weight": 4,
+      "title": "推太乙命法",
+      "chapter": "卷一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_020",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_020.md",
+      "weight": 4,
+      "title": "推太公考时法",
+      "chapter": "卷一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "直使",
+          "太乙基础",
+          "占断"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_021",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_021.md",
+      "weight": 4,
+      "title": "推八门用法",
+      "chapter": "卷一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "八门",
+          "阴阳遁",
+          "直使",
+          "二十四气",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_022",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_022.md",
+      "weight": 4,
+      "title": "推冬至加时所直门法·推夏至加时所直门法",
+      "chapter": "卷一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "八门",
+          "二十四气"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_023",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_023.md",
+      "weight": 4,
+      "title": "推八门占嵗计法",
+      "chapter": "卷一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "上元积年",
+          "天目主客算",
+          "八门",
+          "直使",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_024",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_024.md",
+      "weight": 4,
+      "title": "推太乙所在法",
+      "chapter": "卷二",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_025",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_025.md",
+      "weight": 4,
+      "title": "推五将所主法",
+      "chapter": "卷二",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "计神",
+          "八门",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_026",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_026.md",
+      "weight": 4,
+      "title": "推九宫所主法",
+      "chapter": "卷二",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "计神",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_027",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_027.md",
+      "weight": 4,
+      "title": "推八门所主法",
+      "chapter": "卷二",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "八门"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_028",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_028.md",
+      "weight": 4,
+      "title": "推十六神所主法",
+      "chapter": "卷二",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_029",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_029.md",
+      "weight": 4,
+      "title": "推太乙式仪法",
+      "chapter": "卷二",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "八门",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_030",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_030.md",
+      "weight": 4,
+      "title": "推太乙运式法",
+      "chapter": "卷二",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "计神",
+          "太乙基础",
+          "占断"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_031",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_031.md",
+      "weight": 4,
+      "title": "推太乙用式不同法",
+      "chapter": "卷二",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "月日时计",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_032",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_032.md",
+      "weight": 4,
+      "title": "推隂阳和不和",
+      "chapter": "卷二",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_033",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_033.md",
+      "weight": 4,
+      "title": "推帝王年纪法·推太乙三门五将立成法",
+      "chapter": "卷二",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "上元积年",
+          "黄道分野",
+          "太乙基础",
+          "六纪三元"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_034",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_034.md",
+      "weight": 4,
+      "title": "推掩法",
+      "chapter": "卷三",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "计神",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_035",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_035.md",
+      "weight": 4,
+      "title": "推撃法",
+      "chapter": "卷三",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_036",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_036.md",
+      "weight": 4,
+      "title": "推迫法",
+      "chapter": "卷三",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_037",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_037.md",
+      "weight": 4,
+      "title": "推囚法·推闗法",
+      "chapter": "卷三",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_038",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_038.md",
+      "weight": 4,
+      "title": "推格法·推对法",
+      "chapter": "卷三",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_039",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_039.md",
+      "weight": 4,
+      "title": "推四郭固法",
+      "chapter": "卷三",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_040",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_040.md",
+      "weight": 4,
+      "title": "推执提法",
+      "chapter": "卷三",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "八门",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_041",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_041.md",
+      "weight": 4,
+      "title": "推提挟法",
+      "chapter": "卷三",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "计神",
+          "八门",
+          "黄道分野",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_042",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_042.md",
+      "weight": 4,
+      "title": "推五将发不发",
+      "chapter": "卷四",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "计神"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_043",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_043.md",
+      "weight": 4,
+      "title": "推主客相闗法",
+      "chapter": "卷四",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "月日时计",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_044",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_044.md",
+      "weight": 4,
+      "title": "推主客",
+      "chapter": "卷四",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_045",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_045.md",
+      "weight": 4,
+      "title": "推出师法",
+      "chapter": "卷四",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_046",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_046.md",
+      "weight": 4,
+      "title": "推陈兵向背",
+      "chapter": "卷四",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_047",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_047.md",
+      "weight": 4,
+      "title": "推制阵随地法",
+      "chapter": "卷四",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_048",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_048.md",
+      "weight": 4,
+      "title": "推随地制变",
+      "chapter": "卷四",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_049",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_049.md",
+      "weight": 4,
+      "title": "推太乙在天外地内法",
+      "chapter": "卷四",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_050",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_050.md",
+      "weight": 4,
+      "title": "推竒伏法",
+      "chapter": "卷四",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_051",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_051.md",
+      "weight": 4,
+      "title": "推太乙风云飞鸟助战法",
+      "chapter": "卷四",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_052",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_052.md",
+      "weight": 4,
+      "title": "推阵有风云气定胜负",
+      "chapter": "卷四",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "太乙基础",
+          "占断"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_053",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_053.md",
+      "weight": 4,
+      "title": "推君基太乙法",
+      "chapter": "卷五",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_054",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_054.md",
+      "weight": 4,
+      "title": "推臣基太乙法",
+      "chapter": "卷五",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "上元积年",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_055",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_055.md",
+      "weight": 4,
+      "title": "推民基太乙法",
+      "chapter": "卷五",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "上元积年",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_056",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_056.md",
+      "weight": 4,
+      "title": "推五福太乙法",
+      "chapter": "卷五",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "上元积年",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_057",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_057.md",
+      "weight": 4,
+      "title": "推大游太乙入纪年及天目法",
+      "chapter": "卷五",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "计神",
+          "太乙基础",
+          "六纪三元"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_058",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_058.md",
+      "weight": 4,
+      "title": "推大游太乙所在【天目大煞附】",
+      "chapter": "卷五",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "上元积年",
+          "天目主客算",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_059",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_059.md",
+      "weight": 4,
+      "title": "推大游天目所在法",
+      "chapter": "卷五",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "上元积年",
+          "天目主客算",
+          "直使",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_060",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_060.md",
+      "weight": 4,
+      "title": "推四神太乙法",
+      "chapter": "卷五",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "上元积年",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_061",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_061.md",
+      "weight": 4,
+      "title": "推天乙太乙法",
+      "chapter": "卷五",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_062",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_062.md",
+      "weight": 4,
+      "title": "推直符太乙法",
+      "chapter": "卷五",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "直使",
+          "黄道分野",
+          "太乙基础",
+          "六纪三元"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_063",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_063.md",
+      "weight": 4,
+      "title": "推临津问道术一",
+      "chapter": "卷六",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "计神"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_064",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_064.md",
+      "weight": 4,
+      "title": "推狮子反掷术二",
+      "chapter": "卷六",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "计神"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_065",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_065.md",
+      "weight": 4,
+      "title": "推白云卷空术三",
+      "chapter": "卷六",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "计神",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_066",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_066.md",
+      "weight": 4,
+      "title": "推猛虎相拒术四",
+      "chapter": "卷六",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "计神",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_067",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_067.md",
+      "weight": 4,
+      "title": "推雷公入水术五",
+      "chapter": "卷六",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "计神",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_068",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_068.md",
+      "weight": 4,
+      "title": "推白龙得云术六",
+      "chapter": "卷六",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "计神",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_069",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_069.md",
+      "weight": 4,
+      "title": "推逥军无言术七",
+      "chapter": "卷六",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "计神",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_070",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_070.md",
+      "weight": 4,
+      "title": "推三才以占天地人八·推长短以占缓急九",
+      "chapter": "卷六",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_071",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_071.md",
+      "weight": 4,
+      "title": "推五音以占灾变十",
+      "chapter": "卷六",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_072",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_072.md",
+      "weight": 4,
+      "title": "推孤单以占成败十一",
+      "chapter": "卷六",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_073",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_073.md",
+      "weight": 4,
+      "title": "推内外以占攻击十二·推多少以占胜负十三·推隂阳以占",
+      "chapter": "卷六",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "太乙基础",
+          "占断"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_074",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_074.md",
+      "weight": 4,
+      "title": "推天皇太乙法",
+      "chapter": "卷七",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "上元积年",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_075",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_075.md",
+      "weight": 4,
+      "title": "推帝符太乙法",
+      "chapter": "卷七",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "上元积年",
+          "天目主客算",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_076",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_076.md",
+      "weight": 4,
+      "title": "推天时太乙法",
+      "chapter": "卷七",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "上元积年",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_077",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_077.md",
+      "weight": 4,
+      "title": "推太尊太乙法",
+      "chapter": "卷七",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "上元积年",
+          "天目主客算",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_078",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_078.md",
+      "weight": 4,
+      "title": "推飞鸟太乙法",
+      "chapter": "卷七",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "上元积年",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_079",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_079.md",
+      "weight": 4,
+      "title": "推五行太乙法",
+      "chapter": "卷七",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "上元积年",
+          "天目主客算",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_080",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_080.md",
+      "weight": 4,
+      "title": "推三风太乙法",
+      "chapter": "卷七",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "上元积年",
+          "天目主客算",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_081",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_081.md",
+      "weight": 4,
+      "title": "推五风太乙法",
+      "chapter": "卷七",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "上元积年",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_082",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_082.md",
+      "weight": 4,
+      "title": "推八风太乙法",
+      "chapter": "卷七",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "上元积年",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_083",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_083.md",
+      "weight": 4,
+      "title": "推太乙数法",
+      "chapter": "卷七",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "上元积年",
+          "天目主客算",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_084",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_084.md",
+      "weight": 4,
+      "title": "推十精太乙法",
+      "chapter": "卷七",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "阴阳遁",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_085",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_085.md",
+      "weight": 4,
+      "title": "推十精太乙云气法",
+      "chapter": "卷七",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "月日时计",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_086",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_086.md",
+      "weight": 4,
+      "title": "推太嵗有阳九之灾法",
+      "chapter": "卷七",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "黄道分野"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_087",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_087.md",
+      "weight": 4,
+      "title": "推太乙有百六之厄法",
+      "chapter": "卷七",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "上元积年",
+          "黄道分野",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_088",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_088.md",
+      "weight": 4,
+      "title": "推九宫分野",
+      "chapter": "卷八",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "黄道分野",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_089",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_089.md",
+      "weight": 4,
+      "title": "推敌国动静",
+      "chapter": "卷九",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "计神",
+          "八门",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_090",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_090.md",
+      "weight": 4,
+      "title": "推敌使言虚实",
+      "chapter": "卷九",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "计神",
+          "阴阳遁",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_091",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_091.md",
+      "weight": 4,
+      "title": "推敌国有无间谍",
+      "chapter": "卷九",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "计神",
+          "阴阳遁",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_092",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_092.md",
+      "weight": 4,
+      "title": "推敌来方面法",
+      "chapter": "卷九",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "计神",
+          "八门",
+          "阴阳遁",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_093",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_093.md",
+      "weight": 4,
+      "title": "推太乙所在兵法",
+      "chapter": "卷九",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_094",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_094.md",
+      "weight": 4,
+      "title": "推始击将临二十八舍法",
+      "chapter": "卷九",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "计神"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_095",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_095.md",
+      "weight": 4,
+      "title": "推太乙上下二目与太隂相并",
+      "chapter": "卷九",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "计神",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_096",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_096.md",
+      "weight": 4,
+      "title": "推太乙与太嵗格",
+      "chapter": "卷九",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_097",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_097.md",
+      "weight": 4,
+      "title": "推天子巡狩",
+      "chapter": "卷十",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_098",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_098.md",
+      "weight": 4,
+      "title": "推郡国举贤良",
+      "chapter": "卷十",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_099",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_099.md",
+      "weight": 4,
+      "title": "推太乙择日",
+      "chapter": "卷十",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "月日时计",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_100",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_100.md",
+      "weight": 4,
+      "title": "推太乙择时法",
+      "chapter": "卷十",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "月日时计",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_101",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_101.md",
+      "weight": 4,
+      "title": "推嵗中灾发",
+      "chapter": "卷十",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_102",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_102.md",
+      "weight": 4,
+      "title": "推域名厄防法",
+      "chapter": "卷十",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_103",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_103.md",
+      "weight": 4,
+      "title": "推飞行四杀",
+      "chapter": "卷十",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_104",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_104.md",
+      "weight": 4,
+      "title": "推九州域名法",
+      "chapter": "卷十",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_105",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_105.md",
+      "weight": 4,
+      "title": "推见闻虚实法",
+      "chapter": "卷十",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "月日时计",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_106",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_106.md",
+      "weight": 4,
+      "title": "推望行人法",
+      "chapter": "卷十",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_107",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_107.md",
+      "weight": 4,
+      "title": "推执囚",
+      "chapter": "卷十",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_108",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_108.md",
+      "weight": 4,
+      "title": "推求索",
+      "chapter": "卷十",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_109",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_109.md",
+      "weight": 4,
+      "title": "推叛亡",
+      "chapter": "卷十",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "月日时计",
+          "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "bu7_taiyi_110",
+      "book": "太乙金镜式经",
+      "type": "chapter",
+      "tier": "library/bu/taiyi",
+      "category": "bu",
+      "subcategory": "taiyi",
+      "path": "library/bu/taiyi/taiyi-jinjingshijing/bu7_taiyi_110.md",
+      "weight": 4,
+      "title": "推杂事",
+      "chapter": "卷十",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "太乙金镜式经",
+          "卜部",
+          "太乙",
+          "三式",
+          "天目主客算",
+          "太乙基础"
         ]
       }
     },
