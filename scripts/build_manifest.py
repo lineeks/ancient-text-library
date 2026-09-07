@@ -36,6 +36,7 @@ ROOTS = [
     ("library/xiang/renxiang", "相部人相", "xiang", "renxiang"),
     ("library/xiang/dixiang", "相部地相", "xiang", "dixiang"),
     ("library/bu/yijing", "卜部易经", "bu", "yijing"),
+    ("library/bu/liuyao", "卜部六爻", "bu", "liuyao"),
     ("library/shan/dandao", "山部丹道", "shan", "dandao"),
     ("library/shan/wushu", "山部武术", "shan", "wushu"),
     ("library/shan/yangsheng", "山部养生", "shan", "yangsheng"),

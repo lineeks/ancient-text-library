@@ -400,8 +400,8 @@ mod tests {
         let path = concat!(env!("CARGO_MANIFEST_DIR"), "/../manifest.json");
         let text = std::fs::read_to_string(path).expect("manifest.json 应存在于库根");
         let l = Library::from_json(&text).unwrap();
-        assert_eq!(l.total(), 3412);
-        assert_eq!(l.entries().len(), 3412);
+        assert_eq!(l.total(), 3476);
+        assert_eq!(l.entries().len(), 3476);
         // 甲日寅月首条即穷通精确锚定
         let r = l.query(&Chart::new().day_master(&["Jia"]).month_branch(&["Yin"]));
         assert_eq!(r[0].id, "qtbj_jia_yin");
