@@ -379,6 +379,7 @@ def build_root_index(counts):
              f"| 卜·梅花 | 梅花易数 | 宋邵雍·通行本 | {counts['meihuayishu']} | [索引](./library/bu/meihua/meihuayishu/INDEX.md) | ✅ |",
              f"| 卜·奇门 | 奇门遁甲秘笈大全 | 明刘基辑·通行本 | {counts['qimen-dunjia-miji']} | [索引](./library/bu/qimen/qimen-dunjia-miji/INDEX.md) | ✅ |",
              f"| 卜·六壬 | 六壬大全 | 明郭载騋校·四库全书本 | {counts['liuren-daquan']} | [索引](./library/bu/liuren/liuren-daquan/INDEX.md) | ✅ |",
+             f"| 卜·太乙 | 太乙金镜式经 | 唐王希明撰·四库全书本 | {counts['taiyi-jinjingshijing']} | [索引](./library/bu/taiyi/taiyi-jinjingshijing/INDEX.md) | ✅ |",
              f"| 山·丹道 | 周易参同契分章通真义 | 汉魏伯阳·五代彭晓注 | {counts['cantongqi']} | [索引](./library/shan/dandao/cantongqi/INDEX.md) | ✅ |",
              f"| 山·武术 | 太极拳论 | 清王宗岳·艺藏本 | {counts['taijilun']} | [索引](./library/shan/wushu/taijilun/INDEX.md) | ✅ |",
              f"| 山·养生 | 达摩洗髓易筋经 | 艺藏本 | {counts['yijinjing']} | [索引](./library/shan/yangsheng/yijinjing/INDEX.md) | ✅ |",
@@ -448,6 +449,8 @@ def build_root_index(counts):
              "│       └── qimen-dunjia-miji/   #   奇门遁甲秘笈大全 382",
              "│   └── liuren/                  # 大六壬（subcategory=liuren）",
              "│       └── liuren-daquan/       #   六壬大全 269",
+             "│   └── taiyi/                   # 太乙神数（subcategory=taiyi）",
+             "│       └── taiyi-jinjingshijing/ #  太乙金镜式经 111",
              "├── shan/                        # 山·山术（library/shan/）",
              "│   ├── dandao/                  # 丹道（subcategory=dandao）",
              "│   │   └── cantongqi/           #   周易参同契分章通真义 66",
@@ -599,6 +602,9 @@ def main():
         ("library/bu/liuren", "liuren-daquan", build_generic_index(
             "六壬大全",
             "不著撰人名氏，明郭载騋校，四库全书本，269条，大六壬集大成，与奇门遁甲、太乙神数并称三式，以月将加时起天盘，四课三传发用，排布十二天将，审五行生克旺衰，定吉凶祸福，为古代占验术数中最古奥精密之学。")),
+        ("library/bu/taiyi", "taiyi-jinjingshijing", build_generic_index(
+            "太乙金镜式经",
+            "唐王希明撰，四库全书本，111条，太乙神数集大成，与奇门遁甲、大六壬并称三式，以太乙为天帝之神，下司九宫，以上元积年起算，推太岁天目计神之所在，定主算客算之长短，审八门阴阳遁之吉凶，为古代天文占验与历算之集大成术数。")),
         ("library/shan/dandao", "cantongqi", build_generic_index(
             "周易参同契分章通真义",
             "汉魏伯阳原著，五代彭晓注，正统道藏太玄部，88章，丹道鼻祖，以周易阴阳象喻论金丹炉火，为内丹学之祖。")),
