@@ -377,6 +377,7 @@ def build_root_index(counts):
              f"| 卜·六爻 | 火珠林 | 题麻衣道者·通行本 | {counts['huozhulin']} | [索引](./library/bu/liuyao/huozhulin/INDEX.md) | ✅ |",
              f"| 卜·六爻 | 增删卜易 | 清野鹤老人·通行本 | {counts['zengshanbuyi']} | [索引](./library/bu/liuyao/zengshanbuyi/INDEX.md) | ✅ |",
              f"| 卜·梅花 | 梅花易数 | 宋邵雍·通行本 | {counts['meihuayishu']} | [索引](./library/bu/meihua/meihuayishu/INDEX.md) | ✅ |",
+             f"| 卜·奇门 | 奇门遁甲秘笈大全 | 明刘基辑·通行本 | {counts['qimen-dunjia-miji']} | [索引](./library/bu/qimen/qimen-dunjia-miji/INDEX.md) | ✅ |",
              f"| 山·丹道 | 周易参同契分章通真义 | 汉魏伯阳·五代彭晓注 | {counts['cantongqi']} | [索引](./library/shan/dandao/cantongqi/INDEX.md) | ✅ |",
              f"| 山·武术 | 太极拳论 | 清王宗岳·艺藏本 | {counts['taijilun']} | [索引](./library/shan/wushu/taijilun/INDEX.md) | ✅ |",
              f"| 山·养生 | 达摩洗髓易筋经 | 艺藏本 | {counts['yijinjing']} | [索引](./library/shan/yangsheng/yijinjing/INDEX.md) | ✅ |",
@@ -442,6 +443,8 @@ def build_root_index(counts):
              "│       └── huozhulin/           #   火珠林 64",
              "│   └── meihua/                  # 梅花易数（subcategory=meihua）",
              "│       └── meihuayishu/         #   梅花易数 136",
+             "│   └── qimen/                   # 奇门遁甲（subcategory=qimen）",
+             "│       └── qimen-dunjia-miji/   #   奇门遁甲秘笈大全 382",
              "├── shan/                        # 山·山术（library/shan/）",
              "│   ├── dandao/                  # 丹道（subcategory=dandao）",
              "│   │   └── cantongqi/           #   周易参同契分章通真义 66",
@@ -587,6 +590,9 @@ def main():
         ("library/bu/meihua", "meihuayishu", build_generic_index(
             "梅花易数",
             "宋邵雍撰，通行本，136条，梅花易数派鼻祖，以体用生克、卦气旺衰、万物类象为核心，不拘古法随心起卦，为象数易占之集大成者。")),
+        ("library/bu/qimen", "qimen-dunjia-miji", build_generic_index(
+            "奇门遁甲秘笈大全",
+            "题明刘基（伯温）辑，通行本，382条，奇门遁甲集大成，以九宫八卦为框架，排布九星八门三奇六仪，分阴阳二遁一百八十局，审天盘地盘之生克，定直符直使之吉凶，为古代兵占与方位选择之集大成术数。")),
         ("library/shan/dandao", "cantongqi", build_generic_index(
             "周易参同契分章通真义",
             "汉魏伯阳原著，五代彭晓注，正统道藏太玄部，88章，丹道鼻祖，以周易阴阳象喻论金丹炉火，为内丹学之祖。")),
