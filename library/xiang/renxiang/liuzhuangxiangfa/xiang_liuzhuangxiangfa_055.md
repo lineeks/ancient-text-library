@@ -15,10 +15,9 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["相术", "峦头派"]
+  keywords: ["相术", "峦头派", "人相气色", "地相砂水"]
 weight: 3
-tags: ["相部", "柳庄相法"]
----
+tags: ["相部", "柳庄相法"]---
 
 ### 五十六、发秉血余，乃山林草木
 

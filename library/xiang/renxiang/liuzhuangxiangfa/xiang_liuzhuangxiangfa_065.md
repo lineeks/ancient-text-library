@@ -15,10 +15,9 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["相术", "纹痣"]
+  keywords: ["相术", "纹痣", "人相气色"]
 weight: 3
-tags: ["相部", "柳庄相法"]
----
+tags: ["相部", "柳庄相法"]---
 
 ### 六十六、阴囊玉茎，乃性命之根本
 

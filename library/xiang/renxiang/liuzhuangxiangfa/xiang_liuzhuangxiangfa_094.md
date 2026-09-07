@@ -15,10 +15,9 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["相术", "峦头派"]
+  keywords: ["相术", "峦头派", "人相气色", "地相龙法"]
 weight: 3
-tags: ["相部", "柳庄相法"]
----
+tags: ["相部", "柳庄相法"]---
 
 ### 一、朕居王位，出于何相，而得万民之王？
 

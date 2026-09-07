@@ -15,10 +15,9 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["相术", "气色", "纹痣"]
+  keywords: ["相术", "气色", "纹痣", "人相部位", "人相气色", "地相理气"]
 weight: 3
-tags: ["相部", "柳庄相法"]
----
+tags: ["相部", "柳庄相法"]---
 
 ### 三十四、额为火星
 

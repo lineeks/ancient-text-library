@@ -15,10 +15,9 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["相术", "相学名著", "行止相"]
+  keywords: ["相术", "相学名著", "行止相", "人相气色"]
 weight: 3
-tags: ["相部", "柳庄相法"]
----
+tags: ["相部", "柳庄相法"]---
 
 ### 十五、古相多般一时难过，今时气数难依古书
 

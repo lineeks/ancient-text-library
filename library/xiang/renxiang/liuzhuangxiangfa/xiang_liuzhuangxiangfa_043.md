@@ -15,10 +15,9 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["相术", "行止相"]
+  keywords: ["相术", "行止相", "人相部位", "人相气色", "地相理气"]
 weight: 3
-tags: ["相部", "柳庄相法"]
----
+tags: ["相部", "柳庄相法"]---
 
 ### 四十四、耳为丰神精彩，助一面威仪
 

@@ -15,10 +15,9 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["相术"]
+  keywords: ["相术", "人相气色", "地相理气"]
 weight: 3
-tags: ["相部", "神相全编"]
----
+tags: ["相部", "神相全编"]---
 
 ### 相主神有七
 

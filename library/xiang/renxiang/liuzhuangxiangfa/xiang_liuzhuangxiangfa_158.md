@@ -15,10 +15,9 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["相术", "行止相"]
+  keywords: ["相术", "行止相", "人相部位", "人相气色"]
 weight: 3
-tags: ["相部", "柳庄相法"]
----
+tags: ["相部", "柳庄相法"]---
 
 ### 七十、才学在人腹内，何能得知？
 

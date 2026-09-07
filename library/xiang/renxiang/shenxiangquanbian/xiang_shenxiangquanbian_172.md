@@ -15,10 +15,9 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["相术", "纹痣"]
+  keywords: ["相术", "纹痣", "人相部位", "人相气色"]
 weight: 3
-tags: ["相部", "神相全编"]
----
+tags: ["相部", "神相全编"]---
 
 ### 火灾格
 

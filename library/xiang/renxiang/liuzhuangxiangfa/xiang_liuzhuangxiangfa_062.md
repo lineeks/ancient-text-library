@@ -15,10 +15,9 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["相术", "纹痣", "骨相"]
+  keywords: ["相术", "纹痣", "骨相", "人相部位", "人相气色"]
 weight: 3
-tags: ["相部", "柳庄相法"]
----
+tags: ["相部", "柳庄相法"]---
 
 ### 六十三、枕骨可全福禄寿，但喜双不喜单
 
