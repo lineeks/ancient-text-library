@@ -27,7 +27,12 @@
 | 补遗·格局赋文 | 兰台妙选 | 明西窗老人·四库本 | 303 | [索引](./library/ming/bazi/extended/lantaimiaoxuan/INDEX.md) | ✅ |
 | 补遗·子平赋文 | 三命指迷赋 | 宋岳珂补注·四库本 | 82 | [索引](./library/ming/bazi/extended/sanmingzhimifu/INDEX.md) | ✅ |
 | 命·七政四余 | 星学大成 | 明万民英撰·四库本 | 30 | [索引](./library/ming/qizheng/xingxuedacheng/INDEX.md) | ✅ |
-| **合计** | **18 部** | — | **2224** | — | — |
+| 医·经典 | 黄帝内经素问 | 唐王冰注·宋林亿校 | 81 | [索引](./library/yi/jingdian/suwen/INDEX.md) | ✅ |
+| 医·经典 | 灵枢经 | 四库本 | 71 | [索引](./library/yi/jingdian/lingshu/INDEX.md) | ✅ |
+| 医·经典 | 八十一难经 | 旧题扁鹊·四库本 | 81 | [索引](./library/yi/jingdian/nanjing/INDEX.md) | ✅ |
+| 医·经典 | 伤寒论 | 汉张仲景·通行本 | 10 | [索引](./library/yi/jingdian/shanghan/INDEX.md) | ✅ |
+| 医·经典 | 神农本草经 | 四库本 | 313 | [索引](./library/yi/jingdian/shennong/INDEX.md) | ✅ |
+| **合计** | **23 部** | — | **2780** | — | — |
 
 ## 目录结构
 
@@ -60,6 +65,13 @@ ancient-text-library/
 │               └── sanmingzhimifu/ # 三命指迷赋 82
 │           └── qizheng/       # 七政四余（subcategory=qizheng）
 │               └── xingxuedacheng/ # 星学大成 30
+├── yi/                        # 医·中医（library/yi/）
+│   └── jingdian/             # 医部经典（subcategory=jingdian）
+│       ├── suwen/            #   黄帝内经素问 81
+│       ├── lingshu/          #   灵枢经 71
+│       ├── nanjing/          #   八十一难经 81
+│       ├── shanghan/         #   伤寒论 10
+│       └── shennong/         #   神农本草经 313
 │           └── ziwei/         # 紫微斗数（subcategory=ziwei）
 │               ├── quanshu/   # 紫微斗数全书 17
 │               ├── quanji/    # 紫微斗数全集 29
