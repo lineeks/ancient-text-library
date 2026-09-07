@@ -117,7 +117,9 @@ def parse_suwen(path):
 
 
 def parse_lingshu(path):
-    """灵枢：按 XXX第X 切分（跳过目录，从正文开始；放宽标题长度到20字）"""
+    """灵枢：按 XXX第X 切分（跳过目录，从正文开始；放宽标题长度到20字）
+    校勘补遗：raw中杂病第二十六、水胀第五十七正文存在但无标题行，
+    在切分前自动插入缺失标题。"""
     text = open(path, encoding="utf-8").read()
     # 找到第二个"九针十二原第一"（正文开始处），跳过目录
     first = text.find("九针十二原第一")
@@ -125,6 +127,10 @@ def parse_lingshu(path):
         second = text.find("九针十二原第一", first + 1)
         if second >= 0:
             text = text[second:]
+    # 校勘：插入杂病第二十六标题（正文以"厥挟脊而痛者"开头，在病本篇之后）
+    text = text.replace("厥挟脊而痛者，至顶", "杂病第二十六\n\n厥挟脊而痛者，至顶", 1)
+    # 校勘：插入水胀第五十七标题（正文以"黄帝问于岐伯曰：水与肤胀"开头，在五味篇之后）
+    text = text.replace("黄帝问于岐伯曰：水与肤胀", "水胀第五十七\n\n黄帝问于岐伯曰：水与肤胀", 1)
     return split_by_pattern(text, r"^　*[\u4e00-\u9fff]{2,20}第[一二三四五六七八九十百]+(?:法[天地人时空音律星民野])?　*$")
 
 
