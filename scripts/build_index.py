@@ -373,7 +373,8 @@ def build_root_index(counts):
              f"| 相·地相 | 撼龙经 | 唐杨筠松·通行本 | {counts['hanlongjing']} | [索引](./library/xiang/dixiang/hanlongjing/INDEX.md) | ✅ |",
              f"| 相·地相 | 葬书 | 晋郭璞·通行本 | {counts['zangshu']} | [索引](./library/xiang/dixiang/zangshu/INDEX.md) | ✅ |",
              f"| 相·地相 | 青囊奥语 | 唐杨筠松·通行本 | {counts['qingnangaoyu']} | [索引](./library/xiang/dixiang/qingnangaoyu/INDEX.md) | ✅ |",
-             f"| **合计** | **33 部** | — | **{total}** | — | — |", "",
+             f"| 卜·易经 | 周易 | 经传合编·通行本 | {counts['zhouyi']} | [索引](./library/bu/yijing/zhouyi/INDEX.md) | ✅ |",
+             f"| **合计** | **34 部** | — | **{total}** | — | — |", "",
              "## 目录结构", "",
              "```text",
              "ancient-text-library/",
@@ -428,6 +429,9 @@ def build_root_index(counts):
              "│       ├── hanlongjing/       #   撼龙经 1",
              "│       ├── zangshu/           #   葬书 1",
              "│       └── qingnangaoyu/      #   青囊奥语 1",
+             "├── bu/                          # 卜·卜筮（library/bu/）",
+             "│   └── yijing/                  # 易经（subcategory=yijing）",
+             "│       └── zhouyi/              #   周易 68（64卦+4传）",
              "│           └── ziwei/         # 紫微斗数（subcategory=ziwei）",
              "│               ├── quanshu/   # 紫微斗数全书 17",
              "│               ├── quanji/    # 紫微斗数全集 29",
@@ -554,6 +558,9 @@ def main():
         ("library/xiang/dixiang", "qingnangaoyu", build_generic_index(
             "青囊奥语",
             "唐杨筠松撰，通行本，理气派风水经典，以阴阳五行、三元九运论龙穴砂水，为玄空理气之宗。")),
+        ("library/bu/yijing", "zhouyi", build_generic_index(
+            "周易",
+            "周易经传合编，通行本，64卦+易传4篇（系辞/说卦/序卦/杂卦），群经之首，大道之源，以阴阳八卦论天地人三才之道，为五术卜部之根本经典。")),
     ]
     counts = {}
     for root, book, builder in plan:

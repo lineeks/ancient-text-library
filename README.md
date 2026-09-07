@@ -106,6 +106,9 @@ ancient-text-library/
 │       ├── hanlongjing/         #   撼龙经 1
 │       ├── zangshu/             #   葬书 1
 │       └── qingnangaoyu/        #   青囊奥语 1
+├── bu/                            # 卜·卜筮（library/bu/）
+│   └── yijing/                    # 易经（subcategory=yijing）
+│       └── zhouyi/                #   周易 68（64卦+4传）
 │           └── ziwei/             # 紫微斗数（subcategory=ziwei）
 │               ├── quanshu/       #   紫微斗数全书 17
 │               ├── quanji/        #   紫微斗数全集 29
