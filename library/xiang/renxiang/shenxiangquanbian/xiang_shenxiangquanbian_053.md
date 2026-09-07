@@ -15,10 +15,9 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["相术", "面相部位"]
+  keywords: ["相术", "面相部位", "人相部位", "人相格局", "人相气色"]
 weight: 3
-tags: ["相部", "神相全编"]
----
+tags: ["相部", "神相全编"]---
 
 ### 面三停
 

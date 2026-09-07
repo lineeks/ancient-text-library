@@ -15,10 +15,9 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["相术", "峦头派"]
+  keywords: ["相术", "峦头派", "人相部位", "人相气色", "地相砂水"]
 weight: 3
-tags: ["相部", "柳庄相法"]
----
+tags: ["相部", "柳庄相法"]---
 
 ### 三十三、口为水星
 

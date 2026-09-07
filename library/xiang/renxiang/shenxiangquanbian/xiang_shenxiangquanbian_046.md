@@ -15,10 +15,9 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["相术", "气色"]
+  keywords: ["相术", "气色", "人相部位", "人相格局", "人相气色", "地相理气"]
 weight: 3
-tags: ["相部", "神相全编"]
----
+tags: ["相部", "神相全编"]---
 
 ### 十二宫总诀
 

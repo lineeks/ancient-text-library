@@ -15,10 +15,9 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["六爻"]
+  keywords: ["六爻", "易经爻位", "六爻六亲", "六爻旺衰", "六爻冲合"]
 weight: 4
-tags: ["卜部", "火珠林"]
----
+tags: ["卜部", "火珠林"]---
 
 ### 64．邵尧夫诗
 

@@ -15,10 +15,9 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["相术", "行止相", "阴阳相"]
+  keywords: ["相术", "行止相", "阴阳相", "人相部位", "人相气色"]
 weight: 3
-tags: ["相部", "柳庄相法"]
----
+tags: ["相部", "柳庄相法"]---
 
 ### 三十二、三阳明旺何为三阳？
 

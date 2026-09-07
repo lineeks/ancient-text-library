@@ -15,10 +15,9 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["相术", "骨相", "声音相"]
+  keywords: ["相术", "骨相", "声音相", "人相部位", "人相格局", "人相气色"]
 weight: 3
-tags: ["相部", "柳庄相法"]
----
+tags: ["相部", "柳庄相法"]---
 
 ### 十、闭女童女另有一相
 

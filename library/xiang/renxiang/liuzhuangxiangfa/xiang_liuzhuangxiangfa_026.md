@@ -15,10 +15,9 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["相术", "峦头派", "行止相"]
+  keywords: ["相术", "峦头派", "行止相", "人相部位", "人相气色", "地相龙法"]
 weight: 3
-tags: ["相部", "柳庄相法"]
----
+tags: ["相部", "柳庄相法"]---
 
 ### 二十七、耳为采听官
 

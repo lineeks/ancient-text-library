@@ -15,10 +15,9 @@ conditions:
   ten_god: []
   pattern: []
   shensha: []
-  keywords: ["相术", "阴阳相"]
+  keywords: ["相术", "阴阳相", "人相部位", "人相气色"]
 weight: 3
-tags: ["相部", "柳庄相法"]
----
+tags: ["相部", "柳庄相法"]---
 
 ### 四十一、凡男女犯孤，莫非全犯？不然二人岂
 
