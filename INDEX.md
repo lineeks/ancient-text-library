@@ -56,7 +56,8 @@
 | 山·武术 | 太极拳论 | 清王宗岳·艺藏本 | 1 | [索引](./library/shan/wushu/taijilun/INDEX.md) | ✅ |
 | 山·养生 | 达摩洗髓易筋经 | 艺藏本 | 22 | [索引](./library/shan/yangsheng/yijinjing/INDEX.md) | ✅ |
 | 山·养生 | 八段锦 | 抖音百科整理（起源宋朝） | 10 | [索引](./library/shan/yangsheng/baduanjin/INDEX.md) | ✅ |
-| **合计** | **40 部** | — | **4695** | — | — |
+| 山·养生 | 五禽戏 | 中国道教协会《太上老君养生诀》（汉末华佗授） | 9 | [索引](./library/shan/yangsheng/wuqinxi/INDEX.md) | ✅ |
+| **合计** | **40 部** | — | **4704** | — | — |
 
 ## 目录结构
 
@@ -137,6 +138,7 @@ ancient-text-library/
 │   └── yangsheng/               # 养生（subcategory=yangsheng）
 │       └── yijinjing/           #   达摩洗髓易筋经 22
 │       └── baduanjin/           #   八段锦 10
+│       └── wuqinxi/             #   五禽戏 9
 │           └── ziwei/         # 紫微斗数（subcategory=ziwei）
 │               ├── quanshu/   # 紫微斗数全书 17
 │               ├── quanji/    # 紫微斗数全集 29

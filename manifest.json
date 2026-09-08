@@ -449,6 +449,14 @@
       "count": 10
     },
     {
+      "dir": "wuqinxi",
+      "tier": "library/shan/yangsheng",
+      "tier_name": "山部养生",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "count": 9
+    },
+    {
       "dir": "yijinjing",
       "tier": "library/shan/yangsheng",
       "tier_name": "山部养生",
@@ -585,7 +593,7 @@
       "count": 0
     }
   ],
-  "total": 4695,
+  "total": 4704,
   "entries": [
     {
       "id": "bu6_liuren_000",
@@ -103093,6 +103101,270 @@
           "坐式八段锦",
           "叩齿咽津",
           "任督运转"
+        ]
+      }
+    },
+    {
+      "id": "shan5_wqx_000",
+      "book": "五禽戏（太上老君养生诀）",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/wuqinxi/shan5_wqx_000.md",
+      "weight": 4,
+      "title": "五禽戏总述",
+      "chapter": "五禽戏总述",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "五禽戏",
+          "山部",
+          "养生",
+          "导引",
+          "华佗",
+          "五禽戏总述"
+        ]
+      }
+    },
+    {
+      "id": "shan5_wqx_001",
+      "book": "五禽戏（太上老君养生诀）",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/wuqinxi/shan5_wqx_001.md",
+      "weight": 4,
+      "title": "虎戏",
+      "chapter": "虎戏",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "五禽戏",
+          "山部",
+          "养生",
+          "导引",
+          "华佗",
+          "虎戏"
+        ]
+      }
+    },
+    {
+      "id": "shan5_wqx_002",
+      "book": "五禽戏（太上老君养生诀）",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/wuqinxi/shan5_wqx_002.md",
+      "weight": 4,
+      "title": "鹿戏",
+      "chapter": "鹿戏",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "五禽戏",
+          "山部",
+          "养生",
+          "导引",
+          "华佗",
+          "鹿戏"
+        ]
+      }
+    },
+    {
+      "id": "shan5_wqx_003",
+      "book": "五禽戏（太上老君养生诀）",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/wuqinxi/shan5_wqx_003.md",
+      "weight": 4,
+      "title": "熊戏",
+      "chapter": "熊戏",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "五禽戏",
+          "山部",
+          "养生",
+          "导引",
+          "华佗",
+          "熊戏"
+        ]
+      }
+    },
+    {
+      "id": "shan5_wqx_004",
+      "book": "五禽戏（太上老君养生诀）",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/wuqinxi/shan5_wqx_004.md",
+      "weight": 4,
+      "title": "猿戏",
+      "chapter": "猿戏",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "五禽戏",
+          "山部",
+          "养生",
+          "导引",
+          "华佗",
+          "猿戏"
+        ]
+      }
+    },
+    {
+      "id": "shan5_wqx_005",
+      "book": "五禽戏（太上老君养生诀）",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/wuqinxi/shan5_wqx_005.md",
+      "weight": 4,
+      "title": "鸟戏",
+      "chapter": "鸟戏",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "五禽戏",
+          "山部",
+          "养生",
+          "导引",
+          "华佗",
+          "鸟戏",
+          "华佗授吴普"
+        ]
+      }
+    },
+    {
+      "id": "shan5_wqx_006",
+      "book": "五禽戏（太上老君养生诀）",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/wuqinxi/shan5_wqx_006.md",
+      "weight": 4,
+      "title": "服气吐纳六气",
+      "chapter": "服气吐纳六气",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "五禽戏",
+          "山部",
+          "养生",
+          "导引",
+          "华佗",
+          "服气吐纳六气"
+        ]
+      }
+    },
+    {
+      "id": "shan5_wqx_007",
+      "book": "五禽戏（太上老君养生诀）",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/wuqinxi/shan5_wqx_007.md",
+      "weight": 4,
+      "title": "养生真诀",
+      "chapter": "养生真诀",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "五禽戏",
+          "山部",
+          "养生",
+          "导引",
+          "华佗",
+          "养生真诀",
+          "五禽戏总述"
+        ]
+      }
+    },
+    {
+      "id": "shan5_wqx_008",
+      "book": "五禽戏（太上老君养生诀）",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/wuqinxi/shan5_wqx_008.md",
+      "weight": 4,
+      "title": "服气诀",
+      "chapter": "服气诀",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "五禽戏",
+          "山部",
+          "养生",
+          "导引",
+          "华佗",
+          "服气诀",
+          "五禽戏总述"
         ]
       }
     },
