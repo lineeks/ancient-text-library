@@ -53,11 +53,12 @@
 | 山·丹道 | 周易参同契分章通真义 | 汉魏伯阳·五代彭晓注 | 90 | [索引](./library/shan/dandao/cantongqi/INDEX.md) | ✅ |
 | 山·丹道 | 黄庭经 | 题太上老君授·魏晋上清派 | 40 | [索引](./library/shan/dandao/huangtingjing/INDEX.md) | ✅ |
 | 山·丹道 | 悟真篇 | 北宋张伯端（紫阳真人） | 99 | [索引](./library/shan/dandao/wuzhenpian/INDEX.md) | ✅ |
+| 山·丹道 | 性命圭旨 | 明尹真人高弟（中华典藏网） | 6 | [索引](./library/shan/dandao/xingmingguizhi/INDEX.md) | ✅ |
 | 山·武术 | 太极拳论 | 清王宗岳·艺藏本 | 1 | [索引](./library/shan/wushu/taijilun/INDEX.md) | ✅ |
 | 山·养生 | 达摩洗髓易筋经 | 艺藏本 | 22 | [索引](./library/shan/yangsheng/yijinjing/INDEX.md) | ✅ |
 | 山·养生 | 八段锦 | 抖音百科整理（起源宋朝） | 10 | [索引](./library/shan/yangsheng/baduanjin/INDEX.md) | ✅ |
 | 山·养生 | 五禽戏 | 中国道教协会《太上老君养生诀》（汉末华佗授） | 9 | [索引](./library/shan/yangsheng/wuqinxi/INDEX.md) | ✅ |
-| **合计** | **40 部** | — | **4704** | — | — |
+| **合计** | **40 部** | — | **4710** | — | — |
 
 ## 目录结构
 
@@ -133,6 +134,7 @@ ancient-text-library/
 │   │   └── cantongqi/           #   周易参同契分章通真义 90
 │   │   └── huangtingjing/       #   黄庭经 40
 │   │   └── wuzhenpian/          #   悟真篇 99
+│   │   └── xingmingguizhi/     #   性命圭旨 6
 │   ├── wushu/                   # 武术（subcategory=wushu）
 │   │   └── taijilun/            #   太极拳论 1
 │   └── yangsheng/               # 养生（subcategory=yangsheng）
