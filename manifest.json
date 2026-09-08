@@ -361,6 +361,14 @@
       "count": 68
     },
     {
+      "dir": "boshizhengzong",
+      "tier": "library/bu/liuyao",
+      "tier_name": "卜部六爻",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "count": 14
+    },
+    {
       "dir": "huozhulin",
       "tier": "library/bu/liuyao",
       "tier_name": "卜部六爻",
@@ -601,7 +609,7 @@
       "count": 0
     }
   ],
-  "total": 4710,
+  "total": 4724,
   "entries": [
     {
       "id": "bu6_liuren_000",
@@ -8721,6 +8729,445 @@
           "三式",
           "十二天将",
           "月将"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_000",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_000.md",
+      "weight": 5,
+      "title": "六十花甲纳音歌",
+      "chapter": "卷一·启蒙节要",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "启蒙节要",
+          "王维德",
+          "六十花甲纳音"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_001",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_001.md",
+      "weight": 5,
+      "title": "五行属性",
+      "chapter": "卷一·启蒙节要",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "启蒙节要",
+          "王维德",
+          "五行属性"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_002",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_002.md",
+      "weight": 5,
+      "title": "地支论",
+      "chapter": "卷一·启蒙节要",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "启蒙节要",
+          "王维德",
+          "五行属性",
+          "地支论",
+          "六亲",
+          "三合会局"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_003",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_003.md",
+      "weight": 5,
+      "title": "以钱代蓍法",
+      "chapter": "卷一·启蒙节要",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "启蒙节要",
+          "王维德",
+          "以钱代蓍法"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_004",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_004.md",
+      "weight": 5,
+      "title": "六十四卦名（装卦表）",
+      "chapter": "卷一·启蒙节要",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "启蒙节要",
+          "王维德",
+          "六十四卦"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_005",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_005.md",
+      "weight": 5,
+      "title": "纳甲装卦歌",
+      "chapter": "卷一·启蒙节要",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "启蒙节要",
+          "王维德",
+          "纳甲装卦",
+          "六兽",
+          "三合会局",
+          "长生掌诀",
+          "卦身"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_006",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_006.md",
+      "weight": 5,
+      "title": "禄马羊刃歌",
+      "chapter": "卷一·启蒙节要",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "启蒙节要",
+          "王维德",
+          "地支论",
+          "三合会局",
+          "禄马羊刃",
+          "三刑六害",
+          "年上起月",
+          "八宫诸身"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_007",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_007.md",
+      "weight": 5,
+      "title": "通玄赋",
+      "chapter": "卷一·启蒙节要",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "启蒙节要",
+          "王维德",
+          "地支论",
+          "六兽",
+          "通玄赋"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_008",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_008.md",
+      "weight": 5,
+      "title": "碎金赋",
+      "chapter": "卷一·启蒙节要",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "启蒙节要",
+          "王维德",
+          "碎金赋"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_009",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_009.md",
+      "weight": 5,
+      "title": "诸爻持世诀",
+      "chapter": "卷一·启蒙节要",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "启蒙节要",
+          "王维德",
+          "五行属性",
+          "六兽",
+          "长生掌诀",
+          "禄马羊刃",
+          "诸爻持世",
+          "世应生克",
+          "飞伏生克",
+          "断易勿泥神煞",
+          "六爻动静",
+          "忌神",
+          "原神",
+          "用神",
+          "六甲旬空",
+          "卦身"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_010",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_010.md",
+      "weight": 5,
+      "title": "六亲发动诀",
+      "chapter": "卷一·启蒙节要",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "启蒙节要",
+          "王维德",
+          "六亲发动"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_011",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_011.md",
+      "weight": 5,
+      "title": "六亲变化歌",
+      "chapter": "卷一·启蒙节要",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "启蒙节要",
+          "王维德",
+          "五行属性",
+          "六亲变化"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_012",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_012.md",
+      "weight": 5,
+      "title": "六兽歌",
+      "chapter": "卷一·启蒙节要",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "启蒙节要",
+          "王维德",
+          "六兽",
+          "长生掌诀",
+          "六兽歌断",
+          "日月建传符",
+          "六甲旬空",
+          "八卦相配"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_013",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_013.md",
+      "weight": 5,
+      "title": "月破定例",
+      "chapter": "卷一·启蒙节要",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "启蒙节要",
+          "王维德",
+          "月破"
         ]
       }
     },
