@@ -441,6 +441,14 @@
       "count": 1
     },
     {
+      "dir": "baduanjin",
+      "tier": "library/shan/yangsheng",
+      "tier_name": "山部养生",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "count": 10
+    },
+    {
       "dir": "yijinjing",
       "tier": "library/shan/yangsheng",
       "tier_name": "山部养生",
@@ -577,7 +585,7 @@
       "count": 0
     }
   ],
-  "total": 4685,
+  "total": 4695,
   "entries": [
     {
       "id": "bu6_liuren_000",
@@ -102788,6 +102796,303 @@
           "五行",
           "阴阳易理",
           "丹道部位"
+        ]
+      }
+    },
+    {
+      "id": "shan4_bdj_000",
+      "book": "八段锦",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/baduanjin/shan4_bdj_000.md",
+      "weight": 4,
+      "title": "八段锦总述",
+      "chapter": "总述",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "八段锦",
+          "山部",
+          "养生",
+          "导引",
+          "立式八段锦",
+          "意守丹田",
+          "八段锦总述"
+        ]
+      }
+    },
+    {
+      "id": "shan4_bdj_001",
+      "book": "八段锦",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/baduanjin/shan4_bdj_001.md",
+      "weight": 4,
+      "title": "第一式 两手托天理三焦",
+      "chapter": "立式八段锦",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "八段锦",
+          "山部",
+          "养生",
+          "导引",
+          "两手托天理三焦",
+          "调理脾胃须单举",
+          "立式八段锦"
+        ]
+      }
+    },
+    {
+      "id": "shan4_bdj_002",
+      "book": "八段锦",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/baduanjin/shan4_bdj_002.md",
+      "weight": 4,
+      "title": "第二式 左右开弓似射雕",
+      "chapter": "立式八段锦",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "八段锦",
+          "山部",
+          "养生",
+          "导引",
+          "左右开弓似射雕",
+          "立式八段锦"
+        ]
+      }
+    },
+    {
+      "id": "shan4_bdj_003",
+      "book": "八段锦",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/baduanjin/shan4_bdj_003.md",
+      "weight": 4,
+      "title": "第三式 调理脾胃须单举",
+      "chapter": "立式八段锦",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "八段锦",
+          "山部",
+          "养生",
+          "导引",
+          "两手托天理三焦",
+          "调理脾胃须单举",
+          "立式八段锦"
+        ]
+      }
+    },
+    {
+      "id": "shan4_bdj_004",
+      "book": "八段锦",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/baduanjin/shan4_bdj_004.md",
+      "weight": 4,
+      "title": "第四式 摇头摆尾去心火",
+      "chapter": "立式八段锦",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "八段锦",
+          "山部",
+          "养生",
+          "导引",
+          "摇头摆尾去心火",
+          "立式八段锦"
+        ]
+      }
+    },
+    {
+      "id": "shan4_bdj_005",
+      "book": "八段锦",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/baduanjin/shan4_bdj_005.md",
+      "weight": 4,
+      "title": "第五式 五劳七伤往后瞧",
+      "chapter": "立式八段锦",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "八段锦",
+          "山部",
+          "养生",
+          "导引",
+          "五劳七伤往后瞧",
+          "立式八段锦"
+        ]
+      }
+    },
+    {
+      "id": "shan4_bdj_006",
+      "book": "八段锦",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/baduanjin/shan4_bdj_006.md",
+      "weight": 4,
+      "title": "第六式 两手攀足固肾腰",
+      "chapter": "立式八段锦",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "八段锦",
+          "山部",
+          "养生",
+          "导引",
+          "两手攀足固肾腰",
+          "立式八段锦"
+        ]
+      }
+    },
+    {
+      "id": "shan4_bdj_007",
+      "book": "八段锦",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/baduanjin/shan4_bdj_007.md",
+      "weight": 4,
+      "title": "第七式 攒拳怒目增气力",
+      "chapter": "立式八段锦",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "八段锦",
+          "山部",
+          "养生",
+          "导引",
+          "攒拳怒目增气力",
+          "立式八段锦"
+        ]
+      }
+    },
+    {
+      "id": "shan4_bdj_008",
+      "book": "八段锦",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/baduanjin/shan4_bdj_008.md",
+      "weight": 4,
+      "title": "第八式 背后七颠百病消",
+      "chapter": "立式八段锦",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "八段锦",
+          "山部",
+          "养生",
+          "导引",
+          "背后七颠百病消",
+          "立式八段锦",
+          "意守丹田"
+        ]
+      }
+    },
+    {
+      "id": "shan4_bdj_009",
+      "book": "八段锦",
+      "type": "chapter",
+      "tier": "library/shan/yangsheng",
+      "category": "shan",
+      "subcategory": "yangsheng",
+      "path": "library/shan/yangsheng/baduanjin/shan4_bdj_009.md",
+      "weight": 4,
+      "title": "坐式八段锦口诀",
+      "chapter": "坐式八段锦",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "八段锦",
+          "山部",
+          "养生",
+          "导引",
+          "两手攀足固肾腰",
+          "背后七颠百病消",
+          "坐式八段锦",
+          "叩齿咽津",
+          "任督运转"
         ]
       }
     },

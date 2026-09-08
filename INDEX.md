@@ -55,7 +55,8 @@
 | 山·丹道 | 悟真篇 | 北宋张伯端（紫阳真人） | 99 | [索引](./library/shan/dandao/wuzhenpian/INDEX.md) | ✅ |
 | 山·武术 | 太极拳论 | 清王宗岳·艺藏本 | 1 | [索引](./library/shan/wushu/taijilun/INDEX.md) | ✅ |
 | 山·养生 | 达摩洗髓易筋经 | 艺藏本 | 22 | [索引](./library/shan/yangsheng/yijinjing/INDEX.md) | ✅ |
-| **合计** | **40 部** | — | **4685** | — | — |
+| 山·养生 | 八段锦 | 抖音百科整理（起源宋朝） | 10 | [索引](./library/shan/yangsheng/baduanjin/INDEX.md) | ✅ |
+| **合计** | **40 部** | — | **4695** | — | — |
 
 ## 目录结构
 
@@ -135,6 +136,7 @@ ancient-text-library/
 │   │   └── taijilun/            #   太极拳论 1
 │   └── yangsheng/               # 养生（subcategory=yangsheng）
 │       └── yijinjing/           #   达摩洗髓易筋经 22
+│       └── baduanjin/           #   八段锦 10
 │           └── ziwei/         # 紫微斗数（subcategory=ziwei）
 │               ├── quanshu/   # 紫微斗数全书 17
 │               ├── quanji/    # 紫微斗数全集 29
