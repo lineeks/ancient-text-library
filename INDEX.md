@@ -50,9 +50,11 @@
 | 卜·六壬 | 六壬大全 | 明郭载騋校·四库全书本 | 269 | [索引](./library/bu/liuren/liuren-daquan/INDEX.md) | ✅ |
 | 卜·太乙 | 太乙金镜式经 | 唐王希明撰·四库全书本 | 111 | [索引](./library/bu/taiyi/taiyi-jinjingshijing/INDEX.md) | ✅ |
 | 山·丹道 | 周易参同契分章通真义 | 汉魏伯阳·五代彭晓注 | 90 | [索引](./library/shan/dandao/cantongqi/INDEX.md) | ✅ |
+| 山·丹道 | 黄庭经 | 题太上老君授·魏晋上清派 | 40 | [索引](./library/shan/dandao/huangtingjing/INDEX.md) | ✅ |
+| 山·丹道 | 悟真篇 | 北宋张伯端（紫阳真人） | 99 | [索引](./library/shan/dandao/wuzhenpian/INDEX.md) | ✅ |
 | 山·武术 | 太极拳论 | 清王宗岳·艺藏本 | 1 | [索引](./library/shan/wushu/taijilun/INDEX.md) | ✅ |
 | 山·养生 | 达摩洗髓易筋经 | 艺藏本 | 22 | [索引](./library/shan/yangsheng/yijinjing/INDEX.md) | ✅ |
-| **合计** | **40 部** | — | **4541** | — | — |
+| **合计** | **40 部** | — | **4680** | — | — |
 
 ## 目录结构
 
@@ -124,7 +126,9 @@ ancient-text-library/
 │       └── taiyi-jinjingshijing/ #  太乙金镜式经 111
 ├── shan/                        # 山·山术（library/shan/）
 │   ├── dandao/                  # 丹道（subcategory=dandao）
-│   │   └── cantongqi/           #   周易参同契分章通真义 66
+│   │   └── cantongqi/           #   周易参同契分章通真义 90
+│   │   └── huangtingjing/       #   黄庭经 40
+│   │   └── wuzhenpian/          #   悟真篇 99
 │   ├── wushu/                   # 武术（subcategory=wushu）
 │   │   └── taijilun/            #   太极拳论 1
 │   └── yangsheng/               # 养生（subcategory=yangsheng）
