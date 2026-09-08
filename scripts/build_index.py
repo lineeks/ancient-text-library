@@ -373,6 +373,7 @@ def build_root_index(counts):
              f"| 相·地相 | 撼龙经 | 唐杨筠松·通行本 | {counts['hanlongjing']} | [索引](./library/xiang/dixiang/hanlongjing/INDEX.md) | ✅ |",
              f"| 相·地相 | 葬书 | 晋郭璞·通行本 | {counts['zangshu']} | [索引](./library/xiang/dixiang/zangshu/INDEX.md) | ✅ |",
              f"| 相·地相 | 青囊奥语 | 唐杨筠松·通行本 | {counts['qingnangaoyu']} | [索引](./library/xiang/dixiang/qingnangaoyu/INDEX.md) | ✅ |",
+             f"| 相·地相 | 雪心赋 | 唐卜应天·中华典藏网 | {counts['xuexinfu']} | [索引](./library/xiang/dixiang/xuexinfu/INDEX.md) | ✅ |",
              f"| 卜·易经 | 周易 | 经传合编·通行本 | {counts['zhouyi']} | [索引](./library/bu/yijing/zhouyi/INDEX.md) | ✅ |",
              f"| 卜·六爻 | 火珠林 | 题麻衣道者·通行本 | {counts['huozhulin']} | [索引](./library/bu/liuyao/huozhulin/INDEX.md) | ✅ |",
              f"| 卜·六爻 | 增删卜易 | 清野鹤老人·通行本 | {counts['zengshanbuyi']} | [索引](./library/bu/liuyao/zengshanbuyi/INDEX.md) | ✅ |",
@@ -440,6 +441,7 @@ def build_root_index(counts):
              "│       ├── hanlongjing/       #   撼龙经 1",
              "│       ├── zangshu/           #   葬书 1",
              "│       └── qingnangaoyu/      #   青囊奥语 1",
+             "│       └── xuexinfu/         #   雪心赋 5",
              "├── bu/                          # 卜·卜筮（library/bu/）",
              "│   └── yijing/                  # 易经（subcategory=yijing）",
              "│       └── zhouyi/              #   周易 68（64卦+4传）",
@@ -588,6 +590,9 @@ def main():
         ("library/xiang/dixiang", "qingnangaoyu", build_generic_index(
             "青囊奥语",
             "唐杨筠松撰，通行本，理气派风水经典，以阴阳五行、三元九运论龙穴砂水，为玄空理气之宗。")),
+        ("library/xiang/dixiang", "xuexinfu", build_generic_index(
+            "雪心赋",
+            "唐卜应天（字则巍，号昆仑子）撰，中华典藏网，5章，形势峦头风水经典，歌赋体，系统阐述山川理气、龙脉、穴法、水法、砂法、阳宅阴宅，为形势派（峦头派）风水代表作，与撼龙经、葬书、青囊奥语并称地相四大经典。")),
         ("library/bu/yijing", "zhouyi", build_generic_index(
             "周易",
             "周易经传合编，通行本，64卦+易传4篇（系辞/说卦/序卦/杂卦），群经之首，大道之源，以阴阳八卦论天地人三才之道，为五术卜部之根本经典。")),
