@@ -42,6 +42,7 @@
 | 相·地相 | 撼龙经 | 唐杨筠松·通行本 | 29 | [索引](./library/xiang/dixiang/hanlongjing/INDEX.md) | ✅ |
 | 相·地相 | 葬书 | 晋郭璞·通行本 | 13 | [索引](./library/xiang/dixiang/zangshu/INDEX.md) | ✅ |
 | 相·地相 | 青囊奥语 | 唐杨筠松·通行本 | 1 | [索引](./library/xiang/dixiang/qingnangaoyu/INDEX.md) | ✅ |
+| 相·地相 | 雪心赋 | 唐卜应天·中华典藏网 | 5 | [索引](./library/xiang/dixiang/xuexinfu/INDEX.md) | ✅ |
 | 卜·易经 | 周易 | 经传合编·通行本 | 68 | [索引](./library/bu/yijing/zhouyi/INDEX.md) | ✅ |
 | 卜·六爻 | 火珠林 | 题麻衣道者·通行本 | 64 | [索引](./library/bu/liuyao/huozhulin/INDEX.md) | ✅ |
 | 卜·六爻 | 增删卜易 | 清野鹤老人·通行本 | 123 | [索引](./library/bu/liuyao/zengshanbuyi/INDEX.md) | ✅ |
@@ -54,7 +55,7 @@
 | 山·丹道 | 悟真篇 | 北宋张伯端（紫阳真人） | 99 | [索引](./library/shan/dandao/wuzhenpian/INDEX.md) | ✅ |
 | 山·武术 | 太极拳论 | 清王宗岳·艺藏本 | 1 | [索引](./library/shan/wushu/taijilun/INDEX.md) | ✅ |
 | 山·养生 | 达摩洗髓易筋经 | 艺藏本 | 22 | [索引](./library/shan/yangsheng/yijinjing/INDEX.md) | ✅ |
-| **合计** | **40 部** | — | **4680** | — | — |
+| **合计** | **40 部** | — | **4685** | — | — |
 
 ## 目录结构
 
@@ -111,6 +112,7 @@ ancient-text-library/
 │       ├── hanlongjing/       #   撼龙经 1
 │       ├── zangshu/           #   葬书 1
 │       └── qingnangaoyu/      #   青囊奥语 1
+│       └── xuexinfu/         #   雪心赋 5
 ├── bu/                          # 卜·卜筮（library/bu/）
 │   └── yijing/                  # 易经（subcategory=yijing）
 │       └── zhouyi/              #   周易 68（64卦+4传）

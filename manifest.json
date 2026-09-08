@@ -337,6 +337,14 @@
       "count": 1
     },
     {
+      "dir": "xuexinfu",
+      "tier": "library/xiang/dixiang",
+      "tier_name": "相部地相",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "count": 5
+    },
+    {
       "dir": "zangshu",
       "tier": "library/xiang/dixiang",
       "tier_name": "相部地相",
@@ -569,7 +577,7 @@
       "count": 0
     }
   ],
-  "total": 4680,
+  "total": 4685,
   "entries": [
     {
       "id": "bu6_liuren_000",
@@ -104319,6 +104327,173 @@
           "地相穴法",
           "地相砂水",
           "地相理气"
+        ]
+      }
+    },
+    {
+      "id": "xiang3_xxf_000",
+      "book": "雪心赋",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/xuexinfu/xiang3_xxf_000.md",
+      "weight": 5,
+      "title": "第一章 山川理气",
+      "chapter": "全书五章",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "雪心赋",
+          "相部",
+          "地相",
+          "风水",
+          "峦头",
+          "山川理气",
+          "生气旺衰"
+        ]
+      }
+    },
+    {
+      "id": "xiang3_xxf_001",
+      "book": "雪心赋",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/xuexinfu/xiang3_xxf_001.md",
+      "weight": 5,
+      "title": "第二章 地理要略",
+      "chapter": "全书五章",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "雪心赋",
+          "相部",
+          "地相",
+          "风水",
+          "峦头",
+          "地理要略",
+          "水法",
+          "明堂朝案",
+          "生气旺衰",
+          "立向分金",
+          "倒杖卦例"
+        ]
+      }
+    },
+    {
+      "id": "xiang3_xxf_002",
+      "book": "雪心赋",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/xuexinfu/xiang3_xxf_002.md",
+      "weight": 5,
+      "title": "第三章 论山水本源",
+      "chapter": "全书五章",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "雪心赋",
+          "相部",
+          "地相",
+          "风水",
+          "峦头",
+          "山水五星",
+          "龙脉",
+          "倒杖卦例"
+        ]
+      }
+    },
+    {
+      "id": "xiang3_xxf_003",
+      "book": "雪心赋",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/xuexinfu/xiang3_xxf_003.md",
+      "weight": 5,
+      "title": "第四章 论水法",
+      "chapter": "全书五章",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "雪心赋",
+          "相部",
+          "地相",
+          "风水",
+          "峦头",
+          "水法",
+          "龙虎砂",
+          "砂法",
+          "明堂朝案",
+          "藏风得水"
+        ]
+      }
+    },
+    {
+      "id": "xiang3_xxf_004",
+      "book": "雪心赋",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/xuexinfu/xiang3_xxf_004.md",
+      "weight": 5,
+      "title": "第五章 论龙脉",
+      "chapter": "全书五章",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "雪心赋",
+          "相部",
+          "地相",
+          "风水",
+          "峦头",
+          "山水五星",
+          "水法",
+          "龙脉",
+          "穴法",
+          "龙虎砂",
+          "砂法",
+          "明堂朝案",
+          "生气旺衰",
+          "立向分金",
+          "倒杖卦例",
+          "藏风得水"
         ]
       }
     },
