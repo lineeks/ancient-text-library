@@ -433,6 +433,14 @@
       "count": 99
     },
     {
+      "dir": "xingmingguizhi",
+      "tier": "library/shan/dandao",
+      "tier_name": "山部丹道",
+      "category": "shan",
+      "subcategory": "dandao",
+      "count": 6
+    },
+    {
       "dir": "taijilun",
       "tier": "library/shan/wushu",
       "tier_name": "山部武术",
@@ -593,7 +601,7 @@
       "count": 0
     }
   ],
-  "total": 4704,
+  "total": 4710,
   "entries": [
     {
       "id": "bu6_liuren_000",
@@ -102775,6 +102783,192 @@
           "内丹",
           "张伯端",
           "紫阳真人"
+        ]
+      }
+    },
+    {
+      "id": "shan6_xmgz_000",
+      "book": "性命圭旨",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/xingmingguizhi/shan6_xmgz_000.md",
+      "weight": 3,
+      "title": "大道说",
+      "chapter": "元集·大道说",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "性命圭旨",
+          "山部",
+          "丹道",
+          "内丹",
+          "尹真人",
+          "大道说",
+          "金丹大道",
+          "三教合一"
+        ]
+      }
+    },
+    {
+      "id": "shan6_xmgz_001",
+      "book": "性命圭旨",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/xingmingguizhi/shan6_xmgz_001.md",
+      "weight": 3,
+      "title": "性命说",
+      "chapter": "元集·性命说",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "性命圭旨",
+          "山部",
+          "丹道",
+          "内丹",
+          "尹真人",
+          "大道说",
+          "性命说",
+          "邪正说",
+          "性命双修"
+        ]
+      }
+    },
+    {
+      "id": "shan6_xmgz_002",
+      "book": "性命圭旨",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/xingmingguizhi/shan6_xmgz_002.md",
+      "weight": 3,
+      "title": "死生说",
+      "chapter": "元集·死生说",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "性命圭旨",
+          "山部",
+          "丹道",
+          "内丹",
+          "尹真人",
+          "死生说",
+          "性命双修"
+        ]
+      }
+    },
+    {
+      "id": "shan6_xmgz_003",
+      "book": "性命圭旨",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/xingmingguizhi/shan6_xmgz_003.md",
+      "weight": 3,
+      "title": "邪正说",
+      "chapter": "元集·邪正说",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "性命圭旨",
+          "山部",
+          "丹道",
+          "内丹",
+          "尹真人",
+          "邪正说",
+          "金丹大道",
+          "性命双修",
+          "三教合一",
+          "九转功夫"
+        ]
+      }
+    },
+    {
+      "id": "shan6_xmgz_004",
+      "book": "性命圭旨",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/xingmingguizhi/shan6_xmgz_004.md",
+      "weight": 3,
+      "title": "四图说",
+      "chapter": "元集·四图说",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "性命圭旨",
+          "山部",
+          "丹道",
+          "内丹",
+          "尹真人",
+          "四图说"
+        ]
+      }
+    },
+    {
+      "id": "shan6_xmgz_005",
+      "book": "性命圭旨",
+      "type": "chapter",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/xingmingguizhi/shan6_xmgz_005.md",
+      "weight": 3,
+      "title": "太极图",
+      "chapter": "元集·太极图",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "性命圭旨",
+          "山部",
+          "丹道",
+          "内丹",
+          "尹真人",
+          "太极图说",
+          "金丹大道",
+          "三教合一"
         ]
       }
     },

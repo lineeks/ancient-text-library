@@ -384,6 +384,7 @@ def build_root_index(counts):
              f"| 山·丹道 | 周易参同契分章通真义 | 汉魏伯阳·五代彭晓注 | {counts['cantongqi']} | [索引](./library/shan/dandao/cantongqi/INDEX.md) | ✅ |",
              f"| 山·丹道 | 黄庭经 | 题太上老君授·魏晋上清派 | {counts['huangtingjing']} | [索引](./library/shan/dandao/huangtingjing/INDEX.md) | ✅ |",
              f"| 山·丹道 | 悟真篇 | 北宋张伯端（紫阳真人） | {counts['wuzhenpian']} | [索引](./library/shan/dandao/wuzhenpian/INDEX.md) | ✅ |",
+             f"| 山·丹道 | 性命圭旨 | 明尹真人高弟（中华典藏网） | {counts['xingmingguizhi']} | [索引](./library/shan/dandao/xingmingguizhi/INDEX.md) | ✅ |",
              f"| 山·武术 | 太极拳论 | 清王宗岳·艺藏本 | {counts['taijilun']} | [索引](./library/shan/wushu/taijilun/INDEX.md) | ✅ |",
              f"| 山·养生 | 达摩洗髓易筋经 | 艺藏本 | {counts['yijinjing']} | [索引](./library/shan/yangsheng/yijinjing/INDEX.md) | ✅ |",
              f"| 山·养生 | 八段锦 | 抖音百科整理（起源宋朝） | {counts['baduanjin']} | [索引](./library/shan/yangsheng/baduanjin/INDEX.md) | ✅ |",
@@ -462,6 +463,7 @@ def build_root_index(counts):
              "│   │   └── cantongqi/           #   周易参同契分章通真义 90",
              "│   │   └── huangtingjing/       #   黄庭经 40",
              "│   │   └── wuzhenpian/          #   悟真篇 99",
+             "│   │   └── xingmingguizhi/     #   性命圭旨 6",
              "│   ├── wushu/                   # 武术（subcategory=wushu）",
              "│   │   └── taijilun/            #   太极拳论 1",
              "│   └── yangsheng/               # 养生（subcategory=yangsheng）",
@@ -627,6 +629,9 @@ def main():
         ("library/shan/dandao", "wuzhenpian", build_generic_index(
             "悟真篇",
             "北宋张伯端（紫阳真人）撰，99首（律诗16+绝句64+五言1+词12+杂诗6），道教内丹学核心经典，与参同契齐名，以诗词阐述金丹大道，铅汞为药物、坎离为水火、龙虎为魂魄、火候为抽添。")),
+        ("library/shan/dandao", "xingmingguizhi", build_generic_index(
+            "性命圭旨",
+            "中华典藏网，明尹真人高弟撰，元集6篇（大道说/性命说/死生说/邪正说/四图说/太极图说），道教内炼理论著作，分元亨利贞四集，内丹功法通俗化集大成，主张三教合一、性命双修，提出九转还丹功夫次第。")),
         ("library/shan/wushu", "taijilun", build_generic_index(
             "太极拳论",
             "清王宗岳撰，艺藏武术本，太极拳经典理论，以阴阳刚柔动静虚实论拳理，为内家拳之宗。")),
