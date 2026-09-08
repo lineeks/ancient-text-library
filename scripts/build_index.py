@@ -377,6 +377,7 @@ def build_root_index(counts):
              f"| 卜·易经 | 周易 | 经传合编·通行本 | {counts['zhouyi']} | [索引](./library/bu/yijing/zhouyi/INDEX.md) | ✅ |",
              f"| 卜·六爻 | 火珠林 | 题麻衣道者·通行本 | {counts['huozhulin']} | [索引](./library/bu/liuyao/huozhulin/INDEX.md) | ✅ |",
              f"| 卜·六爻 | 增删卜易 | 清野鹤老人·通行本 | {counts['zengshanbuyi']} | [索引](./library/bu/liuyao/zengshanbuyi/INDEX.md) | ✅ |",
+             f"| 卜·六爻 | 卜筮正宗 | 清王维德（中华典藏网） | {counts['boshizhengzong']} | [索引](./library/bu/liuyao/boshizhengzong/INDEX.md) | ✅ |",
              f"| 卜·梅花 | 梅花易数 | 宋邵雍·通行本 | {counts['meihuayishu']} | [索引](./library/bu/meihua/meihuayishu/INDEX.md) | ✅ |",
              f"| 卜·奇门 | 奇门遁甲秘笈大全 | 明刘基辑·通行本 | {counts['qimen-dunjia-miji']} | [索引](./library/bu/qimen/qimen-dunjia-miji/INDEX.md) | ✅ |",
              f"| 卜·六壬 | 六壬大全 | 明郭载騋校·四库全书本 | {counts['liuren-daquan']} | [索引](./library/bu/liuren/liuren-daquan/INDEX.md) | ✅ |",
@@ -450,6 +451,8 @@ def build_root_index(counts):
              "│       └── zhouyi/              #   周易 68（64卦+4传）",
              "│   └── liuyao/                  # 六爻（subcategory=liuyao）",
              "│       └── huozhulin/           #   火珠林 64",
+             "│       └── zengshanbuyi/        #   增删卜易 123",
+             "│       └── boshizhengzong/      #   卜筮正宗 14",
              "│   └── meihua/                  # 梅花易数（subcategory=meihua）",
              "│       └── meihuayishu/         #   梅花易数 136",
              "│   └── qimen/                   # 奇门遁甲（subcategory=qimen）",
@@ -608,6 +611,9 @@ def main():
         ("library/bu/liuyao", "zengshanbuyi", build_generic_index(
             "增删卜易",
             "清野鹤老人著，通行本，123章，六爻纳甲法集大成，以用神世应、五行生克、日辰月建、动变飞伏、冲合刑害为核心，附大量占验实例，为火珠林派六爻占法之巅峰著作。")),
+        ("library/bu/liuyao", "boshizhengzong", build_generic_index(
+            "卜筮正宗",
+            "中华典藏网，清王维德字洪绪号林屋先生撰，卷一启蒙节要14条，六爻进阶核心典籍，全书14卷，以黄金策为纲，系统阐述六爻占断之法，启蒙节要涵盖纳音五行、六亲、以钱代蓍、六十四卦装卦、纳甲、六兽、三合、长生、禄马羊刃、三刑六害、通玄赋、碎金赋、持世、世应、飞伏、用神、旬空月破等核心歌赋，力辟诸书之谬，一宗正理，为六爻学之集大成之作。")),
         ("library/bu/meihua", "meihuayishu", build_generic_index(
             "梅花易数",
             "宋邵雍撰，通行本，136条，梅花易数派鼻祖，以体用生克、卦气旺衰、万物类象为核心，不拘古法随心起卦，为象数易占之集大成者。")),
