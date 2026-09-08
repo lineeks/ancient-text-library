@@ -85,7 +85,7 @@ def split_cantongqi(text):
     """周易参同契分章通真义：按90章切分。
     跳过目录（找到第二个章标题即正文开始），用宽松正则匹配。
     """
-    pattern = r"^　*([^　\n]{2,20}章第[一二三四五六七八九十百]+)\s*$"
+    pattern = r"^　*([^　\n]{2,20}章第[一二三四五六七八九十百]+)(?:#[0-9]+|名)?\s*$"
     matches = list(re.finditer(pattern, text, re.M))
     if len(matches) < 2:
         return []
