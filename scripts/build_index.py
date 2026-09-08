@@ -387,6 +387,7 @@ def build_root_index(counts):
              f"| 山·武术 | 太极拳论 | 清王宗岳·艺藏本 | {counts['taijilun']} | [索引](./library/shan/wushu/taijilun/INDEX.md) | ✅ |",
              f"| 山·养生 | 达摩洗髓易筋经 | 艺藏本 | {counts['yijinjing']} | [索引](./library/shan/yangsheng/yijinjing/INDEX.md) | ✅ |",
              f"| 山·养生 | 八段锦 | 抖音百科整理（起源宋朝） | {counts['baduanjin']} | [索引](./library/shan/yangsheng/baduanjin/INDEX.md) | ✅ |",
+             f"| 山·养生 | 五禽戏 | 中国道教协会《太上老君养生诀》（汉末华佗授） | {counts['wuqinxi']} | [索引](./library/shan/yangsheng/wuqinxi/INDEX.md) | ✅ |",
              f"| **合计** | **40 部** | — | **{total}** | — | — |", "",
              "## 目录结构", "",
              "```text",
@@ -466,6 +467,7 @@ def build_root_index(counts):
              "│   └── yangsheng/               # 养生（subcategory=yangsheng）",
              "│       └── yijinjing/           #   达摩洗髓易筋经 22",
              "│       └── baduanjin/           #   八段锦 10",
+             "│       └── wuqinxi/             #   五禽戏 9",
              "│           └── ziwei/         # 紫微斗数（subcategory=ziwei）",
              "│               ├── quanshu/   # 紫微斗数全书 17",
              "│               ├── quanji/    # 紫微斗数全集 29",
@@ -634,6 +636,9 @@ def main():
         ("library/shan/yangsheng", "baduanjin", build_generic_index(
             "八段锦",
             "抖音百科整理，起源宋朝，10条（总述1+立式8式+坐式口诀1），中国古代导引养生功法，分立功、坐功两部分，共八段，每段一个动作，包括肢体运动和气息调理，练习时配合意守、呼吸及以意领气，为养生导引之经典功法。")),
+        ("library/shan/yangsheng", "wuqinxi", build_generic_index(
+            "五禽戏（太上老君养生诀）",
+            "中国道教协会《太上老君养生诀》，汉末华佗授广陵吴普，9条（五禽总述1+虎鹿熊猿鸟5戏+服气吐纳六气1+养生真诀1+服气诀1），中国古代导引养生功法，模仿五种动物动作，以汗出为限，可轻身消谷益气除百病，与八段锦、易筋经并称养生三典。")),
     ]
     counts = {}
     for root, book, builder in plan:
