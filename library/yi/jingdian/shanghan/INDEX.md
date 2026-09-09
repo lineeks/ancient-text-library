@@ -4,13 +4,25 @@
 
 ## 条目索引
 
-- [辨太阳病脉证并治上](./yd_shanghan_000.md) — `yd_shanghan_000`
-- [辨太阳病脉证并治中](./yd_shanghan_001.md) — `yd_shanghan_001`
-- [辨太阳病脉证并治下](./yd_shanghan_002.md) — `yd_shanghan_002`
-- [辨阳明病脉证并治](./yd_shanghan_003.md) — `yd_shanghan_003`
-- [辨少阳病脉证并治](./yd_shanghan_004.md) — `yd_shanghan_004`
-- [辨太阴病脉证并治](./yd_shanghan_005.md) — `yd_shanghan_005`
-- [辨少阴病脉证并治](./yd_shanghan_006.md) — `yd_shanghan_006`
-- [辨厥阴病脉证并治](./yd_shanghan_007.md) — `yd_shanghan_007`
-- [辨霍乱病脉证并治](./yd_shanghan_008.md) — `yd_shanghan_008`
-- [辨阴阳易瘥后劳复病脉证并治](./yd_shanghan_009.md) — `yd_shanghan_009`
+- [辩脉法](./yi6_shl_00.md) — `yi6_shl_00`
+- [平脉法](./yi6_shl_01.md) — `yi6_shl_01`
+- [伤寒例](./yi6_shl_02.md) — `yi6_shl_02`
+- [辨痉湿暍脉证](./yi6_shl_03.md) — `yi6_shl_03`
+- [辨太阳病脉证并治法上](./yi6_shl_04.md) — `yi6_shl_04`
+- [辨太阳病脉证并治中](./yi6_shl_05.md) — `yi6_shl_05`
+- [辨太阳病脉证并治下](./yi6_shl_06.md) — `yi6_shl_06`
+- [辨阳明病脉证并治法](./yi6_shl_07.md) — `yi6_shl_07`
+- [辨少阳病脉证并治](./yi6_shl_08.md) — `yi6_shl_08`
+- [辨太阴病脉证并治](./yi6_shl_09.md) — `yi6_shl_09`
+- [辨少阴病脉证并治](./yi6_shl_10.md) — `yi6_shl_10`
+- [辨厥阴病脉证并治](./yi6_shl_11.md) — `yi6_shl_11`
+- [辨霍乱病脉证并治](./yi6_shl_12.md) — `yi6_shl_12`
+- [辨阴阳易差后劳复病脉证并治](./yi6_shl_13.md) — `yi6_shl_13`
+- [辨不可发汗病脉证并治](./yi6_shl_14.md) — `yi6_shl_14`
+- [辨可发汗脉证并治](./yi6_shl_15.md) — `yi6_shl_15`
+- [辨发汗后病脉证并治](./yi6_shl_16.md) — `yi6_shl_16`
+- [辨不可吐](./yi6_shl_17.md) — `yi6_shl_17`
+- [辨可吐](./yi6_shl_18.md) — `yi6_shl_18`
+- [辨不可下病脉证并治](./yi6_shl_19.md) — `yi6_shl_19`
+- [辨可下病脉证并治](./yi6_shl_20.md) — `yi6_shl_20`
+- [辨发汗吐下后脉证并治](./yi6_shl_21.md) — `yi6_shl_21`

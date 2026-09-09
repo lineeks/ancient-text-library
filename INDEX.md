@@ -30,7 +30,7 @@
 | 医·经典 | 黄帝内经素问 | 唐王冰注·宋林亿校 | 81 | [索引](./library/yi/jingdian/suwen/INDEX.md) | ✅ |
 | 医·经典 | 灵枢经 | 四库本 | 81 | [索引](./library/yi/jingdian/lingshu/INDEX.md) | ✅ |
 | 医·经典 | 八十一难经 | 旧题扁鹊·四库本 | 81 | [索引](./library/yi/jingdian/nanjing/INDEX.md) | ✅ |
-| 医·经典 | 伤寒论 | 汉张仲景·通行本 | 10 | [索引](./library/yi/jingdian/shanghan/INDEX.md) | ✅ |
+| 医·经典 | 伤寒论 | 汉张仲景·通行本 | 22 | [索引](./library/yi/jingdian/shanghan/INDEX.md) | ✅ |
 | 医·经典 | 神农本草经 | 四库本 | 313 | [索引](./library/yi/jingdian/shennong/INDEX.md) | ✅ |
 | 医·方书 | 备急千金要方 | 唐孙思邈·四库本 | 30 | [索引](./library/yi/fangshu/qianjinfang/INDEX.md) | ✅ |
 | 医·方书 | 外台秘要 | 唐王焘·明程校 | 40 | [索引](./library/yi/fangshu/waitaimiyao/INDEX.md) | ✅ |
@@ -60,7 +60,7 @@
 | 山·养生 | 达摩洗髓易筋经 | 艺藏本 | 22 | [索引](./library/shan/yangsheng/yijinjing/INDEX.md) | ✅ |
 | 山·养生 | 八段锦 | 抖音百科整理（起源宋朝） | 10 | [索引](./library/shan/yangsheng/baduanjin/INDEX.md) | ✅ |
 | 山·养生 | 五禽戏 | 中国道教协会《太上老君养生诀》（汉末华佗授） | 9 | [索引](./library/shan/yangsheng/wuqinxi/INDEX.md) | ✅ |
-| **合计** | **40 部** | — | **4808** | — | — |
+| **合计** | **40 部** | — | **4820** | — | — |
 
 ## 目录结构
 
