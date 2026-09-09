@@ -366,7 +366,7 @@
       "tier_name": "卜部六爻",
       "category": "bu",
       "subcategory": "liuyao",
-      "count": 62
+      "count": 70
     },
     {
       "dir": "huozhulin",
@@ -609,7 +609,7 @@
       "count": 0
     }
   ],
-  "total": 4772,
+  "total": 4780,
   "entries": [
     {
       "id": "bu6_liuren_000",
@@ -10769,6 +10769,271 @@
           "家宅",
           "功名",
           "流年"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_062",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_062.md",
+      "weight": 4,
+      "title": "干宫八卦飞伏神定例",
+      "chapter": "卷二·卦爻呈象并飞伏神卦身定例",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "飞伏神",
+          "卦身定例",
+          "纳甲装卦",
+          "干宫",
+          "乾宫八卦",
+          "卦身",
+          "八宫"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_063",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_063.md",
+      "weight": 4,
+      "title": "坎宫八卦飞伏神定例",
+      "chapter": "卷二·卦爻呈象并飞伏神卦身定例",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "飞伏神",
+          "卦身定例",
+          "纳甲装卦",
+          "坎宫",
+          "坎宫八卦",
+          "卦身",
+          "八宫"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_064",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_064.md",
+      "weight": 4,
+      "title": "艮宫八卦飞伏神定例",
+      "chapter": "卷二·卦爻呈象并飞伏神卦身定例",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "飞伏神",
+          "卦身定例",
+          "纳甲装卦",
+          "艮宫",
+          "艮宫八卦",
+          "卦身",
+          "八宫"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_065",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_065.md",
+      "weight": 4,
+      "title": "震宫八卦飞伏神定例",
+      "chapter": "卷二·卦爻呈象并飞伏神卦身定例",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "飞伏神",
+          "卦身定例",
+          "纳甲装卦",
+          "震宫",
+          "震宫八卦",
+          "卦身",
+          "八宫"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_066",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_066.md",
+      "weight": 4,
+      "title": "巽宫八卦飞伏神定例",
+      "chapter": "卷二·卦爻呈象并飞伏神卦身定例",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "飞伏神",
+          "卦身定例",
+          "纳甲装卦",
+          "巽宫",
+          "巽宫八卦",
+          "卦身",
+          "八宫"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_067",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_067.md",
+      "weight": 4,
+      "title": "离宫八卦飞伏神定例",
+      "chapter": "卷二·卦爻呈象并飞伏神卦身定例",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "飞伏神",
+          "卦身定例",
+          "纳甲装卦",
+          "离宫",
+          "离宫八卦",
+          "卦身",
+          "八宫"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_068",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_068.md",
+      "weight": 4,
+      "title": "坤宫八卦飞伏神定例",
+      "chapter": "卷二·卦爻呈象并飞伏神卦身定例",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "飞伏神",
+          "卦身定例",
+          "纳甲装卦",
+          "坤宫",
+          "坤宫八卦",
+          "卦身",
+          "八宫"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_069",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_069.md",
+      "weight": 4,
+      "title": "兑宫八卦飞伏神定例",
+      "chapter": "卷二·卦爻呈象并飞伏神卦身定例",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "飞伏神",
+          "卦身定例",
+          "纳甲装卦",
+          "兑宫",
+          "离宫八卦",
+          "兑宫八卦",
+          "卦身",
+          "八宫"
         ]
       }
     },
