@@ -373,9 +373,12 @@ def build_root_index(counts):
              f"| 相·地相 | 撼龙经 | 唐杨筠松·通行本 | {counts['hanlongjing']} | [索引](./library/xiang/dixiang/hanlongjing/INDEX.md) | ✅ |",
              f"| 相·地相 | 葬书 | 晋郭璞·通行本 | {counts['zangshu']} | [索引](./library/xiang/dixiang/zangshu/INDEX.md) | ✅ |",
              f"| 相·地相 | 青囊奥语 | 唐杨筠松·通行本 | {counts['qingnangaoyu']} | [索引](./library/xiang/dixiang/qingnangaoyu/INDEX.md) | ✅ |",
+             f"| 相·地相 | 雪心赋 | 唐卜应天·中华典藏网 | {counts['xuexinfu']} | [索引](./library/xiang/dixiang/xuexinfu/INDEX.md) | ✅ |",
              f"| 卜·易经 | 周易 | 经传合编·通行本 | {counts['zhouyi']} | [索引](./library/bu/yijing/zhouyi/INDEX.md) | ✅ |",
              f"| 卜·六爻 | 火珠林 | 题麻衣道者·通行本 | {counts['huozhulin']} | [索引](./library/bu/liuyao/huozhulin/INDEX.md) | ✅ |",
              f"| 卜·六爻 | 增删卜易 | 清野鹤老人·通行本 | {counts['zengshanbuyi']} | [索引](./library/bu/liuyao/zengshanbuyi/INDEX.md) | ✅ |",
+             f"| 卜·六爻 | 卜筮正宗 | 清王维德（中华典藏网） | {counts['boshizhengzong']} | [索引](./library/bu/liuyao/boshizhengzong/INDEX.md) | ✅ |",
+             f"| 卜·六爻 | 黄金策总断千金赋直解 | 明刘基撰·清王洪绪注 | {counts['huangjince']} | [索引](./library/bu/liuyao/huangjince/INDEX.md) | ✅ |",
              f"| 卜·梅花 | 梅花易数 | 宋邵雍·通行本 | {counts['meihuayishu']} | [索引](./library/bu/meihua/meihuayishu/INDEX.md) | ✅ |",
              f"| 卜·奇门 | 奇门遁甲秘笈大全 | 明刘基辑·通行本 | {counts['qimen-dunjia-miji']} | [索引](./library/bu/qimen/qimen-dunjia-miji/INDEX.md) | ✅ |",
              f"| 卜·六壬 | 六壬大全 | 明郭载騋校·四库全书本 | {counts['liuren-daquan']} | [索引](./library/bu/liuren/liuren-daquan/INDEX.md) | ✅ |",
@@ -383,8 +386,11 @@ def build_root_index(counts):
              f"| 山·丹道 | 周易参同契分章通真义 | 汉魏伯阳·五代彭晓注 | {counts['cantongqi']} | [索引](./library/shan/dandao/cantongqi/INDEX.md) | ✅ |",
              f"| 山·丹道 | 黄庭经 | 题太上老君授·魏晋上清派 | {counts['huangtingjing']} | [索引](./library/shan/dandao/huangtingjing/INDEX.md) | ✅ |",
              f"| 山·丹道 | 悟真篇 | 北宋张伯端（紫阳真人） | {counts['wuzhenpian']} | [索引](./library/shan/dandao/wuzhenpian/INDEX.md) | ✅ |",
+             f"| 山·丹道 | 性命圭旨 | 明尹真人高弟（中华典藏网） | {counts['xingmingguizhi']} | [索引](./library/shan/dandao/xingmingguizhi/INDEX.md) | ✅ |",
              f"| 山·武术 | 太极拳论 | 清王宗岳·艺藏本 | {counts['taijilun']} | [索引](./library/shan/wushu/taijilun/INDEX.md) | ✅ |",
              f"| 山·养生 | 达摩洗髓易筋经 | 艺藏本 | {counts['yijinjing']} | [索引](./library/shan/yangsheng/yijinjing/INDEX.md) | ✅ |",
+             f"| 山·养生 | 八段锦 | 抖音百科整理（起源宋朝） | {counts['baduanjin']} | [索引](./library/shan/yangsheng/baduanjin/INDEX.md) | ✅ |",
+             f"| 山·养生 | 五禽戏 | 中国道教协会《太上老君养生诀》（汉末华佗授） | {counts['wuqinxi']} | [索引](./library/shan/yangsheng/wuqinxi/INDEX.md) | ✅ |",
              f"| **合计** | **40 部** | — | **{total}** | — | — |", "",
              "## 目录结构", "",
              "```text",
@@ -440,11 +446,15 @@ def build_root_index(counts):
              "│       ├── hanlongjing/       #   撼龙经 1",
              "│       ├── zangshu/           #   葬书 1",
              "│       └── qingnangaoyu/      #   青囊奥语 1",
+             "│       └── xuexinfu/         #   雪心赋 5",
              "├── bu/                          # 卜·卜筮（library/bu/）",
              "│   └── yijing/                  # 易经（subcategory=yijing）",
              "│       └── zhouyi/              #   周易 68（64卦+4传）",
              "│   └── liuyao/                  # 六爻（subcategory=liuyao）",
              "│       └── huozhulin/           #   火珠林 64",
+             "│       └── zengshanbuyi/        #   增删卜易 123",
+             "│       └── boshizhengzong/      #   卜筮正宗 70",
+             "│       └── huangjince/           #   黄金策总断千金赋直解 28",
              "│   └── meihua/                  # 梅花易数（subcategory=meihua）",
              "│       └── meihuayishu/         #   梅花易数 136",
              "│   └── qimen/                   # 奇门遁甲（subcategory=qimen）",
@@ -458,10 +468,13 @@ def build_root_index(counts):
              "│   │   └── cantongqi/           #   周易参同契分章通真义 90",
              "│   │   └── huangtingjing/       #   黄庭经 40",
              "│   │   └── wuzhenpian/          #   悟真篇 99",
+             "│   │   └── xingmingguizhi/     #   性命圭旨 6",
              "│   ├── wushu/                   # 武术（subcategory=wushu）",
              "│   │   └── taijilun/            #   太极拳论 1",
              "│   └── yangsheng/               # 养生（subcategory=yangsheng）",
              "│       └── yijinjing/           #   达摩洗髓易筋经 22",
+             "│       └── baduanjin/           #   八段锦 10",
+             "│       └── wuqinxi/             #   五禽戏 9",
              "│           └── ziwei/         # 紫微斗数（subcategory=ziwei）",
              "│               ├── quanshu/   # 紫微斗数全书 17",
              "│               ├── quanji/    # 紫微斗数全集 29",
@@ -588,6 +601,9 @@ def main():
         ("library/xiang/dixiang", "qingnangaoyu", build_generic_index(
             "青囊奥语",
             "唐杨筠松撰，通行本，理气派风水经典，以阴阳五行、三元九运论龙穴砂水，为玄空理气之宗。")),
+        ("library/xiang/dixiang", "xuexinfu", build_generic_index(
+            "雪心赋",
+            "唐卜应天（字则巍，号昆仑子）撰，中华典藏网，5章，形势峦头风水经典，歌赋体，系统阐述山川理气、龙脉、穴法、水法、砂法、阳宅阴宅，为形势派（峦头派）风水代表作，与撼龙经、葬书、青囊奥语并称地相四大经典。")),
         ("library/bu/yijing", "zhouyi", build_generic_index(
             "周易",
             "周易经传合编，通行本，64卦+易传4篇（系辞/说卦/序卦/杂卦），群经之首，大道之源，以阴阳八卦论天地人三才之道，为五术卜部之根本经典。")),
@@ -597,6 +613,12 @@ def main():
         ("library/bu/liuyao", "zengshanbuyi", build_generic_index(
             "增删卜易",
             "清野鹤老人著，通行本，123章，六爻纳甲法集大成，以用神世应、五行生克、日辰月建、动变飞伏、冲合刑害为核心，附大量占验实例，为火珠林派六爻占法之巅峰著作。")),
+        ("library/bu/liuyao", "boshizhengzong", build_generic_index(
+            "卜筮正宗",
+            "中华典藏网，清王维德字洪绪号林屋先生撰，70条（卷一启蒙节要14+卷二飞伏神定例8+卷三十八论辟谬29+卷五何知章十八问答19），六爻进阶核心典籍，全书14卷，以黄金策为纲，系统阐述六爻占断之法，启蒙节要涵盖纳音五行、六亲、以钱代蓍、六十四卦装卦、纳甲、六兽、三合、长生、禄马羊刃、三刑六害、通玄赋、碎金赋、持世、世应、飞伏、用神、旬空月破等核心歌赋，十八论为六爻占断核心纲领，十八问答附占验为实战典范，力辟诸书之谬，一宗正理，为六爻学之集大成之作。")),
+        ("library/bu/liuyao", "huangjince", build_generic_index(
+            "黄金策总断千金赋直解",
+            "明刘基（字伯温，号诚意伯）撰，清王洪绪（字维德，号林屋先生）注，28条，六爻占断总纲，含总断千金赋总论+天时/年时/国朝/征战/身命/婚姻/产育/病症/病体/医药/鬼神/种作/蚕桑/六畜/求名/仕宦/求财/家宅/坟墓/求师/学馆/词讼/避乱/逃亡/失脱/出行/行人/舟船/娼家等三十余类占断，以动静阴阳、生克制化、刑冲合害、空破墓绝为根本，为后世六爻占断之圭臬，卜筮正宗全书即以诠解黄金策为核心。")),
         ("library/bu/meihua", "meihuayishu", build_generic_index(
             "梅花易数",
             "宋邵雍撰，通行本，136条，梅花易数派鼻祖，以体用生克、卦气旺衰、万物类象为核心，不拘古法随心起卦，为象数易占之集大成者。")),
@@ -618,12 +640,21 @@ def main():
         ("library/shan/dandao", "wuzhenpian", build_generic_index(
             "悟真篇",
             "北宋张伯端（紫阳真人）撰，99首（律诗16+绝句64+五言1+词12+杂诗6），道教内丹学核心经典，与参同契齐名，以诗词阐述金丹大道，铅汞为药物、坎离为水火、龙虎为魂魄、火候为抽添。")),
+        ("library/shan/dandao", "xingmingguizhi", build_generic_index(
+            "性命圭旨",
+            "中华典藏网，明尹真人高弟撰，元集6篇（大道说/性命说/死生说/邪正说/四图说/太极图说），道教内炼理论著作，分元亨利贞四集，内丹功法通俗化集大成，主张三教合一、性命双修，提出九转还丹功夫次第。")),
         ("library/shan/wushu", "taijilun", build_generic_index(
             "太极拳论",
             "清王宗岳撰，艺藏武术本，太极拳经典理论，以阴阳刚柔动静虚实论拳理，为内家拳之宗。")),
         ("library/shan/yangsheng", "yijinjing", build_generic_index(
             "达摩洗髓易筋经",
             "艺藏武术本，22篇，养生导引经典，含易筋经总论、洗髓经总义、正身/侧身/半身/屈身/折身/扭身/倒身/翻身/行身/坐身/定身/卧身十二图说、韦驮劲十二势、立八段锦、坐十二段锦等。")),
+        ("library/shan/yangsheng", "baduanjin", build_generic_index(
+            "八段锦",
+            "抖音百科整理，起源宋朝，10条（总述1+立式8式+坐式口诀1），中国古代导引养生功法，分立功、坐功两部分，共八段，每段一个动作，包括肢体运动和气息调理，练习时配合意守、呼吸及以意领气，为养生导引之经典功法。")),
+        ("library/shan/yangsheng", "wuqinxi", build_generic_index(
+            "五禽戏（太上老君养生诀）",
+            "中国道教协会《太上老君养生诀》，汉末华佗授广陵吴普，9条（五禽总述1+虎鹿熊猿鸟5戏+服气吐纳六气1+养生真诀1+服气诀1），中国古代导引养生功法，模仿五种动物动作，以汗出为限，可轻身消谷益气除百病，与八段锦、易筋经并称养生三典。")),
     ]
     counts = {}
     for root, book, builder in plan:

@@ -42,9 +42,12 @@
 | 相·地相 | 撼龙经 | 唐杨筠松·通行本 | 29 | [索引](./library/xiang/dixiang/hanlongjing/INDEX.md) | ✅ |
 | 相·地相 | 葬书 | 晋郭璞·通行本 | 13 | [索引](./library/xiang/dixiang/zangshu/INDEX.md) | ✅ |
 | 相·地相 | 青囊奥语 | 唐杨筠松·通行本 | 1 | [索引](./library/xiang/dixiang/qingnangaoyu/INDEX.md) | ✅ |
+| 相·地相 | 雪心赋 | 唐卜应天·中华典藏网 | 5 | [索引](./library/xiang/dixiang/xuexinfu/INDEX.md) | ✅ |
 | 卜·易经 | 周易 | 经传合编·通行本 | 68 | [索引](./library/bu/yijing/zhouyi/INDEX.md) | ✅ |
 | 卜·六爻 | 火珠林 | 题麻衣道者·通行本 | 64 | [索引](./library/bu/liuyao/huozhulin/INDEX.md) | ✅ |
 | 卜·六爻 | 增删卜易 | 清野鹤老人·通行本 | 123 | [索引](./library/bu/liuyao/zengshanbuyi/INDEX.md) | ✅ |
+| 卜·六爻 | 卜筮正宗 | 清王维德（中华典藏网） | 70 | [索引](./library/bu/liuyao/boshizhengzong/INDEX.md) | ✅ |
+| 卜·六爻 | 黄金策总断千金赋直解 | 明刘基撰·清王洪绪注 | 28 | [索引](./library/bu/liuyao/huangjince/INDEX.md) | ✅ |
 | 卜·梅花 | 梅花易数 | 宋邵雍·通行本 | 136 | [索引](./library/bu/meihua/meihuayishu/INDEX.md) | ✅ |
 | 卜·奇门 | 奇门遁甲秘笈大全 | 明刘基辑·通行本 | 382 | [索引](./library/bu/qimen/qimen-dunjia-miji/INDEX.md) | ✅ |
 | 卜·六壬 | 六壬大全 | 明郭载騋校·四库全书本 | 269 | [索引](./library/bu/liuren/liuren-daquan/INDEX.md) | ✅ |
@@ -52,9 +55,12 @@
 | 山·丹道 | 周易参同契分章通真义 | 汉魏伯阳·五代彭晓注 | 90 | [索引](./library/shan/dandao/cantongqi/INDEX.md) | ✅ |
 | 山·丹道 | 黄庭经 | 题太上老君授·魏晋上清派 | 40 | [索引](./library/shan/dandao/huangtingjing/INDEX.md) | ✅ |
 | 山·丹道 | 悟真篇 | 北宋张伯端（紫阳真人） | 99 | [索引](./library/shan/dandao/wuzhenpian/INDEX.md) | ✅ |
+| 山·丹道 | 性命圭旨 | 明尹真人高弟（中华典藏网） | 6 | [索引](./library/shan/dandao/xingmingguizhi/INDEX.md) | ✅ |
 | 山·武术 | 太极拳论 | 清王宗岳·艺藏本 | 1 | [索引](./library/shan/wushu/taijilun/INDEX.md) | ✅ |
 | 山·养生 | 达摩洗髓易筋经 | 艺藏本 | 22 | [索引](./library/shan/yangsheng/yijinjing/INDEX.md) | ✅ |
-| **合计** | **40 部** | — | **4680** | — | — |
+| 山·养生 | 八段锦 | 抖音百科整理（起源宋朝） | 10 | [索引](./library/shan/yangsheng/baduanjin/INDEX.md) | ✅ |
+| 山·养生 | 五禽戏 | 中国道教协会《太上老君养生诀》（汉末华佗授） | 9 | [索引](./library/shan/yangsheng/wuqinxi/INDEX.md) | ✅ |
+| **合计** | **40 部** | — | **4808** | — | — |
 
 ## 目录结构
 
@@ -111,11 +117,15 @@ ancient-text-library/
 │       ├── hanlongjing/       #   撼龙经 1
 │       ├── zangshu/           #   葬书 1
 │       └── qingnangaoyu/      #   青囊奥语 1
+│       └── xuexinfu/         #   雪心赋 5
 ├── bu/                          # 卜·卜筮（library/bu/）
 │   └── yijing/                  # 易经（subcategory=yijing）
 │       └── zhouyi/              #   周易 68（64卦+4传）
 │   └── liuyao/                  # 六爻（subcategory=liuyao）
 │       └── huozhulin/           #   火珠林 64
+│       └── zengshanbuyi/        #   增删卜易 123
+│       └── boshizhengzong/      #   卜筮正宗 70
+│       └── huangjince/           #   黄金策总断千金赋直解 28
 │   └── meihua/                  # 梅花易数（subcategory=meihua）
 │       └── meihuayishu/         #   梅花易数 136
 │   └── qimen/                   # 奇门遁甲（subcategory=qimen）
@@ -129,10 +139,13 @@ ancient-text-library/
 │   │   └── cantongqi/           #   周易参同契分章通真义 90
 │   │   └── huangtingjing/       #   黄庭经 40
 │   │   └── wuzhenpian/          #   悟真篇 99
+│   │   └── xingmingguizhi/     #   性命圭旨 6
 │   ├── wushu/                   # 武术（subcategory=wushu）
 │   │   └── taijilun/            #   太极拳论 1
 │   └── yangsheng/               # 养生（subcategory=yangsheng）
 │       └── yijinjing/           #   达摩洗髓易筋经 22
+│       └── baduanjin/           #   八段锦 10
+│       └── wuqinxi/             #   五禽戏 9
 │           └── ziwei/         # 紫微斗数（subcategory=ziwei）
 │               ├── quanshu/   # 紫微斗数全书 17
 │               ├── quanji/    # 紫微斗数全集 29
