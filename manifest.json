@@ -366,7 +366,7 @@
       "tier_name": "卜部六爻",
       "category": "bu",
       "subcategory": "liuyao",
-      "count": 14
+      "count": 43
     },
     {
       "dir": "huozhulin",
@@ -609,7 +609,7 @@
       "count": 0
     }
   ],
-  "total": 4724,
+  "total": 4753,
   "entries": [
     {
       "id": "bu6_liuren_000",
@@ -9168,6 +9168,897 @@
           "启蒙节要",
           "王维德",
           "月破"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_014",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_014.md",
+      "weight": 5,
+      "title": "用神分类定例第一",
+      "chapter": "卷三·十八论/辟诸书之谬",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "十八论",
+          "王维德",
+          "用神分类"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_015",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_015.md",
+      "weight": 5,
+      "title": "世应论用神第二",
+      "chapter": "卷三·十八论/辟诸书之谬",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "十八论",
+          "王维德",
+          "世应论用神"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_016",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_016.md",
+      "weight": 5,
+      "title": "用神问答第三",
+      "chapter": "卷三·十八论/辟诸书之谬",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "十八论",
+          "王维德",
+          "用神分类",
+          "用神问答"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_017",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_017.md",
+      "weight": 5,
+      "title": "原忌仇神论第四",
+      "chapter": "卷三·十八论/辟诸书之谬",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "十八论",
+          "王维德",
+          "原忌仇神",
+          "旬空论"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_018",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_018.md",
+      "weight": 5,
+      "title": "飞神正论第五",
+      "chapter": "卷三·十八论/辟诸书之谬",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "十八论",
+          "王维德",
+          "飞神正论"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_019",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_019.md",
+      "weight": 5,
+      "title": "伏神正传第六",
+      "chapter": "卷三·十八论/辟诸书之谬",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "十八论",
+          "王维德",
+          "伏神正传",
+          "旬空论"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_020",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_020.md",
+      "weight": 5,
+      "title": "六兽评论第七",
+      "chapter": "卷三·十八论/辟诸书之谬",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "十八论",
+          "王维德",
+          "原忌仇神",
+          "六兽评论"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_021",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_021.md",
+      "weight": 5,
+      "title": "四生逐位论",
+      "chapter": "卷三·十八论/辟诸书之谬",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "十八论",
+          "王维德",
+          "原忌仇神",
+          "四生逐位论",
+          "进退神论"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_022",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_022.md",
+      "weight": 5,
+      "title": "月破论第九",
+      "chapter": "卷三·十八论/辟诸书之谬",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "十八论",
+          "王维德",
+          "月破论",
+          "旬空论"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_023",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_023.md",
+      "weight": 5,
+      "title": "旬空论第十",
+      "chapter": "卷三·十八论/辟诸书之谬",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "十八论",
+          "王维德",
+          "旬空论"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_024",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_024.md",
+      "weight": 5,
+      "title": "反吟卦定例第十一",
+      "chapter": "卷三·十八论/辟诸书之谬",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "十八论",
+          "王维德",
+          "反吟卦定例"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_025",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_025.md",
+      "weight": 5,
+      "title": "绝处逄生克处逄生论第十六",
+      "chapter": "卷三·十八论/辟诸书之谬",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "十八论",
+          "王维德"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_026",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_026.md",
+      "weight": 5,
+      "title": "变出进退神论第十七",
+      "chapter": "卷三·十八论/辟诸书之谬",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "十八论",
+          "王维德",
+          "进退神论"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_027",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_027.md",
+      "weight": 5,
+      "title": "卦有验不验论第十八",
+      "chapter": "卷三·十八论/辟诸书之谬",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "十八论",
+          "王维德",
+          "用神分类",
+          "旬空论",
+          "卦有验不验论"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_028",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_028.md",
+      "weight": 5,
+      "title": "辟增删卜易之谬",
+      "chapter": "卷三·十八论/辟诸书之谬",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "十八论",
+          "王维德",
+          "用神分类",
+          "原忌仇神",
+          "辟增删卜易之谬",
+          "辟诸书之谬"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_029",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_029.md",
+      "weight": 5,
+      "title": "辟易林补遗伏神之谬",
+      "chapter": "卷三·十八论/辟诸书之谬",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "十八论",
+          "王维德",
+          "旬空论",
+          "辟易林补遗伏神之谬",
+          "辟诸书之谬"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_030",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_030.md",
+      "weight": 5,
+      "title": "辟易林补遗胎养衰病之谬",
+      "chapter": "卷三·十八论/辟诸书之谬",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "十八论",
+          "王维德",
+          "进退神论",
+          "辟易林补遗伏神之谬",
+          "辟易林补遗胎养衰病之谬",
+          "辟诸书之谬"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_031",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_031.md",
+      "weight": 5,
+      "title": "辟卜筮全书世身之谬",
+      "chapter": "卷三·十八论/辟诸书之谬",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "十八论",
+          "王维德",
+          "旬空论",
+          "辟卜筮全书世身之谬",
+          "辟诸书之谬"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_032",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_032.md",
+      "weight": 5,
+      "title": "辨天医星之谬",
+      "chapter": "卷三·十八论/辟诸书之谬",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "十八论",
+          "王维德",
+          "用神分类",
+          "辨天医星之谬",
+          "辟诸书之谬"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_033",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_033.md",
+      "weight": 5,
+      "title": "辟妄论本命之谬",
+      "chapter": "卷三·十八论/辟诸书之谬",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "十八论",
+          "王维德",
+          "用神分类",
+          "辟妄论本命之谬",
+          "辟诸书之谬"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_034",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_034.md",
+      "weight": 5,
+      "title": "辟卜筮全书神煞之谬",
+      "chapter": "卷三·十八论/辟诸书之谬",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "十八论",
+          "王维德",
+          "辟卜筮全书神煞之谬",
+          "辟诸书之谬"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_035",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_035.md",
+      "weight": 5,
+      "title": "辨贵人禄马之谬",
+      "chapter": "卷三·十八论/辟诸书之谬",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "十八论",
+          "王维德",
+          "用神分类",
+          "原忌仇神",
+          "六兽评论",
+          "辨贵人禄马之谬",
+          "辟诸书之谬"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_036",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_036.md",
+      "weight": 5,
+      "title": "辨易林补遗应为他人之谬",
+      "chapter": "卷三·十八论/辟诸书之谬",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "十八论",
+          "王维德",
+          "用神分类",
+          "原忌仇神",
+          "辟易林补遗伏神之谬",
+          "辨易林补遗应为他人之谬",
+          "辟诸书之谬"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_037",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_037.md",
+      "weight": 5,
+      "title": "辟易林补遗月破旬空之谬",
+      "chapter": "卷三·十八论/辟诸书之谬",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "十八论",
+          "王维德",
+          "月破论",
+          "旬空论",
+          "辟易林补遗伏神之谬",
+          "辟易林补遗月破旬空之谬",
+          "辟诸书之谬"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_038",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_038.md",
+      "weight": 5,
+      "title": "辨互卦",
+      "chapter": "卷三·十八论/辟诸书之谬",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "十八论",
+          "王维德",
+          "辨互卦"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_039",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_039.md",
+      "weight": 5,
+      "title": "辟易林补遗终身大小限之谬",
+      "chapter": "卷三·十八论/辟诸书之谬",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "十八论",
+          "王维德",
+          "用神分类",
+          "六兽评论",
+          "旬空论",
+          "辟易林补遗伏神之谬",
+          "辟易林补遗终身大小限之谬",
+          "辟诸书之谬"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_040",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_040.md",
+      "weight": 5,
+      "title": "辟易林补遗家宅之谬",
+      "chapter": "卷三·十八论/辟诸书之谬",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "十八论",
+          "王维德",
+          "六兽评论",
+          "辟易林补遗伏神之谬",
+          "辟易林补遗家宅之谬",
+          "辟诸书之谬"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_041",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_041.md",
+      "weight": 5,
+      "title": "辟易林补遗婚姻嫁娶之谬",
+      "chapter": "卷三·十八论/辟诸书之谬",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "十八论",
+          "王维德",
+          "用神分类",
+          "世应论用神",
+          "旬空论",
+          "辟易林补遗伏神之谬",
+          "辟易林补遗婚姻嫁娶之谬",
+          "辟诸书之谬"
+        ]
+      }
+    },
+    {
+      "id": "bu8_bszz_042",
+      "book": "卜筮正宗",
+      "type": "chapter",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/boshizhengzong/bu8_bszz_042.md",
+      "weight": 5,
+      "title": "辨六爻诸占之谬",
+      "chapter": "卷三·十八论/辟诸书之谬",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "卜筮正宗",
+          "卜部",
+          "六爻",
+          "十八论",
+          "王维德",
+          "用神分类",
+          "辨六爻诸占之谬",
+          "辟诸书之谬"
         ]
       }
     },
