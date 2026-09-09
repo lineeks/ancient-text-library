@@ -378,6 +378,7 @@ def build_root_index(counts):
              f"| 卜·六爻 | 火珠林 | 题麻衣道者·通行本 | {counts['huozhulin']} | [索引](./library/bu/liuyao/huozhulin/INDEX.md) | ✅ |",
              f"| 卜·六爻 | 增删卜易 | 清野鹤老人·通行本 | {counts['zengshanbuyi']} | [索引](./library/bu/liuyao/zengshanbuyi/INDEX.md) | ✅ |",
              f"| 卜·六爻 | 卜筮正宗 | 清王维德（中华典藏网） | {counts['boshizhengzong']} | [索引](./library/bu/liuyao/boshizhengzong/INDEX.md) | ✅ |",
+             f"| 卜·六爻 | 黄金策总断千金赋直解 | 明刘基撰·清王洪绪注 | {counts['huangjince']} | [索引](./library/bu/liuyao/huangjince/INDEX.md) | ✅ |",
              f"| 卜·梅花 | 梅花易数 | 宋邵雍·通行本 | {counts['meihuayishu']} | [索引](./library/bu/meihua/meihuayishu/INDEX.md) | ✅ |",
              f"| 卜·奇门 | 奇门遁甲秘笈大全 | 明刘基辑·通行本 | {counts['qimen-dunjia-miji']} | [索引](./library/bu/qimen/qimen-dunjia-miji/INDEX.md) | ✅ |",
              f"| 卜·六壬 | 六壬大全 | 明郭载騋校·四库全书本 | {counts['liuren-daquan']} | [索引](./library/bu/liuren/liuren-daquan/INDEX.md) | ✅ |",
@@ -452,7 +453,8 @@ def build_root_index(counts):
              "│   └── liuyao/                  # 六爻（subcategory=liuyao）",
              "│       └── huozhulin/           #   火珠林 64",
              "│       └── zengshanbuyi/        #   增删卜易 123",
-             "│       └── boshizhengzong/      #   卜筮正宗 14",
+             "│       └── boshizhengzong/      #   卜筮正宗 70",
+             "│       └── huangjince/           #   黄金策总断千金赋直解 28",
              "│   └── meihua/                  # 梅花易数（subcategory=meihua）",
              "│       └── meihuayishu/         #   梅花易数 136",
              "│   └── qimen/                   # 奇门遁甲（subcategory=qimen）",
@@ -613,7 +615,10 @@ def main():
             "清野鹤老人著，通行本，123章，六爻纳甲法集大成，以用神世应、五行生克、日辰月建、动变飞伏、冲合刑害为核心，附大量占验实例，为火珠林派六爻占法之巅峰著作。")),
         ("library/bu/liuyao", "boshizhengzong", build_generic_index(
             "卜筮正宗",
-            "中华典藏网，清王维德字洪绪号林屋先生撰，卷一启蒙节要14条，六爻进阶核心典籍，全书14卷，以黄金策为纲，系统阐述六爻占断之法，启蒙节要涵盖纳音五行、六亲、以钱代蓍、六十四卦装卦、纳甲、六兽、三合、长生、禄马羊刃、三刑六害、通玄赋、碎金赋、持世、世应、飞伏、用神、旬空月破等核心歌赋，力辟诸书之谬，一宗正理，为六爻学之集大成之作。")),
+            "中华典藏网，清王维德字洪绪号林屋先生撰，70条（卷一启蒙节要14+卷二飞伏神定例8+卷三十八论辟谬29+卷五何知章十八问答19），六爻进阶核心典籍，全书14卷，以黄金策为纲，系统阐述六爻占断之法，启蒙节要涵盖纳音五行、六亲、以钱代蓍、六十四卦装卦、纳甲、六兽、三合、长生、禄马羊刃、三刑六害、通玄赋、碎金赋、持世、世应、飞伏、用神、旬空月破等核心歌赋，十八论为六爻占断核心纲领，十八问答附占验为实战典范，力辟诸书之谬，一宗正理，为六爻学之集大成之作。")),
+        ("library/bu/liuyao", "huangjince", build_generic_index(
+            "黄金策总断千金赋直解",
+            "明刘基（字伯温，号诚意伯）撰，清王洪绪（字维德，号林屋先生）注，28条，六爻占断总纲，含总断千金赋总论+天时/年时/国朝/征战/身命/婚姻/产育/病症/病体/医药/鬼神/种作/蚕桑/六畜/求名/仕宦/求财/家宅/坟墓/求师/学馆/词讼/避乱/逃亡/失脱/出行/行人/舟船/娼家等三十余类占断，以动静阴阳、生克制化、刑冲合害、空破墓绝为根本，为后世六爻占断之圭臬，卜筮正宗全书即以诠解黄金策为核心。")),
         ("library/bu/meihua", "meihuayishu", build_generic_index(
             "梅花易数",
             "宋邵雍撰，通行本，136条，梅花易数派鼻祖，以体用生克、卦气旺衰、万物类象为核心，不拘古法随心起卦，为象数易占之集大成者。")),
