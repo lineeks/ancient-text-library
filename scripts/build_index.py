@@ -361,7 +361,8 @@ def build_root_index(counts):
              f"| 医·经典 | 黄帝内经素问 | 唐王冰注·宋林亿校 | {counts['suwen']} | [索引](./library/yi/jingdian/suwen/INDEX.md) | ✅ |",
              f"| 医·经典 | 灵枢经 | 四库本 | {counts['lingshu']} | [索引](./library/yi/jingdian/lingshu/INDEX.md) | ✅ |",
              f"| 医·经典 | 八十一难经 | 旧题扁鹊·四库本 | {counts['nanjing']} | [索引](./library/yi/jingdian/nanjing/INDEX.md) | ✅ |",
-             f"| 医·经典 | 伤寒论 | 汉张仲景·通行本 | {counts['shanghan']} | [索引](./library/yi/jingdian/shanghan/INDEX.md) | ✅ |",
+             f"| 医·经典 | 伤寒论 | 汉张仲景·宋林亿校定本 | {counts['shanghan']} | [索引](./library/yi/jingdian/shanghan/INDEX.md) | ✅ |",
+             f"| 医·经典 | 金匮要略 | 汉张仲景·中华典藏网译注本 | {counts.get('jinkui-yaolue', 0)} | [索引](./library/yi/jingdian/jinkui-yaolue/INDEX.md) | ✅ |",
              f"| 医·经典 | 神农本草经 | 四库本 | {counts['shennong']} | [索引](./library/yi/jingdian/shennong/INDEX.md) | ✅ |",
              f"| 医·方书 | 备急千金要方 | 唐孙思邈·四库本 | {counts['qianjinfang']} | [索引](./library/yi/fangshu/qianjinfang/INDEX.md) | ✅ |",
              f"| 医·方书 | 外台秘要 | 唐王焘·明程校 | {counts['waitaimiyao']} | [索引](./library/yi/fangshu/waitaimiyao/INDEX.md) | ✅ |",
@@ -427,7 +428,8 @@ def build_root_index(counts):
              "│       ├── suwen/            #   黄帝内经素问 81",
              "│       ├── lingshu/          #   灵枢经 71",
              "│       ├── nanjing/          #   八十一难经 81",
-             "│       ├── shanghan/         #   伤寒论 10",
+             "│       ├── shanghan/         #   伤寒论 22",
+             "│       ├── jinkui-yaolue/    #   金匮要略 25",
              "│       └── shennong/         #   神农本草经 313",
              "│   ├── fangshu/              # 方书（subcategory=fangshu）",
              "│   │   ├── qianjinfang/      #   备急千金要方 30",
@@ -567,7 +569,10 @@ def main():
             "旧题扁鹊撰，四库全书本，81难，以问答体阐释脉学、经络、脏腑、腧穴、针法，为内经要义之提纲。")),
         ("library/yi/jingdian", "shanghan", build_generic_index(
             "伤寒论",
-            "汉张仲景撰，通行本，10篇，辨证论治奠基之作，以六经辨证统摄外感热病，载方113首。")),
+            "汉张仲景撰，晋王叔和编次，宋林亿校定，22篇，六经辨证奠基之作，397法113方82药，中医临床医学之经典。")),
+        ("library/yi/jingdian", "jinkui-yaolue", build_generic_index(
+            "金匮要略",
+            "汉张仲景撰，《伤寒杂病论》杂病部分，25篇，方书之祖，载方262首，以内科杂病为主兼及外科妇科急救饮食禁忌，确立杂病辨证论治体系。")),
         ("library/yi/jingdian", "shennong", build_generic_index(
             "神农本草经",
             "四库全书本，上中下三品，313味药，中国现存最早药物学专著，论药物气味、主治、君臣佐使、七情合和。")),
