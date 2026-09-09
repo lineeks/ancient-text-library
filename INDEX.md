@@ -46,7 +46,7 @@
 | 卜·易经 | 周易 | 经传合编·通行本 | 68 | [索引](./library/bu/yijing/zhouyi/INDEX.md) | ✅ |
 | 卜·六爻 | 火珠林 | 题麻衣道者·通行本 | 64 | [索引](./library/bu/liuyao/huozhulin/INDEX.md) | ✅ |
 | 卜·六爻 | 增删卜易 | 清野鹤老人·通行本 | 123 | [索引](./library/bu/liuyao/zengshanbuyi/INDEX.md) | ✅ |
-| 卜·六爻 | 卜筮正宗 | 清王维德（中华典藏网） | 43 | [索引](./library/bu/liuyao/boshizhengzong/INDEX.md) | ✅ |
+| 卜·六爻 | 卜筮正宗 | 清王维德（中华典藏网） | 62 | [索引](./library/bu/liuyao/boshizhengzong/INDEX.md) | ✅ |
 | 卜·梅花 | 梅花易数 | 宋邵雍·通行本 | 136 | [索引](./library/bu/meihua/meihuayishu/INDEX.md) | ✅ |
 | 卜·奇门 | 奇门遁甲秘笈大全 | 明刘基辑·通行本 | 382 | [索引](./library/bu/qimen/qimen-dunjia-miji/INDEX.md) | ✅ |
 | 卜·六壬 | 六壬大全 | 明郭载騋校·四库全书本 | 269 | [索引](./library/bu/liuren/liuren-daquan/INDEX.md) | ✅ |
@@ -59,7 +59,7 @@
 | 山·养生 | 达摩洗髓易筋经 | 艺藏本 | 22 | [索引](./library/shan/yangsheng/yijinjing/INDEX.md) | ✅ |
 | 山·养生 | 八段锦 | 抖音百科整理（起源宋朝） | 10 | [索引](./library/shan/yangsheng/baduanjin/INDEX.md) | ✅ |
 | 山·养生 | 五禽戏 | 中国道教协会《太上老君养生诀》（汉末华佗授） | 9 | [索引](./library/shan/yangsheng/wuqinxi/INDEX.md) | ✅ |
-| **合计** | **40 部** | — | **4753** | — | — |
+| **合计** | **40 部** | — | **4772** | — | — |
 
 ## 目录结构
 
