@@ -337,6 +337,22 @@
       "count": 174
     },
     {
+      "dir": "boshan-pian",
+      "tier": "library/xiang/dixiang",
+      "tier_name": "相部地相",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "count": 8
+    },
+    {
+      "dir": "cuiguan-pian",
+      "tier": "library/xiang/dixiang",
+      "tier_name": "相部地相",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "count": 4
+    },
+    {
       "dir": "hanlongjing",
       "tier": "library/xiang/dixiang",
       "tier_name": "相部地相",
@@ -633,7 +649,7 @@
       "count": 0
     }
   ],
-  "total": 4845,
+  "total": 4857,
   "entries": [
     {
       "id": "bu6_liuren_000",
@@ -107447,6 +107463,405 @@
           "养生经络",
           "五行",
           "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "xiang5_bsp_00",
+      "book": "博山篇",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/boshan-pian/xiang5_bsp_00.md",
+      "weight": 4,
+      "title": "概论相地法",
+      "chapter": "概论相地法",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "博山篇",
+          "相部",
+          "地相",
+          "风水",
+          "堪舆",
+          "黄妙应（妙应禅师）",
+          "概论相地法",
+          "相地法",
+          "总纲",
+          "寻龙"
+        ]
+      }
+    },
+    {
+      "id": "xiang5_bsp_01",
+      "book": "博山篇",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/boshan-pian/xiang5_bsp_01.md",
+      "weight": 4,
+      "title": "论龙",
+      "chapter": "论龙",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "博山篇",
+          "相部",
+          "地相",
+          "风水",
+          "堪舆",
+          "黄妙应（妙应禅师）",
+          "论龙",
+          "寻龙",
+          "枝干",
+          "剥换",
+          "过峡"
+        ]
+      }
+    },
+    {
+      "id": "xiang5_bsp_02",
+      "book": "博山篇",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/boshan-pian/xiang5_bsp_02.md",
+      "weight": 4,
+      "title": "论穴",
+      "chapter": "论穴",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "博山篇",
+          "相部",
+          "地相",
+          "风水",
+          "堪舆",
+          "黄妙应（妙应禅师）",
+          "论穴",
+          "点穴",
+          "窝钳乳突",
+          "穴证"
+        ]
+      }
+    },
+    {
+      "id": "xiang5_bsp_03",
+      "book": "博山篇",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/boshan-pian/xiang5_bsp_03.md",
+      "weight": 4,
+      "title": "论砂",
+      "chapter": "论砂",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "博山篇",
+          "相部",
+          "地相",
+          "风水",
+          "堪舆",
+          "黄妙应（妙应禅师）",
+          "论砂",
+          "认砂",
+          "青龙白虎",
+          "朝案"
+        ]
+      }
+    },
+    {
+      "id": "xiang5_bsp_04",
+      "book": "博山篇",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/boshan-pian/xiang5_bsp_04.md",
+      "weight": 4,
+      "title": "论水",
+      "chapter": "论水",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "博山篇",
+          "相部",
+          "地相",
+          "风水",
+          "堪舆",
+          "黄妙应（妙应禅师）",
+          "论水",
+          "观水",
+          "水法",
+          "来去水"
+        ]
+      }
+    },
+    {
+      "id": "xiang5_bsp_05",
+      "book": "博山篇",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/boshan-pian/xiang5_bsp_05.md",
+      "weight": 4,
+      "title": "论明堂",
+      "chapter": "论明堂",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "博山篇",
+          "相部",
+          "地相",
+          "风水",
+          "堪舆",
+          "黄妙应（妙应禅师）",
+          "论明堂",
+          "明堂",
+          "藏风聚气"
+        ]
+      }
+    },
+    {
+      "id": "xiang5_bsp_06",
+      "book": "博山篇",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/boshan-pian/xiang5_bsp_06.md",
+      "weight": 4,
+      "title": "论阳宅",
+      "chapter": "论阳宅",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "博山篇",
+          "相部",
+          "地相",
+          "风水",
+          "堪舆",
+          "黄妙应（妙应禅师）",
+          "论阳宅",
+          "阳宅",
+          "阳宅风水",
+          "城乡"
+        ]
+      }
+    },
+    {
+      "id": "xiang5_bsp_07",
+      "book": "博山篇",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/boshan-pian/xiang5_bsp_07.md",
+      "weight": 4,
+      "title": "论平地",
+      "chapter": "论平地",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "博山篇",
+          "相部",
+          "地相",
+          "风水",
+          "堪舆",
+          "黄妙应（妙应禅师）",
+          "论平地",
+          "平地龙",
+          "平阳风水"
+        ]
+      }
+    },
+    {
+      "id": "xiang5_cgp_00",
+      "book": "催官篇",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/cuiguan-pian/xiang5_cgp_00.md",
+      "weight": 4,
+      "title": "评龙章",
+      "chapter": "评龙章",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "催官篇",
+          "相部",
+          "地相",
+          "风水",
+          "堪舆",
+          "赖文俊（字太素，号布衣子，赖布衣）",
+          "评龙章",
+          "天星龙",
+          "三吉六秀",
+          "亥龙",
+          "艮龙"
+        ]
+      }
+    },
+    {
+      "id": "xiang5_cgp_01",
+      "book": "催官篇",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/cuiguan-pian/xiang5_cgp_01.md",
+      "weight": 4,
+      "title": "评穴章",
+      "chapter": "评穴章",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "催官篇",
+          "相部",
+          "地相",
+          "风水",
+          "堪舆",
+          "赖文俊（字太素，号布衣子，赖布衣）",
+          "评穴章",
+          "天星穴",
+          "二十四山",
+          "耳受气",
+          "立穴"
+        ]
+      }
+    },
+    {
+      "id": "xiang5_cgp_02",
+      "book": "催官篇",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/cuiguan-pian/xiang5_cgp_02.md",
+      "weight": 4,
+      "title": "评砂章",
+      "chapter": "评砂章",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "催官篇",
+          "相部",
+          "地相",
+          "风水",
+          "堪舆",
+          "赖文俊（字太素，号布衣子，赖布衣）",
+          "评砂章",
+          "天星砂",
+          "四维",
+          "贵人禄马",
+          "尖秀"
+        ]
+      }
+    },
+    {
+      "id": "xiang5_cgp_03",
+      "book": "催官篇",
+      "type": "chapter",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/cuiguan-pian/xiang5_cgp_03.md",
+      "weight": 4,
+      "title": "评水章",
+      "chapter": "评水章",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "催官篇",
+          "相部",
+          "地相",
+          "风水",
+          "堪舆",
+          "赖文俊（字太素，号布衣子，赖布衣）",
+          "评水章",
+          "天星水",
+          "三阳水",
+          "巽丙丁",
+          "水朝"
         ]
       }
     },
