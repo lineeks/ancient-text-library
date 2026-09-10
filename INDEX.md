@@ -46,6 +46,7 @@
 | 相·地相 | 雪心赋 | 唐卜应天·中华典藏网 | 5 | [索引](./library/xiang/dixiang/xuexinfu/INDEX.md) | ✅ |
 | 相·地相 | 博山篇 | 五代黄妙应·中华典藏网 | 8 | [索引](./library/xiang/dixiang/boshan-pian/INDEX.md) | ✅ |
 | 相·地相 | 催官篇 | 宋赖文俊(赖布衣)·中华典藏网 | 4 | [索引](./library/xiang/dixiang/cuiguan-pian/INDEX.md) | ✅ |
+| 相·地相 | 地理人子须知 | 明徐善继徐善述·中华典藏网 | 51 | [索引](./library/xiang/dixiang/dili-renzi-xuzhi/INDEX.md) | ✅ |
 | 卜·易经 | 周易 | 经传合编·通行本 | 68 | [索引](./library/bu/yijing/zhouyi/INDEX.md) | ✅ |
 | 卜·六爻 | 火珠林 | 题麻衣道者·通行本 | 64 | [索引](./library/bu/liuyao/huozhulin/INDEX.md) | ✅ |
 | 卜·六爻 | 增删卜易 | 清野鹤老人·通行本 | 123 | [索引](./library/bu/liuyao/zengshanbuyi/INDEX.md) | ✅ |
@@ -63,7 +64,7 @@
 | 山·养生 | 达摩洗髓易筋经 | 艺藏本 | 22 | [索引](./library/shan/yangsheng/yijinjing/INDEX.md) | ✅ |
 | 山·养生 | 八段锦 | 抖音百科整理（起源宋朝） | 10 | [索引](./library/shan/yangsheng/baduanjin/INDEX.md) | ✅ |
 | 山·养生 | 五禽戏 | 中国道教协会《太上老君养生诀》（汉末华佗授） | 9 | [索引](./library/shan/yangsheng/wuqinxi/INDEX.md) | ✅ |
-| **合计** | **40 部** | — | **4857** | — | — |
+| **合计** | **40 部** | — | **4908** | — | — |
 
 ## 目录结构
 
@@ -123,7 +124,8 @@ ancient-text-library/
 │       ├── qingnangaoyu/      #   青囊奥语 1
 │       ├── xuexinfu/          #   雪心赋 5
 │       ├── boshan-pian/       #   博山篇 8
-│       └── cuiguan-pian/      #   催官篇 4
+│       ├── cuiguan-pian/      #   催官篇 4
+│       └── dili-renzi-xuzhi/  #   地理人子须知 51
 ├── bu/                          # 卜·卜筮（library/bu/）
 │   └── yijing/                  # 易经（subcategory=yijing）
 │       └── zhouyi/              #   周易 68（64卦+4传）
