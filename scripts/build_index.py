@@ -377,6 +377,7 @@ def build_root_index(counts):
              f"| 相·地相 | 雪心赋 | 唐卜应天·中华典藏网 | {counts['xuexinfu']} | [索引](./library/xiang/dixiang/xuexinfu/INDEX.md) | ✅ |",
              f"| 相·地相 | 博山篇 | 五代黄妙应·中华典藏网 | {counts.get('boshan-pian', 0)} | [索引](./library/xiang/dixiang/boshan-pian/INDEX.md) | ✅ |",
              f"| 相·地相 | 催官篇 | 宋赖文俊(赖布衣)·中华典藏网 | {counts.get('cuiguan-pian', 0)} | [索引](./library/xiang/dixiang/cuiguan-pian/INDEX.md) | ✅ |",
+             f"| 相·地相 | 地理人子须知 | 明徐善继徐善述·中华典藏网 | {counts.get('dili-renzi-xuzhi', 0)} | [索引](./library/xiang/dixiang/dili-renzi-xuzhi/INDEX.md) | ✅ |",
              f"| 卜·易经 | 周易 | 经传合编·通行本 | {counts['zhouyi']} | [索引](./library/bu/yijing/zhouyi/INDEX.md) | ✅ |",
              f"| 卜·六爻 | 火珠林 | 题麻衣道者·通行本 | {counts['huozhulin']} | [索引](./library/bu/liuyao/huozhulin/INDEX.md) | ✅ |",
              f"| 卜·六爻 | 增删卜易 | 清野鹤老人·通行本 | {counts['zengshanbuyi']} | [索引](./library/bu/liuyao/zengshanbuyi/INDEX.md) | ✅ |",
@@ -452,7 +453,8 @@ def build_root_index(counts):
              "│       ├── qingnangaoyu/      #   青囊奥语 1",
              "│       ├── xuexinfu/          #   雪心赋 5",
              "│       ├── boshan-pian/       #   博山篇 8",
-             "│       └── cuiguan-pian/      #   催官篇 4",
+             "│       ├── cuiguan-pian/      #   催官篇 4",
+             "│       └── dili-renzi-xuzhi/  #   地理人子须知 51",
              "├── bu/                          # 卜·卜筮（library/bu/）",
              "│   └── yijing/                  # 易经（subcategory=yijing）",
              "│       └── zhouyi/              #   周易 68（64卦+4传）",
@@ -619,6 +621,9 @@ def main():
         ("library/xiang/dixiang", "cuiguan-pian", build_generic_index(
             "催官篇",
             "宋赖文俊（字太素，号布衣子，世称赖布衣）撰，中华典藏网，4卷，天星风水代表作，歌诀体，评龙+评穴+评砂+评水，以二十四山分阴阳、三吉六秀（震庚亥为三吉，巽辛艮丙兑丁为六秀）论龙穴砂水之吉凶应，为理气派天星风水之经典。")),
+        ("library/xiang/dixiang", "dili-renzi-xuzhi", build_generic_index(
+            "地理人子须知",
+            "明徐善继、徐善述（江右德行山人，孪生兄弟）撰，中华典藏网（明万历重刊本），51篇，全称《重刊人子须知资孝地理心学统宗》，万历年间堪舆集大成巨著，形峦风水教科书级典籍，8卷全面系统阐述龙穴砂水四大核心（卷一龙法/卷二穴法/卷三砂法/卷四水法/卷五阳宅/卷六阴宅/卷七穴法补/卷八杂论），考证风水名家历代案例甚多，为古代记载案例最多的堪舆著作，形峦家无不推荐。")),
         ("library/bu/yijing", "zhouyi", build_generic_index(
             "周易",
             "周易经传合编，通行本，64卦+易传4篇（系辞/说卦/序卦/杂卦），群经之首，大道之源，以阴阳八卦论天地人三才之道，为五术卜部之根本经典。")),
