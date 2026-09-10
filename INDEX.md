@@ -30,7 +30,8 @@
 | 医·经典 | 黄帝内经素问 | 唐王冰注·宋林亿校 | 81 | [索引](./library/yi/jingdian/suwen/INDEX.md) | ✅ |
 | 医·经典 | 灵枢经 | 四库本 | 81 | [索引](./library/yi/jingdian/lingshu/INDEX.md) | ✅ |
 | 医·经典 | 八十一难经 | 旧题扁鹊·四库本 | 81 | [索引](./library/yi/jingdian/nanjing/INDEX.md) | ✅ |
-| 医·经典 | 伤寒论 | 汉张仲景·通行本 | 10 | [索引](./library/yi/jingdian/shanghan/INDEX.md) | ✅ |
+| 医·经典 | 伤寒论 | 汉张仲景·宋林亿校定本 | 22 | [索引](./library/yi/jingdian/shanghan/INDEX.md) | ✅ |
+| 医·经典 | 金匮要略 | 汉张仲景·中华典藏网译注本 | 25 | [索引](./library/yi/jingdian/jinkui-yaolue/INDEX.md) | ✅ |
 | 医·经典 | 神农本草经 | 四库本 | 313 | [索引](./library/yi/jingdian/shennong/INDEX.md) | ✅ |
 | 医·方书 | 备急千金要方 | 唐孙思邈·四库本 | 30 | [索引](./library/yi/fangshu/qianjinfang/INDEX.md) | ✅ |
 | 医·方书 | 外台秘要 | 唐王焘·明程校 | 40 | [索引](./library/yi/fangshu/waitaimiyao/INDEX.md) | ✅ |
@@ -43,6 +44,8 @@
 | 相·地相 | 葬书 | 晋郭璞·通行本 | 13 | [索引](./library/xiang/dixiang/zangshu/INDEX.md) | ✅ |
 | 相·地相 | 青囊奥语 | 唐杨筠松·通行本 | 1 | [索引](./library/xiang/dixiang/qingnangaoyu/INDEX.md) | ✅ |
 | 相·地相 | 雪心赋 | 唐卜应天·中华典藏网 | 5 | [索引](./library/xiang/dixiang/xuexinfu/INDEX.md) | ✅ |
+| 相·地相 | 博山篇 | 五代黄妙应·中华典藏网 | 8 | [索引](./library/xiang/dixiang/boshan-pian/INDEX.md) | ✅ |
+| 相·地相 | 催官篇 | 宋赖文俊(赖布衣)·中华典藏网 | 4 | [索引](./library/xiang/dixiang/cuiguan-pian/INDEX.md) | ✅ |
 | 卜·易经 | 周易 | 经传合编·通行本 | 68 | [索引](./library/bu/yijing/zhouyi/INDEX.md) | ✅ |
 | 卜·六爻 | 火珠林 | 题麻衣道者·通行本 | 64 | [索引](./library/bu/liuyao/huozhulin/INDEX.md) | ✅ |
 | 卜·六爻 | 增删卜易 | 清野鹤老人·通行本 | 123 | [索引](./library/bu/liuyao/zengshanbuyi/INDEX.md) | ✅ |
@@ -60,7 +63,7 @@
 | 山·养生 | 达摩洗髓易筋经 | 艺藏本 | 22 | [索引](./library/shan/yangsheng/yijinjing/INDEX.md) | ✅ |
 | 山·养生 | 八段锦 | 抖音百科整理（起源宋朝） | 10 | [索引](./library/shan/yangsheng/baduanjin/INDEX.md) | ✅ |
 | 山·养生 | 五禽戏 | 中国道教协会《太上老君养生诀》（汉末华佗授） | 9 | [索引](./library/shan/yangsheng/wuqinxi/INDEX.md) | ✅ |
-| **合计** | **40 部** | — | **4808** | — | — |
+| **合计** | **40 部** | — | **4857** | — | — |
 
 ## 目录结构
 
@@ -98,7 +101,8 @@ ancient-text-library/
 │       ├── suwen/            #   黄帝内经素问 81
 │       ├── lingshu/          #   灵枢经 71
 │       ├── nanjing/          #   八十一难经 81
-│       ├── shanghan/         #   伤寒论 10
+│       ├── shanghan/         #   伤寒论 22
+│       ├── jinkui-yaolue/    #   金匮要略 25
 │       └── shennong/         #   神农本草经 313
 │   ├── fangshu/              # 方书（subcategory=fangshu）
 │   │   ├── qianjinfang/      #   备急千金要方 30
@@ -114,10 +118,12 @@ ancient-text-library/
 │   │   ├── shenxiangquanbian/ #   神相全编 174
 │   │   └── liuzhuangxiangfa/  #   柳庄相法 170
 │   └── dixiang/               # 地相（subcategory=dixiang）
-│       ├── hanlongjing/       #   撼龙经 1
-│       ├── zangshu/           #   葬书 1
-│       └── qingnangaoyu/      #   青囊奥语 1
-│       └── xuexinfu/         #   雪心赋 5
+│       ├── hanlongjing/       #   撼龙经 29
+│       ├── zangshu/           #   葬书 13
+│       ├── qingnangaoyu/      #   青囊奥语 1
+│       ├── xuexinfu/          #   雪心赋 5
+│       ├── boshan-pian/       #   博山篇 8
+│       └── cuiguan-pian/      #   催官篇 4
 ├── bu/                          # 卜·卜筮（library/bu/）
 │   └── yijing/                  # 易经（subcategory=yijing）
 │       └── zhouyi/              #   周易 68（64卦+4传）
