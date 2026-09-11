@@ -329,6 +329,14 @@
       "count": 170
     },
     {
+      "dir": "mayishenxiang",
+      "tier": "library/xiang/renxiang",
+      "tier_name": "相部人相",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "count": 9
+    },
+    {
       "dir": "shenxiangquanbian",
       "tier": "library/xiang/renxiang",
       "tier_name": "相部人相",
@@ -665,7 +673,7 @@
       "count": 0
     }
   ],
-  "total": 4926,
+  "total": 4935,
   "entries": [
     {
       "id": "bu6_liuren_000",
@@ -116522,6 +116530,258 @@
           "地相龙法",
           "地相砂水",
           "地相理气"
+        ]
+      }
+    },
+    {
+      "id": "mysx_01",
+      "book": "麻衣神相",
+      "type": "mianxiang",
+      "tier": "library/xiang/renxiang",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "path": "library/xiang/renxiang/mayishenxiang/mysx_01.md",
+      "weight": 4,
+      "title": "前言",
+      "chapter": "前言",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "相学",
+          "人相",
+          "前言",
+          "麻衣",
+          "面相"
+        ]
+      }
+    },
+    {
+      "id": "mysx_02",
+      "book": "麻衣神相",
+      "type": "mianxiang",
+      "tier": "library/xiang/renxiang",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "path": "library/xiang/renxiang/mayishenxiang/mysx_02.md",
+      "weight": 4,
+      "title": "卷一·五官",
+      "chapter": "卷一·五官",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "相学",
+          "人相",
+          "卷一·五官",
+          "麻衣",
+          "面相"
+        ]
+      }
+    },
+    {
+      "id": "mysx_03",
+      "book": "麻衣神相",
+      "type": "mianxiang",
+      "tier": "library/xiang/renxiang",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "path": "library/xiang/renxiang/mayishenxiang/mysx_03.md",
+      "weight": 4,
+      "title": "卷一·十二宫",
+      "chapter": "卷一·十二宫",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "相学",
+          "人相",
+          "卷一·十二宫",
+          "麻衣",
+          "面相"
+        ]
+      }
+    },
+    {
+      "id": "mysx_04",
+      "book": "麻衣神相",
+      "type": "mianxiang",
+      "tier": "library/xiang/renxiang",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "path": "library/xiang/renxiang/mayishenxiang/mysx_04.md",
+      "weight": 4,
+      "title": "卷二·身形",
+      "chapter": "卷二·身形",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "相学",
+          "人相",
+          "卷二·身形",
+          "麻衣",
+          "面相"
+        ]
+      }
+    },
+    {
+      "id": "mysx_05",
+      "book": "麻衣神相",
+      "type": "mianxiang",
+      "tier": "library/xiang/renxiang",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "path": "library/xiang/renxiang/mayishenxiang/mysx_05.md",
+      "weight": 4,
+      "title": "卷二·手足",
+      "chapter": "卷二·手足",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "相学",
+          "人相",
+          "卷二·手足",
+          "麻衣",
+          "面相"
+        ]
+      }
+    },
+    {
+      "id": "mysx_06",
+      "book": "麻衣神相",
+      "type": "mianxiang",
+      "tier": "library/xiang/renxiang",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "path": "library/xiang/renxiang/mayishenxiang/mysx_06.md",
+      "weight": 4,
+      "title": "卷三·气色",
+      "chapter": "卷三·气色",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "相学",
+          "人相",
+          "卷三·气色",
+          "麻衣",
+          "面相"
+        ]
+      }
+    },
+    {
+      "id": "mysx_07",
+      "book": "麻衣神相",
+      "type": "mianxiang",
+      "tier": "library/xiang/renxiang",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "path": "library/xiang/renxiang/mayishenxiang/mysx_07.md",
+      "weight": 4,
+      "title": "卷三·声音",
+      "chapter": "卷三·声音",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "相学",
+          "人相",
+          "卷三·声音",
+          "麻衣",
+          "面相"
+        ]
+      }
+    },
+    {
+      "id": "mysx_08",
+      "book": "麻衣神相",
+      "type": "mianxiang",
+      "tier": "library/xiang/renxiang",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "path": "library/xiang/renxiang/mayishenxiang/mysx_08.md",
+      "weight": 4,
+      "title": "卷四·石室神异赋",
+      "chapter": "卷四·石室神异赋",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "相学",
+          "人相",
+          "卷四·石室神异赋",
+          "麻衣",
+          "面相"
+        ]
+      }
+    },
+    {
+      "id": "mysx_09",
+      "book": "麻衣神相",
+      "type": "mianxiang",
+      "tier": "library/xiang/renxiang",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "path": "library/xiang/renxiang/mayishenxiang/mysx_09.md",
+      "weight": 4,
+      "title": "卷五·论神论气",
+      "chapter": "卷五·论神论气",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "相学",
+          "人相",
+          "卷五·论神论气",
+          "麻衣",
+          "面相"
         ]
       }
     },
