@@ -497,6 +497,14 @@
       "count": 6
     },
     {
+      "dir": "zhonglvchuandaoji",
+      "tier": "library/shan/dandao",
+      "tier_name": "山部丹道",
+      "category": "shan",
+      "subcategory": "dandao",
+      "count": 18
+    },
+    {
       "dir": "taijilun",
       "tier": "library/shan/wushu",
       "tier_name": "山部武术",
@@ -657,7 +665,7 @@
       "count": 0
     }
   ],
-  "total": 4908,
+  "total": 4926,
   "entries": [
     {
       "id": "bu6_liuren_000",
@@ -106285,6 +106293,510 @@
           "太极图说",
           "金丹大道",
           "三教合一"
+        ]
+      }
+    },
+    {
+      "id": "zlcdj_01",
+      "book": "钟吕传道集",
+      "type": "neidan",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/zhonglvchuandaoji/zlcdj_01.md",
+      "weight": 4,
+      "title": "论真仙",
+      "chapter": "卷01·论真仙",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "内丹",
+          "修炼",
+          "论真仙",
+          "钟吕",
+          "内丹学"
+        ]
+      }
+    },
+    {
+      "id": "zlcdj_02",
+      "book": "钟吕传道集",
+      "type": "neidan",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/zhonglvchuandaoji/zlcdj_02.md",
+      "weight": 4,
+      "title": "论大道",
+      "chapter": "卷02·论大道",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "内丹",
+          "修炼",
+          "论大道",
+          "钟吕",
+          "内丹学"
+        ]
+      }
+    },
+    {
+      "id": "zlcdj_03",
+      "book": "钟吕传道集",
+      "type": "neidan",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/zhonglvchuandaoji/zlcdj_03.md",
+      "weight": 4,
+      "title": "论天地",
+      "chapter": "卷03·论天地",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "内丹",
+          "修炼",
+          "论天地",
+          "钟吕",
+          "内丹学"
+        ]
+      }
+    },
+    {
+      "id": "zlcdj_04",
+      "book": "钟吕传道集",
+      "type": "neidan",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/zhonglvchuandaoji/zlcdj_04.md",
+      "weight": 4,
+      "title": "论日月",
+      "chapter": "卷04·论日月",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "内丹",
+          "修炼",
+          "论日月",
+          "钟吕",
+          "内丹学"
+        ]
+      }
+    },
+    {
+      "id": "zlcdj_05",
+      "book": "钟吕传道集",
+      "type": "neidan",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/zhonglvchuandaoji/zlcdj_05.md",
+      "weight": 4,
+      "title": "论四时",
+      "chapter": "卷05·论四时",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "内丹",
+          "修炼",
+          "论四时",
+          "钟吕",
+          "内丹学"
+        ]
+      }
+    },
+    {
+      "id": "zlcdj_06",
+      "book": "钟吕传道集",
+      "type": "neidan",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/zhonglvchuandaoji/zlcdj_06.md",
+      "weight": 4,
+      "title": "论五行",
+      "chapter": "卷06·论五行",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "内丹",
+          "修炼",
+          "论五行",
+          "钟吕",
+          "内丹学"
+        ]
+      }
+    },
+    {
+      "id": "zlcdj_07",
+      "book": "钟吕传道集",
+      "type": "neidan",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/zhonglvchuandaoji/zlcdj_07.md",
+      "weight": 4,
+      "title": "论水火",
+      "chapter": "卷07·论水火",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "内丹",
+          "修炼",
+          "论水火",
+          "钟吕",
+          "内丹学"
+        ]
+      }
+    },
+    {
+      "id": "zlcdj_08",
+      "book": "钟吕传道集",
+      "type": "neidan",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/zhonglvchuandaoji/zlcdj_08.md",
+      "weight": 4,
+      "title": "论龙虎",
+      "chapter": "卷08·论龙虎",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "内丹",
+          "修炼",
+          "论龙虎",
+          "钟吕",
+          "内丹学"
+        ]
+      }
+    },
+    {
+      "id": "zlcdj_09",
+      "book": "钟吕传道集",
+      "type": "neidan",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/zhonglvchuandaoji/zlcdj_09.md",
+      "weight": 4,
+      "title": "论丹药",
+      "chapter": "卷09·论丹药",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "内丹",
+          "修炼",
+          "论丹药",
+          "钟吕",
+          "内丹学"
+        ]
+      }
+    },
+    {
+      "id": "zlcdj_10",
+      "book": "钟吕传道集",
+      "type": "neidan",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/zhonglvchuandaoji/zlcdj_10.md",
+      "weight": 4,
+      "title": "论铅汞",
+      "chapter": "卷10·论铅汞",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "内丹",
+          "修炼",
+          "论铅汞",
+          "钟吕",
+          "内丹学"
+        ]
+      }
+    },
+    {
+      "id": "zlcdj_11",
+      "book": "钟吕传道集",
+      "type": "neidan",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/zhonglvchuandaoji/zlcdj_11.md",
+      "weight": 4,
+      "title": "论抽添",
+      "chapter": "卷11·论抽添",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "内丹",
+          "修炼",
+          "论抽添",
+          "钟吕",
+          "内丹学"
+        ]
+      }
+    },
+    {
+      "id": "zlcdj_12",
+      "book": "钟吕传道集",
+      "type": "neidan",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/zhonglvchuandaoji/zlcdj_12.md",
+      "weight": 4,
+      "title": "论河车",
+      "chapter": "卷12·论河车",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "内丹",
+          "修炼",
+          "论河车",
+          "钟吕",
+          "内丹学"
+        ]
+      }
+    },
+    {
+      "id": "zlcdj_13",
+      "book": "钟吕传道集",
+      "type": "neidan",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/zhonglvchuandaoji/zlcdj_13.md",
+      "weight": 4,
+      "title": "论还丹",
+      "chapter": "卷13·论还丹",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "内丹",
+          "修炼",
+          "论还丹",
+          "钟吕",
+          "内丹学"
+        ]
+      }
+    },
+    {
+      "id": "zlcdj_14",
+      "book": "钟吕传道集",
+      "type": "neidan",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/zhonglvchuandaoji/zlcdj_14.md",
+      "weight": 4,
+      "title": "论炼形",
+      "chapter": "卷14·论炼形",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "内丹",
+          "修炼",
+          "论炼形",
+          "钟吕",
+          "内丹学"
+        ]
+      }
+    },
+    {
+      "id": "zlcdj_15",
+      "book": "钟吕传道集",
+      "type": "neidan",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/zhonglvchuandaoji/zlcdj_15.md",
+      "weight": 4,
+      "title": "论朝元",
+      "chapter": "卷15·论朝元",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "内丹",
+          "修炼",
+          "论朝元",
+          "钟吕",
+          "内丹学"
+        ]
+      }
+    },
+    {
+      "id": "zlcdj_16",
+      "book": "钟吕传道集",
+      "type": "neidan",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/zhonglvchuandaoji/zlcdj_16.md",
+      "weight": 4,
+      "title": "论内观",
+      "chapter": "卷16·论内观",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "内丹",
+          "修炼",
+          "论内观",
+          "钟吕",
+          "内丹学"
+        ]
+      }
+    },
+    {
+      "id": "zlcdj_17",
+      "book": "钟吕传道集",
+      "type": "neidan",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/zhonglvchuandaoji/zlcdj_17.md",
+      "weight": 4,
+      "title": "论魔难",
+      "chapter": "卷17·论魔难",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "内丹",
+          "修炼",
+          "论魔难",
+          "钟吕",
+          "内丹学"
+        ]
+      }
+    },
+    {
+      "id": "zlcdj_18",
+      "book": "钟吕传道集",
+      "type": "neidan",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/zhonglvchuandaoji/zlcdj_18.md",
+      "weight": 4,
+      "title": "论证验",
+      "chapter": "卷18·论证验",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "内丹",
+          "修炼",
+          "论证验",
+          "钟吕",
+          "内丹学"
         ]
       }
     },
