@@ -36,7 +36,7 @@
 | 医·方书 | 备急千金要方 | 唐孙思邈·四库本 | 30 | [索引](./library/yi/fangshu/qianjinfang/INDEX.md) | ✅ |
 | 医·方书 | 外台秘要 | 唐王焘·明程校 | 41 | [索引](./library/yi/fangshu/waitaimiyao/INDEX.md) | ✅ |
 | 医·温病 | 温病条辨 | 清吴鞠通·通行本 | 6 | [索引](./library/yi/wenbing/wenbingtiaobian/INDEX.md) | ✅ |
-| 医·针灸 | 针灸甲乙经 | 晋皇甫谧·四库本 | 12 | [索引](./library/yi/zhenji/zhenjiujiayi/INDEX.md) | ✅ |
+| 医·针灸 | 针灸甲乙经 | 晋皇甫谧·四库本 | 97 | [索引](./library/yi/zhenji/zhenjiujiayi/INDEX.md) | ✅ |
 | 医·诊法 | 脉经 | 晋王叔和·四库本 | 10 | [索引](./library/yi/zhenfa/maijing/INDEX.md) | ✅ |
 | 相·人相 | 神相全编 | 明清相术集大成 | 174 | [索引](./library/xiang/renxiang/shenxiangquanbian/INDEX.md) | ✅ |
 | 相·人相 | 柳庄相法 | 清袁珙·通行本 | 170 | [索引](./library/xiang/renxiang/liuzhuangxiangfa/INDEX.md) | ✅ |
@@ -64,7 +64,7 @@
 | 山·养生 | 达摩洗髓易筋经 | 艺藏本 | 22 | [索引](./library/shan/yangsheng/yijinjing/INDEX.md) | ✅ |
 | 山·养生 | 八段锦 | 抖音百科整理（起源宋朝） | 10 | [索引](./library/shan/yangsheng/baduanjin/INDEX.md) | ✅ |
 | 山·养生 | 五禽戏 | 中国道教协会《太上老君养生诀》（汉末华佗授） | 9 | [索引](./library/shan/yangsheng/wuqinxi/INDEX.md) | ✅ |
-| **合计** | **40 部** | — | **4909** | — | — |
+| **合计** | **40 部** | — | **4994** | — | — |
 
 ## 目录结构
 
