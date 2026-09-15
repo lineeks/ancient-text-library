@@ -233,12 +233,28 @@
       "count": 30
     },
     {
+      "dir": "bencaogangmu",
+      "tier": "library/yi/jingdian",
+      "tier_name": "医部经典",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "count": 3
+    },
+    {
       "dir": "danxixinfa",
       "tier": "library/yi/jingdian",
       "tier_name": "医部经典",
       "category": "yi",
       "subcategory": "jingdian",
       "count": 5
+    },
+    {
+      "dir": "jingyuequanshu",
+      "tier": "library/yi/jingdian",
+      "tier_name": "医部经典",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "count": 2
     },
     {
       "dir": "jinkui-yaolue",
@@ -327,6 +343,14 @@
       "category": "yi",
       "subcategory": "jingdian",
       "count": 4
+    },
+    {
+      "dir": "yixuerumen",
+      "tier": "library/yi/jingdian",
+      "tier_name": "医部经典",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "count": 18
     },
     {
       "dir": "yixuesanzijing",
@@ -809,7 +833,7 @@
       "count": 0
     }
   ],
-  "total": 5870,
+  "total": 5893,
   "entries": [
     {
       "id": "bu6_liuren_000",
@@ -129312,6 +129336,72 @@
       }
     },
     {
+      "id": "bcgm_01",
+      "book": "本草纲目",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/bencaogangmu/bcgm_01.md",
+      "weight": 2,
+      "title": "原序·进书疏",
+      "chapter": "序跋",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "bcgm_02",
+      "book": "本草纲目",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/bencaogangmu/bcgm_02.md",
+      "weight": 2,
+      "title": "凡例",
+      "chapter": "凡例",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "bcgm_03",
+      "book": "本草纲目",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/bencaogangmu/bcgm_03.md",
+      "weight": 2,
+      "title": "序例上（引经报使·药名同异）",
+      "chapter": "序例",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
       "id": "dxxf_01",
       "book": "丹溪心法",
       "type": "zayin",
@@ -129449,6 +129539,50 @@
           "卷五",
           "杂病"
         ]
+      }
+    },
+    {
+      "id": "jyqs_01",
+      "book": "景岳全书",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/jingyuequanshu/jyqs_01.md",
+      "weight": 2,
+      "title": "诸家序",
+      "chapter": "序跋",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "jyqs_02",
+      "book": "景岳全书",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/jingyuequanshu/jyqs_02.md",
+      "weight": 2,
+      "title": "传忠录（理论辑要）",
+      "chapter": "理论",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
       }
     },
     {
@@ -147774,6 +147908,402 @@
           "医林改错",
           "卷下"
         ]
+      }
+    },
+    {
+      "id": "yxrm_01",
+      "book": "医学入门",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/yixuerumen/yxrm_01.md",
+      "weight": 2,
+      "title": "卷首　集例",
+      "chapter": "卷首　集例",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yxrm_02",
+      "book": "医学入门",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/yixuerumen/yxrm_02.md",
+      "weight": 2,
+      "title": "内集·卷一　经络",
+      "chapter": "内集·卷一　经络",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yxrm_03",
+      "book": "医学入门",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/yixuerumen/yxrm_03.md",
+      "weight": 2,
+      "title": "内集·卷一　脏腑",
+      "chapter": "内集·卷一　脏腑",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yxrm_04",
+      "book": "医学入门",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/yixuerumen/yxrm_04.md",
+      "weight": 2,
+      "title": "内集·卷一　观形察色问证",
+      "chapter": "内集·卷一　观形察色问证",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yxrm_05",
+      "book": "医学入门",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/yixuerumen/yxrm_05.md",
+      "weight": 2,
+      "title": "内集·卷一　诊脉",
+      "chapter": "内集·卷一　诊脉",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yxrm_06",
+      "book": "医学入门",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/yixuerumen/yxrm_06.md",
+      "weight": 2,
+      "title": "内集·卷一　针灸",
+      "chapter": "内集·卷一　针灸",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yxrm_07",
+      "book": "医学入门",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/yixuerumen/yxrm_07.md",
+      "weight": 2,
+      "title": "内集·卷二　本草分类",
+      "chapter": "内集·卷二　本草分类",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yxrm_08",
+      "book": "医学入门",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/yixuerumen/yxrm_08.md",
+      "weight": 2,
+      "title": "外集·卷三　（病机）外感",
+      "chapter": "外集·卷三　（病机）外感",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yxrm_09",
+      "book": "医学入门",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/yixuerumen/yxrm_09.md",
+      "weight": 2,
+      "title": "外集·卷三　内伤（饥饱劳役饮食积聚）",
+      "chapter": "外集·卷三　内伤（饥饱劳役饮食积聚）",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yxrm_10",
+      "book": "医学入门",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/yixuerumen/yxrm_10.md",
+      "weight": 2,
+      "title": "外集·卷四　杂病提纲",
+      "chapter": "外集·卷四　杂病提纲",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yxrm_11",
+      "book": "医学入门",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/yixuerumen/yxrm_11.md",
+      "weight": 2,
+      "title": "外集·卷四　杂病分类",
+      "chapter": "外集·卷四　杂病分类",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yxrm_12",
+      "book": "医学入门",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/yixuerumen/yxrm_12.md",
+      "weight": 2,
+      "title": "外集·卷五　妇人门",
+      "chapter": "外集·卷五　妇人门",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yxrm_13",
+      "book": "医学入门",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/yixuerumen/yxrm_13.md",
+      "weight": 2,
+      "title": "外集·卷五　小儿门",
+      "chapter": "外集·卷五　小儿门",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yxrm_14",
+      "book": "医学入门",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/yixuerumen/yxrm_14.md",
+      "weight": 2,
+      "title": "外集·卷五　外科",
+      "chapter": "外集·卷五　外科",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yxrm_15",
+      "book": "医学入门",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/yixuerumen/yxrm_15.md",
+      "weight": 2,
+      "title": "外集·卷七　杂病妇人小儿外科总方",
+      "chapter": "外集·卷七　杂病妇人小儿外科总方",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yxrm_16",
+      "book": "医学入门",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/yixuerumen/yxrm_16.md",
+      "weight": 2,
+      "title": "外集·卷七　通用古方诗括",
+      "chapter": "外集·卷七　通用古方诗括",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yxrm_17",
+      "book": "医学入门",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/yixuerumen/yxrm_17.md",
+      "weight": 2,
+      "title": "外集·卷七　急救诸方",
+      "chapter": "外集·卷七　急救诸方",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yxrm_18",
+      "book": "医学入门",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/yixuerumen/yxrm_18.md",
+      "weight": 2,
+      "title": "外集·卷七　治法",
+      "chapter": "外集·卷七　治法",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
       }
     },
     {
