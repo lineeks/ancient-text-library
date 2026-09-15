@@ -610,6 +610,14 @@
       "count": 64
     },
     {
+      "dir": "yiyin",
+      "tier": "library/bu/liuyao",
+      "tier_name": "卜部六爻",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "count": 8
+    },
+    {
       "dir": "zengshanbuyi",
       "tier": "library/bu/liuyao",
       "tier_name": "卜部六爻",
@@ -703,7 +711,7 @@
       "tier_name": "山部武术",
       "category": "shan",
       "subcategory": "wushu",
-      "count": 1
+      "count": 6
     },
     {
       "dir": "baduanjin",
@@ -728,6 +736,38 @@
       "category": "shan",
       "subcategory": "yangsheng",
       "count": 22
+    },
+    {
+      "dir": "beidiqiyuan",
+      "tier": "library/shan/fuzhou",
+      "tier_name": "山部符咒",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "count": 1
+    },
+    {
+      "dir": "beidiqiyuanlingfu",
+      "tier": "library/shan/fuzhou",
+      "tier_name": "山部符咒",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "count": 1
+    },
+    {
+      "dir": "beidiqiyuanxuanji",
+      "tier": "library/shan/fuzhou",
+      "tier_name": "山部符咒",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "count": 1
+    },
+    {
+      "dir": "beidiqiyuanyuyi",
+      "tier": "library/shan/fuzhou",
+      "tier_name": "山部符咒",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "count": 1
     },
     {
       "dir": "dongyuanshenzhou",
@@ -906,7 +946,7 @@
       "count": 0
     }
   ],
-  "total": 6018,
+  "total": 6035,
   "entries": [
     {
       "id": "bu6_liuren_000",
@@ -14486,6 +14526,182 @@
           "六爻旺衰",
           "六爻冲合"
         ]
+      }
+    },
+    {
+      "id": "yy_000",
+      "book": "易隐",
+      "type": "original",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/yiyin/yy_000.md",
+      "weight": 6,
+      "title": "易隐序",
+      "chapter": "卷首",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yy_001",
+      "book": "易隐",
+      "type": "original",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/yiyin/yy_001.md",
+      "weight": 6,
+      "title": "八卦象例",
+      "chapter": "卷首",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yy_002",
+      "book": "易隐",
+      "type": "original",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/yiyin/yy_002.md",
+      "weight": 6,
+      "title": "五行生克",
+      "chapter": "卷首",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yy_003",
+      "book": "易隐",
+      "type": "original",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/yiyin/yy_003.md",
+      "weight": 6,
+      "title": "天干所属",
+      "chapter": "卷首",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yy_004",
+      "book": "易隐",
+      "type": "original",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/yiyin/yy_004.md",
+      "weight": 6,
+      "title": "地支所属",
+      "chapter": "卷首",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yy_005",
+      "book": "易隐",
+      "type": "original",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/yiyin/yy_005.md",
+      "weight": 6,
+      "title": "六神所属",
+      "chapter": "卷首",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yy_006",
+      "book": "易隐",
+      "type": "original",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/yiyin/yy_006.md",
+      "weight": 6,
+      "title": "六亲生克",
+      "chapter": "卷首",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yy_007",
+      "book": "易隐",
+      "type": "original",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/yiyin/yy_007.md",
+      "weight": 6,
+      "title": "刘伯温先生总断",
+      "chapter": "卷首",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
       }
     },
     {
@@ -109058,6 +109274,94 @@
       }
     },
     {
+      "id": "bdqy_zhaomo_01",
+      "book": "beidiqiyuan",
+      "type": "",
+      "tier": "library/shan/fuzhou",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "path": "library/shan/fuzhou/beidiqiyuan/bdqy_zhaomo_01.md",
+      "weight": 0,
+      "title": "",
+      "chapter": "",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "bdqy_lingfu_01",
+      "book": "beidiqiyuanlingfu",
+      "type": "",
+      "tier": "library/shan/fuzhou",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "path": "library/shan/fuzhou/beidiqiyuanlingfu/bdqy_lingfu_01.md",
+      "weight": 0,
+      "title": "",
+      "chapter": "",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "bdqy_xuanji_01",
+      "book": "beidiqiyuanxuanji",
+      "type": "",
+      "tier": "library/shan/fuzhou",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "path": "library/shan/fuzhou/beidiqiyuanxuanji/bdqy_xuanji_01.md",
+      "weight": 0,
+      "title": "",
+      "chapter": "",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "bdqy_quyi_01",
+      "book": "beidiqiyuanyuyi",
+      "type": "",
+      "tier": "library/shan/fuzhou",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "path": "library/shan/fuzhou/beidiqiyuanyuyi/bdqy_quyi_01.md",
+      "weight": 0,
+      "title": "",
+      "chapter": "",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
       "id": "dysz_01",
       "book": "太上洞神洞渊神咒治病口章",
       "type": "original",
@@ -109172,6 +109476,116 @@
           "阴阳易理",
           "丹道部位"
         ]
+      }
+    },
+    {
+      "id": "tj_02",
+      "book": "太极拳论",
+      "type": "original",
+      "tier": "library/shan/wushu",
+      "category": "shan",
+      "subcategory": "wushu",
+      "path": "library/shan/wushu/taijilun/tj_02.md",
+      "weight": 3,
+      "title": "十三势歌",
+      "chapter": "十三势附篇",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "tj_03",
+      "book": "太极拳论",
+      "type": "original",
+      "tier": "library/shan/wushu",
+      "category": "shan",
+      "subcategory": "wushu",
+      "path": "library/shan/wushu/taijilun/tj_03.md",
+      "weight": 3,
+      "title": "十三势行功心解",
+      "chapter": "十三势附篇",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "tj_04",
+      "book": "太极拳论",
+      "type": "original",
+      "tier": "library/shan/wushu",
+      "category": "shan",
+      "subcategory": "wushu",
+      "path": "library/shan/wushu/taijilun/tj_04.md",
+      "weight": 3,
+      "title": "长拳",
+      "chapter": "十三势附篇",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "tj_05",
+      "book": "太极拳论",
+      "type": "original",
+      "tier": "library/shan/wushu",
+      "category": "shan",
+      "subcategory": "wushu",
+      "path": "library/shan/wushu/taijilun/tj_05.md",
+      "weight": 3,
+      "title": "打手歌",
+      "chapter": "十三势附篇",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "tj_06",
+      "book": "太极拳论",
+      "type": "original",
+      "tier": "library/shan/wushu",
+      "category": "shan",
+      "subcategory": "wushu",
+      "path": "library/shan/wushu/taijilun/tj_06.md",
+      "weight": 3,
+      "title": "阴符枪谱",
+      "chapter": "十三势附篇",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
       }
     },
     {
