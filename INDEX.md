@@ -64,7 +64,7 @@
 | 山·养生 | 达摩洗髓易筋经 | 艺藏本 | 22 | [索引](./library/shan/yangsheng/yijinjing/INDEX.md) | ✅ |
 | 山·养生 | 八段锦 | 抖音百科整理（起源宋朝） | 10 | [索引](./library/shan/yangsheng/baduanjin/INDEX.md) | ✅ |
 | 山·养生 | 五禽戏 | 中国道教协会《太上老君养生诀》（汉末华佗授） | 9 | [索引](./library/shan/yangsheng/wuqinxi/INDEX.md) | ✅ |
-| **合计** | **40 部** | — | **4994** | — | — |
+| **合计** | **40 部** | — | **4998** | — | — |
 
 ## 目录结构
 

@@ -44,6 +44,7 @@ ROOTS = [
     ("library/shan/dandao", "山部丹道", "shan", "dandao"),
     ("library/shan/wushu", "山部武术", "shan", "wushu"),
     ("library/shan/yangsheng", "山部养生", "shan", "yangsheng"),
+    ("library/shan/fuzhou", "山部符咒", "shan", "fuzhou"),
     ("library/yi", "医·中医", "yi", ""),
     ("library/xiang", "相·相术", "xiang", ""),
     ("library/bu", "卜·卜筮", "bu", ""),

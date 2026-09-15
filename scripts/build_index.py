@@ -675,6 +675,18 @@ def main():
         ("library/shan/yangsheng", "wuqinxi", build_generic_index(
             "五禽戏（太上老君养生诀）",
             "中国道教协会《太上老君养生诀》，汉末华佗授广陵吴普，9条（五禽总述1+虎鹿熊猿鸟5戏+服气吐纳六气1+养生真诀1+服气诀1），中国古代导引养生功法，模仿五种动物动作，以汗出为限，可轻身消谷益气除百病，与八段锦、易筋经并称养生三典。")),
+        ("library/shan/fuzhou", "zhougui", build_generic_index(
+            "太上正一咒鬼经",
+            "撰人不详，似出南北朝，假托正一真人张陵告诸祭酒弟子，一卷，出自《正统道藏》正一部。载天师神咒，述正一道驱邪咒鬼之法，以『急急如律令』为结，为正一符咒类经典。")),
+        ("library/shan/fuzhou", "dongyuanshenzhou", build_generic_index(
+            "太上洞神洞渊神咒治病口章",
+            "撰人不详，出自《正统道藏》正一部。述洞渊神咒治病之法，为正一道符咒治病类经典。")),
+        ("library/shan/fuzhou", "zhengyifawen", build_generic_index(
+            "太上正一法文经",
+            "撰人不详，出自《正统道藏》正一部。述正一法文科仪戒律，为正一道经典法义文献。")),
+        ("library/shan/fuzhou", "xuantankanwu", build_generic_index(
+            "玄坛刊误论",
+            "撰人不详，宋代，出自《正统道藏》正一部。订正道教玄坛科仪之误，为道教仪轨类参考文献。")),
     ]
     counts = {}
     for root, book, builder in plan:
