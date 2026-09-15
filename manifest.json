@@ -233,6 +233,14 @@
       "count": 30
     },
     {
+      "dir": "bencaobeiyao",
+      "tier": "library/yi/jingdian",
+      "tier_name": "医部经典",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "count": 7
+    },
+    {
       "dir": "bencaogangmu",
       "tier": "library/yi/jingdian",
       "tier_name": "医部经典",
@@ -321,6 +329,14 @@
       "count": 81
     },
     {
+      "dir": "xiaoeryaozheng",
+      "tier": "library/yi/jingdian",
+      "tier_name": "医部经典",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "count": 4
+    },
+    {
       "dir": "xuezhenglun",
       "tier": "library/yi/jingdian",
       "tier_name": "医部经典",
@@ -407,6 +423,14 @@
       "category": "yi",
       "subcategory": "fangshu",
       "count": 40
+    },
+    {
+      "dir": "yifangjijie",
+      "tier": "library/yi/fangshu",
+      "tier_name": "医部方书",
+      "category": "yi",
+      "subcategory": "fangshu",
+      "count": 22
     },
     {
       "dir": "shirebingpian",
@@ -833,7 +857,7 @@
       "count": 0
     }
   ],
-  "total": 5893,
+  "total": 5926,
   "entries": [
     {
       "id": "bu6_liuren_000",
@@ -129336,6 +129360,644 @@
       }
     },
     {
+      "id": "yfjj_01",
+      "book": "医方集解",
+      "type": "original",
+      "tier": "library/yi/fangshu",
+      "category": "yi",
+      "subcategory": "fangshu",
+      "path": "library/yi/fangshu/yifangjijie/yfjj_01.md",
+      "weight": 2,
+      "title": "补养之剂第一",
+      "chapter": "补养之剂第一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yfjj_02",
+      "book": "医方集解",
+      "type": "original",
+      "tier": "library/yi/fangshu",
+      "category": "yi",
+      "subcategory": "fangshu",
+      "path": "library/yi/fangshu/yifangjijie/yfjj_02.md",
+      "weight": 2,
+      "title": "发表之剂第二",
+      "chapter": "发表之剂第二",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yfjj_03",
+      "book": "医方集解",
+      "type": "original",
+      "tier": "library/yi/fangshu",
+      "category": "yi",
+      "subcategory": "fangshu",
+      "path": "library/yi/fangshu/yifangjijie/yfjj_03.md",
+      "weight": 2,
+      "title": "涌吐之剂第三",
+      "chapter": "涌吐之剂第三",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yfjj_04",
+      "book": "医方集解",
+      "type": "original",
+      "tier": "library/yi/fangshu",
+      "category": "yi",
+      "subcategory": "fangshu",
+      "path": "library/yi/fangshu/yifangjijie/yfjj_04.md",
+      "weight": 2,
+      "title": "攻里之剂第四",
+      "chapter": "攻里之剂第四",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yfjj_05",
+      "book": "医方集解",
+      "type": "original",
+      "tier": "library/yi/fangshu",
+      "category": "yi",
+      "subcategory": "fangshu",
+      "path": "library/yi/fangshu/yifangjijie/yfjj_05.md",
+      "weight": 2,
+      "title": "表里之剂第五",
+      "chapter": "表里之剂第五",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yfjj_06",
+      "book": "医方集解",
+      "type": "original",
+      "tier": "library/yi/fangshu",
+      "category": "yi",
+      "subcategory": "fangshu",
+      "path": "library/yi/fangshu/yifangjijie/yfjj_06.md",
+      "weight": 2,
+      "title": "和解之剂第六",
+      "chapter": "和解之剂第六",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yfjj_07",
+      "book": "医方集解",
+      "type": "original",
+      "tier": "library/yi/fangshu",
+      "category": "yi",
+      "subcategory": "fangshu",
+      "path": "library/yi/fangshu/yifangjijie/yfjj_07.md",
+      "weight": 2,
+      "title": "理气之剂第七",
+      "chapter": "理气之剂第七",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yfjj_08",
+      "book": "医方集解",
+      "type": "original",
+      "tier": "library/yi/fangshu",
+      "category": "yi",
+      "subcategory": "fangshu",
+      "path": "library/yi/fangshu/yifangjijie/yfjj_08.md",
+      "weight": 2,
+      "title": "理血之剂第八",
+      "chapter": "理血之剂第八",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yfjj_09",
+      "book": "医方集解",
+      "type": "original",
+      "tier": "library/yi/fangshu",
+      "category": "yi",
+      "subcategory": "fangshu",
+      "path": "library/yi/fangshu/yifangjijie/yfjj_09.md",
+      "weight": 2,
+      "title": "祛风之剂第九",
+      "chapter": "祛风之剂第九",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yfjj_10",
+      "book": "医方集解",
+      "type": "original",
+      "tier": "library/yi/fangshu",
+      "category": "yi",
+      "subcategory": "fangshu",
+      "path": "library/yi/fangshu/yifangjijie/yfjj_10.md",
+      "weight": 2,
+      "title": "祛寒之剂第十",
+      "chapter": "祛寒之剂第十",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yfjj_11",
+      "book": "医方集解",
+      "type": "original",
+      "tier": "library/yi/fangshu",
+      "category": "yi",
+      "subcategory": "fangshu",
+      "path": "library/yi/fangshu/yifangjijie/yfjj_11.md",
+      "weight": 2,
+      "title": "清暑之剂第十一",
+      "chapter": "清暑之剂第十一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yfjj_12",
+      "book": "医方集解",
+      "type": "original",
+      "tier": "library/yi/fangshu",
+      "category": "yi",
+      "subcategory": "fangshu",
+      "path": "library/yi/fangshu/yifangjijie/yfjj_12.md",
+      "weight": 2,
+      "title": "利湿之剂第十二",
+      "chapter": "利湿之剂第十二",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yfjj_13",
+      "book": "医方集解",
+      "type": "original",
+      "tier": "library/yi/fangshu",
+      "category": "yi",
+      "subcategory": "fangshu",
+      "path": "library/yi/fangshu/yifangjijie/yfjj_13.md",
+      "weight": 2,
+      "title": "润燥之剂第十三",
+      "chapter": "润燥之剂第十三",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yfjj_14",
+      "book": "医方集解",
+      "type": "original",
+      "tier": "library/yi/fangshu",
+      "category": "yi",
+      "subcategory": "fangshu",
+      "path": "library/yi/fangshu/yifangjijie/yfjj_14.md",
+      "weight": 2,
+      "title": "泻火之剂第十四",
+      "chapter": "泻火之剂第十四",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yfjj_15",
+      "book": "医方集解",
+      "type": "original",
+      "tier": "library/yi/fangshu",
+      "category": "yi",
+      "subcategory": "fangshu",
+      "path": "library/yi/fangshu/yifangjijie/yfjj_15.md",
+      "weight": 2,
+      "title": "除痰之剂第十五",
+      "chapter": "除痰之剂第十五",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yfjj_16",
+      "book": "医方集解",
+      "type": "original",
+      "tier": "library/yi/fangshu",
+      "category": "yi",
+      "subcategory": "fangshu",
+      "path": "library/yi/fangshu/yifangjijie/yfjj_16.md",
+      "weight": 2,
+      "title": "消导之剂第十六",
+      "chapter": "消导之剂第十六",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yfjj_17",
+      "book": "医方集解",
+      "type": "original",
+      "tier": "library/yi/fangshu",
+      "category": "yi",
+      "subcategory": "fangshu",
+      "path": "library/yi/fangshu/yifangjijie/yfjj_17.md",
+      "weight": 2,
+      "title": "收涩之剂第十七",
+      "chapter": "收涩之剂第十七",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yfjj_18",
+      "book": "医方集解",
+      "type": "original",
+      "tier": "library/yi/fangshu",
+      "category": "yi",
+      "subcategory": "fangshu",
+      "path": "library/yi/fangshu/yifangjijie/yfjj_18.md",
+      "weight": 2,
+      "title": "杀虫之剂第十八",
+      "chapter": "杀虫之剂第十八",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yfjj_19",
+      "book": "医方集解",
+      "type": "original",
+      "tier": "library/yi/fangshu",
+      "category": "yi",
+      "subcategory": "fangshu",
+      "path": "library/yi/fangshu/yifangjijie/yfjj_19.md",
+      "weight": 2,
+      "title": "明目之剂第十九",
+      "chapter": "明目之剂第十九",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yfjj_20",
+      "book": "医方集解",
+      "type": "original",
+      "tier": "library/yi/fangshu",
+      "category": "yi",
+      "subcategory": "fangshu",
+      "path": "library/yi/fangshu/yifangjijie/yfjj_20.md",
+      "weight": 2,
+      "title": "痈疡之剂第二十",
+      "chapter": "痈疡之剂第二十",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yfjj_21",
+      "book": "医方集解",
+      "type": "original",
+      "tier": "library/yi/fangshu",
+      "category": "yi",
+      "subcategory": "fangshu",
+      "path": "library/yi/fangshu/yifangjijie/yfjj_21.md",
+      "weight": 2,
+      "title": "经产之剂第二十一",
+      "chapter": "经产之剂第二十一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yfjj_22",
+      "book": "医方集解",
+      "type": "original",
+      "tier": "library/yi/fangshu",
+      "category": "yi",
+      "subcategory": "fangshu",
+      "path": "library/yi/fangshu/yifangjijie/yfjj_22.md",
+      "weight": 2,
+      "title": "自序·凡例",
+      "chapter": "自序·凡例",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "bcby_01",
+      "book": "本草备要",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/bencaobeiyao/bcby_01.md",
+      "weight": 2,
+      "title": "主上部",
+      "chapter": "主上部",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "bcby_02",
+      "book": "本草备要",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/bencaobeiyao/bcby_02.md",
+      "weight": 2,
+      "title": "轻宣，散上部",
+      "chapter": "轻宣，散上部",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "bcby_03",
+      "book": "本草备要",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/bencaobeiyao/bcby_03.md",
+      "weight": 2,
+      "title": "谷菜部",
+      "chapter": "谷菜部",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "bcby_04",
+      "book": "本草备要",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/bencaobeiyao/bcby_04.md",
+      "weight": 2,
+      "title": "金石水土部",
+      "chapter": "金石水土部",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "bcby_05",
+      "book": "本草备要",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/bencaobeiyao/bcby_05.md",
+      "weight": 2,
+      "title": "禽兽部",
+      "chapter": "禽兽部",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "bcby_06",
+      "book": "本草备要",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/bencaobeiyao/bcby_06.md",
+      "weight": 2,
+      "title": "鳞介鱼虫部",
+      "chapter": "鳞介鱼虫部",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "bcby_07",
+      "book": "本草备要",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/bencaobeiyao/bcby_07.md",
+      "weight": 2,
+      "title": "诸家序",
+      "chapter": "诸家序",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
       "id": "bcgm_01",
       "book": "本草纲目",
       "type": "original",
@@ -147730,6 +148392,94 @@
           "养生",
           "五运六气"
         ]
+      }
+    },
+    {
+      "id": "eyzz_01",
+      "book": "小儿药证直诀",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/xiaoeryaozheng/eyzz_01.md",
+      "weight": 2,
+      "title": "卷上",
+      "chapter": "卷上",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "eyzz_02",
+      "book": "小儿药证直诀",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/xiaoeryaozheng/eyzz_02.md",
+      "weight": 2,
+      "title": "卷中",
+      "chapter": "卷中",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "eyzz_03",
+      "book": "小儿药证直诀",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/xiaoeryaozheng/eyzz_03.md",
+      "weight": 2,
+      "title": "卷下",
+      "chapter": "卷下",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "eyzz_04",
+      "book": "小儿药证直诀",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/xiaoeryaozheng/eyzz_04.md",
+      "weight": 2,
+      "title": "原序",
+      "chapter": "原序",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
       }
     },
     {
