@@ -233,12 +233,28 @@
       "count": 30
     },
     {
+      "dir": "danxixinfa",
+      "tier": "library/yi/jingdian",
+      "tier_name": "医部经典",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "count": 5
+    },
+    {
       "dir": "jinkui-yaolue",
       "tier": "library/yi/jingdian",
       "tier_name": "医部经典",
       "category": "yi",
       "subcategory": "jingdian",
       "count": 25
+    },
+    {
+      "dir": "lanshimicang",
+      "tier": "library/yi/jingdian",
+      "tier_name": "医部经典",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "count": 3
     },
     {
       "dir": "lingshu",
@@ -255,6 +271,14 @@
       "category": "yi",
       "subcategory": "jingdian",
       "count": 81
+    },
+    {
+      "dir": "piweilun",
+      "tier": "library/yi/jingdian",
+      "tier_name": "医部经典",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "count": 3
     },
     {
       "dir": "shanghan",
@@ -401,6 +425,14 @@
       "count": 13
     },
     {
+      "dir": "jiaoshiyilin",
+      "tier": "library/bu/yijing",
+      "tier_name": "卜部易经",
+      "category": "bu",
+      "subcategory": "yijing",
+      "count": 61
+    },
+    {
       "dir": "zhouyi",
       "tier": "library/bu/yijing",
       "tier_name": "卜部易经",
@@ -487,6 +519,14 @@
       "category": "shan",
       "subcategory": "dandao",
       "count": 40
+    },
+    {
+      "dir": "lingbaobifa",
+      "tier": "library/shan/dandao",
+      "tier_name": "山部丹道",
+      "category": "shan",
+      "subcategory": "dandao",
+      "count": 11
     },
     {
       "dir": "wuzhenpian",
@@ -657,6 +697,14 @@
       "count": 0
     },
     {
+      "dir": "shanshu",
+      "tier": "library/shan",
+      "tier_name": "山·仙学养生",
+      "category": "shan",
+      "subcategory": "shanshu",
+      "count": 0
+    },
+    {
       "dir": "wushu",
       "tier": "library/shan",
       "tier_name": "山·仙学养生",
@@ -673,7 +721,7 @@
       "count": 0
     }
   ],
-  "total": 4935,
+  "total": 5018,
   "entries": [
     {
       "id": "bu6_liuren_000",
@@ -35752,6 +35800,1714 @@
           "三式",
           "天目主客算",
           "太乙基础"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_01",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_01.md",
+      "weight": 3,
+      "title": "乾之乾",
+      "chapter": "乾之乾",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "乾",
+          "乾之乾",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_02",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_02.md",
+      "weight": 3,
+      "title": "坤之坤",
+      "chapter": "坤之坤",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "坤",
+          "坤之坤",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_03",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_03.md",
+      "weight": 3,
+      "title": "屯之屯",
+      "chapter": "屯之屯",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "屯",
+          "屯之屯",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_04",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_04.md",
+      "weight": 3,
+      "title": "蒙之蒙",
+      "chapter": "蒙之蒙",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "蒙",
+          "蒙之蒙",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_05",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_05.md",
+      "weight": 3,
+      "title": "需之需",
+      "chapter": "需之需",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "需",
+          "需之需",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_06",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_06.md",
+      "weight": 3,
+      "title": "讼之讼",
+      "chapter": "讼之讼",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "讼",
+          "讼之讼",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_07",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_07.md",
+      "weight": 3,
+      "title": "师之师",
+      "chapter": "师之师",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "师",
+          "师之师",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_08",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_08.md",
+      "weight": 3,
+      "title": "比之比",
+      "chapter": "比之比",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "比",
+          "比之比",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_09",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_09.md",
+      "weight": 3,
+      "title": "小畜之小畜",
+      "chapter": "小畜之小畜",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "小畜",
+          "小畜之小畜",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_10",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_10.md",
+      "weight": 3,
+      "title": "履之履",
+      "chapter": "履之履",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "履",
+          "履之履",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_11",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_11.md",
+      "weight": 3,
+      "title": "泰之泰",
+      "chapter": "泰之泰",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "泰",
+          "泰之泰",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_12",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_12.md",
+      "weight": 3,
+      "title": "否之否",
+      "chapter": "否之否",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "否",
+          "否之否",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_13",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_13.md",
+      "weight": 3,
+      "title": "同人之同人",
+      "chapter": "同人之同人",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "同人",
+          "同人之同人",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_14",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_14.md",
+      "weight": 3,
+      "title": "大有之大有",
+      "chapter": "大有之大有",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "大有",
+          "大有之大有",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_15",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_15.md",
+      "weight": 3,
+      "title": "谦之谦",
+      "chapter": "谦之谦",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "谦",
+          "谦之谦",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_16",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_16.md",
+      "weight": 3,
+      "title": "豫之豫",
+      "chapter": "豫之豫",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "豫",
+          "豫之豫",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_17",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_17.md",
+      "weight": 3,
+      "title": "随之随",
+      "chapter": "随之随",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "随",
+          "随之随",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_18",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_18.md",
+      "weight": 3,
+      "title": "蛊之蛊",
+      "chapter": "蛊之蛊",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "蛊",
+          "蛊之蛊",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_19",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_19.md",
+      "weight": 3,
+      "title": "临之临",
+      "chapter": "临之临",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "临",
+          "临之临",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_20",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_20.md",
+      "weight": 3,
+      "title": "观之观",
+      "chapter": "观之观",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "观",
+          "观之观",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_21",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_21.md",
+      "weight": 3,
+      "title": "噬嗑之噬嗑",
+      "chapter": "噬嗑之噬嗑",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "噬嗑",
+          "噬嗑之噬嗑",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_22",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_22.md",
+      "weight": 3,
+      "title": "贲之贲",
+      "chapter": "贲之贲",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "贲",
+          "贲之贲",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_24",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_24.md",
+      "weight": 3,
+      "title": "复之复",
+      "chapter": "复之复",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "复",
+          "复之复",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_25",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_25.md",
+      "weight": 3,
+      "title": "无妄之无妄",
+      "chapter": "无妄之无妄",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "无妄",
+          "无妄之无妄",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_26",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_26.md",
+      "weight": 3,
+      "title": "大畜之大畜",
+      "chapter": "大畜之大畜",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "大畜",
+          "大畜之大畜",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_27",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_27.md",
+      "weight": 3,
+      "title": "颐之颐",
+      "chapter": "颐之颐",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "颐",
+          "颐之颐",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_28",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_28.md",
+      "weight": 3,
+      "title": "大过之大过",
+      "chapter": "大过之大过",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "大过",
+          "大过之大过",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_29",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_29.md",
+      "weight": 3,
+      "title": "坎之坎",
+      "chapter": "坎之坎",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "坎",
+          "坎之坎",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_30",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_30.md",
+      "weight": 3,
+      "title": "离之离",
+      "chapter": "离之离",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "离",
+          "离之离",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_31",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_31.md",
+      "weight": 3,
+      "title": "咸之咸",
+      "chapter": "咸之咸",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "咸",
+          "咸之咸",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_32",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_32.md",
+      "weight": 3,
+      "title": "恒之恒",
+      "chapter": "恒之恒",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "恒",
+          "恒之恒",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_33",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_33.md",
+      "weight": 3,
+      "title": "遯之遯",
+      "chapter": "遯之遯",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "遯",
+          "遯之遯",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_34",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_34.md",
+      "weight": 3,
+      "title": "大壮之大壮",
+      "chapter": "大壮之大壮",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "大壮",
+          "大壮之大壮",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_35",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_35.md",
+      "weight": 3,
+      "title": "晋之晋",
+      "chapter": "晋之晋",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "晋",
+          "晋之晋",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_36",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_36.md",
+      "weight": 3,
+      "title": "明夷之明夷",
+      "chapter": "明夷之明夷",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "明夷",
+          "明夷之明夷",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_37",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_37.md",
+      "weight": 3,
+      "title": "家人之家人",
+      "chapter": "家人之家人",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "家人",
+          "家人之家人",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_38",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_38.md",
+      "weight": 3,
+      "title": "睽之睽",
+      "chapter": "睽之睽",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "睽",
+          "睽之睽",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_39",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_39.md",
+      "weight": 3,
+      "title": "蹇之蹇",
+      "chapter": "蹇之蹇",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "蹇",
+          "蹇之蹇",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_40",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_40.md",
+      "weight": 3,
+      "title": "解之解",
+      "chapter": "解之解",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "解",
+          "解之解",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_41",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_41.md",
+      "weight": 3,
+      "title": "损之损",
+      "chapter": "损之损",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "损",
+          "损之损",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_42",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_42.md",
+      "weight": 3,
+      "title": "益之益",
+      "chapter": "益之益",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "益",
+          "益之益",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_43",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_43.md",
+      "weight": 3,
+      "title": "夬之夬",
+      "chapter": "夬之夬",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "夬",
+          "夬之夬",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_44",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_44.md",
+      "weight": 3,
+      "title": "姤之姤",
+      "chapter": "姤之姤",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "姤",
+          "姤之姤",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_46",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_46.md",
+      "weight": 3,
+      "title": "升之升",
+      "chapter": "升之升",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "升",
+          "升之升",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_47",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_47.md",
+      "weight": 3,
+      "title": "困之困",
+      "chapter": "困之困",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "困",
+          "困之困",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_48",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_48.md",
+      "weight": 3,
+      "title": "井之井",
+      "chapter": "井之井",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "井",
+          "井之井",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_49",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_49.md",
+      "weight": 3,
+      "title": "革之革",
+      "chapter": "革之革",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "革",
+          "革之革",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_50",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_50.md",
+      "weight": 3,
+      "title": "鼎之鼎",
+      "chapter": "鼎之鼎",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "鼎",
+          "鼎之鼎",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_51",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_51.md",
+      "weight": 3,
+      "title": "震之震",
+      "chapter": "震之震",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "震",
+          "震之震",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_52",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_52.md",
+      "weight": 3,
+      "title": "艮之艮",
+      "chapter": "艮之艮",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "艮",
+          "艮之艮",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_53",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_53.md",
+      "weight": 3,
+      "title": "渐之渐",
+      "chapter": "渐之渐",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "渐",
+          "渐之渐",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_54",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_54.md",
+      "weight": 3,
+      "title": "归妹之归妹",
+      "chapter": "归妹之归妹",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "归妹",
+          "归妹之归妹",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_55",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_55.md",
+      "weight": 3,
+      "title": "丰之丰",
+      "chapter": "丰之丰",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "丰",
+          "丰之丰",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_56",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_56.md",
+      "weight": 3,
+      "title": "旅之旅",
+      "chapter": "旅之旅",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "旅",
+          "旅之旅",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_57",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_57.md",
+      "weight": 3,
+      "title": "巽之巽",
+      "chapter": "巽之巽",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "巽",
+          "巽之巽",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_59",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_59.md",
+      "weight": 3,
+      "title": "涣之涣",
+      "chapter": "涣之涣",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "涣",
+          "涣之涣",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_60",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_60.md",
+      "weight": 3,
+      "title": "节之节",
+      "chapter": "节之节",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "节",
+          "节之节",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_61",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_61.md",
+      "weight": 3,
+      "title": "中孚之中孚",
+      "chapter": "中孚之中孚",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "中孚",
+          "中孚之中孚",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_62",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_62.md",
+      "weight": 3,
+      "title": "小过之小过",
+      "chapter": "小过之小过",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "小过",
+          "小过之小过",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_63",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_63.md",
+      "weight": 3,
+      "title": "既济之既济",
+      "chapter": "既济之既济",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "既济",
+          "既济之既济",
+          "占筮",
+          "主卦"
+        ]
+      }
+    },
+    {
+      "id": "jsyl_64",
+      "book": "焦氏易林",
+      "type": "zhanji",
+      "tier": "library/bu/yijing",
+      "category": "bu",
+      "subcategory": "yijing",
+      "path": "library/bu/yijing/jiaoshiyilin/jsyl_64.md",
+      "weight": 3,
+      "title": "未济之未济",
+      "chapter": "未济之未济",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "焦氏易林",
+          "未济",
+          "未济之未济",
+          "占筮",
+          "主卦"
         ]
       }
     },
@@ -103041,6 +104797,314 @@
       }
     },
     {
+      "id": "lbbf_01",
+      "book": "灵宝毕法",
+      "type": "neidan",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/lingbaobifa/lbbf_01.md",
+      "weight": 4,
+      "title": "序",
+      "chapter": "序",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "灵宝毕法",
+          "内丹",
+          "钟吕",
+          "序",
+          "金丹"
+        ]
+      }
+    },
+    {
+      "id": "lbbf_02",
+      "book": "灵宝毕法",
+      "type": "neidan",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/lingbaobifa/lbbf_02.md",
+      "weight": 4,
+      "title": "匹配阴阳第一",
+      "chapter": "匹配阴阳第一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "灵宝毕法",
+          "内丹",
+          "钟吕",
+          "匹配阴阳第一",
+          "金丹"
+        ]
+      }
+    },
+    {
+      "id": "lbbf_03",
+      "book": "灵宝毕法",
+      "type": "neidan",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/lingbaobifa/lbbf_03.md",
+      "weight": 4,
+      "title": "聚散水火第二",
+      "chapter": "聚散水火第二",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "灵宝毕法",
+          "内丹",
+          "钟吕",
+          "聚散水火第二",
+          "金丹"
+        ]
+      }
+    },
+    {
+      "id": "lbbf_04",
+      "book": "灵宝毕法",
+      "type": "neidan",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/lingbaobifa/lbbf_04.md",
+      "weight": 4,
+      "title": "交媾龙虎第三",
+      "chapter": "交媾龙虎第三",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "灵宝毕法",
+          "内丹",
+          "钟吕",
+          "交媾龙虎第三",
+          "金丹"
+        ]
+      }
+    },
+    {
+      "id": "lbbf_05",
+      "book": "灵宝毕法",
+      "type": "neidan",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/lingbaobifa/lbbf_05.md",
+      "weight": 4,
+      "title": "烧炼丹药第四",
+      "chapter": "烧炼丹药第四",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "灵宝毕法",
+          "内丹",
+          "钟吕",
+          "烧炼丹药第四",
+          "金丹"
+        ]
+      }
+    },
+    {
+      "id": "lbbf_06",
+      "book": "灵宝毕法",
+      "type": "neidan",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/lingbaobifa/lbbf_06.md",
+      "weight": 4,
+      "title": "肘后飞金晶第五",
+      "chapter": "肘后飞金晶第五",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "灵宝毕法",
+          "内丹",
+          "钟吕",
+          "肘后飞金晶第五",
+          "金丹"
+        ]
+      }
+    },
+    {
+      "id": "lbbf_07",
+      "book": "灵宝毕法",
+      "type": "neidan",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/lingbaobifa/lbbf_07.md",
+      "weight": 4,
+      "title": "玉液还丹第六",
+      "chapter": "玉液还丹第六",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "灵宝毕法",
+          "内丹",
+          "钟吕",
+          "玉液还丹第六",
+          "金丹"
+        ]
+      }
+    },
+    {
+      "id": "lbbf_08",
+      "book": "灵宝毕法",
+      "type": "neidan",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/lingbaobifa/lbbf_08.md",
+      "weight": 4,
+      "title": "金液还丹第七",
+      "chapter": "金液还丹第七",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "灵宝毕法",
+          "内丹",
+          "钟吕",
+          "金液还丹第七",
+          "金丹"
+        ]
+      }
+    },
+    {
+      "id": "lbbf_09",
+      "book": "灵宝毕法",
+      "type": "neidan",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/lingbaobifa/lbbf_09.md",
+      "weight": 4,
+      "title": "朝元炼气第八",
+      "chapter": "朝元炼气第八",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "灵宝毕法",
+          "内丹",
+          "钟吕",
+          "朝元炼气第八",
+          "金丹"
+        ]
+      }
+    },
+    {
+      "id": "lbbf_10",
+      "book": "灵宝毕法",
+      "type": "neidan",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/lingbaobifa/lbbf_10.md",
+      "weight": 4,
+      "title": "内观交换第九",
+      "chapter": "内观交换第九",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "灵宝毕法",
+          "内丹",
+          "钟吕",
+          "内观交换第九",
+          "金丹"
+        ]
+      }
+    },
+    {
+      "id": "lbbf_11",
+      "book": "灵宝毕法",
+      "type": "neidan",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/lingbaobifa/lbbf_11.md",
+      "weight": 4,
+      "title": "超脱分形第十",
+      "chapter": "超脱分形第十",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "灵宝毕法",
+          "内丹",
+          "钟吕",
+          "超脱分形第十",
+          "金丹"
+        ]
+      }
+    },
+    {
       "id": "shan3_wzp_000",
       "book": "悟真篇",
       "type": "poem",
@@ -124584,6 +126648,146 @@
       }
     },
     {
+      "id": "dxxf_01",
+      "book": "丹溪心法",
+      "type": "zayin",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/danxixinfa/dxxf_01.md",
+      "weight": 4,
+      "title": "卷一",
+      "chapter": "卷一",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "丹溪",
+          "滋阴派",
+          "朱震亨",
+          "卷一",
+          "杂病"
+        ]
+      }
+    },
+    {
+      "id": "dxxf_02",
+      "book": "丹溪心法",
+      "type": "zayin",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/danxixinfa/dxxf_02.md",
+      "weight": 4,
+      "title": "卷二",
+      "chapter": "卷二",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "丹溪",
+          "滋阴派",
+          "朱震亨",
+          "卷二",
+          "杂病"
+        ]
+      }
+    },
+    {
+      "id": "dxxf_03",
+      "book": "丹溪心法",
+      "type": "zayin",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/danxixinfa/dxxf_03.md",
+      "weight": 4,
+      "title": "卷三",
+      "chapter": "卷三",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "丹溪",
+          "滋阴派",
+          "朱震亨",
+          "卷三",
+          "杂病"
+        ]
+      }
+    },
+    {
+      "id": "dxxf_04",
+      "book": "丹溪心法",
+      "type": "zayin",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/danxixinfa/dxxf_04.md",
+      "weight": 4,
+      "title": "卷四",
+      "chapter": "卷四",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "丹溪",
+          "滋阴派",
+          "朱震亨",
+          "卷四",
+          "杂病"
+        ]
+      }
+    },
+    {
+      "id": "dxxf_05",
+      "book": "丹溪心法",
+      "type": "zayin",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/danxixinfa/dxxf_05.md",
+      "weight": 4,
+      "title": "卷五",
+      "chapter": "卷五",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "丹溪",
+          "滋阴派",
+          "朱震亨",
+          "卷五",
+          "杂病"
+        ]
+      }
+    },
+    {
       "id": "yi5_jkyl_00",
       "book": "金匮要略",
       "type": "chapter",
@@ -125462,6 +127666,87 @@
           "饮食禁忌",
           "谷物禁忌",
           "果实禁忌"
+        ]
+      }
+    },
+    {
+      "id": "lans_01",
+      "book": "兰室秘藏",
+      "type": "linchuang",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/lanshimicang/lans_01.md",
+      "weight": 4,
+      "title": "卷上",
+      "chapter": "卷上",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "兰室秘藏",
+          "李东垣",
+          "补土派",
+          "卷上"
+        ]
+      }
+    },
+    {
+      "id": "lans_02",
+      "book": "兰室秘藏",
+      "type": "linchuang",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/lanshimicang/lans_02.md",
+      "weight": 4,
+      "title": "卷中",
+      "chapter": "卷中",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "兰室秘藏",
+          "李东垣",
+          "补土派",
+          "卷中"
+        ]
+      }
+    },
+    {
+      "id": "lans_03",
+      "book": "兰室秘藏",
+      "type": "linchuang",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/lanshimicang/lans_03.md",
+      "weight": 4,
+      "title": "卷下",
+      "chapter": "卷下",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "兰室秘藏",
+          "李东垣",
+          "补土派",
+          "卷下"
         ]
       }
     },
@@ -130297,6 +132582,88 @@
           "五脏",
           "脉象",
           "治法"
+        ]
+      }
+    },
+    {
+      "id": "piwe_01",
+      "book": "脾胃论",
+      "type": "neishang",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/piweilun/piwe_01.md",
+      "weight": 4,
+      "title": "卷上",
+      "chapter": "卷上",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "脾胃论",
+          "李东垣",
+          "补土派",
+          "卷上",
+          "内伤"
+        ]
+      }
+    },
+    {
+      "id": "piwe_02",
+      "book": "脾胃论",
+      "type": "neishang",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/piweilun/piwe_02.md",
+      "weight": 4,
+      "title": "卷中",
+      "chapter": "卷中",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "脾胃论",
+          "李东垣",
+          "补土派",
+          "卷中"
+        ]
+      }
+    },
+    {
+      "id": "piwe_03",
+      "book": "脾胃论",
+      "type": "neishang",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/piweilun/piwe_03.md",
+      "weight": 4,
+      "title": "卷下",
+      "chapter": "卷下",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "脾胃论",
+          "李东垣",
+          "补土派",
+          "卷下"
         ]
       }
     },
