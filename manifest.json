@@ -401,6 +401,14 @@
       "count": 54
     },
     {
+      "dir": "yizongjinjian",
+      "tier": "library/yi/jingdian",
+      "tier_name": "医部经典",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "count": 2
+    },
+    {
       "dir": "qianjinfang",
       "tier": "library/yi/fangshu",
       "tier_name": "医部方书",
@@ -422,7 +430,7 @@
       "tier_name": "医部方书",
       "category": "yi",
       "subcategory": "fangshu",
-      "count": 40
+      "count": 41
     },
     {
       "dir": "yifangjijie",
@@ -857,7 +865,7 @@
       "count": 0
     }
   ],
-  "total": 5926,
+  "total": 5929,
   "entries": [
     {
       "id": "bu6_liuren_000",
@@ -127830,6 +127838,28 @@
       }
     },
     {
+      "id": "wtmy_01",
+      "book": "外台秘要",
+      "type": "original",
+      "tier": "library/yi/fangshu",
+      "category": "yi",
+      "subcategory": "fangshu",
+      "path": "library/yi/fangshu/waitaimiyao/wtmy_01.md",
+      "weight": 2,
+      "title": "序跋·正文辑要",
+      "chapter": "精选",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
       "id": "yi2_waitaimiyao_000",
       "book": "外台秘要",
       "type": "chapter",
@@ -166086,6 +166116,50 @@
       "weight": 2,
       "title": "五、医案　（十八）妇女科",
       "chapter": "医案",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yzjj_01",
+      "book": "医宗金鉴",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/yizongjinjian/yzjj_01.md",
+      "weight": 2,
+      "title": "凡例·原序",
+      "chapter": "序跋",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yzjj_02",
+      "book": "医宗金鉴",
+      "type": "original",
+      "tier": "library/yi/jingdian",
+      "category": "yi",
+      "subcategory": "jingdian",
+      "path": "library/yi/jingdian/yizongjinjian/yzjj_02.md",
+      "weight": 2,
+      "title": "卷一",
+      "chapter": "伤寒论注",
       "conditions": {
         "day_master": [],
         "month_branch": [],
