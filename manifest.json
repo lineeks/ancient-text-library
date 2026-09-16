@@ -610,6 +610,14 @@
       "count": 64
     },
     {
+      "dir": "yimao",
+      "tier": "library/bu/liuyao",
+      "tier_name": "卜部六爻",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "count": 3
+    },
+    {
       "dir": "yiyin",
       "tier": "library/bu/liuyao",
       "tier_name": "卜部六爻",
@@ -763,6 +771,14 @@
     },
     {
       "dir": "beidiqiyuanyuyi",
+      "tier": "library/shan/fuzhou",
+      "tier_name": "山部符咒",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "count": 1
+    },
+    {
+      "dir": "daohuihuiyuan",
       "tier": "library/shan/fuzhou",
       "tier_name": "山部符咒",
       "category": "shan",
@@ -946,7 +962,7 @@
       "count": 0
     }
   ],
-  "total": 6035,
+  "total": 6039,
   "entries": [
     {
       "id": "bu6_liuren_000",
@@ -14526,6 +14542,72 @@
           "六爻旺衰",
           "六爻冲合"
         ]
+      }
+    },
+    {
+      "id": "ym_000",
+      "book": "易冒",
+      "type": "original",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/yimao/ym_000.md",
+      "weight": 6,
+      "title": "易冒王序",
+      "chapter": "序",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "ym_001",
+      "book": "易冒",
+      "type": "original",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/yimao/ym_001.md",
+      "weight": 6,
+      "title": "易冒顾序",
+      "chapter": "序",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "ym_002",
+      "book": "易冒",
+      "type": "original",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/yimao/ym_002.md",
+      "weight": 6,
+      "title": "易冒陆序",
+      "chapter": "序",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
       }
     },
     {
@@ -109350,6 +109432,28 @@
       "weight": 0,
       "title": "",
       "chapter": "",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "dwhy_01",
+      "book": "道法会元",
+      "type": "original",
+      "tier": "library/shan/fuzhou",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "path": "library/shan/fuzhou/daohuihuiyuan/dwhy_01.md",
+      "weight": 2,
+      "title": "道法会元精选",
+      "chapter": "卷一至卷三",
       "conditions": {
         "day_master": [],
         "month_branch": [],
