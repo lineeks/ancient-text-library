@@ -783,10 +783,18 @@
       "tier_name": "山部符咒",
       "category": "shan",
       "subcategory": "fuzhou",
-      "count": 1
+      "count": 2
     },
     {
       "dir": "dongyuanshenzhou",
+      "tier": "library/shan/fuzhou",
+      "tier_name": "山部符咒",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "count": 1
+    },
+    {
+      "dir": "mengweifalu",
       "tier": "library/shan/fuzhou",
       "tier_name": "山部符咒",
       "category": "shan",
@@ -962,7 +970,7 @@
       "count": 0
     }
   ],
-  "total": 6039,
+  "total": 6041,
   "entries": [
     {
       "id": "bu6_liuren_000",
@@ -109466,6 +109474,28 @@
       }
     },
     {
+      "id": "dwhy_02",
+      "book": "道法会元",
+      "type": "original",
+      "tier": "library/shan/fuzhou",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "path": "library/shan/fuzhou/daohuihuiyuan/dwhy_02.md",
+      "weight": 2,
+      "title": "道法会元精选（卷四至卷十）",
+      "chapter": "卷四至卷十",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
       "id": "dysz_01",
       "book": "太上洞神洞渊神咒治病口章",
       "type": "original",
@@ -109476,6 +109506,28 @@
       "weight": 2,
       "title": "太上洞神洞渊神咒治病口章",
       "chapter": "正一部",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "mwl_01",
+      "book": "太上正一盟威法箓",
+      "type": "original",
+      "tier": "library/shan/fuzhou",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "path": "library/shan/fuzhou/mengweifalu/mwl_01.md",
+      "weight": 2,
+      "title": "太上正一盟威法箓",
+      "chapter": "全文",
       "conditions": {
         "day_master": [],
         "month_branch": [],
