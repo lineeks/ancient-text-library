@@ -783,7 +783,7 @@
       "tier_name": "山部符咒",
       "category": "shan",
       "subcategory": "fuzhou",
-      "count": 3
+      "count": 4
     },
     {
       "dir": "dongyuanshenzhou",
@@ -802,7 +802,31 @@
       "count": 1
     },
     {
+      "dir": "sandongxiudaoyi",
+      "tier": "library/shan/fuzhou",
+      "tier_name": "山部符咒",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "count": 1
+    },
+    {
+      "dir": "sanneiniejing",
+      "tier": "library/shan/fuzhou",
+      "tier_name": "山部符咒",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "count": 1
+    },
+    {
       "dir": "xuantankanwu",
+      "tier": "library/shan/fuzhou",
+      "tier_name": "山部符咒",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "count": 1
+    },
+    {
+      "dir": "yaoyaoadaolun",
       "tier": "library/shan/fuzhou",
       "tier_name": "山部符咒",
       "category": "shan",
@@ -970,7 +994,7 @@
       "count": 0
     }
   ],
-  "total": 6043,
+  "total": 6047,
   "entries": [
     {
       "id": "bu6_liuren_000",
@@ -109540,6 +109564,28 @@
       }
     },
     {
+      "id": "dwhy_04",
+      "book": "道法会元",
+      "type": "original",
+      "tier": "library/shan/fuzhou",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "path": "library/shan/fuzhou/daohuihuiyuan/dwhy_04.md",
+      "weight": 2,
+      "title": "道法会元精选（卷二十一至卷三十）",
+      "chapter": "卷二十一至卷三十",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
       "id": "dysz_01",
       "book": "太上洞神洞渊神咒治病口章",
       "type": "original",
@@ -109584,6 +109630,50 @@
       }
     },
     {
+      "id": "sandongxiudaoyi_01",
+      "book": "三洞修道仪",
+      "type": "original",
+      "tier": "library/shan/fuzhou",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "path": "library/shan/fuzhou/sandongxiudaoyi/sandongxiudaoyi_01.md",
+      "weight": 2,
+      "title": "三洞修道仪",
+      "chapter": "全文",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "sanneiniejing_01",
+      "book": "三天内解经",
+      "type": "original",
+      "tier": "library/shan/fuzhou",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "path": "library/shan/fuzhou/sanneiniejing/sanneiniejing_01.md",
+      "weight": 2,
+      "title": "三天内解经",
+      "chapter": "全文",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
       "id": "xtkw_01",
       "book": "玄坛刊误论",
       "type": "original",
@@ -109594,6 +109684,28 @@
       "weight": 2,
       "title": "玄坛刊误论",
       "chapter": "正一部",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yaoyaoadaolun_01",
+      "book": "三要达道论",
+      "type": "original",
+      "tier": "library/shan/fuzhou",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "path": "library/shan/fuzhou/yaoyaoadaolun/yaoyaoadaolun_01.md",
+      "weight": 2,
+      "title": "三要达道论",
+      "chapter": "全文",
       "conditions": {
         "day_master": [],
         "month_branch": [],
