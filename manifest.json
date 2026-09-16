@@ -623,7 +623,7 @@
       "tier_name": "卜部六爻",
       "category": "bu",
       "subcategory": "liuyao",
-      "count": 8
+      "count": 9
     },
     {
       "dir": "zengshanbuyi",
@@ -783,7 +783,7 @@
       "tier_name": "山部符咒",
       "category": "shan",
       "subcategory": "fuzhou",
-      "count": 2
+      "count": 3
     },
     {
       "dir": "dongyuanshenzhou",
@@ -970,7 +970,7 @@
       "count": 0
     }
   ],
-  "total": 6041,
+  "total": 6043,
   "entries": [
     {
       "id": "bu6_liuren_000",
@@ -14782,6 +14782,28 @@
       "path": "library/bu/liuyao/yiyin/yy_007.md",
       "weight": 6,
       "title": "刘伯温先生总断",
+      "chapter": "卷首",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "yy_008",
+      "book": "易隐",
+      "type": "original",
+      "tier": "library/bu/liuyao",
+      "category": "bu",
+      "subcategory": "liuyao",
+      "path": "library/bu/liuyao/yiyin/yy_008.md",
+      "weight": 6,
+      "title": "张星元先生总断",
       "chapter": "卷首",
       "conditions": {
         "day_master": [],
@@ -109484,6 +109506,28 @@
       "weight": 2,
       "title": "道法会元精选（卷四至卷十）",
       "chapter": "卷四至卷十",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "dwhy_03",
+      "book": "道法会元",
+      "type": "original",
+      "tier": "library/shan/fuzhou",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "path": "library/shan/fuzhou/daohuihuiyuan/dwhy_03.md",
+      "weight": 2,
+      "title": "道法会元精选（卷十一至卷二十）",
+      "chapter": "卷十一至卷二十",
       "conditions": {
         "day_master": [],
         "month_branch": [],
