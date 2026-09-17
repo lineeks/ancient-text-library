@@ -783,7 +783,7 @@
       "tier_name": "山部符咒",
       "category": "shan",
       "subcategory": "fuzhou",
-      "count": 6
+      "count": 7
     },
     {
       "dir": "dongyuanshenzhou",
@@ -826,7 +826,23 @@
       "count": 1
     },
     {
+      "dir": "shangqingbashu",
+      "tier": "library/shan/fuzhou",
+      "tier_name": "山部符咒",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "count": 1
+    },
+    {
       "dir": "shangqingxiuxian",
+      "tier": "library/shan/fuzhou",
+      "tier_name": "山部符咒",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "count": 1
+    },
+    {
+      "dir": "shangqiyisheng",
       "tier": "library/shan/fuzhou",
       "tier_name": "山部符咒",
       "category": "shan",
@@ -1018,7 +1034,7 @@
       "count": 0
     }
   ],
-  "total": 6052,
+  "total": 6055,
   "entries": [
     {
       "id": "bu6_liuren_000",
@@ -109654,6 +109670,28 @@
       }
     },
     {
+      "id": "dwhy_07",
+      "book": "道法会元",
+      "type": "original",
+      "tier": "library/shan/fuzhou",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "path": "library/shan/fuzhou/daohuihuiyuan/dwhy_07.md",
+      "weight": 2,
+      "title": "道法会元精选（卷四十七及以后）",
+      "chapter": "卷四十七及以后",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
       "id": "dysz_01",
       "book": "太上洞神洞渊神咒治病口章",
       "type": "original",
@@ -109764,6 +109802,28 @@
       }
     },
     {
+      "id": "sqbashu_01",
+      "book": "上清丹景道精隐地八术经",
+      "type": "original",
+      "tier": "library/shan/fuzhou",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "path": "library/shan/fuzhou/shangqingbashu/sqbashu_01.md",
+      "weight": 2,
+      "title": "上清丹景道精隐地八术经",
+      "chapter": "全文",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
       "id": "sqxx_01",
       "book": "上清修身要事经",
       "type": "original",
@@ -109773,6 +109833,28 @@
       "path": "library/shan/fuzhou/shangqingxiuxian/sqxx_01.md",
       "weight": 2,
       "title": "上清修身要事经",
+      "chapter": "全文",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "sqyisheng_01",
+      "book": "上清七圣玄纪经",
+      "type": "original",
+      "tier": "library/shan/fuzhou",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "path": "library/shan/fuzhou/shangqiyisheng/sqyisheng_01.md",
+      "weight": 2,
+      "title": "上清七圣玄纪经",
       "chapter": "全文",
       "conditions": {
         "day_master": [],
