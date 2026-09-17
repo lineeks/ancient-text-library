@@ -783,7 +783,7 @@
       "tier_name": "山部符咒",
       "category": "shan",
       "subcategory": "fuzhou",
-      "count": 5
+      "count": 6
     },
     {
       "dir": "dongyuanshenzhou",
@@ -802,6 +802,14 @@
       "count": 1
     },
     {
+      "dir": "sandongxiudaoke",
+      "tier": "library/shan/fuzhou",
+      "tier_name": "山部符咒",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "count": 1
+    },
+    {
       "dir": "sandongxiudaoyi",
       "tier": "library/shan/fuzhou",
       "tier_name": "山部符咒",
@@ -811,6 +819,14 @@
     },
     {
       "dir": "sanneiniejing",
+      "tier": "library/shan/fuzhou",
+      "tier_name": "山部符咒",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "count": 1
+    },
+    {
+      "dir": "shangqingxiuxian",
       "tier": "library/shan/fuzhou",
       "tier_name": "山部符咒",
       "category": "shan",
@@ -1002,7 +1018,7 @@
       "count": 0
     }
   ],
-  "total": 6049,
+  "total": 6052,
   "entries": [
     {
       "id": "bu6_liuren_000",
@@ -109616,6 +109632,28 @@
       }
     },
     {
+      "id": "dwhy_06",
+      "book": "道法会元",
+      "type": "original",
+      "tier": "library/shan/fuzhou",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "path": "library/shan/fuzhou/daohuihuiyuan/dwhy_06.md",
+      "weight": 2,
+      "title": "道法会元精选（卷三十七至卷四十六）",
+      "chapter": "卷三十七至卷四十六",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
       "id": "dysz_01",
       "book": "太上洞神洞渊神咒治病口章",
       "type": "original",
@@ -109660,6 +109698,28 @@
       }
     },
     {
+      "id": "sdxdk_01",
+      "book": "三洞道士居山修炼科",
+      "type": "original",
+      "tier": "library/shan/fuzhou",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "path": "library/shan/fuzhou/sandongxiudaoke/sdxdk_01.md",
+      "weight": 2,
+      "title": "三洞道士居山修炼科",
+      "chapter": "全文",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
       "id": "sandongxiudaoyi_01",
       "book": "三洞修道仪",
       "type": "original",
@@ -109691,6 +109751,28 @@
       "path": "library/shan/fuzhou/sanneiniejing/sanneiniejing_01.md",
       "weight": 2,
       "title": "三天内解经",
+      "chapter": "全文",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "sqxx_01",
+      "book": "上清修身要事经",
+      "type": "original",
+      "tier": "library/shan/fuzhou",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "path": "library/shan/fuzhou/shangqingxiuxian/sqxx_01.md",
+      "weight": 2,
+      "title": "上清修身要事经",
       "chapter": "全文",
       "conditions": {
         "day_master": [],
