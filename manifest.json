@@ -783,7 +783,7 @@
       "tier_name": "山部符咒",
       "category": "shan",
       "subcategory": "fuzhou",
-      "count": 4
+      "count": 5
     },
     {
       "dir": "dongyuanshenzhou",
@@ -819,6 +819,14 @@
     },
     {
       "dir": "xuantankanwu",
+      "tier": "library/shan/fuzhou",
+      "tier_name": "山部符咒",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "count": 1
+    },
+    {
+      "dir": "xujingzhenjun",
       "tier": "library/shan/fuzhou",
       "tier_name": "山部符咒",
       "category": "shan",
@@ -994,7 +1002,7 @@
       "count": 0
     }
   ],
-  "total": 6047,
+  "total": 6049,
   "entries": [
     {
       "id": "bu6_liuren_000",
@@ -109586,6 +109594,28 @@
       }
     },
     {
+      "id": "dwhy_05",
+      "book": "道法会元",
+      "type": "original",
+      "tier": "library/shan/fuzhou",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "path": "library/shan/fuzhou/daohuihuiyuan/dwhy_05.md",
+      "weight": 2,
+      "title": "道法会元精选（卷三十一至卷三十六）",
+      "chapter": "卷三十一至卷三十六",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
       "id": "dysz_01",
       "book": "太上洞神洞渊神咒治病口章",
       "type": "original",
@@ -109684,6 +109714,28 @@
       "weight": 2,
       "title": "玄坛刊误论",
       "chapter": "正一部",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "xjzj_01",
+      "book": "三十代天师虚靖真君语录",
+      "type": "original",
+      "tier": "library/shan/fuzhou",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "path": "library/shan/fuzhou/xujingzhenjun/xjzj_01.md",
+      "weight": 2,
+      "title": "三十代天师虚靖真君语录",
+      "chapter": "全文",
       "conditions": {
         "day_master": [],
         "month_branch": [],
