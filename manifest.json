@@ -890,6 +890,14 @@
       "count": 1
     },
     {
+      "dir": "zishudafa",
+      "tier": "library/shan/fuzhou",
+      "tier_name": "山部符咒",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "count": 1
+    },
+    {
       "dir": "fangshu",
       "tier": "library/yi",
       "tier_name": "医·中医",
@@ -1034,7 +1042,7 @@
       "count": 0
     }
   ],
-  "total": 6055,
+  "total": 6056,
   "entries": [
     {
       "id": "bu6_liuren_000",
@@ -109966,6 +109974,28 @@
       "weight": 2,
       "title": "太上正一咒鬼经",
       "chapter": "正一部",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "zishudafa_01",
+      "book": "高上神霄玉清真王紫书大法",
+      "type": "original",
+      "tier": "library/shan/fuzhou",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "path": "library/shan/fuzhou/zishudafa/zishudafa_01.md",
+      "weight": 2,
+      "title": "高上神霄玉清真王紫书大法",
+      "chapter": "全文",
       "conditions": {
         "day_master": [],
         "month_branch": [],
