@@ -687,7 +687,7 @@
       "tier_name": "山部丹道",
       "category": "shan",
       "subcategory": "dandao",
-      "count": 90
+      "count": 98
     },
     {
       "dir": "huangtingjing",
@@ -695,7 +695,7 @@
       "tier_name": "山部丹道",
       "category": "shan",
       "subcategory": "dandao",
-      "count": 40
+      "count": 46
     },
     {
       "dir": "lingbaobifa",
@@ -711,7 +711,7 @@
       "tier_name": "山部丹道",
       "category": "shan",
       "subcategory": "dandao",
-      "count": 99
+      "count": 109
     },
     {
       "dir": "xingmingguizhi",
@@ -1074,7 +1074,7 @@
       "count": 0
     }
   ],
-  "total": 6396,
+  "total": 6420,
   "entries": [
     {
       "id": "bu6_liuren_000",
@@ -101843,6 +101843,230 @@
       }
     },
     {
+      "id": "cantongqi_092",
+      "book": "周易参同契",
+      "type": "text",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/cantongqi_092.md",
+      "weight": 5,
+      "title": "",
+      "chapter": "乾坤门户章",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "参同契",
+          "丹道",
+          "金丹",
+          "周易",
+          "乾坤门户章"
+        ]
+      }
+    },
+    {
+      "id": "cantongqi_093",
+      "book": "周易参同契",
+      "type": "text",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/cantongqi_093.md",
+      "weight": 5,
+      "title": "",
+      "chapter": "坎离水火章",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "参同契",
+          "丹道",
+          "金丹",
+          "周易",
+          "坎离水火章"
+        ]
+      }
+    },
+    {
+      "id": "cantongqi_094",
+      "book": "周易参同契",
+      "type": "text",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/cantongqi_094.md",
+      "weight": 5,
+      "title": "",
+      "chapter": "天地雌雄章",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "参同契",
+          "丹道",
+          "金丹",
+          "周易",
+          "天地雌雄章"
+        ]
+      }
+    },
+    {
+      "id": "cantongqi_095",
+      "book": "周易参同契",
+      "type": "text",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/cantongqi_095.md",
+      "weight": 5,
+      "title": "",
+      "chapter": "卯酉沐浴章",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "参同契",
+          "丹道",
+          "金丹",
+          "周易",
+          "卯酉沐浴章"
+        ]
+      }
+    },
+    {
+      "id": "cantongqi_096",
+      "book": "周易参同契",
+      "type": "text",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/cantongqi_096.md",
+      "weight": 5,
+      "title": "",
+      "chapter": "五行相拨章",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "参同契",
+          "丹道",
+          "金丹",
+          "周易",
+          "五行相拨章"
+        ]
+      }
+    },
+    {
+      "id": "cantongqi_097",
+      "book": "周易参同契",
+      "type": "text",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/cantongqi_097.md",
+      "weight": 5,
+      "title": "",
+      "chapter": "伏炼九鼎章",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "参同契",
+          "丹道",
+          "金丹",
+          "周易",
+          "伏炼九鼎章"
+        ]
+      }
+    },
+    {
+      "id": "cantongqi_098",
+      "book": "周易参同契",
+      "type": "text",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/cantongqi_098.md",
+      "weight": 5,
+      "title": "",
+      "chapter": "金丹刀圭章",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "参同契",
+          "丹道",
+          "金丹",
+          "周易",
+          "金丹刀圭章"
+        ]
+      }
+    },
+    {
+      "id": "cantongqi_099",
+      "book": "周易参同契",
+      "type": "text",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/cantongqi/cantongqi_099.md",
+      "weight": 5,
+      "title": "",
+      "chapter": "四归五行章",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "参同契",
+          "丹道",
+          "金丹",
+          "周易",
+          "四归五行章"
+        ]
+      }
+    },
+    {
       "id": "shan_cantongqi_000",
       "book": "周易参同契分章通真义",
       "type": "chapter",
@@ -104229,6 +104453,174 @@
           "太极拳",
           "丹道象喻",
           "阴阳易理"
+        ]
+      }
+    },
+    {
+      "id": "huangtingjing_042",
+      "book": "黄庭经",
+      "type": "text",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/huangtingjing/huangtingjing_042.md",
+      "weight": 5,
+      "title": "",
+      "chapter": "上清黄庭内景经·心神章",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "黄庭经",
+          "内景",
+          "外景",
+          "存神",
+          "上清黄庭内景经·心神章"
+        ]
+      }
+    },
+    {
+      "id": "huangtingjing_043",
+      "book": "黄庭经",
+      "type": "text",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/huangtingjing/huangtingjing_043.md",
+      "weight": 5,
+      "title": "",
+      "chapter": "上清黄庭内景经·肺章",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "黄庭经",
+          "内景",
+          "外景",
+          "存神",
+          "上清黄庭内景经·肺章"
+        ]
+      }
+    },
+    {
+      "id": "huangtingjing_044",
+      "book": "黄庭经",
+      "type": "text",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/huangtingjing/huangtingjing_044.md",
+      "weight": 5,
+      "title": "",
+      "chapter": "上清黄庭内景经·肝部章",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "黄庭经",
+          "内景",
+          "外景",
+          "存神",
+          "上清黄庭内景经·肝部章"
+        ]
+      }
+    },
+    {
+      "id": "huangtingjing_045",
+      "book": "黄庭经",
+      "type": "text",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/huangtingjing/huangtingjing_045.md",
+      "weight": 5,
+      "title": "",
+      "chapter": "上清黄庭外景经·上部",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "黄庭经",
+          "内景",
+          "外景",
+          "存神",
+          "上清黄庭外景经·上部"
+        ]
+      }
+    },
+    {
+      "id": "huangtingjing_046",
+      "book": "黄庭经",
+      "type": "text",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/huangtingjing/huangtingjing_046.md",
+      "weight": 5,
+      "title": "",
+      "chapter": "上清黄庭外景经·中部",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "黄庭经",
+          "内景",
+          "外景",
+          "存神",
+          "上清黄庭外景经·中部"
+        ]
+      }
+    },
+    {
+      "id": "huangtingjing_047",
+      "book": "黄庭经",
+      "type": "text",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/huangtingjing/huangtingjing_047.md",
+      "weight": 5,
+      "title": "",
+      "chapter": "上清黄庭外景经·下部",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "黄庭经",
+          "内景",
+          "外景",
+          "存神",
+          "上清黄庭外景经·下部"
         ]
       }
     },
@@ -108796,6 +109188,286 @@
           "内丹",
           "张伯端",
           "紫阳真人"
+        ]
+      }
+    },
+    {
+      "id": "wuzhenpian_001",
+      "book": "悟真篇",
+      "type": "text",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/wuzhenpian/wuzhenpian_001.md",
+      "weight": 5,
+      "title": "",
+      "chapter": "悟真篇序",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "悟真篇",
+          "丹道",
+          "金丹",
+          "紫阳真人",
+          "悟真篇序"
+        ]
+      }
+    },
+    {
+      "id": "wuzhenpian_002",
+      "book": "悟真篇",
+      "type": "text",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/wuzhenpian/wuzhenpian_002.md",
+      "weight": 5,
+      "title": "",
+      "chapter": "性命论",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "悟真篇",
+          "丹道",
+          "金丹",
+          "紫阳真人",
+          "性命论"
+        ]
+      }
+    },
+    {
+      "id": "wuzhenpian_003",
+      "book": "悟真篇",
+      "type": "text",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/wuzhenpian/wuzhenpian_003.md",
+      "weight": 5,
+      "title": "",
+      "chapter": "金丹论",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "悟真篇",
+          "丹道",
+          "金丹",
+          "紫阳真人",
+          "金丹论"
+        ]
+      }
+    },
+    {
+      "id": "wuzhenpian_004",
+      "book": "悟真篇",
+      "type": "text",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/wuzhenpian/wuzhenpian_004.md",
+      "weight": 5,
+      "title": "",
+      "chapter": "鼎器论",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "悟真篇",
+          "丹道",
+          "金丹",
+          "紫阳真人",
+          "鼎器论"
+        ]
+      }
+    },
+    {
+      "id": "wuzhenpian_005",
+      "book": "悟真篇",
+      "type": "text",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/wuzhenpian/wuzhenpian_005.md",
+      "weight": 5,
+      "title": "",
+      "chapter": "药物论",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "悟真篇",
+          "丹道",
+          "金丹",
+          "紫阳真人",
+          "药物论"
+        ]
+      }
+    },
+    {
+      "id": "wuzhenpian_006",
+      "book": "悟真篇",
+      "type": "text",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/wuzhenpian/wuzhenpian_006.md",
+      "weight": 5,
+      "title": "",
+      "chapter": "火候论",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "悟真篇",
+          "丹道",
+          "金丹",
+          "紫阳真人",
+          "火候论"
+        ]
+      }
+    },
+    {
+      "id": "wuzhenpian_007",
+      "book": "悟真篇",
+      "type": "text",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/wuzhenpian/wuzhenpian_007.md",
+      "weight": 5,
+      "title": "",
+      "chapter": "采药论",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "悟真篇",
+          "丹道",
+          "金丹",
+          "紫阳真人",
+          "采药论"
+        ]
+      }
+    },
+    {
+      "id": "wuzhenpian_008",
+      "book": "悟真篇",
+      "type": "text",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/wuzhenpian/wuzhenpian_008.md",
+      "weight": 5,
+      "title": "",
+      "chapter": "沐浴论",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "悟真篇",
+          "丹道",
+          "金丹",
+          "紫阳真人",
+          "沐浴论"
+        ]
+      }
+    },
+    {
+      "id": "wuzhenpian_009",
+      "book": "悟真篇",
+      "type": "text",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/wuzhenpian/wuzhenpian_009.md",
+      "weight": 5,
+      "title": "",
+      "chapter": "抽添论",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "悟真篇",
+          "丹道",
+          "金丹",
+          "紫阳真人",
+          "抽添论"
+        ]
+      }
+    },
+    {
+      "id": "wuzhenpian_010",
+      "book": "悟真篇",
+      "type": "text",
+      "tier": "library/shan/dandao",
+      "category": "shan",
+      "subcategory": "dandao",
+      "path": "library/shan/dandao/wuzhenpian/wuzhenpian_010.md",
+      "weight": 5,
+      "title": "",
+      "chapter": "还丹论",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "悟真篇",
+          "丹道",
+          "金丹",
+          "紫阳真人",
+          "还丹论"
         ]
       }
     },
