@@ -802,6 +802,14 @@
       "count": 1
     },
     {
+      "dir": "sandongxiudao",
+      "tier": "library/shan/fuzhou",
+      "tier_name": "山部符咒",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "count": 1
+    },
+    {
       "dir": "sandongxiudaoke",
       "tier": "library/shan/fuzhou",
       "tier_name": "山部符咒",
@@ -1042,7 +1050,7 @@
       "count": 0
     }
   ],
-  "total": 6056,
+  "total": 6057,
   "entries": [
     {
       "id": "bu6_liuren_000",
@@ -109731,6 +109739,28 @@
       "path": "library/shan/fuzhou/mengweifalu/mwl_01.md",
       "weight": 2,
       "title": "太上正一盟威法箓",
+      "chapter": "全文",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": []
+      }
+    },
+    {
+      "id": "sandongxiudao_01",
+      "book": "三洞修道仪",
+      "type": "original",
+      "tier": "library/shan/fuzhou",
+      "category": "shan",
+      "subcategory": "fuzhou",
+      "path": "library/shan/fuzhou/sandongxiudao/sandongxiudao_01.md",
+      "weight": 2,
+      "title": "三洞修道仪",
       "chapter": "全文",
       "conditions": {
         "day_master": [],
