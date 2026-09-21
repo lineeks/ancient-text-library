@@ -162,8 +162,8 @@ class RecallTests(unittest.TestCase):
 
     # 11) manifest 完整性：总数、id 唯一、weight 区间、path 文件真实存在
     def test_manifest_integrity(self):
-        self.assertEqual(self.lib.meta["total"], 6420)
-        self.assertEqual(len(self.E), 6420)
+        self.assertEqual(self.lib.meta["total"], 6437)
+        self.assertEqual(len(self.E), 6437)
         ids = [e["id"] for e in self.E]
         self.assertEqual(len(ids), len(set(ids)))
         for e in self.E:
