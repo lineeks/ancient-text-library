@@ -546,6 +546,14 @@
       "count": 1
     },
     {
+      "dir": "shuilongjing",
+      "tier": "library/xiang/dixiang",
+      "tier_name": "相部地相",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "count": 13
+    },
+    {
       "dir": "xuexinfu",
       "tier": "library/xiang/dixiang",
       "tier_name": "相部地相",
@@ -1050,7 +1058,7 @@
       "count": 0
     }
   ],
-  "total": 6363,
+  "total": 6376,
   "entries": [
     {
       "id": "bu6_liuren_000",
@@ -122706,6 +122714,370 @@
           "地相穴法",
           "地相砂水",
           "地相理气"
+        ]
+      }
+    },
+    {
+      "id": "shuilongjing_001",
+      "book": "水龙经",
+      "type": "text",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/shuilongjing/shuilongjing_001.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "总论",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "水龙经",
+          "风水",
+          "水法",
+          "平洋龙",
+          "总论"
+        ]
+      }
+    },
+    {
+      "id": "shuilongjing_002",
+      "book": "水龙经",
+      "type": "text",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/shuilongjing/shuilongjing_002.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "气机妙运",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "水龙经",
+          "风水",
+          "水法",
+          "平洋龙",
+          "气机妙运"
+        ]
+      }
+    },
+    {
+      "id": "shuilongjing_003",
+      "book": "水龙经",
+      "type": "text",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/shuilongjing/shuilongjing_003.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "干水散气",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "水龙经",
+          "风水",
+          "水法",
+          "平洋龙",
+          "干水散气"
+        ]
+      }
+    },
+    {
+      "id": "shuilongjing_004",
+      "book": "水龙经",
+      "type": "text",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/shuilongjing/shuilongjing_004.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "枝水交界",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "水龙经",
+          "风水",
+          "水法",
+          "平洋龙",
+          "枝水交界"
+        ]
+      }
+    },
+    {
+      "id": "shuilongjing_005",
+      "book": "水龙经",
+      "type": "text",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/shuilongjing/shuilongjing_005.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "曲水朝堂",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "水龙经",
+          "风水",
+          "水法",
+          "平洋龙",
+          "曲水朝堂"
+        ]
+      }
+    },
+    {
+      "id": "shuilongjing_006",
+      "book": "水龙经",
+      "type": "text",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/shuilongjing/shuilongjing_006.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "水缠玄武",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "水龙经",
+          "风水",
+          "水法",
+          "平洋龙",
+          "水缠玄武"
+        ]
+      }
+    },
+    {
+      "id": "shuilongjing_007",
+      "book": "水龙经",
+      "type": "text",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/shuilongjing/shuilongjing_007.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "水抱明堂",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "水龙经",
+          "风水",
+          "水法",
+          "平洋龙",
+          "水抱明堂"
+        ]
+      }
+    },
+    {
+      "id": "shuilongjing_008",
+      "book": "水龙经",
+      "type": "text",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/shuilongjing/shuilongjing_008.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "水朝元辰",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "水龙经",
+          "风水",
+          "水法",
+          "平洋龙",
+          "水朝元辰"
+        ]
+      }
+    },
+    {
+      "id": "shuilongjing_009",
+      "book": "水龙经",
+      "type": "text",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/shuilongjing/shuilongjing_009.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "水夹单提",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "水龙经",
+          "风水",
+          "水法",
+          "平洋龙",
+          "水夹单提"
+        ]
+      }
+    },
+    {
+      "id": "shuilongjing_010",
+      "book": "水龙经",
+      "type": "text",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/shuilongjing/shuilongjing_010.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "水城环绕",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "水龙经",
+          "风水",
+          "水法",
+          "平洋龙",
+          "水城环绕"
+        ]
+      }
+    },
+    {
+      "id": "shuilongjing_011",
+      "book": "水龙经",
+      "type": "text",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/shuilongjing/shuilongjing_011.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "水反跳",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "水龙经",
+          "风水",
+          "水法",
+          "平洋龙",
+          "水反跳"
+        ]
+      }
+    },
+    {
+      "id": "shuilongjing_012",
+      "book": "水龙经",
+      "type": "text",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/shuilongjing/shuilongjing_012.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "水冲心",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "水龙经",
+          "风水",
+          "水法",
+          "平洋龙",
+          "水冲心"
+        ]
+      }
+    },
+    {
+      "id": "shuilongjing_013",
+      "book": "水龙经",
+      "type": "text",
+      "tier": "library/xiang/dixiang",
+      "category": "xiang",
+      "subcategory": "dixiang",
+      "path": "library/xiang/dixiang/shuilongjing/shuilongjing_013.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "水聚天心",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "水龙经",
+          "风水",
+          "水法",
+          "平洋龙",
+          "水聚天心"
         ]
       }
     },
