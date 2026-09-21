@@ -506,6 +506,14 @@
       "count": 174
     },
     {
+      "dir": "shuijingji",
+      "tier": "library/xiang/renxiang",
+      "tier_name": "相部人相",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "count": 10
+    },
+    {
       "dir": "xianglihengzhen",
       "tier": "library/xiang/renxiang",
       "tier_name": "相部人相",
@@ -1066,7 +1074,7 @@
       "count": 0
     }
   ],
-  "total": 6386,
+  "total": 6396,
   "entries": [
     {
       "id": "bu6_liuren_000",
@@ -133843,6 +133851,286 @@
           "行止相",
           "人相部位",
           "人相气色"
+        ]
+      }
+    },
+    {
+      "id": "shuijingji_001",
+      "book": "水镜集",
+      "type": "text",
+      "tier": "library/xiang/renxiang",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "path": "library/xiang/renxiang/shuijingji/shuijingji_001.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "水镜集序",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "水镜集",
+          "面相",
+          "五官",
+          "五岳",
+          "水镜集序"
+        ]
+      }
+    },
+    {
+      "id": "shuijingji_002",
+      "book": "水镜集",
+      "type": "text",
+      "tier": "library/xiang/renxiang",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "path": "library/xiang/renxiang/shuijingji/shuijingji_002.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "五官总论",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "水镜集",
+          "面相",
+          "五官",
+          "五岳",
+          "五官总论"
+        ]
+      }
+    },
+    {
+      "id": "shuijingji_003",
+      "book": "水镜集",
+      "type": "text",
+      "tier": "library/xiang/renxiang",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "path": "library/xiang/renxiang/shuijingji/shuijingji_003.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "五岳四渎",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "水镜集",
+          "面相",
+          "五官",
+          "五岳",
+          "五岳四渎"
+        ]
+      }
+    },
+    {
+      "id": "shuijingji_004",
+      "book": "水镜集",
+      "type": "text",
+      "tier": "library/xiang/renxiang",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "path": "library/xiang/renxiang/shuijingji/shuijingji_004.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "六府三才",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "水镜集",
+          "面相",
+          "五官",
+          "五岳",
+          "六府三才"
+        ]
+      }
+    },
+    {
+      "id": "shuijingji_005",
+      "book": "水镜集",
+      "type": "text",
+      "tier": "library/xiang/renxiang",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "path": "library/xiang/renxiang/shuijingji/shuijingji_005.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "相心",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "水镜集",
+          "面相",
+          "五官",
+          "五岳",
+          "相心"
+        ]
+      }
+    },
+    {
+      "id": "shuijingji_006",
+      "book": "水镜集",
+      "type": "text",
+      "tier": "library/xiang/renxiang",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "path": "library/xiang/renxiang/shuijingji/shuijingji_006.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "相形",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "水镜集",
+          "面相",
+          "五官",
+          "五岳",
+          "相形"
+        ]
+      }
+    },
+    {
+      "id": "shuijingji_007",
+      "book": "水镜集",
+      "type": "text",
+      "tier": "library/xiang/renxiang",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "path": "library/xiang/renxiang/shuijingji/shuijingji_007.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "神色",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "水镜集",
+          "面相",
+          "五官",
+          "五岳",
+          "神色"
+        ]
+      }
+    },
+    {
+      "id": "shuijingji_008",
+      "book": "水镜集",
+      "type": "text",
+      "tier": "library/xiang/renxiang",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "path": "library/xiang/renxiang/shuijingji/shuijingji_008.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "声相",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "水镜集",
+          "面相",
+          "五官",
+          "五岳",
+          "声相"
+        ]
+      }
+    },
+    {
+      "id": "shuijingji_009",
+      "book": "水镜集",
+      "type": "text",
+      "tier": "library/xiang/renxiang",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "path": "library/xiang/renxiang/shuijingji/shuijingji_009.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "形貌余不足",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "水镜集",
+          "面相",
+          "五官",
+          "五岳",
+          "形貌余不足"
+        ]
+      }
+    },
+    {
+      "id": "shuijingji_010",
+      "book": "水镜集",
+      "type": "text",
+      "tier": "library/xiang/renxiang",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "path": "library/xiang/renxiang/shuijingji/shuijingji_010.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "部位贵贱",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "水镜集",
+          "面相",
+          "五官",
+          "五岳",
+          "部位贵贱"
         ]
       }
     },
