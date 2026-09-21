@@ -506,6 +506,14 @@
       "count": 174
     },
     {
+      "dir": "xianglihengzhen",
+      "tier": "library/xiang/renxiang",
+      "tier_name": "相部人相",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "count": 10
+    },
+    {
       "dir": "boshan-pian",
       "tier": "library/xiang/dixiang",
       "tier_name": "相部地相",
@@ -1058,7 +1066,7 @@
       "count": 0
     }
   ],
-  "total": 6376,
+  "total": 6386,
   "entries": [
     {
       "id": "bu6_liuren_000",
@@ -133835,6 +133843,286 @@
           "行止相",
           "人相部位",
           "人相气色"
+        ]
+      }
+    },
+    {
+      "id": "xianglihengzhen_001",
+      "book": "相理衡真",
+      "type": "text",
+      "tier": "library/xiang/renxiang",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "path": "library/xiang/renxiang/xianglihengzhen/xianglihengzhen_001.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "相理总纲",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "相理衡真",
+          "面相",
+          "手相",
+          "骨相",
+          "相理总纲"
+        ]
+      }
+    },
+    {
+      "id": "xianglihengzhen_002",
+      "book": "相理衡真",
+      "type": "text",
+      "tier": "library/xiang/renxiang",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "path": "library/xiang/renxiang/xianglihengzhen/xianglihengzhen_002.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "五官之说",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "相理衡真",
+          "面相",
+          "手相",
+          "骨相",
+          "五官之说"
+        ]
+      }
+    },
+    {
+      "id": "xianglihengzhen_003",
+      "book": "相理衡真",
+      "type": "text",
+      "tier": "library/xiang/renxiang",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "path": "library/xiang/renxiang/xianglihengzhen/xianglihengzhen_003.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "三停之说",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "相理衡真",
+          "面相",
+          "手相",
+          "骨相",
+          "三停之说"
+        ]
+      }
+    },
+    {
+      "id": "xianglihengzhen_004",
+      "book": "相理衡真",
+      "type": "text",
+      "tier": "library/xiang/renxiang",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "path": "library/xiang/renxiang/xianglihengzhen/xianglihengzhen_004.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "十二宫之说",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "相理衡真",
+          "面相",
+          "手相",
+          "骨相",
+          "十二宫之说"
+        ]
+      }
+    },
+    {
+      "id": "xianglihengzhen_005",
+      "book": "相理衡真",
+      "type": "text",
+      "tier": "library/xiang/renxiang",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "path": "library/xiang/renxiang/xianglihengzhen/xianglihengzhen_005.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "面相贵贱",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "相理衡真",
+          "面相",
+          "手相",
+          "骨相",
+          "面相贵贱"
+        ]
+      }
+    },
+    {
+      "id": "xianglihengzhen_006",
+      "book": "相理衡真",
+      "type": "text",
+      "tier": "library/xiang/renxiang",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "path": "library/xiang/renxiang/xianglihengzhen/xianglihengzhen_006.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "形有余",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "相理衡真",
+          "面相",
+          "手相",
+          "骨相",
+          "形有余"
+        ]
+      }
+    },
+    {
+      "id": "xianglihengzhen_007",
+      "book": "相理衡真",
+      "type": "text",
+      "tier": "library/xiang/renxiang",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "path": "library/xiang/renxiang/xianglihengzhen/xianglihengzhen_007.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "形不足",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "相理衡真",
+          "面相",
+          "手相",
+          "骨相",
+          "形不足"
+        ]
+      }
+    },
+    {
+      "id": "xianglihengzhen_008",
+      "book": "相理衡真",
+      "type": "text",
+      "tier": "library/xiang/renxiang",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "path": "library/xiang/renxiang/xianglihengzhen/xianglihengzhen_008.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "气色之说",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "相理衡真",
+          "面相",
+          "手相",
+          "骨相",
+          "气色之说"
+        ]
+      }
+    },
+    {
+      "id": "xianglihengzhen_009",
+      "book": "相理衡真",
+      "type": "text",
+      "tier": "library/xiang/renxiang",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "path": "library/xiang/renxiang/xianglihengzhen/xianglihengzhen_009.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "手相之说",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "相理衡真",
+          "面相",
+          "手相",
+          "骨相",
+          "手相之说"
+        ]
+      }
+    },
+    {
+      "id": "xianglihengzhen_010",
+      "book": "相理衡真",
+      "type": "text",
+      "tier": "library/xiang/renxiang",
+      "category": "xiang",
+      "subcategory": "renxiang",
+      "path": "library/xiang/renxiang/xianglihengzhen/xianglihengzhen_010.md",
+      "weight": 2,
+      "title": "",
+      "chapter": "骨相之说",
+      "conditions": {
+        "day_master": [],
+        "month_branch": [],
+        "day_pillar": [],
+        "hour_pillar": [],
+        "ten_god": [],
+        "pattern": [],
+        "shensha": [],
+        "keywords": [
+          "相理衡真",
+          "面相",
+          "手相",
+          "骨相",
+          "骨相之说"
         ]
       }
     },
